@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+.App {
+}
+
+.App-header {
+  background-color: #222;
+  padding: 4px;
+  color: white;
+  text-align: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-content {
+  padding: 5px;
+}
+
+.pointsOfInterest {
+  max-height: 700px;
+  overflow-y: scroll;
+}
+
+.pointsOfInterest > div:nth-of-type(odd) {
+  color: whitesmoke;
+  font-weight: 600;
+  background-color: #ce0000;
+}
+
+.pointOfInterest {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+.footer {
+  flex: 0 1 40px;
+}
