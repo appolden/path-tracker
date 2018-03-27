@@ -1,6 +1,10 @@
 ﻿[
   {
     "name": "Col des Poiriers",
+    "point": {
+      "lat": 43.31715,
+      "lng": -1.71667
+    },
     "nearestMetreOfPath": 11628,
     "elevation": 317,
     "cumulativeAscent": 582,
@@ -8,6 +12,10 @@
   },
   {
     "name": "Col d'Ibardin",
+    "point": {
+      "lat": 43.30967,
+      "lng": -1.68431
+    },
     "nearestMetreOfPath": 15147,
     "elevation": 318,
     "cumulativeAscent": 794,
@@ -15,6 +23,10 @@
   },
   {
     "name": "Bivouac des Trois Fontaines",
+    "point": {
+      "lat": 43.316729,
+      "lng": -1.631098
+    },
     "nearestMetreOfPath": 25386,
     "elevation": 546,
     "cumulativeAscent": 1540,
@@ -22,6 +34,10 @@
   },
   {
     "name": "Bivouac au Camping Harazpy",
+    "point": {
+      "lat": 43.310206,
+      "lng": -1.501994
+    },
     "nearestMetreOfPath": 43645,
     "elevation": 124,
     "cumulativeAscent": 1932,
@@ -29,6 +45,10 @@
   },
   {
     "name": "Bivouac au Camping l'Irouleguy",
+    "point": {
+      "lat": 43.183691,
+      "lng": -1.335728
+    },
     "nearestMetreOfPath": 80229,
     "elevation": 164,
     "cumulativeAscent": 4305,
@@ -36,34 +56,42 @@
   },
   {
     "name": "Bivouac au Camping Municipal Plaza Berri",
-    "nearestMetreOfPath": 98407,
-    "elevation": 172,
-    "cumulativeAscent": 5316,
-    "cumulativeDescent": 5149
+    "point": {
+      "lat": 43.161447,
+      "lng": -1.236167
+    },
+    "nearestMetreOfPath": 98407
   },
   {
     "name": "Bivouac gîte d'étape de Kaskoleta (route de Phagalcette)",
-    "nearestMetreOfPath": 114246,
-    "elevation": 614,
-    "cumulativeAscent": 6386,
-    "cumulativeDescent": 5777
+    "point": {
+      "lat": 43.092228,
+      "lng": -1.164632
+    },
+    "nearestMetreOfPath": 114246
   },
   {
     "name": "Bivouac des sommets d'Occabé",
-    "nearestMetreOfPath": 123542,
-    "elevation": 1370,
-    "cumulativeAscent": 7451,
-    "cumulativeDescent": 6086
+    "point": {
+      "lat": 43.041515,
+      "lng": -1.113891
+    },
+    "nearestMetreOfPath": 123542
   },
   {
     "name": "Bivouac à proximité du Chalet Pédro",
-    "nearestMetreOfPath": 127806,
-    "elevation": 1022,
-    "cumulativeAscent": 7529,
-    "cumulativeDescent": 6512
+    "point": {
+      "lat": 43.037475,
+      "lng": -1.077464
+    },
+    "nearestMetreOfPath": 127806
   },
   {
     "name": "Refugee Jeandel",
+    "point": {
+      "lat": 42.979064,
+      "lng": -0.749551
+    },
     "nearestMetreOfPath": 183453,
     "elevation": 1631,
     "cumulativeAscent": 11742,
@@ -71,6 +99,10 @@
   },
   {
     "name": "Lescun",
+    "point": {
+      "lat": 42.933568,
+      "lng": -0.637499
+    },
     "nearestMetreOfPath": 198153,
     "elevation": 892,
     "cumulativeAscent": 12284,

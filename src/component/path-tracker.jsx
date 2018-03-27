@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import MapHelper from '../maps/map-helper.js';
 import PointOfInterest from '../component/point-of-interest.jsx';
+//const cache = na
 
 class PathTracker extends Component {
   constructor(props) {
@@ -27,23 +28,78 @@ class PathTracker extends Component {
     this.loadPointsOfInterest();
   }
 
-  loadPoints() {
-    fetch('/data/gr10-points-elevation.json')
-      .then(response => response.json())
-      .then(data => {
-        this.pointsWithDistance = data;
+  pointsLoaded(data) {
+    this.pointsWithDistance = data;
+  }
+
+  pointsLoaded(data) {
+    this.pointsWithDistance = data;
+    if (this.pointsWithDistance.length > 0 && this.pois.length > 0) {
+      this.setState({
+        distances: this.pois
       });
+    }
+  }
+
+  loadPoints() {
+    const url = '/data/gr10-points-elevation.json';
+
+    if ('serviceWorker' in navigator) {
+      caches.open('data').then(cache => {
+        return cache.match(url).then(response => {
+          if (response === undefined) {
+            console.log('adding points to the cache');
+            fetch(url).then(response => {
+              const cloned = response.clone();
+              cache.put(url, response);
+              cloned.json().then(data => this.pointsLoaded(data));
+            });
+          } else {
+            console.log('retrieved points from cache');
+            response.json().then(data => this.pointsLoaded(data));
+          }
+        });
+      });
+    } else {
+      fetch(url)
+        .then(response => response.json())
+        .then(data => this.pointsLoaded(data));
+    }
+  }
+
+  pointsOfInterestLoaded(data) {
+    this.pois = data;
+    if (this.pointsWithDistance.length > 0 && this.pois.length > 0) {
+      this.setState({
+        distances: this.pois
+      });
+    }
   }
 
   loadPointsOfInterest() {
-    fetch('/data/gr10-points-of-interest.json')
-      .then(response => response.json())
-      .then(data => {
-        this.pois = data;
-        this.setState({
-          distances: this.pois
+    const url = '/data/gr10-points-of-interest.json';
+
+    if ('serviceWorker' in navigator) {
+      caches.open('data').then(cache => {
+        return cache.match(url).then(response => {
+          if (response === undefined) {
+            console.log('adding pois to the cache');
+            fetch(url).then(response => {
+              const cloned = response.clone();
+              cache.put(url, response);
+              cloned.json().then(data => this.pointsOfInterestLoaded(data));
+            });
+          } else {
+            console.log('retrieved pois from cache');
+            response.json().then(data => this.pointsOfInterestLoaded(data));
+          }
         });
       });
+    } else {
+      fetch(url)
+        .then(response => response.json())
+        .then(data => this.pointsOfInterestLoaded(data));
+    }
   }
 
   findNearestPointToCurrentLocationAndUpdate() {
@@ -100,6 +156,7 @@ class PathTracker extends Component {
             type="text"
             value={this.state.lat}
             onChange={this.handleLatChange}
+            style={{ width: '80px' }}
           />
           Lng:{' '}
           <input

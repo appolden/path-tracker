@@ -1,6 +1,6 @@
 {
-  "short_name": "Path tracker",
-  "name": "Path tracker. Designed to work offline",
+  "short_name": "GR10 - Path tracker",
+  "name": "Path tracker for the GR10",
   "icons": [
     {
       "src": "favicon.png",
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
