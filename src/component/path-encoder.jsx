@@ -60,8 +60,6 @@ class PathEncoder extends Component {
 
   onElevationComplete(pathPoints) {
     return e => {
-      const pp = pathPoints;
-
       MapHelper.addCumulativeAscentAndDescent(e);
 
       //extract what we need

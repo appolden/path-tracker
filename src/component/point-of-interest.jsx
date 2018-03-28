@@ -31,13 +31,13 @@ class PointOfInterest extends Component {
             Math.abs(this.props.pathMetre - this.props.nearestMetreOfPath) *
             0.001
           ).toFixed(2)}{' '}
-          kms, {ascent} metres of ascent, {descent} metres of descent
+          kms, {ascent}m ascent, {descent}m descent
         </div>
         <div>
           Km {(this.props.nearestMetreOfPath * 0.001).toFixed(2)},{' '}
           {this.props.name}
         </div>
-        <div>Altitude: {this.props.elevationAtNearestMetreOfPath} metres.</div>
+        <div>Altitude: {this.props.elevationAtNearestMetreOfPath} metres</div>
       </div>
     );
   }

@@ -72,7 +72,7 @@
 
     const onRequestComplete = function(requestId, results) {
       console.log(`Request ${requestId} complete`);
-      const request = requests.find(x => x.id == requestId);
+      const request = requests.find(x => x.id === requestId);
       request.complete = true;
       request.results = results;
 
@@ -85,8 +85,8 @@
         resultsFlattened.forEach(x => {
           const pathPointToUpdate = pathPoints.find(function(pathPoint) {
             return (
-              pathPoint.lat().toFixed(6) == x.location.lat().toFixed(6) &&
-              pathPoint.lng().toFixed(6) == x.location.lng().toFixed(6)
+              pathPoint.lat().toFixed(6) === x.location.lat().toFixed(6) &&
+              pathPoint.lng().toFixed(6) === x.location.lng().toFixed(6)
             );
           });
 
@@ -155,7 +155,7 @@
     ) {
       if (status !== google.maps.ElevationStatus.OK) {
         console.log(status + ' for request');
-        if (status == 'OVER_QUERY_LIMIT') {
+        if (status === 'OVER_QUERY_LIMIT') {
         }
         return;
       }
@@ -168,7 +168,7 @@
 
   static addCumulativeAscentAndDescent(pathPoints) {
     pathPoints.forEach(function(pathPoint, index) {
-      if (index == 0) {
+      if (index === 0) {
         pathPoint.cumulativeAscent = 0;
         pathPoint.cumulativeDescent = 0;
       } else {

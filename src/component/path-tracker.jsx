@@ -163,8 +163,9 @@ class PathTracker extends Component {
             type="text"
             value={this.state.lng}
             onChange={this.handleLngChange}
+            style={{ width: '80px' }}
           />
-          <input type="button" value="Submit" onClick={this.handleClick} />
+          <input type="button" value="Update" onClick={this.handleClick} />
         </p>
         <p>You are at {(this.state.nearestMetreOfPath * 0.001).toFixed(2)}</p>
 

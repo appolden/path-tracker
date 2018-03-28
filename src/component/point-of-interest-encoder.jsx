@@ -33,7 +33,7 @@ class PointOfInterestEncoder extends Component {
   }
 
   locatePointOfInterestOnPath() {
-    if (this.pathPoints.length == 0 || this.pois.length == 0) {
+    if (this.pathPoints.length === 0 || this.pois.length === 0) {
       return;
     }
 
@@ -43,18 +43,14 @@ class PointOfInterestEncoder extends Component {
         lng: poi.point.lng
       });
       poi.nearestMetreOfPath = nearestPoint.metreOfPath;
-      (poi.elevation = nearestPoint.elevation),
-        (poi.cumulativeAscent = nearestPoint.cumulativeAscent),
-        (poi.cumulativeDescent = nearestPoint.cumulativeDescent);
+      poi.elevation = nearestPoint.elevation;
+      poi.cumulativeAscent = nearestPoint.cumulativeAscent;
+      poi.cumulativeDescent = nearestPoint.cumulativeDescent;
     }, this);
 
     const formatForJson = this.pois.map(x => {
       return {
         name: x.name,
-        //point: {
-        //  lat: parseFloat(x.point.lat.toFixed(6), 10),
-        //  lng: parseFloat(x.point.lng.toFixed(6), 10)
-        //},
         nearestMetreOfPath: parseInt(x.nearestMetreOfPath, 10),
         elevation: x.elevation,
         cumulativeAscent: x.cumulativeAscent,
