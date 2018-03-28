@@ -44,7 +44,49 @@
     "cumulativeDescent": 1813
   },
   {
-    "name": "Bivouac au Camping l'Irouleguy",
+    "name": "Col des Trois Croix",
+    "point": {
+      "lat": 43.302836,
+      "lng": -1.465731
+    }
+  },
+  {
+    "name": "Col de Zuharreteaco",
+    "point": {
+      "lat": 43.289733,
+      "lng": -1.438222
+    }
+  },
+  {
+    "name": "Col de Méhatché",
+    "point": {
+      "lat": 43.272612,
+      "lng": -1.416593
+    }
+  },
+  {
+    "name": "Bidarray",
+    "point": {
+      "lat": 43.261612,
+      "lng": -1.385393
+    }
+  },
+  {
+    "name": "Pic d'Iparla",
+    "point": {
+      "lat": 43.231712,
+      "lng": -1.378205
+    }
+  },
+  {
+    "name": "Col de Buztanzelhay",
+    "point": {
+      "lat": 43.191066,
+      "lng": -1.384449
+    }
+  },
+  {
+    "name": "Bivouac au Camping l'Irouleguy (Baigorry",
     "point": {
       "lat": 43.183691,
       "lng": -1.335728
@@ -55,7 +97,28 @@
     "cumulativeDescent": 4146
   },
   {
-    "name": "Bivouac au Camping Municipal Plaza Berri",
+    "name": "Col d'Aharza",
+    "point": {
+      "lat": 43.144961,
+      "lng": -1.335568
+    }
+  },
+  {
+    "name": "Munhoa",
+    "point": {
+      "lat": 43.141501,
+      "lng": -1.307287
+    }
+  },
+  {
+    "name": "Lasse",
+    "point": {
+      "lat": 43.157164,
+      "lng": -1.260252
+    }
+  },
+  {
+    "name": "Saint-Jean-Pied-de-Port",
     "point": {
       "lat": 43.161447,
       "lng": -1.236167

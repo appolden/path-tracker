@@ -28,11 +28,67 @@
     "cumulativeDescent": 1813
   },
   {
-    "name": "Bivouac au Camping l'Irouleguy",
+    "name": "Col des Trois Croix",
+    "nearestMetreOfPath": 48225,
+    "elevation": 500,
+    "cumulativeAscent": 2380,
+    "cumulativeDescent": 1885
+  },
+  {
+    "name": "Col de Zuharreteaco",
+    "nearestMetreOfPath": 51482,
+    "elevation": 557,
+    "cumulativeAscent": 2584,
+    "cumulativeDescent": 2032
+  },
+  {
+    "name": "Col de Méhatché",
+    "nearestMetreOfPath": 56661,
+    "elevation": 713,
+    "cumulativeAscent": 2921,
+    "cumulativeDescent": 2213
+  },
+  {
+    "name": "Bidarray",
+    "nearestMetreOfPath": 60536,
+    "elevation": 199,
+    "cumulativeAscent": 3009,
+    "cumulativeDescent": 2815
+  },
+  {
+    "name": "Pic d'Iparla",
+    "nearestMetreOfPath": 69445,
+    "elevation": 940,
+    "cumulativeAscent": 3938,
+    "cumulativeDescent": 3003
+  },
+  {
+    "name": "Col de Buztanzelhay",
+    "nearestMetreOfPath": 74629,
+    "elevation": 849,
+    "cumulativeAscent": 4252,
+    "cumulativeDescent": 3408
+  },
+  {
+    "name": "Bivouac au Camping l'Irouleguy (Baigorry",
     "nearestMetreOfPath": 80229,
     "elevation": 164,
     "cumulativeAscent": 4305,
     "cumulativeDescent": 4146
+  },
+  {
+    "name": "Col d'Aharza",
+    "nearestMetreOfPath": 86055,
+    "elevation": 724,
+    "cumulativeAscent": 4916,
+    "cumulativeDescent": 4197
+  },
+  {
+    "name": "Munhoa",
+    "nearestMetreOfPath": 89957,
+    "elevation": 998,
+    "cumulativeAscent": 5284,
+    "cumulativeDescent": 4291
   },
   {
     "name": "Bivouac au Camping Municipal Plaza Berri",
