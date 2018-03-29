@@ -2,6 +2,7 @@
 import MapHelper from '../maps/map-helper.js';
 import PointOfInterest from '../component/point-of-interest.jsx';
 import PointCurrent from '../component/point-current.jsx';
+import ReactDOM from 'react-dom';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -20,11 +21,26 @@ class PathTracker extends Component {
     };
     this.pointsWithDistance = [];
     this.pois = [];
+    this.pointCurrent = undefined;
+    this.scrollToAfterComponentDidUpdate = false;
   }
 
   componentDidMount() {
     this.loadPoints();
     this.loadPointsOfInterest();
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (
+      this.pointCurrent !== undefined &&
+      this.scrollToAfterComponentDidUpdate
+    ) {
+      var element = ReactDOM.findDOMNode(this);
+      var pointCurrentElement = ReactDOM.findDOMNode(this.pointCurrent);
+      pointCurrentElement.parentNode.scrollTop =
+        pointCurrentElement.offsetTop - 100;
+      this.scrollToAfterComponentDidUpdate = false;
+    }
   }
 
   pointsLoaded(data) {
@@ -125,13 +141,17 @@ class PathTracker extends Component {
 
   handleClick(event) {
     this.findNearestPointToCurrentLocationAndUpdate();
+    this.scrollToAfterComponentDidUpdate = true;
   }
 
   render() {
     const rows = [];
     const pointCurrent = (
       <PointCurrent
-        key="1"
+        key="CurrentPoint"
+        ref={section => {
+          this.pointCurrent = section;
+        }}
         pathMetre={this.state.nearestMetreOfPath}
         pathElevation={this.state.elevationAtNearestMetreOfPath}
       />
