@@ -33,15 +33,15 @@ p {
   overflow-y: scroll;
 }
 
-.pointsOfInterest > div:nth-of-type(odd) {
-  color: whitesmoke;
-  font-weight: 600;
-  background-color: #ce0000;
-}
-
 .pointOfInterest {
   border: 2px solid black;
   padding: 4px;
+}
+
+.pointCurrent {
+  border: 2px solid black;
+  padding: 4px;
+  background-color: #637fed;
 }
 
 .footer {
