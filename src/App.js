@@ -4,13 +4,14 @@ import './App.css';
 import PathTracker from './component/path-tracker.jsx';
 import PathEncoder from './component/path-encoder.jsx';
 import PointOfInterestEncoder from './component/point-of-interest-encoder.jsx';
+import CacheViewer from './component/cache-viewer.jsx';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">GR10 trail tracker</h1>
+          <h1 className="App-title">GR10 path tracker</h1>
         </header>
         <div className="App-content">
           <Router>
@@ -22,9 +23,13 @@ class App extends Component {
                 path="/poi-encoder"
                 component={PointOfInterestEncoder}
               />
+              <Route exact path="/cache-viewer" component={CacheViewer} />
             </React.Fragment>
           </Router>
         </div>
+        <footer className="App-header">
+          <h2>About etc......</h2>
+        </footer>
       </div>
     );
   }

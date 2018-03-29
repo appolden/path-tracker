@@ -28,6 +28,14 @@ p {
   padding: 5px;
 }
 
+.App-footer {
+  background-color: #222;
+  padding: 4px;
+  color: white;
+  text-align: center;
+  margin: 0.15em;
+}
+
 .pointsOfInterest {
   max-height: 700px;
   overflow-y: scroll;
@@ -42,8 +50,4 @@ p {
   border: 2px solid black;
   padding: 4px;
   background-color: #637fed;
-}
-
-.footer {
-  flex: 0 1 40px;
 }
