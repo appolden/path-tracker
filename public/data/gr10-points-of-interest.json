@@ -70,7 +70,7 @@
     "cumulativeDescent": 3408
   },
   {
-    "name": "Bivouac au Camping l'Irouleguy (Baigorry",
+    "name": "Bivouac au Camping l'Irouleguy (Baigorry)",
     "nearestMetreOfPath": 80229,
     "elevation": 164,
     "cumulativeAscent": 4305,
@@ -91,14 +91,35 @@
     "cumulativeDescent": 4291
   },
   {
-    "name": "Bivouac au Camping Municipal Plaza Berri",
+    "name": "Lasse",
+    "nearestMetreOfPath": 95963,
+    "elevation": 207,
+    "cumulativeAscent": 5296,
+    "cumulativeDescent": 5094
+  },
+  {
+    "name": "Saint-Jean-Pied-de-Port",
     "nearestMetreOfPath": 98407,
     "elevation": 172,
     "cumulativeAscent": 5316,
     "cumulativeDescent": 5149
   },
   {
-    "name": "Bivouac gîte d'étape de Kaskoleta (route de Phagalcette)",
+    "name": "Bridge ??",
+    "nearestMetreOfPath": 103202,
+    "elevation": 253,
+    "cumulativeAscent": 5455,
+    "cumulativeDescent": 5207
+  },
+  {
+    "name": "Estérençuby",
+    "nearestMetreOfPath": 110218,
+    "elevation": 238,
+    "cumulativeAscent": 5908,
+    "cumulativeDescent": 5675
+  },
+  {
+    "name": "Bivouac gîte d'étape de Kaskoleta",
     "nearestMetreOfPath": 114246,
     "elevation": 614,
     "cumulativeAscent": 6386,
@@ -131,5 +152,19 @@
     "elevation": 892,
     "cumulativeAscent": 12284,
     "cumulativeDescent": 11397
+  },
+  {
+    "name": "Col de L'Estaca",
+    "nearestMetreOfPath": 877716,
+    "elevation": 1023,
+    "cumulativeAscent": 64625,
+    "cumulativeDescent": 63607
+  },
+  {
+    "name": "Col de Llagastera",
+    "nearestMetreOfPath": 889532,
+    "elevation": 255,
+    "cumulativeAscent": 64937,
+    "cumulativeDescent": 64687
   }
 ]

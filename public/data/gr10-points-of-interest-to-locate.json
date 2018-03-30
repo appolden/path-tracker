@@ -86,7 +86,7 @@
     }
   },
   {
-    "name": "Bivouac au Camping l'Irouleguy (Baigorry",
+    "name": "Bivouac au Camping l'Irouleguy (Baigorry)",
     "point": {
       "lat": 43.183691,
       "lng": -1.335728
@@ -126,7 +126,21 @@
     "nearestMetreOfPath": 98407
   },
   {
-    "name": "Bivouac gîte d'étape de Kaskoleta (route de Phagalcette)",
+    "name": "Bridge ??",
+    "point": {
+      "lat": 43.135488,
+      "lng": -1.205213
+    }
+  },
+  {
+    "name": "Estérençuby",
+    "point": {
+      "lat": 43.104430,
+      "lng": -1.195525
+    }
+  },
+  {
+    "name": "Bivouac gîte d'étape de Kaskoleta",
     "point": {
       "lat": 43.092228,
       "lng": -1.164632
@@ -170,5 +184,19 @@
     "elevation": 892,
     "cumulativeAscent": 12284,
     "cumulativeDescent": 11397
+  },
+  {
+    "name": "Col de L'Estaca",
+    "point": {
+      "lat": 42.472034,
+      "lng": 2.983239
+    }
+  },
+  {
+    "name": "Col de Llagastera",
+    "point": {
+      "lat": 42.482526,
+      "lng": 3.095055
+    }
   }
 ]

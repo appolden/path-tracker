@@ -6,7 +6,6 @@ import Location from '../component/location.jsx';
 import LocationOverride from '../component/location-override.jsx';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
-import locationOverride from './location-override';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -171,7 +170,7 @@ class PathTracker extends Component {
         />
       );
 
-      if (index == this.state.pointsOfInterest.length - 1) {
+      if (index === this.state.pointsOfInterest.length - 1) {
         //reached the end
         rows.push(pointOfInterest);
         if (x.nearestMetreOfPath < this.state.nearestMetreOfPath) {
