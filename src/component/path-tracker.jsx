@@ -2,20 +2,17 @@
 import MapHelper from '../maps/map-helper.js';
 import PointOfInterest from '../component/point-of-interest.jsx';
 import PointCurrent from '../component/point-current.jsx';
+import Location from '../component/location.jsx';
+import LocationOverride from '../component/location-override.jsx';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
+import locationOverride from './location-override';
 
 class PathTracker extends Component {
   constructor(props) {
     super(props);
 
-    this.handleLatChange = this.handleLatChange.bind(this);
-    this.handleLngChange = this.handleLngChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
-
     this.state = {
-      lat: 42.965442,
-      lng: -0.779819,
       pointsOfInterest: [],
       nearestMetreOfPath: 0,
       elevationAtNearestMetreOfPath: 0
@@ -25,6 +22,8 @@ class PathTracker extends Component {
     this.pointCurrent = undefined;
     this.scrollToAfterComponentDidUpdate = false;
     this.pointsOfInterest = undefined;
+
+    this.onLocationChanged = this.onLocationChanged.bind(this);
   }
 
   componentDidMount() {
@@ -39,8 +38,11 @@ class PathTracker extends Component {
     ) {
       var pointCurrentElement = ReactDOM.findDOMNode(this.pointCurrent);
 
-      pointCurrentElement.parentNode.scrollTop =
-        pointCurrentElement.offsetTop - 100;
+      if (pointCurrentElement !== undefined && pointCurrentElement !== null) {
+        pointCurrentElement.parentNode.scrollTop =
+          pointCurrentElement.offsetTop - 150;
+      }
+
       this.scrollToAfterComponentDidUpdate = false;
     }
   }
@@ -115,8 +117,8 @@ class PathTracker extends Component {
     }
   }
 
-  findNearestPointToCurrentLocationAndUpdate() {
-    const currentLocation = { lat: this.state.lat, lng: this.state.lng };
+  findNearestPointToLocationAndUpdate(lat, lng) {
+    const currentLocation = { lat: lat, lng: lng };
 
     const nearestPointToCurrentLocation = MapHelper.findNearestPoint(
       this.pointsWithDistance,
@@ -133,16 +135,8 @@ class PathTracker extends Component {
     });
   }
 
-  handleLatChange(event) {
-    this.setState({ lat: event.target.value });
-  }
-
-  handleLngChange(event) {
-    this.setState({ lng: event.target.value });
-  }
-
-  handleClick(event) {
-    this.findNearestPointToCurrentLocationAndUpdate();
+  onLocationChanged(lat, lng) {
+    this.findNearestPointToLocationAndUpdate(lat, lng);
     this.scrollToAfterComponentDidUpdate = true;
   }
 
@@ -196,30 +190,17 @@ class PathTracker extends Component {
         rows.push(pointOfInterest);
       }
     });
-    console.log(window.outerHeight);
+
+    //console.log(window.outerHeight);
     const offset = 140;
     const style = { height: window.outerHeight - offset };
 
     return (
       <div className="App-content">
         <div>
-          <p>
-            Lat:{' '}
-            <input
-              type="text"
-              value={this.state.lat}
-              onChange={this.handleLatChange}
-              style={{ width: '80px' }}
-            />
-            Lng:{' '}
-            <input
-              type="text"
-              value={this.state.lng}
-              onChange={this.handleLngChange}
-              style={{ width: '80px' }}
-            />
-            <input type="button" value="Update" onClick={this.handleClick} />
-          </p>
+          <Location onLocationChanged={this.onLocationChanged} />
+          <LocationOverride onLocationChanged={this.onLocationChanged} />
+
           <div style={style} className="pointsOfInterest">
             {rows}
           </div>
