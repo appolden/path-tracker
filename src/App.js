@@ -14,24 +14,19 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">GR10 trail tracker</h1>
         </header>
-        <div className="App-content">
-          <Router>
-            <React.Fragment>
-              <Route exact path="/" component={PathTracker} />
-              <Route exact path="/path-encoder" component={PathEncoder} />
-              <Route
-                exact
-                path="/poi-encoder"
-                component={PointOfInterestEncoder}
-              />
-              <Route exact path="/cache-viewer" component={CacheViewer} />
-              <Route exact path="/about" component={About} />
-            </React.Fragment>
-          </Router>
-        </div>
-        <footer className="App-footer">
-          <a href="/about">About</a>
-        </footer>
+        <Router>
+          <React.Fragment>
+            <Route exact path="/" component={PathTracker} />
+            <Route exact path="/path-encoder" component={PathEncoder} />
+            <Route
+              exact
+              path="/poi-encoder"
+              component={PointOfInterestEncoder}
+            />
+            <Route exact path="/cache-viewer" component={CacheViewer} />
+            <Route exact path="/about" component={About} />
+          </React.Fragment>
+        </Router>
       </div>
     );
   }

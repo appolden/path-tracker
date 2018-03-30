@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class About extends Component {
   render() {
+    //const offset = 110;
+    //const style = { height: window.outerHeight - offset };
+
     return (
-      <div className="aboutContent">
+      <div className="App-content">
         <h1>About</h1>
         <h2>Introduction</h2>
         <p>
@@ -57,9 +61,9 @@ class About extends Component {
         </p>
         <p>
           To refresh the cached data goto the{' '}
-          <a href="/cache-viewer" title="cache viewer">
+          <Link to="/cache-viewer" title="cache viewer">
             cache viewer
-          </a>{' '}
+          </Link>
         </p>
       </div>
     );

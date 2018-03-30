@@ -54,7 +54,7 @@ class CacheViewer extends Component {
     ));
 
     return (
-      <React.Fragment>
+      <div className="App-content">
         <h2>Cache viewer</h2>
         <p>
           {this.state.serviceWorkerEnabled}
@@ -72,7 +72,7 @@ class CacheViewer extends Component {
           {this.state.serviceWorkerEnabled.toString()}.
         </p>
         {rows}
-      </React.Fragment>
+      </div>
     );
   }
 }

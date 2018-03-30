@@ -3,6 +3,7 @@ import MapHelper from '../maps/map-helper.js';
 import PointOfInterest from '../component/point-of-interest.jsx';
 import PointCurrent from '../component/point-current.jsx';
 import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ class PathTracker extends Component {
     this.pois = [];
     this.pointCurrent = undefined;
     this.scrollToAfterComponentDidUpdate = false;
+    this.pointsOfInterest = undefined;
   }
 
   componentDidMount() {
@@ -35,16 +37,8 @@ class PathTracker extends Component {
       this.pointCurrent !== undefined &&
       this.scrollToAfterComponentDidUpdate
     ) {
-      var element = ReactDOM.findDOMNode(this);
       var pointCurrentElement = ReactDOM.findDOMNode(this.pointCurrent);
-      console.log(
-        `pointCurrentElement.parentNode.scrollTop ${
-          pointCurrentElement.parentNode.scrollTop
-        }`
-      );
-      console.log(
-        `pointCurrentElement.offsetTop ${pointCurrentElement.offsetTop}`
-      );
+
       pointCurrentElement.parentNode.scrollTop =
         pointCurrentElement.offsetTop - 100;
       this.scrollToAfterComponentDidUpdate = false;
@@ -202,27 +196,37 @@ class PathTracker extends Component {
         rows.push(pointOfInterest);
       }
     });
+    console.log(window.outerHeight);
+    const offset = 140;
+    const style = { height: window.outerHeight - offset };
 
     return (
-      <div>
-        <p>
-          Lat:{' '}
-          <input
-            type="text"
-            value={this.state.lat}
-            onChange={this.handleLatChange}
-            style={{ width: '80px' }}
-          />
-          Lng:{' '}
-          <input
-            type="text"
-            value={this.state.lng}
-            onChange={this.handleLngChange}
-            style={{ width: '80px' }}
-          />
-          <input type="button" value="Update" onClick={this.handleClick} />
-        </p>
-        <div className="pointsOfInterest">{rows}</div>
+      <div className="App-content">
+        <div>
+          <p>
+            Lat:{' '}
+            <input
+              type="text"
+              value={this.state.lat}
+              onChange={this.handleLatChange}
+              style={{ width: '80px' }}
+            />
+            Lng:{' '}
+            <input
+              type="text"
+              value={this.state.lng}
+              onChange={this.handleLngChange}
+              style={{ width: '80px' }}
+            />
+            <input type="button" value="Update" onClick={this.handleClick} />
+          </p>
+          <div style={style} className="pointsOfInterest">
+            {rows}
+          </div>
+        </div>
+        <footer className="App-footer">
+          <Link to="/about">About</Link>
+        </footer>
       </div>
     );
   }
