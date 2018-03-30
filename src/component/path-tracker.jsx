@@ -37,6 +37,14 @@ class PathTracker extends Component {
     ) {
       var element = ReactDOM.findDOMNode(this);
       var pointCurrentElement = ReactDOM.findDOMNode(this.pointCurrent);
+      console.log(
+        `pointCurrentElement.parentNode.scrollTop ${
+          pointCurrentElement.parentNode.scrollTop
+        }`
+      );
+      console.log(
+        `pointCurrentElement.offsetTop ${pointCurrentElement.offsetTop}`
+      );
       pointCurrentElement.parentNode.scrollTop =
         pointCurrentElement.offsetTop - 100;
       this.scrollToAfterComponentDidUpdate = false;
