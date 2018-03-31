@@ -126,11 +126,39 @@
     "cumulativeDescent": 5777
   },
   {
+    "name": "Bridge",
+    "nearestMetreOfPath": 118622,
+    "elevation": 698,
+    "cumulativeAscent": 6728,
+    "cumulativeDescent": 6035
+  },
+  {
+    "name": "Bivouac aux bordes d'inzarrazquy",
+    "nearestMetreOfPath": 119087,
+    "elevation": 677,
+    "cumulativeAscent": 6736,
+    "cumulativeDescent": 6064
+  },
+  {
+    "name": "Col d'Irau",
+    "nearestMetreOfPath": 121288,
+    "elevation": 1004,
+    "cumulativeAscent": 7085,
+    "cumulativeDescent": 6086
+  },
+  {
     "name": "Bivouac des sommets d'Occabé",
     "nearestMetreOfPath": 123542,
     "elevation": 1370,
     "cumulativeAscent": 7451,
     "cumulativeDescent": 6086
+  },
+  {
+    "name": "Chalet Pédro. (Bivouac)",
+    "nearestMetreOfPath": 127621,
+    "elevation": 1000,
+    "cumulativeAscent": 7507,
+    "cumulativeDescent": 6512
   },
   {
     "name": "Bivouac à proximité du Chalet Pédro",
@@ -140,11 +168,109 @@
     "cumulativeDescent": 6512
   },
   {
+    "name": "Exit for 'Aire Naturelle De Camping D'Iraty'",
+    "nearestMetreOfPath": 130545,
+    "elevation": 1136,
+    "cumulativeAscent": 7733,
+    "cumulativeDescent": 6602
+  },
+  {
+    "name": "Chalets d'Iraty",
+    "nearestMetreOfPath": 130820,
+    "elevation": 1152,
+    "cumulativeAscent": 7756,
+    "cumulativeDescent": 6609
+  },
+  {
+    "name": "Col Bagargiak",
+    "nearestMetreOfPath": 134129,
+    "elevation": 1326,
+    "cumulativeAscent": 7966,
+    "cumulativeDescent": 6645
+  },
+  {
+    "name": "Logibar",
+    "nearestMetreOfPath": 151104,
+    "elevation": 407,
+    "cumulativeAscent": 8668,
+    "cumulativeDescent": 8266
+  },
+  {
+    "name": "Col d'Anhaou",
+    "nearestMetreOfPath": 160801,
+    "elevation": 1384,
+    "cumulativeAscent": 10013,
+    "cumulativeDescent": 8634
+  },
+  {
+    "name": "Gorges de Kakuetta",
+    "nearestMetreOfPath": 169083,
+    "elevation": 550,
+    "cumulativeAscent": 10291,
+    "cumulativeDescent": 9746
+  },
+  {
+    "name": "Grotte de la Verna (Sainte-Engrace)",
+    "nearestMetreOfPath": 171466,
+    "elevation": 614,
+    "cumulativeAscent": 10480,
+    "cumulativeDescent": 9871
+  },
+  {
+    "name": "gites berretechia",
+    "nearestMetreOfPath": 171826,
+    "elevation": 632,
+    "cumulativeAscent": 10501,
+    "cumulativeDescent": 9874
+  },
+  {
+    "name": "Gite d'Etape Sainte Engrace Burguburu",
+    "nearestMetreOfPath": 172377,
+    "elevation": 626,
+    "cumulativeAscent": 10506,
+    "cumulativeDescent": 9885
+  },
+  {
+    "name": "Col de la Pierre-St-Martin",
+    "nearestMetreOfPath": 181250,
+    "elevation": 1774,
+    "cumulativeAscent": 11714,
+    "cumulativeDescent": 9945
+  },
+  {
     "name": "Refugee Jeandel",
     "nearestMetreOfPath": 183453,
     "elevation": 1631,
     "cumulativeAscent": 11742,
     "cumulativeDescent": 10116
+  },
+  {
+    "name": "Pas de l'Osque",
+    "nearestMetreOfPath": 188586,
+    "elevation": 1880,
+    "cumulativeAscent": 12119,
+    "cumulativeDescent": 10244
+  },
+  {
+    "name": "Cabane du Cap de la baitch (Bivouac)",
+    "nearestMetreOfPath": 190342,
+    "elevation": 1650,
+    "cumulativeAscent": 12179,
+    "cumulativeDescent": 10534
+  },
+  {
+    "name": "Cabane d'Ardinet (Bivouac)",
+    "nearestMetreOfPath": 190975,
+    "elevation": 1564,
+    "cumulativeAscent": 12180,
+    "cumulativeDescent": 10621
+  },
+  {
+    "name": "Refuge de L'Abérouat (Bivouac)",
+    "nearestMetreOfPath": 193723,
+    "elevation": 1432,
+    "cumulativeAscent": 12242,
+    "cumulativeDescent": 10815
   },
   {
     "name": "Lescun",

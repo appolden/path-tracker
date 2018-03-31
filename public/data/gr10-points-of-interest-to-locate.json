@@ -148,6 +148,28 @@
     "nearestMetreOfPath": 114246
   },
   {
+    "name": "Bridge",
+    "point": {
+      "lat": 43.061002,
+      "lng": -1.151483
+    },
+    "nearestMetreOfPath": 114246
+  },
+  {
+    "name": "Bivouac aux bordes d'inzarrazquy",
+    "point": {
+      "lat": 43.063927,
+      "lng": -1.1500513
+    }
+  },
+  {
+    "name": "Col d'Irau",
+    "point": {
+      "lat": 43.054049,
+      "lng": -1.127955
+    }
+  },
+  {
     "name": "Bivouac des sommets d'Occabé",
     "point": {
       "lat": 43.041515,
@@ -156,12 +178,89 @@
     "nearestMetreOfPath": 123542
   },
   {
+    "name": "Chalet Pédro. (Bivouac)",
+    "point": {
+      "lat": 43.036968,
+      "lng": -1.075373
+    }
+  },
+  {
     "name": "Bivouac à proximité du Chalet Pédro",
     "point": {
       "lat": 43.037475,
       "lng": -1.077464
     },
     "nearestMetreOfPath": 127806
+  },
+  {
+    "name": "Exit for 'Aire Naturelle De Camping D'Iraty'",
+    "point": {
+      "lat": 43.040995,
+      "lng": -1.058539
+    }
+  },
+  {
+    "name": "Chalets d'Iraty",
+    "point": {
+      "lat": 43.036494,
+      "lng": -1.058539
+    }
+  },
+  {
+    "name": "Col Bagargiak",
+    "point": {
+      "lat": 43.037772,
+      "lng": -1.026664
+    }
+  },
+  {
+    "name": "Logibar",
+    "point": {
+      "lat": 43.018188,
+      "lng": -0.927122
+    }
+  },
+  {
+    "name": "Col d'Anhaou",
+    "point": {
+      "lat": 42.978106,
+      "lng": -0.880344
+    }
+  },
+  {
+    "name": "Gorges de Kakuetta",
+    "point": {
+      "lat": 42.998072,
+      "lng": -0.839939
+    }
+  },
+  {
+    "name": "Grotte de la Verna (Sainte-Engrace)",
+    "point": {
+      "lat": 42.996330,
+      "lng": -0.820531
+    }
+  },
+  {
+    "name": "gites berretechia",
+    "point": {
+      "lat": 42.995757,
+      "lng": -0.816175
+    }
+  },
+  {
+    "name": "Gite d'Etape Sainte Engrace Burguburu",
+    "point": {
+      "lat": 42.995812,
+      "lng": -0.809936
+    }
+  },
+  {
+    "name": "Col de la Pierre-St-Martin",
+    "point": {
+      "lat": 42.969797,
+      "lng": -0.766436
+    }
   },
   {
     "name": "Refugee Jeandel",
@@ -173,6 +272,34 @@
     "elevation": 1631,
     "cumulativeAscent": 11742,
     "cumulativeDescent": 10116
+  },
+  {
+    "name": "Pas de l'Osque",
+    "point": {
+      "lat": 42.970076,
+      "lng": -0.709122
+    }
+  },
+  {
+    "name": "Cabane du Cap de la baitch (Bivouac)",
+    "point": {
+      "lat": 42.959076,
+      "lng": -0.704616
+    }
+  },
+  {
+    "name": "Cabane d'Ardinet (Bivouac)",
+    "point": {
+      "lat": 42.959579,
+      "lng": -0.695733
+    }
+  },
+  {
+    "name": "Refuge de L'Abérouat (Bivouac)",
+    "point": {
+      "lat": 42.950286,
+      "lng": -0.666545
+    }
   },
   {
     "name": "Lescun",
