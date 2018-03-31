@@ -190,107 +190,107 @@
   },
   {
     "name": "Logibar",
-    "nearestMetreOfPath": 151104,
-    "elevation": 407,
-    "cumulativeAscent": 8668,
-    "cumulativeDescent": 8266
+    "nearestMetreOfPath": 150662,
+    "elevation": 396,
+    "cumulativeAscent": 8642,
+    "cumulativeDescent": 8251
   },
   {
     "name": "Col d'Anhaou",
-    "nearestMetreOfPath": 160801,
+    "nearestMetreOfPath": 164337,
     "elevation": 1384,
-    "cumulativeAscent": 10013,
-    "cumulativeDescent": 8634
+    "cumulativeAscent": 10320,
+    "cumulativeDescent": 8941
   },
   {
     "name": "Gorges de Kakuetta",
-    "nearestMetreOfPath": 169083,
+    "nearestMetreOfPath": 172619,
     "elevation": 550,
-    "cumulativeAscent": 10291,
-    "cumulativeDescent": 9746
+    "cumulativeAscent": 10598,
+    "cumulativeDescent": 10053
   },
   {
     "name": "Grotte de la Verna (Sainte-Engrace)",
-    "nearestMetreOfPath": 171466,
+    "nearestMetreOfPath": 175002,
     "elevation": 614,
-    "cumulativeAscent": 10480,
-    "cumulativeDescent": 9871
+    "cumulativeAscent": 10787,
+    "cumulativeDescent": 10178
   },
   {
     "name": "gites berretechia",
-    "nearestMetreOfPath": 171826,
+    "nearestMetreOfPath": 175362,
     "elevation": 632,
-    "cumulativeAscent": 10501,
-    "cumulativeDescent": 9874
+    "cumulativeAscent": 10808,
+    "cumulativeDescent": 10181
   },
   {
     "name": "Gite d'Etape Sainte Engrace Burguburu",
-    "nearestMetreOfPath": 172377,
+    "nearestMetreOfPath": 175913,
     "elevation": 626,
-    "cumulativeAscent": 10506,
-    "cumulativeDescent": 9885
+    "cumulativeAscent": 10813,
+    "cumulativeDescent": 10192
   },
   {
     "name": "Col de la Pierre-St-Martin",
-    "nearestMetreOfPath": 181250,
+    "nearestMetreOfPath": 184785,
     "elevation": 1774,
-    "cumulativeAscent": 11714,
-    "cumulativeDescent": 9945
+    "cumulativeAscent": 12021,
+    "cumulativeDescent": 10252
   },
   {
     "name": "Refugee Jeandel",
-    "nearestMetreOfPath": 183453,
+    "nearestMetreOfPath": 186989,
     "elevation": 1631,
-    "cumulativeAscent": 11742,
-    "cumulativeDescent": 10116
+    "cumulativeAscent": 12049,
+    "cumulativeDescent": 10423
   },
   {
     "name": "Pas de l'Osque",
-    "nearestMetreOfPath": 188586,
+    "nearestMetreOfPath": 192122,
     "elevation": 1880,
-    "cumulativeAscent": 12119,
-    "cumulativeDescent": 10244
+    "cumulativeAscent": 12426,
+    "cumulativeDescent": 10551
   },
   {
     "name": "Cabane du Cap de la baitch (Bivouac)",
-    "nearestMetreOfPath": 190342,
+    "nearestMetreOfPath": 193878,
     "elevation": 1650,
-    "cumulativeAscent": 12179,
-    "cumulativeDescent": 10534
+    "cumulativeAscent": 12486,
+    "cumulativeDescent": 10841
   },
   {
     "name": "Cabane d'Ardinet (Bivouac)",
-    "nearestMetreOfPath": 190975,
+    "nearestMetreOfPath": 194511,
     "elevation": 1564,
-    "cumulativeAscent": 12180,
-    "cumulativeDescent": 10621
+    "cumulativeAscent": 12487,
+    "cumulativeDescent": 10928
   },
   {
     "name": "Refuge de L'Abérouat (Bivouac)",
-    "nearestMetreOfPath": 193723,
+    "nearestMetreOfPath": 197259,
     "elevation": 1432,
-    "cumulativeAscent": 12242,
-    "cumulativeDescent": 10815
+    "cumulativeAscent": 12549,
+    "cumulativeDescent": 11122
   },
   {
     "name": "Lescun",
-    "nearestMetreOfPath": 198153,
+    "nearestMetreOfPath": 201689,
     "elevation": 892,
-    "cumulativeAscent": 12284,
-    "cumulativeDescent": 11397
+    "cumulativeAscent": 12591,
+    "cumulativeDescent": 11704
   },
   {
     "name": "Col de L'Estaca",
-    "nearestMetreOfPath": 877716,
+    "nearestMetreOfPath": 881252,
     "elevation": 1023,
-    "cumulativeAscent": 64625,
-    "cumulativeDescent": 63607
+    "cumulativeAscent": 64932,
+    "cumulativeDescent": 63914
   },
   {
     "name": "Col de Llagastera",
-    "nearestMetreOfPath": 889532,
+    "nearestMetreOfPath": 893068,
     "elevation": 255,
-    "cumulativeAscent": 64937,
-    "cumulativeDescent": 64687
+    "cumulativeAscent": 65244,
+    "cumulativeDescent": 64994
   }
 ]

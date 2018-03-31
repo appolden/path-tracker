@@ -221,6 +221,20 @@
     }
   },
   {
+    "name": "Une jonction",
+    "point": {
+      "lat": 43.017043,
+      "lng": -0.928136
+    }
+  },
+  {
+    "name": "Pont suspendu sur les Gorges d'Olhadubi",
+    "point": {
+      "lat": 43.004577,
+      "lng": -0.922986
+    }
+  },
+  {
     "name": "Col d'Anhaou",
     "point": {
       "lat": 42.978106,
