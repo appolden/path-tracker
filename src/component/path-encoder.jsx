@@ -14,25 +14,12 @@ class PathEncoder extends Component {
     };
     this.pointsWithDistance = [];
     this.currentLocation = undefined;
-    this.pois = [];
-  }
-
-  componentDidMount() {
-    this.loadPointsOfInterest();
   }
 
   componentDidUpdate(prevProps, prevStat) {
     if (prevProps.google !== this.props.google) {
       this.loadPolyline();
     }
-  }
-
-  loadPointsOfInterest() {
-    fetch('/data/gr10-points-of-interest.json')
-      .then(response => response.json())
-      .then(data => {
-        this.pois = data;
-      });
   }
 
   loadPolyline() {
@@ -75,32 +62,6 @@ class PathEncoder extends Component {
       });
 
       console.log(JSON.stringify(this.pointsWithDistance));
-
-      this.pois.forEach(function(poi, index) {
-        const nearestPoint = MapHelper.findNearestPoint(
-          this.pointsWithDistance,
-          { lat: poi.point.lat, lng: poi.point.lng }
-        );
-        poi.nearestMetreOfPath = nearestPoint.metreOfPath;
-      }, this);
-
-      const formatForJson = this.pois.map(x => {
-        return {
-          name: x.name,
-          point: {
-            lat: parseFloat(x.point.lat.toFixed(6), 10),
-            lng: parseFloat(x.point.lng.toFixed(6), 10)
-          },
-          nearestMetreOfPath: parseInt(x.nearestMetreOfPath, 10)
-        };
-      });
-
-      const sorted = formatForJson.sort(function compare(a, b) {
-        if (a.nearestMetreOfPath < b.nearestMetreOfPath) return -1;
-        if (a.nearestMetreOfPath > b.nearestMetreOfPath) return 1;
-        return 0;
-      });
-      console.log(JSON.stringify(sorted));
     };
   }
 
@@ -116,12 +77,8 @@ class PathEncoder extends Component {
               <li>
                 Add cumuldative distance of path to each point (in metres)
               </li>
-              <li>TODO: add elevation and cumulative elevation </li>
+              <li>Add elevation and cumulative elevation </li>
             </ol>
-          </li>
-          <li>
-            Retireve the points of interest and for each point locate the
-            nearest trail metre. The result is then logged in the console
           </li>
         </ol>
         Check the console log

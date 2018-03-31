@@ -190,7 +190,11 @@ class PathTracker extends Component {
       }
     });
 
-      const locationComponent = this.props.testMode ? (<LocationOverride onLocationChanged={this.onLocationChanged} />) : (<Location onLocationChanged={this.onLocationChanged} />);
+    const locationComponent = this.props.testMode ? (
+      <LocationOverride onLocationChanged={this.onLocationChanged} />
+    ) : (
+      <Location onLocationChanged={this.onLocationChanged} />
+    );
     //console.log(window.outerHeight);
     const offset = 140;
     const style = { height: window.outerHeight - offset };
@@ -201,9 +205,8 @@ class PathTracker extends Component {
           <h1 className="App-title">GR10 trail tracker</h1>
         </header>
         <div className="App-content">
-                <div>
-                    {locationComponent}
-     
+          <div>
+            {locationComponent}
 
             <div style={style} className="pointsOfInterest">
               {rows}

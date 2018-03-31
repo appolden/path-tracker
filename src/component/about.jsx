@@ -16,9 +16,11 @@ class About extends Component {
           distances to point of interests (mountain saddles, summits, towns,
           water, bridges etc.) can then be calculated.
         </p>
-            <p><Link to="/trail-tracker" title="GR10 Trail Tracker">
-                GR10 Trail Tracker
-          </Link></p>
+        <p>
+          <Link to="/trail-tracker" title="GR10 Trail Tracker">
+            GR10 Trail Tracker
+          </Link>
+        </p>
 
         <h2>Installation </h2>
         <p>
@@ -26,14 +28,14 @@ class About extends Component {
           <Link to="/trail-tracker" title="GR10 Trail Tracker">
             GR10 Trail Tracker
           </Link>{' '}
-          as you would with an other website but I recommend that you add it to
-          your homescreen which it will enable it to work off-line.{' '}
-            </p>
-            <p>
-                To install the website as an app follow these instructions. For
-          Android, touch the overflow button (three vertical dots) and select
-          Add to Home Screen.{' '}
-            </p>
+          as you would with any other website but I recommend that you add it to
+          your homescreen which will enable it to work off-line.
+        </p>
+        <p>
+          To install the website as an app for Android follow these
+          instructions. For Touch the overflow button (three vertical dots) and
+          select 'Add to Home Screen'.
+        </p>
         <h2>The GR10 trail</h2>
         <p>
           The GR10 is a hiking trail in the South of France that traverses the
@@ -45,7 +47,7 @@ class About extends Component {
           </a>
         </p>
         <p>
-          THe inspiration for the app/website came from the Halfmile app I used
+          The inspiration for the app/website came from the Halfmile app I used
           when I hiked the Pacific Crest Trail.{' '}
           <a href="https://www.pctmap.net/" title="Halfmile PCT maps">
             Halfmile's PCT Maps
@@ -65,7 +67,9 @@ class About extends Component {
         </p>
 
         <h2>About me</h2>
-        <p>When I overcome my shyness, I'll write something about me here.</p>
+        <p>
+          When I overcome my shyness, I'll write something about myslef here.
+        </p>
         <h2>Technical information</h2>
         <p>
           One of the goals of this website was for me to become more familiar
