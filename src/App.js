@@ -11,12 +11,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">GR10 trail tracker</h1>
-        </header>
         <Router>
           <React.Fragment>
-            <Route exact path="/" component={PathTracker} />
+            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+                    <Route exact path="/trail-tracker" component={PathTracker} />
+                    <Route exact path="/trail-tracker-test" component={() => (<PathTracker testMode="true" />)} />
             <Route exact path="/path-encoder" component={PathEncoder} />
             <Route
               exact
@@ -24,7 +24,6 @@ class App extends Component {
               component={PointOfInterestEncoder}
             />
             <Route exact path="/cache-viewer" component={CacheViewer} />
-            <Route exact path="/about" component={About} />
           </React.Fragment>
         </Router>
       </div>

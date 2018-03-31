@@ -8,14 +8,33 @@ class About extends Component {
 
     return (
       <div className="App-content">
-        <h1>About</h1>
+        <h1 style={{ textAlign: 'center' }}>About GR10 trail tracker</h1>
         <h2>Introduction</h2>
         <p>
           The aim of the website is to help hikers on the GR10 determine where
           they are on the path. When the current position has been located the
           distances to point of interests (mountain saddles, summits, towns,
-          water, bridges etc) can then be calculated.
+          water, bridges etc.) can then be calculated.
         </p>
+            <p><Link to="/trail-tracker" title="GR10 Trail Tracker">
+                GR10 Trail Tracker
+          </Link></p>
+
+        <h2>Installation </h2>
+        <p>
+          You can use the{' '}
+          <Link to="/trail-tracker" title="GR10 Trail Tracker">
+            GR10 Trail Tracker
+          </Link>{' '}
+          as you would with an other website but I recommend that you add it to
+          your homescreen which it will enable it to work off-line.{' '}
+            </p>
+            <p>
+                To install the website as an app follow these instructions. For
+          Android, touch the overflow button (three vertical dots) and select
+          Add to Home Screen.{' '}
+            </p>
+        <h2>The GR10 trail</h2>
         <p>
           The GR10 is a hiking trail in the South of France that traverses the
           the Pyrenees from West to East. The trail covers a distances of 866
@@ -46,7 +65,7 @@ class About extends Component {
         </p>
 
         <h2>About me</h2>
-
+        <p>When I overcome my shyness, I'll write something about me here.</p>
         <h2>Technical information</h2>
         <p>
           One of the goals of this website was for me to become more familiar

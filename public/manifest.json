@@ -1,5 +1,5 @@
 {
-  "short_name": "GR10 - Path tracker",
+  "short_name": "GR10 - Trail tracker",
   "name": "Path tracker for the GR10",
   "icons": [
     {
@@ -13,7 +13,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/trail-tracker",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
