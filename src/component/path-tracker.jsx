@@ -56,7 +56,7 @@ class PathTracker extends Component {
   }
 
   loadPoints() {
-    const url = '/data/gr10-points-elevation.json';
+    const url = this.props.pointsUrl;
 
     if ('serviceWorker' in navigator) {
       caches.open('data').then(cache => {
@@ -91,7 +91,7 @@ class PathTracker extends Component {
   }
 
   loadPointsOfInterest() {
-    const url = '/data/gr10-points-of-interest.json';
+    const url = this.props.poisUrl;
 
     if ('serviceWorker' in navigator) {
       caches.open('data').then(cache => {

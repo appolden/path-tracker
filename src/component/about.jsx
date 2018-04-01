@@ -62,13 +62,15 @@ class About extends Component {
           for providing the information about camping sites. The gpx data that I
           used for the trail coordinates was donwloaded from{' '}
           <a href="http://www.gr-infos.com/" title="gpx source">
-            www.gr-infos.com/
+            . I have made admendments to the this gpx to follow the variant
+            options that are more appealing to me. I plan to add variants, to
+            the list of points. www.gr-infos.com/
           </a>.
         </p>
 
         <h2>About me</h2>
         <p>
-          When I overcome my shyness, I'll write something about myslef here.
+          When I overcome my shyness, I'll write something about myself here.
         </p>
         <h2>Technical information</h2>
         <p>
@@ -86,6 +88,12 @@ class About extends Component {
           To refresh the cached data goto the{' '}
           <Link to="/cache-viewer" title="cache viewer">
             cache viewer
+          </Link>
+        </p>
+        <p>
+          For testing this is a walk to the pub.{' '}
+          <Link to="/trail-tracker-chorlton" title="trail tracker chorlton">
+            Home to Chorlton
           </Link>
         </p>
       </div>

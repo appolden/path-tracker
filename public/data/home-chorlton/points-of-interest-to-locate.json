@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Home",
+    "point": {
+      "lat": 53.45250,
+      "lng": -2.302645
+    }
+  },
+  {
+    "name": "Bridge",
+    "point": {
+      "lat": 53.449650,
+      "lng": -2.297805
+    }
+  },
+  {
+    "name": "Caffeine & Co Longford Park",
+    "point": {
+      "lat": 53.447293,
+      "lng": -2.292590
+    }
+  },
+  {
+    "name": "Nicolas Road",
+    "point": {
+      "lat": 53.445309,
+      "lng": -2.288640
+    }
+  },
+  {
+    "name": "Barlow Moor Road",
+    "point": {
+      "lat": 53.443839,
+      "lng": -2.278258
+    }
+  },
+  {
+    "name": "Four banks",
+    "point": {
+      "lat": 53.442490,
+      "lng": -2.277214
+    }
+  }
+]
+
