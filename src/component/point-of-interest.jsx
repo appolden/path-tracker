@@ -1,5 +1,7 @@
 ﻿import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import ArrowUp from '../icons/arrow-top.svg';
+import ArrowBottom from '../icons/arrow-bottom.svg';
 
 class PointOfInterest extends Component {
   render() {
@@ -31,13 +33,15 @@ class PointOfInterest extends Component {
             Math.abs(this.props.pathMetre - this.props.nearestMetreOfPath) *
             0.001
           ).toFixed(2)}{' '}
-          kms, {ascent}m ascent, {descent}m descent
+          kms, <img src={ArrowUp} alt="Up" height="12px" />
+          {ascent}m, <img src={ArrowBottom} alt="Up" height="12px" />
+          {descent}m
         </div>
         <div>
           Km {(this.props.nearestMetreOfPath * 0.001).toFixed(2)},{' '}
           {this.props.name}
         </div>
-        <div>Altitude: {this.props.elevationAtNearestMetreOfPath} metres</div>
+        <div>Altitude: {this.props.elevationAtNearestMetreOfPath} m</div>
       </div>
     );
   }

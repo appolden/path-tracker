@@ -184,6 +184,7 @@ class PathTracker extends Component {
         x.nearestMetreOfPath <= this.state.nearestMetreOfPath &&
         nextPointOfInterest.nearestMetreOfPath >= this.state.nearestMetreOfPath
       ) {
+        rows.push(pointOfInterest);
         rows.push(pointCurrent);
       } else {
         rows.push(pointOfInterest);
