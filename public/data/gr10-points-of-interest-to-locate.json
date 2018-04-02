@@ -1,5 +1,12 @@
 ﻿[
   {
+    "name": "Hendaye",
+    "point": {
+      "lat": 43.373232,
+      "lng": -1.774120
+    }
+  },
+  {
     "name": "Col des Poiriers",
     "point": {
       "lat": 43.31715,
@@ -320,12 +327,115 @@
     "point": {
       "lat": 42.933568,
       "lng": -0.637499
-    },
-    "nearestMetreOfPath": 198153,
-    "elevation": 892,
-    "cumulativeAscent": 12284,
-    "cumulativeDescent": 11397
+    }
   },
+  {
+    "name": "Camping du Lauzart",
+    "point": {
+      "lat": 42.927873,
+      "lng": -0.641992
+    }
+  },
+  {
+    "name": "Départ gr10 pour Gite et camping Accous, Lhers-Lescun",
+    "point": {
+      "lat": 42.914462,
+      "lng": -0.615819
+    }
+  },
+  {
+    "name": "Col de barrancq",
+    "point": {
+      "lat": 42.904451,
+      "lng": -0.603561
+    }
+  },
+  {
+    "name": "Cabane ruinée d’Udapet-le-Haut (Bivouac)",
+    "point": {
+      "lat": 42.901378,
+      "lng": -0.590993
+    }
+  },
+  {
+    "name": "Borce",
+    "point": {
+      "lat": 42.908321,
+      "lng": -0.572445
+    }
+  },
+  {
+    "name": "Chemin de la Mâture",
+    "point": {
+      "lat": 42.892557,
+      "lng": -0.561931
+    }
+  },
+  {
+    "name": "Cabane de la Baigt de Saint-Cours",
+    "point": {
+      "lat": 42.878276,
+      "lng": -0.507528
+    }
+  },
+  {
+    "name": "Col d'Ayous",
+    "point": {
+      "lat": 42.851873,
+      "lng": -0.497142
+    }
+  },
+  {
+    "name": "Lac Gentau",
+    "point": {
+      "lat": 42.927873,
+      "lng": -0.641992
+    }
+  },
+  {
+    "name": "Lac de Bious Artigues",
+    "point": {
+      "lat": 42.865137,
+      "lng": -0.450418
+    }
+  },
+  {
+    "name": "Gabas",
+    "point": {
+      "lat": 42.886890,
+      "lng": -0.426396
+    }
+  },
+
+  {
+    "name": "Cabane de Cézy (Bivouac)",
+    "point": {
+      "lat": 42.911319,
+      "lng": -0.392847
+    }
+  },
+  {
+    "name": "Hourquete d'Arre",
+    "point": {
+      "lat": 42.920559,
+      "lng": -0.330094
+    }
+  },
+  {
+    "name": "Lac d'Anglas",
+    "point": {
+      "lat": 42.931998,
+      "lng": -0.323845
+    }
+  },
+  {
+    "name": "Gourette",
+    "point": {
+      "lat": 42.956607,
+      "lng": -0.328833
+    }
+  },
+
   {
     "name": "Col de L'Estaca",
     "point": {

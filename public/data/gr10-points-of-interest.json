@@ -1,5 +1,12 @@
 ﻿[
   {
+    "name": "Hendaye",
+    "nearestMetreOfPath": 0,
+    "elevation": 5,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 0
+  },
+  {
     "name": "Col des Poiriers",
     "nearestMetreOfPath": 11628,
     "elevation": 317,
@@ -196,6 +203,20 @@
     "cumulativeDescent": 8251
   },
   {
+    "name": "Une jonction",
+    "nearestMetreOfPath": 150951,
+    "elevation": 407,
+    "cumulativeAscent": 8668,
+    "cumulativeDescent": 8266
+  },
+  {
+    "name": "Pont suspendu sur les Gorges d'Olhadubi",
+    "nearestMetreOfPath": 152846,
+    "elevation": 590,
+    "cumulativeAscent": 8908,
+    "cumulativeDescent": 8323
+  },
+  {
     "name": "Col d'Anhaou",
     "nearestMetreOfPath": 164337,
     "elevation": 1384,
@@ -278,6 +299,111 @@
     "elevation": 892,
     "cumulativeAscent": 12591,
     "cumulativeDescent": 11704
+  },
+  {
+    "name": "Camping du Lauzart",
+    "nearestMetreOfPath": 202826,
+    "elevation": 858,
+    "cumulativeAscent": 12637,
+    "cumulativeDescent": 11784
+  },
+  {
+    "name": "Lac Gentau",
+    "nearestMetreOfPath": 202826,
+    "elevation": 858,
+    "cumulativeAscent": 12637,
+    "cumulativeDescent": 11784
+  },
+  {
+    "name": "Départ gr10 pour Gite et camping Accous, Lhers-Lescun",
+    "nearestMetreOfPath": 207808,
+    "elevation": 1024,
+    "cumulativeAscent": 12960,
+    "cumulativeDescent": 11941
+  },
+  {
+    "name": "Col de barrancq",
+    "nearestMetreOfPath": 210968,
+    "elevation": 1576,
+    "cumulativeAscent": 13540,
+    "cumulativeDescent": 11969
+  },
+  {
+    "name": "Cabane ruinée d’Udapet-le-Haut (Bivouac)",
+    "nearestMetreOfPath": 212313,
+    "elevation": 1377,
+    "cumulativeAscent": 13546,
+    "cumulativeDescent": 12174
+  },
+  {
+    "name": "Borce",
+    "nearestMetreOfPath": 216138,
+    "elevation": 643,
+    "cumulativeAscent": 13603,
+    "cumulativeDescent": 12965
+  },
+  {
+    "name": "Chemin de la Mâture",
+    "nearestMetreOfPath": 219461,
+    "elevation": 749,
+    "cumulativeAscent": 13834,
+    "cumulativeDescent": 13090
+  },
+  {
+    "name": "Cabane de la Baigt de Saint-Cours",
+    "nearestMetreOfPath": 225810,
+    "elevation": 1566,
+    "cumulativeAscent": 14859,
+    "cumulativeDescent": 13298
+  },
+  {
+    "name": "Col d'Ayous",
+    "nearestMetreOfPath": 229918,
+    "elevation": 2185,
+    "cumulativeAscent": 15510,
+    "cumulativeDescent": 13330
+  },
+  {
+    "name": "Lac de Bious Artigues",
+    "nearestMetreOfPath": 235725,
+    "elevation": 1422,
+    "cumulativeAscent": 15573,
+    "cumulativeDescent": 14156
+  },
+  {
+    "name": "Gabas",
+    "nearestMetreOfPath": 239308,
+    "elevation": 1036,
+    "cumulativeAscent": 15602,
+    "cumulativeDescent": 14571
+  },
+  {
+    "name": "Cabane de Cézy (Bivouac)",
+    "nearestMetreOfPath": 247557,
+    "elevation": 1611,
+    "cumulativeAscent": 16525,
+    "cumulativeDescent": 14919
+  },
+  {
+    "name": "Hourquete d'Arre",
+    "nearestMetreOfPath": 254176,
+    "elevation": 2458,
+    "cumulativeAscent": 17589,
+    "cumulativeDescent": 15136
+  },
+  {
+    "name": "Lac d'Anglas",
+    "nearestMetreOfPath": 256508,
+    "elevation": 2050,
+    "cumulativeAscent": 17639,
+    "cumulativeDescent": 15594
+  },
+  {
+    "name": "Gourette",
+    "nearestMetreOfPath": 260001,
+    "elevation": 1379,
+    "cumulativeAscent": 17648,
+    "cumulativeDescent": 16274
   },
   {
     "name": "Col de L'Estaca",
