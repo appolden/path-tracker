@@ -14,7 +14,8 @@ class PathTracker extends Component {
     this.state = {
       pointsOfInterest: [],
       nearestMetreOfPath: 0,
-      elevationAtNearestMetreOfPath: 0
+        elevationAtNearestMetreOfPath: 0,
+      distanceFromPath: 0
     };
     this.pointsWithDistance = [];
     this.pois = [];
@@ -119,10 +120,13 @@ class PathTracker extends Component {
   findNearestPointToLocationAndUpdate(lat, lng) {
     const currentLocation = { lat: lat, lng: lng };
 
-    const nearestPointToCurrentLocation = MapHelper.findNearestPoint(
+      const findNearestPointResult = MapHelper.findNearestPoint(
       this.pointsWithDistance,
       currentLocation
     );
+
+      const nearestPointToCurrentLocation = findNearestPointResult.routePoint;
+      const distanceFromPath = MapHelper.computeDistanceBetween(currentLocation, findNearestPointResult.latLng);
 
     this.setState({
       nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
@@ -130,7 +134,8 @@ class PathTracker extends Component {
       cumulativeAscentAtNearestMetreOfPath:
         nearestPointToCurrentLocation.cumulativeAscent,
       cumulativeDescentAtNearestMetreOfPath:
-        nearestPointToCurrentLocation.cumulativeDescent
+            nearestPointToCurrentLocation.cumulativeDescent,
+        distanceFromPath: distanceFromPath
     });
   }
 
@@ -143,12 +148,13 @@ class PathTracker extends Component {
     const rows = [];
     const pointCurrent = (
       <PointCurrent
-        key="CurrentPoint"
-        ref={section => {
-          this.pointCurrent = section;
-        }}
-        pathMetre={this.state.nearestMetreOfPath}
-        pathElevation={this.state.elevationAtNearestMetreOfPath}
+            key="CurrentPoint"
+            ref={section => {
+                this.pointCurrent = section;
+            }}
+            pathMetre={this.state.nearestMetreOfPath}
+            pathElevation={this.state.elevationAtNearestMetreOfPath}
+            distanceFromPath={this.state.distanceFromPath}
       />
     );
 
