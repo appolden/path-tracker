@@ -7,6 +7,11 @@ class PointOfInterestEncoder extends Component {
 
     this.pathPoints = [];
     this.pois = [];
+    this.pathPointsUrl = '/data/gr10-points-elevation.json';
+    this.poisToLocateUrl = '/data/gr10-points-of-interest-to-locate.json';
+
+    //this.pathPointsUrl = '/data/home-chorlton/points.json';
+    //this.poisToLocateUrl =      '/data/home-chorlton/points-of-interest-to-locate.json';
   }
 
   componentDidMount() {
@@ -15,7 +20,7 @@ class PointOfInterestEncoder extends Component {
   }
 
   loadPathPoints() {
-    fetch('/data/gr10-points-elevation.json')
+    fetch(this.pathPointsUrl)
       .then(response => response.json())
       .then(data => {
         this.pathPoints = data;
@@ -24,7 +29,7 @@ class PointOfInterestEncoder extends Component {
   }
 
   loadPointsOfInterest() {
-    fetch('/data/gr10-points-of-interest-to-locate.json')
+    fetch(this.poisToLocateUrl)
       .then(response => response.json())
       .then(data => {
         this.pois = data;
@@ -41,7 +46,7 @@ class PointOfInterestEncoder extends Component {
       const nearestPoint = MapHelper.findNearestPoint(this.pathPoints, {
         lat: poi.point.lat,
         lng: poi.point.lng
-      });
+      }).routePoint;
       poi.nearestMetreOfPath = nearestPoint.metreOfPath;
       poi.elevation = nearestPoint.elevation;
       poi.cumulativeAscent = nearestPoint.cumulativeAscent;

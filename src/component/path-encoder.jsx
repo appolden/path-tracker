@@ -1,6 +1,7 @@
 ﻿import React, { Component } from 'react';
 import { GoogleApiWrapper } from 'google-maps-react';
 import MapHelper from '../maps/map-helper.js';
+import GoogleMapHelper from '../maps/google-map-helper.js';
 
 class PathEncoder extends Component {
   constructor(props) {
@@ -14,6 +15,9 @@ class PathEncoder extends Component {
     };
     this.pointsWithDistance = [];
     this.currentLocation = undefined;
+
+    this.routeUrl = '/data/gr10-route.json'; // this contains the encodeed polyline
+    //this.routeUrl = '/data/home-chorlton/route.json';
   }
 
   componentDidUpdate(prevProps, prevStat) {
@@ -24,19 +28,19 @@ class PathEncoder extends Component {
 
   loadPolyline() {
     if (this.props && this.props.google) {
-      fetch('/data/gr10-route.json')
+      fetch(this.routeUrl)
         .then(response => response.json())
         .then(data => {
           const pathPoints = this.props.google.maps.geometry.encoding.decodePath(
             data.polyline
           );
 
-          this.pointsWithDistance = MapHelper.addCumulativeDistance(
+            this.pointsWithDistance = GoogleMapHelper.addCumulativeDistance(
             this.props.google,
             pathPoints
           );
 
-          MapHelper.addElevation(
+            GoogleMapHelper.addElevation(
             this.props.google,
             pathPoints,
             this.onElevationComplete()
@@ -47,7 +51,7 @@ class PathEncoder extends Component {
 
   onElevationComplete(pathPoints) {
     return e => {
-      MapHelper.addCumulativeAscentAndDescent(e);
+        GoogleMapHelper.addCumulativeAscentAndDescent(e);
 
       //extract what we need
       this.pointsWithDistance = e.map(point => {

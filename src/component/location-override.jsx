@@ -23,15 +23,19 @@ class LocationOverride extends Component {
       { lat: 42.631938, lng: 1.777725 },
       { lat: 42.470577, lng: 2.331848 },
       { lat: 42.470577, lng: 2.331848 },
-      { lat: 2.470577, lng: 2.331848 },
       { lat: 42.474629, lng: 3.12252 }
     ];
 
-    this.state = {
-      lat: 42.865442,
-      lng: -0.879819
-    };
+    //this.state = {
+    //  lat: 42.865442,
+    //  lng: -0.879819
+    //};
 
+    this.state = {
+      lat: 53.451505,
+      lng: -2.300114
+    };
+    //,
     this.handleLatChange = this.handleLatChange.bind(this);
     this.handleLngChange = this.handleLngChange.bind(this);
     this.handleClick = this.handleClick.bind(this);
@@ -60,7 +64,7 @@ class LocationOverride extends Component {
     this.setState({ lat: randomTestLocation.lat, lng: randomTestLocation.lng });
 
     if (this.props.onLocationChanged !== undefined) {
-      this.props.onLocationChanged(this.state.lat, this.state.lng);
+        this.props.onLocationChanged(randomTestLocation.lat, randomTestLocation.lng);
     }
   }
 
