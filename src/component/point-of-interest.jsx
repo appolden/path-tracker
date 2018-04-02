@@ -26,7 +26,7 @@ class PointOfInterest extends Component {
     }
 
     return (
-      <div key={this.props.name} className="pointOfInterest">
+        <div key={this.props.nearestMetreOfPath} className="pointOfInterest">
         <div>
           {this.props.pathMetre > this.props.nearestMetreOfPath ? 'W' : 'E'}{' '}
           {(

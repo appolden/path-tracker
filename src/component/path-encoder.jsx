@@ -1,6 +1,5 @@
 ﻿import React, { Component } from 'react';
 import { GoogleApiWrapper } from 'google-maps-react';
-import MapHelper from '../maps/map-helper.js';
 import GoogleMapHelper from '../maps/google-map-helper.js';
 
 class PathEncoder extends Component {
@@ -35,12 +34,12 @@ class PathEncoder extends Component {
             data.polyline
           );
 
-            this.pointsWithDistance = GoogleMapHelper.addCumulativeDistance(
+          this.pointsWithDistance = GoogleMapHelper.addCumulativeDistance(
             this.props.google,
             pathPoints
           );
 
-            GoogleMapHelper.addElevation(
+          GoogleMapHelper.addElevation(
             this.props.google,
             pathPoints,
             this.onElevationComplete()
@@ -51,7 +50,7 @@ class PathEncoder extends Component {
 
   onElevationComplete(pathPoints) {
     return e => {
-        GoogleMapHelper.addCumulativeAscentAndDescent(e);
+      GoogleMapHelper.addCumulativeAscentAndDescent(e);
 
       //extract what we need
       this.pointsWithDistance = e.map(point => {

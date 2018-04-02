@@ -21,6 +21,13 @@ class Location extends Component {
         buttonText: 'locating',
         getCurrentPositionInProgress: true
       });
+
+      var geoLocateOptions = {
+        enableHighAccuracy: true,
+        timeout: 25000,
+        maximumAge: 5000
+      };
+
       navigator.geolocation.getCurrentPosition(
         position => {
           this.setState({
@@ -42,7 +49,7 @@ class Location extends Component {
             getCurrentPositionInProgress: false
           });
         },
-        { timeout: 15000 }
+        geoLocateOptions
       );
     } else {
       this.setState({

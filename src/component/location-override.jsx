@@ -64,7 +64,10 @@ class LocationOverride extends Component {
     this.setState({ lat: randomTestLocation.lat, lng: randomTestLocation.lng });
 
     if (this.props.onLocationChanged !== undefined) {
-        this.props.onLocationChanged(randomTestLocation.lat, randomTestLocation.lng);
+      this.props.onLocationChanged(
+        randomTestLocation.lat,
+        randomTestLocation.lng
+      );
     }
   }
 

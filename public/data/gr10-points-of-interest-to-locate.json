@@ -330,13 +330,6 @@
     }
   },
   {
-    "name": "Camping du Lauzart",
-    "point": {
-      "lat": 42.927873,
-      "lng": -0.641992
-    }
-  },
-  {
     "name": "Départ gr10 pour Gite et camping Accous, Lhers-Lescun",
     "point": {
       "lat": 42.914462,
@@ -435,6 +428,210 @@
       "lng": -0.328833
     }
   },
+  {
+    "name": "Col de Tortes",
+    "point": {
+      "lat": 42.959497,
+      "lng": -0.318834
+    }
+  },
+  {
+    "name": "Rue D918",
+    "point": {
+      "lat": 42.964251,
+      "lng": -0.303090
+    }
+  },
+  {
+    "name": "Sortie rud D918",
+    "point": {
+      "lat": 42.955737,
+      "lng": -0.276801
+    }
+  },
+  {
+    "name": "Col de Saucède",
+    "point": {
+      "lat": 42.954711,
+      "lng": -0.270866
+    }
+  },
+  {
+    "name": "Route des Borders (pour Arrens-Marsous)",
+    "point": {
+      "lat": 42.950101,
+      "lng": -0.216122
+    }
+  },
+  {
+    "name": "Tour du Val d'Azun (alternate)",
+    "point": {
+      "lat": 42.950353,
+      "lng": -0.211691
+    }
+  },
+  {
+    "name": "Col des Bordères",
+    "point": {
+      "lat": 42.951633,
+      "lng": -0.196359
+    }
+  },
+  {
+    "name": "Estaing",
+    "point": {
+      "lat": 42.943504,
+      "lng": -0.176468
+    }
+  },
+  {
+    "name": "Tour du Val d'Azun (alternate)",
+    "point": {
+      "lat": 42.926960,
+      "lng": -0.182514
+    }
+  },
+  {
+    "name": "Camping Municipal lac d'Estaing (Follow the road)",
+    "point": {
+      "lat": 42.906180,
+      "lng": -0.205422
+    }
+  },
+  {
+    "name": "Col d'Ilhéou",
+    "point": {
+      "lat": 42.877757,
+      "lng": -0.185544
+    }
+  },
+  {
+    "name": "Path for Refuge d'Ilhéou",
+    "point": {
+      "lat": 42.875622,
+      "lng": -0.172863
+    }
+  },
+  {
+    "name": "Refuge d'Ilhéou",
+    "point": {
+      "lat": 42.866267,
+      "lng": -0.173724
+    }
+  },
+  {
+    "name": "Path for Refuge d'Ilhéou",
+    "point": {
+      "lat": 42.869116,
+      "lng": -0.168995
+    }
+  },
+  {
+    "name": "Rue (Route de Cambasque)",
+    "point": {
+      "lat": 42.887722,
+      "lng": -0.126101
+    }
+  },
+  {
+    "name": "Office de Tourisme de Cauterets",
+    "point": {
+      "lat": 42.888507,
+      "lng": -0.114042
+    }
+  },
+  {
+    "name": "La Raillère",
+    "point": {
+      "lat": 42.872111,
+      "lng": -0.109171
+    }
+  },
+  {
+    "name": "Cascade de Bousses",
+    "point": {
+      "lat": 42.855090,
+      "lng": -0.131831
+    }
+  },
+  {
+    "name": "Pont d´Espagne",
+    "point": {
+      "lat": 42.850939,
+      "lng": -0.139821
+    }
+  },
+  {
+    "name": "Lac De Gaube",
+    "point": {
+      "lat": 42.831832,
+      "lng": -0.139647
+    }
+  },
+  {
+    "name": "Cabane du Pinet",
+    "point": {
+      "lat": 42.823679,
+      "lng": -0.138316
+    }
+  },
+  {
+    "name": " Refuge des Oulettes de Gaube",
+    "point": {
+      "lat": 42.792897,
+      "lng": -0.141406
+    }
+  },
+  {
+    "name": " La Villa Meillon",
+    "point": {
+      "lat": 42.788157,
+      "lng": -0.137769
+    }
+  },
+  {
+    "name": "Hourquette d'Ossoue",
+    "point": {
+      "lat": 42.779693,
+      "lng": -0.131965
+    }
+  },
+  {
+    "name": " Refuge de Bayssellance ",
+    "point": {
+      "lat": 42.779315,
+      "lng": -0.124127
+    }
+  },
+  {
+    "name": "Cabane d'Ossoue ",
+    "point": {
+      "lat": 42.757140,
+      "lng": -0.094065
+    }
+  },
+  {
+    "name": "Cabane de Lourdes",
+    "point": {
+      "lat": 42.745622,
+      "lng": -0.091624
+    }
+  },
+  {
+    "name": " Cabane de Sausse Dessus",
+    "point": {
+      "lat": 42.737602,
+      "lng": -0.071256
+    }
+  },
+  {
+    "name": "Chalet la Grange de Holle",
+    "point": {
+      "lat": 42.739290,
+      "lng": -0.022493
+    }
+  },
+
 
   {
     "name": "Col de L'Estaca",

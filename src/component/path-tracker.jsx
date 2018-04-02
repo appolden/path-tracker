@@ -14,7 +14,7 @@ class PathTracker extends Component {
     this.state = {
       pointsOfInterest: [],
       nearestMetreOfPath: 0,
-        elevationAtNearestMetreOfPath: 0,
+      elevationAtNearestMetreOfPath: 0,
       distanceFromPath: 0
     };
     this.pointsWithDistance = [];
@@ -120,13 +120,16 @@ class PathTracker extends Component {
   findNearestPointToLocationAndUpdate(lat, lng) {
     const currentLocation = { lat: lat, lng: lng };
 
-      const findNearestPointResult = MapHelper.findNearestPoint(
+    const findNearestPointResult = MapHelper.findNearestPoint(
       this.pointsWithDistance,
       currentLocation
     );
 
-      const nearestPointToCurrentLocation = findNearestPointResult.routePoint;
-      const distanceFromPath = MapHelper.computeDistanceBetween(currentLocation, findNearestPointResult.latLng);
+    const nearestPointToCurrentLocation = findNearestPointResult.routePoint;
+    const distanceFromPath = MapHelper.computeDistanceBetween(
+      currentLocation,
+      findNearestPointResult.latLng
+    );
 
     this.setState({
       nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
@@ -134,8 +137,8 @@ class PathTracker extends Component {
       cumulativeAscentAtNearestMetreOfPath:
         nearestPointToCurrentLocation.cumulativeAscent,
       cumulativeDescentAtNearestMetreOfPath:
-            nearestPointToCurrentLocation.cumulativeDescent,
-        distanceFromPath: distanceFromPath
+        nearestPointToCurrentLocation.cumulativeDescent,
+      distanceFromPath: distanceFromPath
     });
   }
 
@@ -148,20 +151,20 @@ class PathTracker extends Component {
     const rows = [];
     const pointCurrent = (
       <PointCurrent
-            key="CurrentPoint"
-            ref={section => {
-                this.pointCurrent = section;
-            }}
-            pathMetre={this.state.nearestMetreOfPath}
-            pathElevation={this.state.elevationAtNearestMetreOfPath}
-            distanceFromPath={this.state.distanceFromPath}
+        key="CurrentPoint"
+        ref={section => {
+          this.pointCurrent = section;
+        }}
+        pathMetre={this.state.nearestMetreOfPath}
+        pathElevation={this.state.elevationAtNearestMetreOfPath}
+        distanceFromPath={this.state.distanceFromPath}
       />
     );
 
     this.state.pointsOfInterest.forEach((x, index) => {
       const pointOfInterest = (
         <PointOfInterest
-          key={x.name}
+              key={x.nearestMetreOfPath}
           name={x.name}
           nearestMetreOfPath={x.nearestMetreOfPath}
           elevationAtNearestMetreOfPath={x.elevation}

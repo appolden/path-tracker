@@ -1,6 +1,4 @@
 ﻿class MapHelper {
- 
-
   static findNearestPoint(pathPoints, latlng) {
     const nearest = {
       minDistance: 9999999999,
@@ -18,69 +16,65 @@
         nearest.routePoint = pathPoint;
         nearest.index = index;
         nearest.latLng = { lat: pathPoint.lat, lng: pathPoint.lng };
-        nearest.elevation = pathPoint.elevation;
+          nearest.elevation = pathPoint.elevation;
+          nearest.cumulativeAscent = pathPoint.cumulativeAscent;
+          nearest.cumulativeDescent = pathPoint.cumulativeDescent;
       }
+    });
+
+    let metreOfPath = 0;
+    let interpolatedPoints = [];
+
+    if (nearest.index > 0) {
+      //Not first point. Therefore, there is a previous point
+      //Create points between closest known path point and previous point
+      const previousPointInPath = pathPoints[nearest.index - 1];
+      const previousPointInPathLatLng = {
+        lat: previousPointInPath.lat,
+        lng: previousPointInPath.lng
+      };
+
+      metreOfPath = previousPointInPath.metreOfPath;
+
+      interpolatedPoints = interpolatedPoints.concat(
+        this.interpolateBetweenPoints(previousPointInPathLatLng, nearest.latLng)
+      );
     }
-    );
 
-      let metreOfPath = 0;
-      let interpolatedPoints = [];
+    if (nearest.index < pathPoints.length - 1) {
+      //not last point. Therefore, there is a next point
+      //Create points between closest known path point and next point
+      const nextPointInPath = pathPoints[nearest.index + 1];
+      const nextPointInPathLatLng = {
+        lat: nextPointInPath.lat,
+        lng: nextPointInPath.lng
+      };
+      interpolatedPoints = interpolatedPoints.concat(
+        this.interpolateBetweenPoints(nearest.latLng, nextPointInPathLatLng)
+      );
+    }
 
-      if (nearest.index > 0) {
-          //Not first point. Therefore, there is a previous point
-          //Create points between closest known path point and previous point
-          const previousPointInPath = pathPoints[nearest.index - 1];
-          const previousPointInPathLatLng = {
-              lat: previousPointInPath.lat,
-              lng: previousPointInPath.lng
-          };
+    this.addCumulativeDistance(interpolatedPoints);
 
-          metreOfPath = previousPointInPath.metreOfPath;
+    interpolatedPoints.forEach(function(pathPoint, index) {
+      const dist = MapHelper.computeDistanceBetween(latlng, pathPoint);
+      if (dist < nearest.minDistance) {
+        nearest.minDistance = dist;
+        nearest.latLng = pathPoint;
 
-          interpolatedPoints = interpolatedPoints.concat(
-              this.interpolateBetweenPoints(previousPointInPathLatLng, nearest.latLng)
-          );
+        nearest.routePoint = {
+          lat: pathPoint.lat,
+          lng: pathPoint.lng,
+          metreOfPath: pathPoint.distance + metreOfPath,
+          elevation: nearest.elevation,
+            cumulativeAscent: nearest.cumulativeAscent,
+          cumulativeDescent: nearest.cumulativeDescent
+        };
       }
-
-      if (nearest.index < pathPoints.length-1) {
-          //not last point. Therefore, there is a next point
-          //Create points between closest known path point and next point
-          const nextPointInPath = pathPoints[nearest.index + 1];
-          const nextPointInPathLatLng = {
-              lat: nextPointInPath.lat,
-              lng: nextPointInPath.lng
-          };
-          interpolatedPoints = interpolatedPoints.concat(
-              this.interpolateBetweenPoints(nearest.latLng, nextPointInPathLatLng)
-          );
-      }
-
-      this.addCumulativeDistance(interpolatedPoints);
-
-      interpolatedPoints.forEach(function (pathPoint, index) {
-          const dist = MapHelper.computeDistanceBetween(latlng, pathPoint);
-          if (dist < nearest.minDistance) {
-              nearest.minDistance = dist;
-              nearest.latLng = pathPoint;
-
-              nearest.routePoint = {
-                  lat: pathPoint.lat,
-                  lng: pathPoint.lng,
-                  metreOfPath: pathPoint.distance + metreOfPath,
-                  elevation: nearest.elevation,
-                  cumulativeAscent: 0,
-                  cumulativeDescent: 0
-              };
-          }
-      });
+    });
 
     return nearest;
   }
-
-
-  
-
-
 
   //this version does not use google objects
   //pathPoint is {lat: ...., lng: ....}
@@ -177,10 +171,6 @@
     const numberOfPoints = distanceBetweenPoints / maximumDistanceBetweenPoints;
     const fraction = 1 / numberOfPoints;
     const result = [];
-
-    console.log(
-      `distanceBetweenPoints: ${distanceBetweenPoints}, numberOfPoints: ${numberOfPoints}, fraction: ${fraction} `
-    );
 
     result.push({ lat: pointA.lat, lng: pointA.lng });
 

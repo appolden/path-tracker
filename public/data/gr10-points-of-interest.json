@@ -22,7 +22,7 @@
   },
   {
     "name": "Bivouac des Trois Fontaines",
-    "nearestMetreOfPath": 25386,
+    "nearestMetreOfPath": 25415,
     "elevation": 546,
     "cumulativeAscent": 1540,
     "cumulativeDescent": 999
@@ -43,14 +43,14 @@
   },
   {
     "name": "Col de Zuharreteaco",
-    "nearestMetreOfPath": 51482,
+    "nearestMetreOfPath": 51455,
     "elevation": 557,
     "cumulativeAscent": 2584,
     "cumulativeDescent": 2032
   },
   {
     "name": "Col de Méhatché",
-    "nearestMetreOfPath": 56661,
+    "nearestMetreOfPath": 56657,
     "elevation": 713,
     "cumulativeAscent": 2921,
     "cumulativeDescent": 2213
@@ -64,14 +64,14 @@
   },
   {
     "name": "Pic d'Iparla",
-    "nearestMetreOfPath": 69445,
+    "nearestMetreOfPath": 69455,
     "elevation": 940,
     "cumulativeAscent": 3938,
     "cumulativeDescent": 3003
   },
   {
     "name": "Col de Buztanzelhay",
-    "nearestMetreOfPath": 74629,
+    "nearestMetreOfPath": 74639,
     "elevation": 849,
     "cumulativeAscent": 4252,
     "cumulativeDescent": 3408
@@ -85,42 +85,42 @@
   },
   {
     "name": "Col d'Aharza",
-    "nearestMetreOfPath": 86055,
+    "nearestMetreOfPath": 86015,
     "elevation": 724,
     "cumulativeAscent": 4916,
     "cumulativeDescent": 4197
   },
   {
     "name": "Munhoa",
-    "nearestMetreOfPath": 89957,
+    "nearestMetreOfPath": 89952,
     "elevation": 998,
     "cumulativeAscent": 5284,
     "cumulativeDescent": 4291
   },
   {
     "name": "Lasse",
-    "nearestMetreOfPath": 95963,
+    "nearestMetreOfPath": 96022,
     "elevation": 207,
     "cumulativeAscent": 5296,
     "cumulativeDescent": 5094
   },
   {
     "name": "Saint-Jean-Pied-de-Port",
-    "nearestMetreOfPath": 98407,
+    "nearestMetreOfPath": 98446,
     "elevation": 172,
     "cumulativeAscent": 5316,
     "cumulativeDescent": 5149
   },
   {
     "name": "Bridge ??",
-    "nearestMetreOfPath": 103202,
+    "nearestMetreOfPath": 103191,
     "elevation": 253,
     "cumulativeAscent": 5455,
     "cumulativeDescent": 5207
   },
   {
     "name": "Estérençuby",
-    "nearestMetreOfPath": 110218,
+    "nearestMetreOfPath": 110207,
     "elevation": 238,
     "cumulativeAscent": 5908,
     "cumulativeDescent": 5675
@@ -134,14 +134,14 @@
   },
   {
     "name": "Bridge",
-    "nearestMetreOfPath": 118622,
+    "nearestMetreOfPath": 118618,
     "elevation": 698,
     "cumulativeAscent": 6728,
     "cumulativeDescent": 6035
   },
   {
     "name": "Bivouac aux bordes d'inzarrazquy",
-    "nearestMetreOfPath": 119087,
+    "nearestMetreOfPath": 119032,
     "elevation": 677,
     "cumulativeAscent": 6736,
     "cumulativeDescent": 6064
@@ -155,21 +155,21 @@
   },
   {
     "name": "Bivouac des sommets d'Occabé",
-    "nearestMetreOfPath": 123542,
+    "nearestMetreOfPath": 123561,
     "elevation": 1370,
     "cumulativeAscent": 7451,
     "cumulativeDescent": 6086
   },
   {
     "name": "Chalet Pédro. (Bivouac)",
-    "nearestMetreOfPath": 127621,
+    "nearestMetreOfPath": 127619,
     "elevation": 1000,
     "cumulativeAscent": 7507,
     "cumulativeDescent": 6512
   },
   {
     "name": "Bivouac à proximité du Chalet Pédro",
-    "nearestMetreOfPath": 127806,
+    "nearestMetreOfPath": 127721,
     "elevation": 1022,
     "cumulativeAscent": 7529,
     "cumulativeDescent": 6512
@@ -190,7 +190,7 @@
   },
   {
     "name": "Col Bagargiak",
-    "nearestMetreOfPath": 134129,
+    "nearestMetreOfPath": 134106,
     "elevation": 1326,
     "cumulativeAscent": 7966,
     "cumulativeDescent": 6645
@@ -211,212 +211,408 @@
   },
   {
     "name": "Pont suspendu sur les Gorges d'Olhadubi",
-    "nearestMetreOfPath": 152846,
-    "elevation": 590,
-    "cumulativeAscent": 8908,
-    "cumulativeDescent": 8323
+    "nearestMetreOfPath": 152972,
+    "elevation": 584,
+    "cumulativeAscent": 8934,
+    "cumulativeDescent": 8355
   },
   {
     "name": "Col d'Anhaou",
-    "nearestMetreOfPath": 164337,
+    "nearestMetreOfPath": 164447,
     "elevation": 1384,
-    "cumulativeAscent": 10320,
-    "cumulativeDescent": 8941
+    "cumulativeAscent": 10380,
+    "cumulativeDescent": 9001
   },
   {
     "name": "Gorges de Kakuetta",
-    "nearestMetreOfPath": 172619,
+    "nearestMetreOfPath": 172756,
     "elevation": 550,
-    "cumulativeAscent": 10598,
-    "cumulativeDescent": 10053
+    "cumulativeAscent": 10658,
+    "cumulativeDescent": 10113
   },
   {
     "name": "Grotte de la Verna (Sainte-Engrace)",
-    "nearestMetreOfPath": 175002,
+    "nearestMetreOfPath": 175125,
     "elevation": 614,
-    "cumulativeAscent": 10787,
-    "cumulativeDescent": 10178
+    "cumulativeAscent": 10847,
+    "cumulativeDescent": 10238
   },
   {
     "name": "gites berretechia",
-    "nearestMetreOfPath": 175362,
+    "nearestMetreOfPath": 175524,
     "elevation": 632,
-    "cumulativeAscent": 10808,
-    "cumulativeDescent": 10181
+    "cumulativeAscent": 10868,
+    "cumulativeDescent": 10241
   },
   {
     "name": "Gite d'Etape Sainte Engrace Burguburu",
-    "nearestMetreOfPath": 175913,
+    "nearestMetreOfPath": 176040,
     "elevation": 626,
-    "cumulativeAscent": 10813,
-    "cumulativeDescent": 10192
-  },
-  {
-    "name": "Col de la Pierre-St-Martin",
-    "nearestMetreOfPath": 184785,
-    "elevation": 1774,
-    "cumulativeAscent": 12021,
+    "cumulativeAscent": 10873,
     "cumulativeDescent": 10252
   },
   {
+    "name": "Col de la Pierre-St-Martin",
+    "nearestMetreOfPath": 185017,
+    "elevation": 1774,
+    "cumulativeAscent": 12081,
+    "cumulativeDescent": 10312
+  },
+  {
     "name": "Refugee Jeandel",
-    "nearestMetreOfPath": 186989,
+    "nearestMetreOfPath": 187087,
     "elevation": 1631,
-    "cumulativeAscent": 12049,
-    "cumulativeDescent": 10423
+    "cumulativeAscent": 12109,
+    "cumulativeDescent": 10483
   },
   {
     "name": "Pas de l'Osque",
-    "nearestMetreOfPath": 192122,
+    "nearestMetreOfPath": 192209,
     "elevation": 1880,
-    "cumulativeAscent": 12426,
-    "cumulativeDescent": 10551
+    "cumulativeAscent": 12486,
+    "cumulativeDescent": 10611
   },
   {
     "name": "Cabane du Cap de la baitch (Bivouac)",
-    "nearestMetreOfPath": 193878,
+    "nearestMetreOfPath": 194021,
     "elevation": 1650,
-    "cumulativeAscent": 12486,
-    "cumulativeDescent": 10841
+    "cumulativeAscent": 12546,
+    "cumulativeDescent": 10901
   },
   {
     "name": "Cabane d'Ardinet (Bivouac)",
-    "nearestMetreOfPath": 194511,
+    "nearestMetreOfPath": 194673,
     "elevation": 1564,
-    "cumulativeAscent": 12487,
-    "cumulativeDescent": 10928
+    "cumulativeAscent": 12547,
+    "cumulativeDescent": 10988
   },
   {
     "name": "Refuge de L'Abérouat (Bivouac)",
-    "nearestMetreOfPath": 197259,
+    "nearestMetreOfPath": 197401,
     "elevation": 1432,
-    "cumulativeAscent": 12549,
-    "cumulativeDescent": 11122
+    "cumulativeAscent": 12609,
+    "cumulativeDescent": 11182
   },
   {
     "name": "Lescun",
-    "nearestMetreOfPath": 201689,
+    "nearestMetreOfPath": 201832,
     "elevation": 892,
-    "cumulativeAscent": 12591,
-    "cumulativeDescent": 11704
-  },
-  {
-    "name": "Camping du Lauzart",
-    "nearestMetreOfPath": 202826,
-    "elevation": 858,
-    "cumulativeAscent": 12637,
-    "cumulativeDescent": 11784
+    "cumulativeAscent": 12651,
+    "cumulativeDescent": 11764
   },
   {
     "name": "Lac Gentau",
-    "nearestMetreOfPath": 202826,
+    "nearestMetreOfPath": 202955,
     "elevation": 858,
-    "cumulativeAscent": 12637,
-    "cumulativeDescent": 11784
+    "cumulativeAscent": 12697,
+    "cumulativeDescent": 11844
   },
   {
     "name": "Départ gr10 pour Gite et camping Accous, Lhers-Lescun",
-    "nearestMetreOfPath": 207808,
+    "nearestMetreOfPath": 207960,
     "elevation": 1024,
-    "cumulativeAscent": 12960,
-    "cumulativeDescent": 11941
+    "cumulativeAscent": 13020,
+    "cumulativeDescent": 12001
   },
   {
     "name": "Col de barrancq",
-    "nearestMetreOfPath": 210968,
+    "nearestMetreOfPath": 211149,
     "elevation": 1576,
-    "cumulativeAscent": 13540,
-    "cumulativeDescent": 11969
+    "cumulativeAscent": 13600,
+    "cumulativeDescent": 12029
   },
   {
     "name": "Cabane ruinée d’Udapet-le-Haut (Bivouac)",
-    "nearestMetreOfPath": 212313,
+    "nearestMetreOfPath": 212445,
     "elevation": 1377,
-    "cumulativeAscent": 13546,
-    "cumulativeDescent": 12174
+    "cumulativeAscent": 13606,
+    "cumulativeDescent": 12234
   },
   {
     "name": "Borce",
-    "nearestMetreOfPath": 216138,
+    "nearestMetreOfPath": 216280,
     "elevation": 643,
-    "cumulativeAscent": 13603,
-    "cumulativeDescent": 12965
+    "cumulativeAscent": 13663,
+    "cumulativeDescent": 13025
   },
   {
     "name": "Chemin de la Mâture",
-    "nearestMetreOfPath": 219461,
+    "nearestMetreOfPath": 219230,
     "elevation": 749,
-    "cumulativeAscent": 13834,
-    "cumulativeDescent": 13090
+    "cumulativeAscent": 13854,
+    "cumulativeDescent": 13110
   },
   {
     "name": "Cabane de la Baigt de Saint-Cours",
-    "nearestMetreOfPath": 225810,
+    "nearestMetreOfPath": 225594,
     "elevation": 1566,
-    "cumulativeAscent": 14859,
-    "cumulativeDescent": 13298
+    "cumulativeAscent": 14879,
+    "cumulativeDescent": 13318
   },
   {
     "name": "Col d'Ayous",
-    "nearestMetreOfPath": 229918,
+    "nearestMetreOfPath": 229693,
     "elevation": 2185,
-    "cumulativeAscent": 15510,
-    "cumulativeDescent": 13330
+    "cumulativeAscent": 15530,
+    "cumulativeDescent": 13350
   },
   {
     "name": "Lac de Bious Artigues",
-    "nearestMetreOfPath": 235725,
+    "nearestMetreOfPath": 235487,
     "elevation": 1422,
-    "cumulativeAscent": 15573,
-    "cumulativeDescent": 14156
+    "cumulativeAscent": 15593,
+    "cumulativeDescent": 14176
   },
   {
     "name": "Gabas",
-    "nearestMetreOfPath": 239308,
+    "nearestMetreOfPath": 239076,
     "elevation": 1036,
-    "cumulativeAscent": 15602,
-    "cumulativeDescent": 14571
+    "cumulativeAscent": 15622,
+    "cumulativeDescent": 14591
   },
   {
     "name": "Cabane de Cézy (Bivouac)",
-    "nearestMetreOfPath": 247557,
+    "nearestMetreOfPath": 247341,
     "elevation": 1611,
-    "cumulativeAscent": 16525,
-    "cumulativeDescent": 14919
+    "cumulativeAscent": 16545,
+    "cumulativeDescent": 14939
   },
   {
     "name": "Hourquete d'Arre",
-    "nearestMetreOfPath": 254176,
+    "nearestMetreOfPath": 253940,
     "elevation": 2458,
-    "cumulativeAscent": 17589,
-    "cumulativeDescent": 15136
+    "cumulativeAscent": 17609,
+    "cumulativeDescent": 15156
   },
   {
     "name": "Lac d'Anglas",
-    "nearestMetreOfPath": 256508,
+    "nearestMetreOfPath": 256277,
     "elevation": 2050,
-    "cumulativeAscent": 17639,
-    "cumulativeDescent": 15594
+    "cumulativeAscent": 17659,
+    "cumulativeDescent": 15614
   },
   {
     "name": "Gourette",
-    "nearestMetreOfPath": 260001,
+    "nearestMetreOfPath": 259774,
     "elevation": 1379,
-    "cumulativeAscent": 17648,
-    "cumulativeDescent": 16274
+    "cumulativeAscent": 17668,
+    "cumulativeDescent": 16294
+  },
+  {
+    "name": "Col de Tortes",
+    "nearestMetreOfPath": 261663,
+    "elevation": 1758,
+    "cumulativeAscent": 18078,
+    "cumulativeDescent": 16325
+  },
+  {
+    "name": "Rue D918",
+    "nearestMetreOfPath": 263280,
+    "elevation": 1393,
+    "cumulativeAscent": 18119,
+    "cumulativeDescent": 16731
+  },
+  {
+    "name": "Sortie rud D918",
+    "nearestMetreOfPath": 266119,
+    "elevation": 1400,
+    "cumulativeAscent": 18276,
+    "cumulativeDescent": 16881
+  },
+  {
+    "name": "Col de Saucède",
+    "nearestMetreOfPath": 266634,
+    "elevation": 1525,
+    "cumulativeAscent": 18401,
+    "cumulativeDescent": 16881
+  },
+  {
+    "name": "Route des Borders (pour Arrens-Marsous)",
+    "nearestMetreOfPath": 271714,
+    "elevation": 890,
+    "cumulativeAscent": 18421,
+    "cumulativeDescent": 17536
+  },
+  {
+    "name": "Tour du Val d'Azun (alternate)",
+    "nearestMetreOfPath": 272141,
+    "elevation": 956,
+    "cumulativeAscent": 18487,
+    "cumulativeDescent": 17536
+  },
+  {
+    "name": "Col des Bordères",
+    "nearestMetreOfPath": 273736,
+    "elevation": 1159,
+    "cumulativeAscent": 18696,
+    "cumulativeDescent": 17542
+  },
+  {
+    "name": "Estaing",
+    "nearestMetreOfPath": 276267,
+    "elevation": 969,
+    "cumulativeAscent": 18720,
+    "cumulativeDescent": 17756
+  },
+  {
+    "name": "Tour du Val d'Azun (alternate)",
+    "nearestMetreOfPath": 278305,
+    "elevation": 1032,
+    "cumulativeAscent": 18790,
+    "cumulativeDescent": 17763
+  },
+  {
+    "name": "Camping Municipal lac d'Estaing (Follow the road)",
+    "nearestMetreOfPath": 281743,
+    "elevation": 1187,
+    "cumulativeAscent": 18981,
+    "cumulativeDescent": 17799
+  },
+  {
+    "name": "Col d'Ilhéou",
+    "nearestMetreOfPath": 286593,
+    "elevation": 2242,
+    "cumulativeAscent": 20088,
+    "cumulativeDescent": 17851
+  },
+  {
+    "name": "Path for Refuge d'Ilhéou",
+    "nearestMetreOfPath": 287849,
+    "elevation": 2057,
+    "cumulativeAscent": 20088,
+    "cumulativeDescent": 18036
+  },
+  {
+    "name": "Refuge d'Ilhéou",
+    "nearestMetreOfPath": 288973,
+    "elevation": 1882,
+    "cumulativeAscent": 20107,
+    "cumulativeDescent": 18230
+  },
+  {
+    "name": "Path for Refuge d'Ilhéou",
+    "nearestMetreOfPath": 289052,
+    "elevation": 1889,
+    "cumulativeAscent": 20114,
+    "cumulativeDescent": 18230
+  },
+  {
+    "name": "Rue (Route de Cambasque)",
+    "nearestMetreOfPath": 293844,
+    "elevation": 1235,
+    "cumulativeAscent": 20152,
+    "cumulativeDescent": 18922
+  },
+  {
+    "name": "Office de Tourisme de Cauterets",
+    "nearestMetreOfPath": 295931,
+    "elevation": 966,
+    "cumulativeAscent": 20184,
+    "cumulativeDescent": 19223
+  },
+  {
+    "name": "La Raillère",
+    "nearestMetreOfPath": 299390,
+    "elevation": 1066,
+    "cumulativeAscent": 20538,
+    "cumulativeDescent": 19477
+  },
+  {
+    "name": "Cascade de Bousses",
+    "nearestMetreOfPath": 302454,
+    "elevation": 1436,
+    "cumulativeAscent": 20940,
+    "cumulativeDescent": 19509
+  },
+  {
+    "name": "Pont d´Espagne",
+    "nearestMetreOfPath": 303326,
+    "elevation": 1488,
+    "cumulativeAscent": 21000,
+    "cumulativeDescent": 19517
+  },
+  {
+    "name": "Lac De Gaube",
+    "nearestMetreOfPath": 305876,
+    "elevation": 1728,
+    "cumulativeAscent": 21278,
+    "cumulativeDescent": 19555
+  },
+  {
+    "name": "Cabane du Pinet",
+    "nearestMetreOfPath": 306922,
+    "elevation": 1782,
+    "cumulativeAscent": 21336,
+    "cumulativeDescent": 19559
+  },
+  {
+    "name": " Refuge des Oulettes de Gaube",
+    "nearestMetreOfPath": 310988,
+    "elevation": 2149,
+    "cumulativeAscent": 21792,
+    "cumulativeDescent": 19648
+  },
+  {
+    "name": " La Villa Meillon",
+    "nearestMetreOfPath": 311712,
+    "elevation": 2301,
+    "cumulativeAscent": 21952,
+    "cumulativeDescent": 19656
+  },
+  {
+    "name": "Hourquette d'Ossoue",
+    "nearestMetreOfPath": 314294,
+    "elevation": 2741,
+    "cumulativeAscent": 22412,
+    "cumulativeDescent": 19676
+  },
+  {
+    "name": " Refuge de Bayssellance ",
+    "nearestMetreOfPath": 315148,
+    "elevation": 2637,
+    "cumulativeAscent": 22418,
+    "cumulativeDescent": 19786
+  },
+  {
+    "name": "Cabane d'Ossoue ",
+    "nearestMetreOfPath": 320354,
+    "elevation": 1838,
+    "cumulativeAscent": 22487,
+    "cumulativeDescent": 20654
+  },
+  {
+    "name": "Cabane de Lourdes",
+    "nearestMetreOfPath": 322106,
+    "elevation": 1953,
+    "cumulativeAscent": 22650,
+    "cumulativeDescent": 20702
+  },
+  {
+    "name": " Cabane de Sausse Dessus",
+    "nearestMetreOfPath": 324717,
+    "elevation": 1918,
+    "cumulativeAscent": 22776,
+    "cumulativeDescent": 20863
+  },
+  {
+    "name": "Chalet la Grange de Holle",
+    "nearestMetreOfPath": 329897,
+    "elevation": 1504,
+    "cumulativeAscent": 23016,
+    "cumulativeDescent": 21517
   },
   {
     "name": "Col de L'Estaca",
-    "nearestMetreOfPath": 881252,
+    "nearestMetreOfPath": 881011,
     "elevation": 1023,
-    "cumulativeAscent": 64932,
-    "cumulativeDescent": 63914
+    "cumulativeAscent": 64952,
+    "cumulativeDescent": 63934
   },
   {
     "name": "Col de Llagastera",
-    "nearestMetreOfPath": 893068,
+    "nearestMetreOfPath": 892822,
     "elevation": 255,
-    "cumulativeAscent": 65244,
-    "cumulativeDescent": 64994
+    "cumulativeAscent": 65264,
+    "cumulativeDescent": 65014
   }
 ]

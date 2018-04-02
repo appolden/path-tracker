@@ -44,7 +44,6 @@ class App extends Component {
                 <PathTracker
                   pointsUrl="/data/home-chorlton/points.json"
                   poisUrl="/data/home-chorlton/points-of-interest.json"
-                  testMode="true"
                 />
               )}
             />

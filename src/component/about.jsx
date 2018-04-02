@@ -62,10 +62,10 @@ class About extends Component {
           for providing the information about camping sites. The gpx data that I
           used for the trail coordinates was donwloaded from{' '}
           <a href="http://www.gr-infos.com/" title="gpx source">
-            . I have made admendments to the this gpx to follow the variant
+            www.gr-infos.com
+          </a>. I have made admendments to the gpx to follow the variant
             options that are more appealing to me. I plan to add variants, to
-            the list of points. www.gr-infos.com/
-          </a>.
+            the list of points.
         </p>
 
         <h2>About me</h2>
