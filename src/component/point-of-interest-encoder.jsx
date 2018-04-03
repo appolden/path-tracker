@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
 import MapHelper from '../maps/map-helper.js';
 
 class PointOfInterestEncoder extends Component {

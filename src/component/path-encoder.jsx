@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
 import { GoogleApiWrapper } from 'google-maps-react';
 import GoogleMapHelper from '../maps/google-map-helper.js';
 

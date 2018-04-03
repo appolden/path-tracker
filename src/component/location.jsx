@@ -25,7 +25,7 @@ class Location extends Component {
       var geoLocateOptions = {
         enableHighAccuracy: true,
         timeout: 25000,
-        maximumAge: 5000
+        maximumAge: 0
       };
 
       navigator.geolocation.getCurrentPosition(

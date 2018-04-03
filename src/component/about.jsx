@@ -1,58 +1,40 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+import AboutIntroductionParagraph from '../component/about-introduction-section.jsx';
+import AboutInstallationSection from '../component/about-installation-section.jsx';
+import AboutGr10Section from '../component/about-gr10-section.jsx';
 
 class About extends Component {
-  render() {
-    //const offset = 110;
-    //const style = { height: window.outerHeight - offset };
+  constructor(props) {
+    super(props);
 
+    this.language = this.props.match.params.language || 'en';
+
+    this.title = 'About GR10 trail tracker';
+    switch (this.language.toLowerCase()) {
+      case 'fr':
+        this.title = 'Informations sur le tracker GR10';
+        break;
+      case 'en':
+      default:
+        this.language = 'en';
+      //default to english
+    }
+  }
+
+  render() {
     return (
       <div className="App-content">
-        <h1 style={{ textAlign: 'center' }}>About GR10 trail tracker</h1>
-        <h2>Introduction</h2>
-        <p>
-          The aim of the website is to help hikers on the GR10 determine where
-          they are on the path. When the current position has been located the
-          distances to point of interests (mountain saddles, summits, towns,
-          water, bridges etc.) can then be calculated.
-        </p>
-        <p>
-          <Link to="/trail-tracker" title="GR10 Trail Tracker">
-            GR10 Trail Tracker
-          </Link>
-        </p>
+        <Helmet htmlAttributes={{ lang: this.language }}>
+          <title>{this.title}</title>
+        </Helmet>
 
-        <h2>Installation </h2>
-        <p>
-          You can use the{' '}
-          <Link to="/trail-tracker" title="GR10 Trail Tracker">
-            GR10 Trail Tracker
-          </Link>{' '}
-          as you would with any other website but I recommend that you add it to
-          your homescreen which will enable it to work off-line.
-        </p>
-        <p>
-          To install the website as an app for Android follow these
-          instructions. For Touch the overflow button (three vertical dots) and
-          select 'Add to Home Screen'.
-        </p>
-        <h2>The GR10 trail</h2>
-        <p>
-          The GR10 is a hiking trail in the South of France that traverses the
-          the Pyrenees from West to East. The trail covers a distances of 866
-          kilometres (538 mi), with 48,000 metres (157,000 ft) of ascent. More
-          information about the trail can be found on wikipedia{' '}
-          <a href="https://en.wikipedia.org/wiki/GR_10" title="GR10">
-            GR10
-          </a>
-        </p>
-        <p>
-          The inspiration for the app/website came from the Halfmile app I used
-          when I hiked the Pacific Crest Trail.{' '}
-          <a href="https://www.pctmap.net/" title="Halfmile PCT maps">
-            Halfmile's PCT Maps
-          </a>
-        </p>
+        <h1 style={{ textAlign: 'center' }}>{this.title}</h1>
+        <AboutIntroductionParagraph language={this.language} />
+        <AboutInstallationSection language={this.language} />
+
+        <AboutGr10Section language={this.language} />
 
         <p>
           I'm grateful to{' '}
@@ -63,14 +45,17 @@ class About extends Component {
           used for the trail coordinates was donwloaded from{' '}
           <a href="http://www.gr-infos.com/" title="gpx source">
             www.gr-infos.com
-          </a>. I have made admendments to the gpx to follow the variant
-            options that are more appealing to me. I plan to add variants, to
-            the list of points.
+          </a>. I have made admendments to the gpx to follow the variant options
+          that are more appealing to me. I plan to add variants, to the list of
+          points.
         </p>
 
         <h2>About me</h2>
         <p>
           When I overcome my shyness, I'll write something about myself here.
+          <a href="https://hiking-al.herokuapp.com/"> Hiking Al</a>.<br />
+          Follow me on{' '}
+          <a href="https://www.instagram.com/alpolden/">Instagram</a>
         </p>
         <h2>Technical information</h2>
         <p>

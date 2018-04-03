@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ArrowUp from '../icons/arrow-top.svg';
 import ArrowBottom from '../icons/arrow-bottom.svg';
@@ -26,7 +26,7 @@ class PointOfInterest extends Component {
     }
 
     return (
-        <div key={this.props.nearestMetreOfPath} className="pointOfInterest">
+      <div key={this.props.nearestMetreOfPath} className="pointOfInterest">
         <div>
           {this.props.pathMetre > this.props.nearestMetreOfPath ? 'W' : 'E'}{' '}
           {(

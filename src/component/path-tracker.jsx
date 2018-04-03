@@ -1,11 +1,12 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
+import ReactDOM from 'react-dom';
+import { Link } from 'react-router-dom';
 import MapHelper from '../maps/map-helper.js';
 import PointOfInterest from '../component/point-of-interest.jsx';
 import PointCurrent from '../component/point-current.jsx';
 import Location from '../component/location.jsx';
 import LocationOverride from '../component/location-override.jsx';
-import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -24,6 +25,21 @@ class PathTracker extends Component {
     this.pointsOfInterest = undefined;
 
     this.onLocationChanged = this.onLocationChanged.bind(this);
+
+    this.language = this.props.language || 'en';
+
+    this.title = 'GR10 trail tracker';
+    this.aboutLinkText = 'About';
+    switch (this.language.toLowerCase()) {
+      case 'fr':
+        this.title = 'Traqueur de sentier GR10';
+        this.aboutLinkText = 'Informations';
+        break;
+      case 'en':
+      default:
+        this.language = 'en';
+      //default to english
+    }
   }
 
   componentDidMount() {
@@ -151,6 +167,7 @@ class PathTracker extends Component {
     const rows = [];
     const pointCurrent = (
       <PointCurrent
+        language={this.language}
         key="CurrentPoint"
         ref={section => {
           this.pointCurrent = section;
@@ -164,7 +181,8 @@ class PathTracker extends Component {
     this.state.pointsOfInterest.forEach((x, index) => {
       const pointOfInterest = (
         <PointOfInterest
-              key={x.nearestMetreOfPath}
+          language={this.language}
+          key={x.nearestMetreOfPath}
           name={x.name}
           nearestMetreOfPath={x.nearestMetreOfPath}
           elevationAtNearestMetreOfPath={x.elevation}
@@ -201,9 +219,15 @@ class PathTracker extends Component {
     });
 
     const locationComponent = this.props.testMode ? (
-      <LocationOverride onLocationChanged={this.onLocationChanged} />
+      <LocationOverride
+        onLocationChanged={this.onLocationChanged}
+        language={this.language}
+      />
     ) : (
-      <Location onLocationChanged={this.onLocationChanged} />
+      <Location
+        onLocationChanged={this.onLocationChanged}
+        language={this.language}
+      />
     );
     //console.log(window.outerHeight);
     const offset = 140;
@@ -211,8 +235,11 @@ class PathTracker extends Component {
 
     return (
       <React.Fragment>
+        <Helmet htmlAttributes={{ lang: this.language }}>
+          <title>{this.title}</title>
+        </Helmet>
         <header className="App-header">
-          <h1 className="App-title">GR10 trail tracker</h1>
+          <h1 className="App-title">{this.title}</h1>
         </header>
         <div className="App-content">
           <div>
@@ -223,7 +250,9 @@ class PathTracker extends Component {
             </div>
           </div>
           <footer className="App-footer">
-            <Link to="/about">About</Link>
+            <Link to={'/' + this.language + '/about'}>
+              {this.aboutLinkText}
+            </Link>
           </footer>
         </div>
       </React.Fragment>

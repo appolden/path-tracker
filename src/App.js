@@ -15,13 +15,26 @@ class App extends Component {
           <React.Fragment>
             <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
+            <Route exact path="/:language/about" component={About} />
             <Route
               exact
               path="/trail-tracker"
-              component={() => (
+              component={props => (
                 <PathTracker
                   pointsUrl="/data/gr10-points-elevation.json"
                   poisUrl="/data/gr10-points-of-interest.json"
+                  language="en"
+                />
+              )}
+            />
+            <Route
+              exact
+              path="/:language/trail-tracker"
+              component={props => (
+                <PathTracker
+                  pointsUrl="/data/gr10-points-elevation.json"
+                  poisUrl="/data/gr10-points-of-interest.json"
+                  language={props.match.params.language}
                 />
               )}
             />

@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
 import CacheItem from '../component/cache-item.jsx';
 
 class CacheViewer extends Component {

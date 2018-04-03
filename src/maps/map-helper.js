@@ -16,9 +16,9 @@
         nearest.routePoint = pathPoint;
         nearest.index = index;
         nearest.latLng = { lat: pathPoint.lat, lng: pathPoint.lng };
-          nearest.elevation = pathPoint.elevation;
-          nearest.cumulativeAscent = pathPoint.cumulativeAscent;
-          nearest.cumulativeDescent = pathPoint.cumulativeDescent;
+        nearest.elevation = pathPoint.elevation;
+        nearest.cumulativeAscent = pathPoint.cumulativeAscent;
+        nearest.cumulativeDescent = pathPoint.cumulativeDescent;
       }
     });
 
@@ -67,7 +67,7 @@
           lng: pathPoint.lng,
           metreOfPath: pathPoint.distance + metreOfPath,
           elevation: nearest.elevation,
-            cumulativeAscent: nearest.cumulativeAscent,
+          cumulativeAscent: nearest.cumulativeAscent,
           cumulativeDescent: nearest.cumulativeDescent
         };
       }

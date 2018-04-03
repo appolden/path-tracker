@@ -1,4 +1,4 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ArrowUp from '../icons/arrow-thick-top.svg';
 import ArrowBottom from '../icons/arrow-thick-bottom.svg';
