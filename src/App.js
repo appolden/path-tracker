@@ -70,7 +70,8 @@ class App extends Component {
                     <Route exact path="/cache-viewer" component={CacheViewer} />
                     <Route exaxt path="/:language/contribute" component={props => (<Contribute language={props.match.params.language} />)} />
           </React.Fragment>
-        </Router>
+            </Router>
+            <div id="snackbar">Some text some message..</div>
       </div>
     );
   }

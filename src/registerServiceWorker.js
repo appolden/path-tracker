@@ -65,12 +65,17 @@ function registerValidSW(swUrl) {
               // the fresh content will have been added to the cache.
               // It's the perfect time to display a "New content is
               // available; please refresh." message in your web app.
-              console.log('New content is available; please refresh.');
+                console.log('New content is available; please refresh.');
+
+                showSnackBar('New content is available; please refresh.');
+
             } else {
               // At this point, everything has been precached.
               // It's the perfect time to display a
               // "Content is cached for offline use." message.
-              console.log('Content is cached for offline use.');
+                console.log('Content is cached for offline use.');
+
+                showSnackBar('Content is cached for offline use.');
             }
           }
         };
@@ -106,6 +111,14 @@ function checkValidServiceWorker(swUrl) {
         'No internet connection found. App is running in offline mode.'
       );
     });
+}
+
+function showSnackBar(content) {
+    var x = document.getElementById("snackbar");
+    x.innerText = content;
+    x.className = "show";
+    // After 3 seconds, remove the show class from DIV
+    setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
 }
 
 export function unregister() {
