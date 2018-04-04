@@ -209,7 +209,7 @@ class PathTracker extends Component {
       const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
       if (
         x.nearestMetreOfPath <= this.state.nearestMetreOfPath &&
-        nextPointOfInterest.nearestMetreOfPath >= this.state.nearestMetreOfPath
+        nextPointOfInterest.nearestMetreOfPath > this.state.nearestMetreOfPath
       ) {
         rows.push(pointOfInterest);
         rows.push(pointCurrent);

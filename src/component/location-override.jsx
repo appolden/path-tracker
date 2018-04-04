@@ -32,8 +32,8 @@ class LocationOverride extends Component {
     //};
 
     this.state = {
-      lat: 53.451505,
-      lng: -2.300114
+        lat: 53.48176,
+        lng: -2.241521
     };
     //,
     this.handleLatChange = this.handleLatChange.bind(this);
