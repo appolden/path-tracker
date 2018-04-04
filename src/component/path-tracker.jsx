@@ -253,6 +253,8 @@ class PathTracker extends Component {
             <Link to={'/' + this.language + '/about'}>
               {this.aboutLinkText}
             </Link>
+
+            <Link to={'/' + this.language + '/donate'}>Donate</Link>
           </footer>
         </div>
       </React.Fragment>

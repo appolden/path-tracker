@@ -18,7 +18,7 @@ class AboutContributeSection extends Component {
   render() {
     let text = (
       <React.Fragment>
-        <h2>Contribute</h2>
+        <h2>Donate</h2>
         <p>
           If you like this app and would like to make a donation towards the
           running costs, please use the PayPal link below. It would be greatly

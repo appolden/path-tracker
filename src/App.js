@@ -67,11 +67,17 @@ class App extends Component {
               path="/poi-encoder"
               component={PointOfInterestEncoder}
             />
-                    <Route exact path="/cache-viewer" component={CacheViewer} />
-                    <Route exaxt path="/:language/contribute" component={props => (<Contribute language={props.match.params.language} />)} />
+            <Route exact path="/cache-viewer" component={CacheViewer} />
+            <Route
+              exaxt
+              path="/:language/donate"
+              component={props => (
+                <Contribute language={props.match.params.language} />
+              )}
+            />
           </React.Fragment>
-            </Router>
-            <div id="snackbar">Some text some message..</div>
+        </Router>
+        <div id="snackbar">Some text some message..</div>
       </div>
     );
   }
