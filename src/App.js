@@ -6,6 +6,7 @@ import PathEncoder from './component/path-encoder.jsx';
 import PointOfInterestEncoder from './component/point-of-interest-encoder.jsx';
 import CacheViewer from './component/cache-viewer.jsx';
 import About from './component/about.jsx';
+import Contribute from './component/contribute';
 
 class App extends Component {
   render() {
@@ -66,7 +67,8 @@ class App extends Component {
               path="/poi-encoder"
               component={PointOfInterestEncoder}
             />
-            <Route exact path="/cache-viewer" component={CacheViewer} />
+                    <Route exact path="/cache-viewer" component={CacheViewer} />
+                    <Route exaxt path="/:language/contribute" component={props => (<Contribute language={props.match.params.language} />)} />
           </React.Fragment>
         </Router>
       </div>
