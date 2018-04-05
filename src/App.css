@@ -8,6 +8,7 @@ body {
 p {
   margin-bottom: 0.75em;
   margin-top: 0.5em;
+  white-space: pre-wrap;
 }
 
 .App {
@@ -137,5 +138,29 @@ However, delay the fade out process for 2.5 seconds */
   to {
     bottom: 0;
     opacity: 0;
+  }
+}
+
+.mapContainer {
+  height: 750px;
+  border: 1px solid black;
+  position: relative;
+}
+
+@media screen and (max-height: 736px) {
+  .mapContainer {
+    height: 650px;
+  }
+}
+
+@media screen and (max-height: 640px) {
+  .mapContainer {
+    height: 590px;
+  }
+}
+
+@media screen and (max-height: 480px) {
+  .mapContainer {
+    height: 440px;
   }
 }

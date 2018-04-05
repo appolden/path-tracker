@@ -6,6 +6,7 @@ class AboutIntroductionParagraph extends Component {
     super(props);
 
     this.language = this.props.language || 'en';
+    this.trailName = this.props.trailName || 'gr10';
   }
 
   render() {
@@ -91,10 +92,19 @@ class AboutIntroductionParagraph extends Component {
 
         <p>
           <Link
-            to={'/' + this.language + '/trail-tracker'}
+            to={'/' + this.language + '/' + this.trailName + '/trail-tracker'}
             title={traitrackerLinkText}
           >
             {traitrackerLinkText}
+          </Link>
+        </p>
+
+        <p>
+          <Link
+            to={'/' + this.language + '/' + this.trailName + '/map'}
+            title="GR10 Map"
+          >
+            GR10 Map
           </Link>
         </p>
       </React.Fragment>

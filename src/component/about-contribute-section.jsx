@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class AboutContributeSection extends Component {
   constructor(props) {
@@ -58,6 +57,7 @@ class AboutContributeSection extends Component {
           <br />
           <img
             src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png"
+            alt="PayPal"
             style={{ marginTop: '10px' }}
           />
         </form>
@@ -108,6 +108,7 @@ class AboutContributeSection extends Component {
               <br />
               <img
                 src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png"
+                alt="PayPal"
                 style={{ marginTop: '10px' }}
               />
             </form>

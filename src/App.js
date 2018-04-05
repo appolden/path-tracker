@@ -7,6 +7,8 @@ import PointOfInterestEncoder from './component/point-of-interest-encoder.jsx';
 import CacheViewer from './component/cache-viewer.jsx';
 import About from './component/about.jsx';
 import Contribute from './component/contribute';
+import TrailMapFrench from './component/trail-map-fr.jsx';
+import TrailMapEnglish from './component/trail-map-en.jsx';
 
 class App extends Component {
   render() {
@@ -30,9 +32,10 @@ class App extends Component {
             />
             <Route
               exact
-              path="/:language/trail-tracker"
+              path="/:language/gr10/trail-tracker"
               component={props => (
                 <PathTracker
+                  trailName="gr10"
                   pointsUrl="/data/gr10-points-elevation.json"
                   poisUrl="/data/gr10-points-of-interest.json"
                   language={props.match.params.language}
@@ -74,6 +77,21 @@ class App extends Component {
               component={props => (
                 <Contribute language={props.match.params.language} />
               )}
+            />
+
+            <Route
+              exaxt
+              path="/:language/gr10/map"
+              component={props => {
+                switch (props.match.params.language) {
+                  case 'fr':
+                    return <TrailMapFrench />;
+                    break;
+                  case 'en':
+                  default:
+                    return <TrailMapEnglish />;
+                }
+              }}
             />
           </React.Fragment>
         </Router>

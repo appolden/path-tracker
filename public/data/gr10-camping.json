@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Col des Poiriers (Pitare, Osingo Lé poa)",
+    "description": {
+      "en": "Impossible to miss on the way, the first pass of gr10 for those coming from Hendaye or the last bump for those arriving from the Mediterranean. The water is located less than 500m on either side of the pass, the place is exposed, grassy and frequented by peaceful cows \nWater: high risk of absence \nFire: no and / or forbidden\nWeather risk: strong because exposed area (thunderstorm and / or cold altitude)",
+      "fr": "Impossible à manquer sur le chemin, le premier col du gr10 pour ceux venant de Hendaye ou la dernière bosse pour ceux arrivant de la méditerranée. L'eau se trouve à moins de 500m de part et d'autre du col, le lieu est exposé, herbeux et fréquenté par de paisibles vaches \nEau : fort risque d'absence"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.3147120,
+      "lng": -1.7265073
+    }
+  },
+  {
+    "name": "Trois Fontaines (sous la Rhune) ",
+    "description": {
+      "en": "Spring water, a bivouac place ventilated without much exposure, forest area, wet, very beautiful view of the Basque coast, quiet at the end of the day after the departure of hikers of the Rhune Water: in small quantity. Fallback solution: a small cabin in the area of 3 places.",
+      "fr": "Eau de source, un lieu de bivouac aéré sans trop être exposé, zone forestière, humide, très belle vue sur la côte basque, calme assuré en fin de journée après le départ des randonneurs de la Rhune \nEau : en faible quantité. solution de replis: une petite cabane dans le secteur de 3 places."
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.316728,
+      "lng": -1.63109818
+    }
+  },
+  {
+    "name": "La Petite Rhune",
+    "description": {
+      "en": "Located 3km from the center of Sare on the GR10 and less than one kilometer from the Berrouet benta at the Spanish border Water: always present \n Small family campsite with trees, very appreciated for its calm and surrounded by greenery. Nice view on the Montains. It is open from early July to late August and has 55 pitches for tents and caravans",
+      "fr": "Situé à 3km du centre de Sare sur le gr10 et à moins de un kilomètre de la benta Berrouet au niveau de la frontière espagnole /n Eau : toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.302383,
+      "lng": -1.587439
+    }
+  },
+  {
+    "name": "Camping Harazpy",
+    "description": {
+      "en": "The small family campsite 1 star is located 150m north-west of the village center of Ainhoa, camping open from early April to late September. ",
+      "fr": "Le petit camping familial 1 étoile se trouve à 150m au nord-ouest du centre du village d'Ainhoa, camping ouvert de début avril à fin septembre. \nEau : toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.310206,
+      "lng": -1.501994
+    }
+  },
+  {
+    "name": "Camping l'Irouleguy",
+    "description": {
+      "en": "Campsite located next to the lodge step north-east of the village 800m from the pediment, toilets, showers, amenities \nWater: always present",
+      "fr": "Camping situé à coté du gîte d'étape au nord-est du bourg à 800m du fronton, sanitaires, douches, commodités \nEau : toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.1836911,
+      "lng": -1.3357284
+    }
+  },
+  {
+    "name": "Camping Municipal Plaza Berri",
+    "description": {
+      "en": "Camping near the old town, historical site, the crossroads with the pilgrims of St Jacques, open from mid-April to end of October \nWater: always present",
+      "fr": "Camping à proximité de la vieille ville, haut lieu historique, la croisée des chemins avec les pèlerins de St Jacques, ouvert de mi-avril à fin octobre. \nEau : toujours présentee"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.161447401,
+      "lng": -1.236167230
+    }
+  },
+  {
+    "name": "Gîte d'étape de Kaskoleta",
+    "description": {
+      "en": "The cottage allows hikers to bivouac on site, meals, showers, etc ... a priori open all year. \nWater: always present",
+      "fr": "Le gîte permet aux randonneurs de pouvoir bivouaquer sur place, repas, douches, etc \nEau : toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.0922281,
+      "lng": -1.16463225
+    }
+  },
+  {
+    "name": "D'inzarrazquy",
+    "description": {
+      "en": "At the edge of inzarrazquy, creek water, fire possible, the place is located in the area where the gr10 leaves a track to take a steep path leading directly to the Col d'Irau, impossible to miss. \nWater: frequent presence",
+      "fr": "Aux bordes d'inzarrazquy, de l'eau de ruisseau, feu possible, le lieu est situé dans la zone où le gr10 quitte une piste pour emprunter un sentier abrupte menant directement au Col d'Irau, impossible à rater. \nEau : présence fréquente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.063927,
+      "lng": -1.1500519
+    }
+  },
+  {
+    "name": "Sommets d'Occabé",
+    "description": {
+      "en": "Attention no water and very exposed !! amazing views!! DANGER during thunderstorms. \nWater: absence",
+      "fr": "Attention pas d'eau et très exposé!! vue imprenable!! DANGER par temps d'orage. Un endroit hors du temps. \nEau : absence"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.046781,
+      "lng": -1.112623
+    }
+  },
+  {
+    "name": "Chalet Pédro",
+    "description": {
+      "en": "",
+      "fr": "Ce bivouac est juste sur le côté ouest de la piste près du Chalet Pédro."
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.037466,
+      "lng": -1.077143
+    }
+  },
+  {
+    "name": "Aire Naturelle De Camping D'Iraty",
+    "description": {
+      "en": "6.5km from the road to the IrauZone grassy pass located on the Gr10 upstream of the Iraty-Cize dam, very frequented by motorhomes, creek water, fire possible, open all year.",
+      "fr":  "6.5kms de route cers le col d'IrauZone herbeuse située sur le gr10 en amont du barrage de Iraty-Cize, très fréquentée par les camping-cars, eau de ruisseau, feu possible, ouvert toute l'année. \nEau: toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 43.0377610,
+      "lng": -1.0492202
+    }
+  },
+  {
+    "name": "Refuge Jeandel (La Pierre-St-Martin)",
+    "description": {
+      "en": "Bivouac next to the refuge Jeandel, water, flat ground, exposed, prefer refuge !!, the refuge is open all the year (on reservation) except October and November. \nWater: always present",
+      "fr": "Bivouac à coté du refuge Jeandel, eau, terrain plat, exposé, préférer le refuge!!, le refuge est ouvert toute l'année (sur réservation) excepté octobre et novembre. \nEau: toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.978133,
+      "lng": -0.750606474
+    }
+  },
+  {
+    "name": "Cabane du cap de la baitch",
+    "description": {
+      "en": "Bivouac next to the shepherd's hut, it will be fashionable to ask permission of the shepherd to bivouac in these places",
+      "fr": "Bivouac à coté de la cabane de berger, il sera de bon ton de demander l'autorisation au berger pour bivouaquer en ces lieux"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.9589117,
+      "lng": -0.7051165
+    }
+  },
+  {
+    "name": "Cabane d'Ardinet",
+    "description": {
+      "en": "Next to the Ardinet hut, flat land along the water court located 150m from the hut, if conditions deteriorate, there will always be the possibility of sleeping in the hut. \nWater: very frequent",
+      "fr": "A coté de la cabane d'Ardinet, terrain plat le long du court d'eau situé à 150m de la cabane, si les conditions se dégradent, il restera toujours la possibilité de dormir dans la cabane. \nEau : très fréquente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.95953648,
+      "lng": -0.6949781
+    }
+  },
+  {
+    "name": "Refuge de L'Abérouat",
+    "description": {
+      "en": "",
+      "fr": "Le refuge de Labérouat est situé sur le gr10. \nEau: très fréquente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.950301,
+      "lng": -0.666180
+    }
+  },
+  {
+    "name": "Camping du Lauzart",
+    "description": {
+      "en": "The campsite has a grocery store and a bread store, and there is a grocery store within a 5-minute drive of Lescun village square, where you can also enjoy a sandwich, a drink and ice cream. or other snacks. We are willing to make you breakfast and evening meals. Laundry is also available.",
+      "fr": "également gîte de 2 dortoirs de 10 et un dortoir de 5 places ouvert toute l'année. \nEau: toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.9280853,
+      "lng": -0.6422234
+    }
+  },
+  {
+    "name": "Gite et camping Accous, Lhers-Lescun",
+    "description": {
+      "en": "Located on the edge of the GR10, the campsite has 25 pitches located on grassy terraces. You will have access to common toilets with the cottage: showers, toilets, sinks, laundry area. \n At your service: barbecue, microwave, hotplates, WIFI access, bread and pastries, small food, drinks and catering.",
+      "fr": "25 emplacements sur des terrasses herbeuses avec une vue dégagée sur le plateau et les montagnes. Venez nous retrouver au coeur du Plateau de Lhers en haute Vallée d'Aspe! Situé en bordure du GR10, le camping dispose de 25 emplacements situés sur des terrasses herbeuses. Vous aurez accès aux sanitaires communs avec le gîte: douches, toilettes,éviers, espace laverie.A votre service: barbecue, micro-ondes, plaques électriques, accès WIFI, dépôt de pain et viennoiseries, petite dépannage alimentaire, boissons et restauration et en juillet et août nous installons un barnum pour les journées et.... nuits de mauvais temps et d'orage \nEau: toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.9188989,
+      "lng": -0.6156825
+    }
+  },
+  {
+    "name": "Cabane ruinée d’Udapet-le-Haut",
+    "description": {
+      "en": "Water from the creek, the bivouac is located 500m east of the Col de Barrancq.",
+      "fr": "Eau du ruisseau, le bivouac se trouve 500m à l'est du col de Barrancq. Eau: fort risque d'absence"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.901342,
+      "lng": -0.590881
+    }
+  },
+  {
+    "name": "Cabane du Pinet",
+    "description": {
+      "en": "",
+      "fr": "bivouac idéal dans la partie amont du lac, de vastes zones de bivouac vous y attendent, pas de feu pour cause de PN.\nEau : toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.823696,
+      "lng": -0.138359
+    }
+  },
+  {
+    "name": "Refuge des Oulettes de Gaube",
+    "description": {
+      "en": "",
+      "fr": "Une immense zone de bivouac vous attend au pied du Vignemal, pas de feu pour cause de PN, zone herbeuse et humide. \nEau: toujours présente. "
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.792860,
+      "lng": -0.141371
+    }
+  },
+
+  {
+    "name": "Refuge de Bayssellance",
+    "description": {
+      "en": "",
+      "fr": "Zone pierreuse d'altitude, très exposée et froide, refuge à proximité, nombreux cours d'eau, pas de feu pour cause de PN, un des plus hauts bivouacs possible sur le gr10. \nEau : fort risque d'absence"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.779346,
+      "lng": -0.123805
+    }
+  },
+
+  {
+    "name": "Cabane d'Ossoue",
+    "description": {
+      "en": "",
+      "fr": "piste carrossable vers gavarnie. Zone herbeuse et humide au niveau du lac de barrage, pas d'arbre donc pas d'ombre, attention par temps d'orage car la zone est exposée, une petite cabane à proximité, pas de feu car PN. \nEau: toujours présente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.757285,
+      "lng": -0.093853
+    }
+  },
+  {
+    "name": "Pont de st Savin",
+    "description": {
+      "en": "",
+      "fr": "Situé 900m aprés le gite des granges de holle à coté d'un pont en fond de vallée, lieu idéal pour bivouaquer au calme, zone semi-forestière, cours d'eau à proximité. \nEau:très fréquente"
+    },
+    "camping": true,
+    "point": {
+      "lat": 42.744357,
+      "lng": -0.027622
+    }
+  }
+]
