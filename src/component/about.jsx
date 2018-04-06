@@ -13,10 +13,12 @@ class About extends Component {
 
     this.language = this.props.language || 'en';
 
+    this.pageTitle = 'GR10 trail tracker';
     this.title = 'About';
     switch (this.language.toLowerCase()) {
       case 'fr':
         this.title = 'Informations';
+        this.pageTitle = 'Le tracker de GR10';
         break;
       case 'en':
       default:
@@ -29,7 +31,7 @@ class About extends Component {
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.language }}>
-          <title>{this.title}</title>
+          <title>{this.pageTitle}</title>
         </Helmet>
         <Menu language={this.props.language} />
         <header className="App-header">

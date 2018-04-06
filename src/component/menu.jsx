@@ -72,6 +72,7 @@ class Menu extends Component {
               value="fr"
               onClick={this.onLanguageSelect}
               className={this.state.language === 'fr' ? 'languageActive' : ''}
+              alt="D�finir la langue en fran�ais"
             />
             <input
               type="image"
@@ -79,6 +80,7 @@ class Menu extends Component {
               value="en"
               onClick={this.onLanguageSelect}
               className={this.state.language === 'en' ? 'languageActive' : ''}
+              alt="Set language to English"
             />
           </div>
           <Link to={'/' + this.language + '/about'}>About</Link>

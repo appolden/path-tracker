@@ -19,8 +19,9 @@ p {
   /*background-color: #111;*/
   padding: 4px;
   /*color: whitesmoke;*/
-  text-align: center;
+  /*text-align: center;*/
   font-weight: bolder;
+  margin-left: 50px;
 }
 
 .App-title {

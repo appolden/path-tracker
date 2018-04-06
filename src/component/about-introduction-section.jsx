@@ -17,7 +17,7 @@ class AboutIntroductionParagraph extends Component {
         <p>
           The aim of the website is to help hikers on the GR10 determine where
           they are on the path. When the current position has been located the
-          distances to point of interests (mountain saddles, summits, towns,
+          distances to point of interests (mountain passes, summits, towns,
           water, bridges etc.) can then be calculated.
         </p>
         <p>
@@ -52,7 +52,7 @@ class AboutIntroductionParagraph extends Component {
             <p>
               Le but du site est d'aider les randonneurs sur le GR10 à
               déterminer où ils se trouvent sur le chemin. Lorsque la position
-              actuelle a été localisée, les distances au point d'intérêt (selles
+              actuelle a été localisée, les distances au point d'intérêt ( cols
               de montagne, sommets, villes, eaux, ponts, etc.) peuvent alors
               être calculées.
             </p>
