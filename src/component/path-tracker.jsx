@@ -7,6 +7,7 @@ import PointOfInterest from '../component/point-of-interest.jsx';
 import PointCurrent from '../component/point-current.jsx';
 import Location from '../component/location.jsx';
 import LocationOverride from '../component/location-override.jsx';
+import Menu from '../component/menu.jsx';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -75,7 +76,7 @@ class PathTracker extends Component {
   loadPoints() {
     const url = this.props.pointsUrl;
 
-    if ('serviceWorker' in navigator) {
+    if ('caches' in navigator) {
       caches.open('data').then(cache => {
         return cache.match(url).then(response => {
           if (response === undefined) {
@@ -110,7 +111,7 @@ class PathTracker extends Component {
   loadPointsOfInterest() {
     const url = this.props.poisUrl;
 
-    if ('serviceWorker' in navigator) {
+    if ('caches' in navigator) {
       caches.open('data').then(cache => {
         return cache.match(url).then(response => {
           if (response === undefined) {
@@ -238,6 +239,7 @@ class PathTracker extends Component {
         <Helmet htmlAttributes={{ lang: this.language }}>
           <title>{this.title}</title>
         </Helmet>
+        <Menu language={this.props.language} />
         <header className="App-header">
           <h1 className="App-title">{this.title}</h1>
         </header>

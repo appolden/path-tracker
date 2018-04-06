@@ -68,7 +68,7 @@ class AboutContributeSection extends Component {
       case 'fr':
         text = (
           <React.Fragment>
-            <h2>Contribuer</h2>
+            <h2>Faire un don</h2>
             <p>
               Si vous aimez cette application et que vous souhaitez faire un don
               pour les frais de fonctionnement, veuillez utiliser le lien PayPal

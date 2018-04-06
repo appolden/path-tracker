@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { Map } from 'google-maps-react';
+import Menu from '../component/menu.jsx';
 
 export class TrailMap extends Component {
   constructor(props) {
@@ -91,6 +92,7 @@ export class TrailMap extends Component {
         <Helmet htmlAttributes={{ lang: this.language }}>
           <title>{this.title}</title>
         </Helmet>
+        <Menu language={this.props.language} />
         <header className="App-header">
           <h1 className="App-title">{title}</h1>
         </header>

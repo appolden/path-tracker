@@ -16,16 +16,15 @@ p {
 }
 
 .App-header {
-  background-color: #ce0000;
+  /*background-color: #111;*/
   padding: 4px;
-  color: whitesmoke;
+  /*color: whitesmoke;*/
   text-align: center;
   font-weight: bolder;
-  flex: none;
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 0.15em;
 }
 
@@ -33,12 +32,17 @@ p {
   padding: 5px;
 }
 
+.App-content > h2 {
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+}
+
 .App-footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #ce0000;
+  background-color: #111;
   padding: 4px;
   color: white;
   text-align: center;
@@ -162,5 +166,114 @@ However, delay the fade out process for 2.5 seconds */
 @media screen and (max-height: 480px) {
   .mapContainer {
     height: 440px;
+  }
+}
+
+.menuButtonContainer {
+  /*background-color: #ce0000;*/
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  padding: 5px;
+}
+
+.menuButtonContainer > div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.menuButtonActive > div:nth-child(1) {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.menuButtonActive > div:nth-child(2) {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.menuButtonActive > div:nth-child(3) {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+.sidenavActive {
+  width: 200px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.languageSelectContainer {
+  padding-left: 32px;
+}
+
+.languageSelectContainer > input {
+  height: 25px;
+  margin-right: 8px;
+}
+
+.languageActive {
+  border: 2px solid white;
+}
+/*.sidenavFlag {
+    height: 25px;
+    padding: 8px 8px 8px 32px;
+}*/
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
   }
 }

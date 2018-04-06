@@ -18,7 +18,13 @@ class App extends Component {
           <React.Fragment>
             <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
-            <Route exact path="/:language/about" component={About} />
+            <Route
+              exact
+              path="/:language/about"
+              component={props => (
+                <About language={props.match.params.language} />
+              )}
+            />
             <Route
               exact
               path="/trail-tracker"
