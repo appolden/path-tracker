@@ -9,66 +9,89 @@ import About from './component/about.jsx';
 import Contribute from './component/contribute';
 import TrailMapFrench from './component/trail-map-fr.jsx';
 import TrailMapEnglish from './component/trail-map-en.jsx';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-76203188-2'); //Unique Google Analytics tracking number
 
 class App extends Component {
+  onRouterUpdate() {
+      ReactGA.pageview(window.location.pathname);
+  }
+
   render() {
     return (
       <div className="App">
-        <Router>
+        <Router onUpdate={this.onRouterUpdate}>
           <React.Fragment>
             <Route exact path="/" component={About} />
             <Route exact path="/about" component={About} />
             <Route
               exact
               path="/:language/about"
-              component={props => (
-                <About language={props.match.params.language} />
-              )}
+              component={props => {
+                this.onRouterUpdate();
+
+                return <About language={props.match.params.language} />;
+              }}
             />
             <Route
               exact
               path="/trail-tracker"
-              component={props => (
-                <PathTracker
-                  pointsUrl="/data/gr10-points-elevation.json"
-                  poisUrl="/data/gr10-points-of-interest.json"
-                  language="en"
-                />
-              )}
+              component={props => {
+                this.onRouterUpdate();
+
+                return (
+                  <PathTracker
+                    pointsUrl="/data/gr10-points-elevation.json"
+                    poisUrl="/data/gr10-points-of-interest.json"
+                    language="en"
+                  />
+                );
+              }}
             />
             <Route
               exact
               path="/:language/gr10/trail-tracker"
-              component={props => (
-                <PathTracker
-                  trailName="gr10"
-                  pointsUrl="/data/gr10-points-elevation.json"
-                  poisUrl="/data/gr10-points-of-interest.json"
-                  language={props.match.params.language}
-                />
-              )}
+              component={props => {
+                this.onRouterUpdate();
+
+                return (
+                  <PathTracker
+                    trailName="gr10"
+                    pointsUrl="/data/gr10-points-elevation.json"
+                    poisUrl="/data/gr10-points-of-interest.json"
+                    language={props.match.params.language}
+                  />
+                );
+              }}
             />
 
             <Route
               exact
               path="/trail-tracker-test"
-              component={() => (
-                <PathTracker
-                  pointsUrl="/data/gr10-points-elevation.json"
-                  poisUrl="/data/gr10-points-of-interest.json"
-                  testMode="true"
-                />
-              )}
+              component={() => {
+                this.onRouterUpdate();
+
+                return (
+                  <PathTracker
+                    pointsUrl="/data/gr10-points-elevation.json"
+                    poisUrl="/data/gr10-points-of-interest.json"
+                    testMode="true"
+                  />
+                );
+              }}
             />
             <Route
               exact
               path="/trail-tracker-chorlton"
-              component={() => (
-                <PathTracker
-                  pointsUrl="/data/home-chorlton/points.json"
-                  poisUrl="/data/home-chorlton/points-of-interest.json"
-                />
-              )}
+              component={() => {
+                this.onRouterUpdate();
+                return (
+                  <PathTracker
+                    pointsUrl="/data/home-chorlton/points.json"
+                    poisUrl="/data/home-chorlton/points-of-interest.json"
+                  />
+                );
+              }}
             />
             <Route exact path="/path-encoder" component={PathEncoder} />
             <Route
@@ -80,15 +103,19 @@ class App extends Component {
             <Route
               exaxt
               path="/:language/donate"
-              component={props => (
-                <Contribute language={props.match.params.language} />
-              )}
+              component={props => {
+                this.onRouterUpdate();
+
+                return <Contribute language={props.match.params.language} />;
+              }}
             />
 
             <Route
               exaxt
               path="/:language/gr10/map"
               component={props => {
+                this.onRouterUpdate();
+
                 switch (props.match.params.language) {
                   case 'fr':
                     return <TrailMapFrench />;
@@ -101,7 +128,7 @@ class App extends Component {
             />
           </React.Fragment>
         </Router>
-        <div id="snackbar">Some text some message..</div>
+        <div id="snackbar" />
       </div>
     );
   }

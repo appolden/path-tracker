@@ -26,6 +26,37 @@ class Menu extends Component {
       menuActive: false,
       language: this.language
     };
+
+    this.sideNavItems = [
+      {
+        url: '/about',
+        linkText: {
+          en: 'About',
+          fr: 'Info'
+        }
+      },
+      {
+        url: '/gr10/trail-tracker',
+        linkText: {
+          en: 'Tracker',
+          fr: 'Tracker'
+        }
+      },
+      {
+        url: '/gr10/map',
+        linkText: {
+          en: 'GR10 Map',
+          fr: 'GR10 Carte'
+        }
+      },
+      {
+        url: '/donate',
+        linkText: {
+          en: 'Donate',
+          fr: 'Faire un don'
+        }
+      }
+    ];
   }
 
   onClick() {
@@ -54,6 +85,21 @@ class Menu extends Component {
       (this.state.menuActive ? ' menuButtonActive' : '');
     const sideNavClassName =
       'sidenav' + (this.state.menuActive ? ' sidenavActive' : '');
+
+    const sideNavLinks = this.sideNavItems.map(x => {
+      if (this.language === 'fr') {
+        return (
+          <Link key={x.url} to={'/' + this.language + x.url}>
+            {x.linkText.fr}
+          </Link>
+        );
+      }
+      return (
+        <Link key={x.url} to={'/' + this.language + x.url}>
+          {x.linkText.en}
+        </Link>
+      );
+    });
     return (
       <React.Fragment>
         <div className={className} onClick={this.onClick}>
@@ -83,10 +129,8 @@ class Menu extends Component {
               alt="Set language to English"
             />
           </div>
-          <Link to={'/' + this.language + '/about'}>About</Link>
-          <Link to={'/' + this.language + '/gr10/trail-tracker'}>Tracker</Link>
-          <Link to={'/' + this.language + '/gr10/map'}>GR10 Map</Link>
-          <Link to={'/' + this.language + '/donate'}>Donate</Link>
+
+          {sideNavLinks}
         </div>
       </React.Fragment>
     );

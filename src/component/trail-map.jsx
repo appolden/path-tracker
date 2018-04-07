@@ -10,7 +10,16 @@ export class TrailMap extends Component {
     this.google = undefined;
     this.map = undefined;
 
-    this.language = this.props.language || 'en';
+    this.language = (this.props.language || 'en').toLowerCase();
+
+    switch (this.language) {
+      case 'fr':
+        break;
+      case 'en':
+      default:
+        this.language = 'en';
+      //default to english
+    }
 
     this.infoWindow = undefined;
   }
@@ -86,11 +95,21 @@ export class TrailMap extends Component {
   }
 
   render() {
-    const title = 'G10 Map';
+    let title = 'GR10 Map';
+
+    switch (this.language) {
+      case 'fr':
+        title = 'GR10 Carte';
+        break;
+      case 'en':
+      default:
+        this.language = 'en';
+    }
+
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.language }}>
-          <title>{this.title}</title>
+          <title>{title}</title>
         </Helmet>
         <Menu language={this.props.language} />
         <header className="App-header">
