@@ -168,11 +168,7 @@ class Menu extends Component {
           <a className="closebtn" onClick={this.onCloseSideNavBarClick}>
             &times;
           </a>
-          <div className="languageSelectContainer">
-                   
-                    {languageSelection}
-                    
-          </div>
+          <div className="languageSelectContainer">{languageSelection}</div>
           {sideNavLinks}
         </div>
       </React.Fragment>

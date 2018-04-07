@@ -104,7 +104,11 @@ export class TrailMap extends Component {
         <Helmet htmlAttributes={{ lang: language }}>
           <title>{title}</title>
         </Helmet>
-            <Menu language={language} origin={this.props.origin} useBrowserLinks={true}/>
+        <Menu
+          language={language}
+          origin={this.props.origin}
+          useBrowserLinks={true}
+        />
         <header className="App-header">
           <h1 className="App-title">{title}</h1>
         </header>
