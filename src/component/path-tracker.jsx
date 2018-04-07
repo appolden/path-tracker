@@ -26,21 +26,6 @@ class PathTracker extends Component {
     this.pointsOfInterest = undefined;
 
     this.onLocationChanged = this.onLocationChanged.bind(this);
-
-    this.language = this.props.language || 'en';
-
-    this.title = 'GR10 trail tracker';
-    this.aboutLinkText = 'About';
-    switch (this.language.toLowerCase()) {
-      case 'fr':
-        this.title = 'Traqueur de sentier GR10';
-        this.aboutLinkText = 'Informations';
-        break;
-      case 'en':
-      default:
-        this.language = 'en';
-      //default to english
-    }
   }
 
   componentDidMount() {
@@ -165,6 +150,21 @@ class PathTracker extends Component {
   }
 
   render() {
+    this.language = this.props.language || 'en';
+
+    this.title = 'GR10 trail tracker';
+    this.aboutLinkText = 'About';
+    switch (this.language.toLowerCase()) {
+      case 'fr':
+        this.title = 'Traqueur de sentier GR10';
+        this.aboutLinkText = 'Informations';
+        break;
+      case 'en':
+      default:
+        this.language = 'en';
+      //default to english
+    }
+
     const rows = [];
     const pointCurrent = (
       <PointCurrent
@@ -239,7 +239,7 @@ class PathTracker extends Component {
         <Helmet htmlAttributes={{ lang: this.language }}>
           <title>{this.title}</title>
         </Helmet>
-        <Menu language={this.props.language} />
+        <Menu language={this.props.language} origin={this.props.origin} />
         <header className="App-header">
           <h1 className="App-title">{this.title}</h1>
         </header>

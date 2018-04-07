@@ -3,11 +3,22 @@ import React, { Component } from 'react';
 class AboutGr10Section extends Component {
   constructor(props) {
     super(props);
+  }
 
-    this.language = this.props.language || 'en';
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
+    }
   }
 
   render() {
+    const language = this.getLanguage();
     let text = (
       <React.Fragment>
         <h2>The GR10 trail</h2>
@@ -40,7 +51,7 @@ class AboutGr10Section extends Component {
       </React.Fragment>
     );
 
-    switch (this.language.toLowerCase()) {
+    switch (language) {
       case 'fr':
         text = (
           <React.Fragment>

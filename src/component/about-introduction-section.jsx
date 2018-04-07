@@ -5,11 +5,23 @@ class AboutIntroductionParagraph extends Component {
   constructor(props) {
     super(props);
 
-    this.language = this.props.language || 'en';
     this.trailName = this.props.trailName || 'gr10';
   }
 
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
+    }
+  }
+
   render() {
+    const language = this.getLanguage();
     let title = 'Introduction';
     let traitrackerLinkText = 'GR10 Trail Tracker';
     let text = (
@@ -43,7 +55,7 @@ class AboutIntroductionParagraph extends Component {
       </React.Fragment>
     );
 
-    switch (this.language.toLowerCase()) {
+    switch (language) {
       case 'fr':
         title = 'Introduction';
         traitrackerLinkText = 'Traqueur de sentier GR10';
@@ -92,7 +104,7 @@ class AboutIntroductionParagraph extends Component {
 
         <p>
           <Link
-            to={'/' + this.language + '/' + this.trailName + '/trail-tracker'}
+            to={'/' + language + '/' + this.trailName + '/trail-tracker'}
             title={traitrackerLinkText}
           >
             {traitrackerLinkText}
@@ -101,7 +113,7 @@ class AboutIntroductionParagraph extends Component {
 
         <p>
           <Link
-            to={'/' + this.language + '/' + this.trailName + '/map'}
+            to={'/' + language + '/' + this.trailName + '/map'}
             title="GR10 Map"
           >
             GR10 Map

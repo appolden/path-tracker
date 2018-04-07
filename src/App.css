@@ -223,7 +223,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 
 /* The navigation menu links */
-.sidenav a {
+.sidenav > a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -236,7 +236,11 @@ However, delay the fade out process for 2.5 seconds */
   padding-left: 32px;
 }
 
-.languageSelectContainer > input {
+.languageSelectContainer img {
+  height: 25px;
+  margin-right: 8px;
+}
+.languageSelectContainer input {
   height: 25px;
   margin-right: 8px;
 }

@@ -9,18 +9,6 @@ export class TrailMap extends Component {
 
     this.google = undefined;
     this.map = undefined;
-
-    this.language = (this.props.language || 'en').toLowerCase();
-
-    switch (this.language) {
-      case 'fr':
-        break;
-      case 'en':
-      default:
-        this.language = 'en';
-      //default to english
-    }
-
     this.infoWindow = undefined;
   }
 
@@ -79,7 +67,7 @@ export class TrailMap extends Component {
     let description =
       campingLocation.description.en || campingLocation.description.fr;
 
-    switch (this.language.toLowerCase()) {
+    switch (this.getLanguage) {
       case 'fr':
         description = campingLocation.description.fr;
         break;
@@ -94,24 +82,29 @@ export class TrailMap extends Component {
     this.infoWindow.open(this.map, marker);
   }
 
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
+    }
+  }
+
   render() {
     let title = 'GR10 Map';
 
-    switch (this.language) {
-      case 'fr':
-        title = 'GR10 Carte';
-        break;
-      case 'en':
-      default:
-        this.language = 'en';
-    }
+    const language = this.getLanguage();
 
     return (
       <React.Fragment>
-        <Helmet htmlAttributes={{ lang: this.language }}>
+        <Helmet htmlAttributes={{ lang: language }}>
           <title>{title}</title>
         </Helmet>
-        <Menu language={this.props.language} />
+            <Menu language={language} origin={this.props.origin} useBrowserLinks={true}/>
         <header className="App-header">
           <h1 className="App-title">{title}</h1>
         </header>

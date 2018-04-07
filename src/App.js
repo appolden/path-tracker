@@ -14,7 +14,7 @@ ReactGA.initialize('UA-76203188-2'); //Unique Google Analytics tracking number
 
 class App extends Component {
   onRouterUpdate() {
-      ReactGA.pageview(window.location.pathname);
+    ReactGA.pageview(window.location.pathname); //<Route exact path="/" component={About} />    <Route exact path="/about" component={About} />
   }
 
   render() {
@@ -22,15 +22,28 @@ class App extends Component {
       <div className="App">
         <Router onUpdate={this.onRouterUpdate}>
           <React.Fragment>
-            <Route exact path="/" component={About} />
-            <Route exact path="/about" component={About} />
+            <Route
+              exact
+              path="/"
+              component={props => {
+                this.onRouterUpdate();
+
+                return <About language="en" origin="/about" />;
+              }}
+            />
+
             <Route
               exact
               path="/:language/about"
               component={props => {
                 this.onRouterUpdate();
 
-                return <About language={props.match.params.language} />;
+                return (
+                  <About
+                    language={props.match.params.language}
+                    origin="/about"
+                  />
+                );
               }}
             />
             <Route
@@ -44,6 +57,7 @@ class App extends Component {
                     pointsUrl="/data/gr10-points-elevation.json"
                     poisUrl="/data/gr10-points-of-interest.json"
                     language="en"
+                    origin="/trail-tracker"
                   />
                 );
               }}
@@ -53,13 +67,14 @@ class App extends Component {
               path="/:language/gr10/trail-tracker"
               component={props => {
                 this.onRouterUpdate();
-
+                console.log(window.location.pathname);
                 return (
                   <PathTracker
                     trailName="gr10"
                     pointsUrl="/data/gr10-points-elevation.json"
                     poisUrl="/data/gr10-points-of-interest.json"
                     language={props.match.params.language}
+                    origin="/gr10/trail-tracker"
                   />
                 );
               }}
@@ -106,7 +121,12 @@ class App extends Component {
               component={props => {
                 this.onRouterUpdate();
 
-                return <Contribute language={props.match.params.language} />;
+                return (
+                  <Contribute
+                    language={props.match.params.language}
+                    origin="/donate"
+                  />
+                );
               }}
             />
 
@@ -118,11 +138,11 @@ class App extends Component {
 
                 switch (props.match.params.language) {
                   case 'fr':
-                    return <TrailMapFrench />;
+                    return <TrailMapFrench origin="/gr10/map" />;
                     break;
                   case 'en':
                   default:
-                    return <TrailMapEnglish />;
+                    return <TrailMapEnglish origin="/gr10/map" />;
                 }
               }}
             />

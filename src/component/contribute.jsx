@@ -8,9 +8,8 @@ class Contribute extends Component {
   constructor(props) {
     super(props);
 
-    this.language = this.props.language || 'en';
     this.title = 'Donate';
-    switch (this.language.toLowerCase()) {
+    switch (this.getLanguage()) {
       case 'fr':
         this.title = 'Faire un don';
         break;
@@ -19,20 +18,33 @@ class Contribute extends Component {
         this.language = 'en';
     }
   }
+
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
+    }
+  }
+
   render() {
     const traitrackerLinkText = 'Return to the GR10 Trail Tracker';
     return (
       <React.Fragment>
-        <Helmet htmlAttributes={{ lang: this.language }}>
+        <Helmet htmlAttributes={{ lang: this.getLanguage() }}>
           <title>{this.title}</title>
         </Helmet>
-        <Menu language={this.props.language} />
+        <Menu language={this.getLanguage()} origin={this.props.origin} />
         <header className="App-header">
           <h1 className="App-title">{this.title}</h1>
         </header>
 
         <div className="App-content">
-          <AboutContributeSection language={this.props.language} />
+          <AboutContributeSection language={this.getLanguage()} />
           <p>
             {'<<'}{' '}
             <Link

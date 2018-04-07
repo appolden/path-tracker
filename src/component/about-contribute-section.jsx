@@ -4,10 +4,20 @@ class AboutContributeSection extends Component {
   constructor(props) {
     super(props);
 
-    this.language = this.props.language || 'en';
     this.state = { amount: undefined };
-
     this.onAmountChange = this.onAmountChange.bind(this);
+  }
+
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
+    }
   }
 
   onAmountChange(event) {
@@ -15,6 +25,7 @@ class AboutContributeSection extends Component {
   }
 
   render() {
+    const language = this.getLanguage();
     let text = (
       <React.Fragment>
         <h2>Donate</h2>
@@ -64,7 +75,7 @@ class AboutContributeSection extends Component {
       </React.Fragment>
     );
 
-    switch (this.language.toLowerCase()) {
+    switch (language) {
       case 'fr':
         text = (
           <React.Fragment>

@@ -11,20 +11,9 @@ class Menu extends Component {
     this.onCloseSideNavBarClick = this.onCloseSideNavBarClick.bind(this);
     this.onLanguageSelect = this.onLanguageSelect.bind(this);
 
-    this.language = this.props.language || 'en';
-    this.language = this.language.toLowerCase();
-    switch (this.language) {
-      case 'fr':
-        break;
-      case 'en':
-      default:
-        this.language = 'en';
-      //default to english
-    }
-
     this.state = {
       menuActive: false,
-      language: this.language
+      language: this.getLanguage()
     };
 
     this.sideNavItems = [
@@ -74,32 +63,100 @@ class Menu extends Component {
   onLanguageSelect(event) {
     this.setState({ language: event.target.value });
     if (this.props.onLanguageChange !== undefined) {
-      this.props.onLanguageChange(this.state.language);
+      this.props.onLanguageChange(event.target.value);
+    }
+  }
+
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
     }
   }
 
   render() {
-    //onclick="myFunction(this)"
+    const language = this.getLanguage();
+
     const className =
       'menuButtonContainer' +
       (this.state.menuActive ? ' menuButtonActive' : '');
     const sideNavClassName =
       'sidenav' + (this.state.menuActive ? ' sidenavActive' : '');
 
+    const pathWithOutLanguageCode = this.props.origin;
+
     const sideNavLinks = this.sideNavItems.map(x => {
-      if (this.language === 'fr') {
+      if (language === 'fr') {
         return (
-          <Link key={x.url} to={'/' + this.language + x.url}>
+          <Link key={x.url} to={'/' + language + x.url}>
             {x.linkText.fr}
           </Link>
         );
       }
       return (
-        <Link key={x.url} to={'/' + this.language + x.url}>
+        <Link key={x.url} to={'/' + language + x.url}>
           {x.linkText.en}
         </Link>
       );
     });
+
+    let languageSelection = undefined;
+
+    if (this.props.useBrowserLinks) {
+      languageSelection = (
+        <React.Fragment>
+          <a href={'/fr' + pathWithOutLanguageCode}>
+            <input
+              type="image"
+              src={FrenchFlag}
+              value="fr"
+              className={this.state.language === 'fr' ? 'languageActive' : ''}
+              alt="Définir la langue en français"
+            />
+          </a>
+          <a href={'/en' + pathWithOutLanguageCode}>
+            <input
+              type="image"
+              src={UkFlag}
+              value="en"
+              className={this.state.language === 'en' ? 'languageActive' : ''}
+              alt="Set language to English"
+            />
+          </a>{' '}
+        </React.Fragment>
+      );
+    } else {
+      languageSelection = (
+        <React.Fragment>
+          <Link to={'/fr' + pathWithOutLanguageCode}>
+            <input
+              type="image"
+              src={FrenchFlag}
+              value="fr"
+              onClick={this.onLanguageSelect}
+              className={this.state.language === 'fr' ? 'languageActive' : ''}
+              alt="Définir la langue en français"
+            />
+          </Link>
+          <Link to={'/en' + pathWithOutLanguageCode}>
+            <input
+              type="image"
+              src={UkFlag}
+              value="en"
+              onClick={this.onLanguageSelect}
+              className={this.state.language === 'en' ? 'languageActive' : ''}
+              alt="Set language to English"
+            />
+          </Link>{' '}
+        </React.Fragment>
+      );
+    }
+
     return (
       <React.Fragment>
         <div className={className} onClick={this.onClick}>
@@ -112,24 +169,10 @@ class Menu extends Component {
             &times;
           </a>
           <div className="languageSelectContainer">
-            <input
-              type="image"
-              src={FrenchFlag}
-              value="fr"
-              onClick={this.onLanguageSelect}
-              className={this.state.language === 'fr' ? 'languageActive' : ''}
-              alt="D�finir la langue en fran�ais"
-            />
-            <input
-              type="image"
-              src={UkFlag}
-              value="en"
-              onClick={this.onLanguageSelect}
-              className={this.state.language === 'en' ? 'languageActive' : ''}
-              alt="Set language to English"
-            />
+                   
+                    {languageSelection}
+                    
           </div>
-
           {sideNavLinks}
         </div>
       </React.Fragment>

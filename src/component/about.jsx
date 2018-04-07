@@ -11,38 +11,58 @@ class About extends Component {
   constructor(props) {
     super(props);
 
-    this.language = this.props.language || 'en';
+    this.onLanguageChange = this.onLanguageChange.bind(this);
 
     this.pageTitle = 'GR10 trail tracker';
     this.title = 'About';
-    switch (this.language.toLowerCase()) {
+    switch (this.getLanguage()) {
       case 'fr':
         this.title = 'Informations';
         this.pageTitle = 'Le tracker de GR10';
         break;
       case 'en':
       default:
-        this.language = 'en';
-      //default to english
+    }
+
+    this.state = { language: this.getLanguage() };
+  }
+
+  onLanguageChange(newLanguage) {
+    this.setState({ language: newLanguage });
+  }
+
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
     }
   }
 
   render() {
     return (
       <React.Fragment>
-        <Helmet htmlAttributes={{ lang: this.language }}>
+        <Helmet htmlAttributes={{ lang: this.state.language }}>
           <title>{this.pageTitle}</title>
         </Helmet>
-        <Menu language={this.props.language} />
+        <Menu
+          language={this.state.language}
+          origin={this.props.origin}
+          onLanguageChange={this.onLanguageChange}
+        />
         <header className="App-header">
           <h1 className="App-title">{this.title}</h1>
         </header>
         <div className="App-content">
-          <AboutIntroductionParagraph language={this.language} />
-          <AboutInstallationSection language={this.language} />
+          <AboutIntroductionParagraph language={this.state.language} />
+          <AboutInstallationSection language={this.state.language} />
 
-          <AboutGr10Section language={this.language} />
-          <AboutContributeSection language={this.language} />
+          <AboutGr10Section language={this.state.language} />
+          <AboutContributeSection language={this.state.language} />
           <h2>About me</h2>
           <p>
             When I overcome my shyness, I'll write something about myself here.

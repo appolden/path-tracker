@@ -7,7 +7,11 @@ export class TrailMapFrench extends Component {
     const title = 'G10 Map';
     return (
       <React.Fragment>
-        <TrailMap google={this.props.google} language="fr" />
+        <TrailMap
+          google={this.props.google}
+          language="fr"
+          origin={this.props.origin}
+        />
       </React.Fragment>
     );
   }

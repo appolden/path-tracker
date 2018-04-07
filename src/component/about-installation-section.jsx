@@ -3,8 +3,18 @@ import React, { Component } from 'react';
 class AboutInstallationSection extends Component {
   constructor(props) {
     super(props);
+  }
 
-    this.language = this.props.language || 'en';
+  getLanguage() {
+    const language = (this.props.language || 'en').toLowerCase();
+    switch (language) {
+      case 'fr':
+        return language;
+        break;
+      case 'en': // in case a user enters a language code that is not supported
+      default:
+        return 'en';
+    }
   }
 
   render() {
@@ -19,7 +29,7 @@ class AboutInstallationSection extends Component {
       </React.Fragment>
     );
 
-    switch (this.language.toLowerCase()) {
+    switch (this.getLanguage()) {
       case 'fr':
         text = (
           <React.Fragment>
