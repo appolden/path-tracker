@@ -67,7 +67,7 @@ export class TrailMap extends Component {
     let description =
       campingLocation.description.en || campingLocation.description.fr;
 
-    switch (this.getLanguage) {
+    switch (this.getLanguage()) {
       case 'fr':
         description = campingLocation.description.fr;
         break;
@@ -98,6 +98,12 @@ export class TrailMap extends Component {
     let title = 'GR10 Map';
 
     const language = this.getLanguage();
+
+    switch (this.getLanguage()) {
+      case 'fr':
+        title = 'GR10 Carte';
+        break;
+    }
 
     return (
       <React.Fragment>
