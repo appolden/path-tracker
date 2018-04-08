@@ -283,3 +283,19 @@ However, delay the fade out process for 2.5 seconds */
     font-size: 18px;
   }
 }
+
+
+.btn {
+    background-color: #111;
+    border: none;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25em;
+    margin: 4px 2px;
+    border-radius: 8px;
+}

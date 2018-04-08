@@ -7,6 +7,7 @@ import PointOfInterest from '../component/point-of-interest.jsx';
 import PointCurrent from '../component/point-current.jsx';
 import Location from '../component/location.jsx';
 import LocationOverride from '../component/location-override.jsx';
+import LocationWatcher from '../component/location-watcher.jsx';
 import Menu from '../component/menu.jsx';
 
 class PathTracker extends Component {
@@ -147,7 +148,7 @@ class PathTracker extends Component {
   onLocationChanged(lat, lng) {
     this.findNearestPointToLocationAndUpdate(lat, lng);
     this.scrollToAfterComponentDidUpdate = true;
-  }
+    }
 
   render() {
     this.language = this.props.language || 'en';
@@ -245,7 +246,7 @@ class PathTracker extends Component {
         </header>
         <div className="App-content">
           <div>
-            {locationComponent}
+                    <LocationWatcher onLocationChanged={this.onLocationChanged} language={this.language} />
 
             <div style={style} className="pointsOfInterest">
               {rows}

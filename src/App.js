@@ -67,7 +67,7 @@ class App extends Component {
               path="/:language/gr10/trail-tracker"
               component={props => {
                 this.onRouterUpdate();
-                console.log(window.location.pathname);
+
                 return (
                   <PathTracker
                     trailName="gr10"
@@ -139,7 +139,6 @@ class App extends Component {
                 switch (props.match.params.language) {
                   case 'fr':
                     return <TrailMapFrench origin="/gr10/map" />;
-                    break;
                   case 'en':
                   default:
                     return <TrailMapEnglish origin="/gr10/map" />;
