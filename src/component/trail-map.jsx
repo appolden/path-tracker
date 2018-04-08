@@ -10,13 +10,27 @@ export class TrailMap extends Component {
     this.google = undefined;
     this.map = undefined;
     this.infoWindow = undefined;
+
+    switch (this.props.trailName) {
+      case 'gr10':
+        this.polylineUrl = '/data/gr10-route.json';
+        this.campingUrl = '/data/gr10-camping.json';
+        this.initialCenter = { lat: 42.823647, lng: 0.795077 }; //{ lat: 42.956607, lng: -0.328833 };
+        this.initialZoom = 6;
+        break;
+      case 'gr20':
+        this.polylineUrl = '/data//gr20/gr20-route.json';
+        this.campingUrl = '/data/gr10-camping.json';
+        this.initialCenter = { lat: 42.121206, lng: 9.124647 };
+        this.initialZoom = 8;
+    }
   }
 
   onMapReady = (mapProps, map) => {
     this.map = map;
     this.google = mapProps.google;
 
-    fetch('/data/gr10-route.json')
+    fetch(this.polylineUrl)
       .then(response => response.json())
       .then(data => {
         const decodedPath = mapProps.google.maps.geometry.encoding.decodePath(
@@ -32,7 +46,7 @@ export class TrailMap extends Component {
         trail.setMap(map);
       });
 
-    fetch('/data/gr10-camping.json')
+    fetch(this.campingUrl)
       .then(response => response.json())
       .then(campingLocations => {
         campingLocations.forEach(x => {
@@ -95,13 +109,31 @@ export class TrailMap extends Component {
   }
 
   render() {
-    let title = 'GR10 Map';
+    let title = 'GR10 Mapss';
 
     const language = this.getLanguage();
 
-    switch (this.getLanguage()) {
-      case 'fr':
-        title = 'GR10 Carte';
+    switch (this.props.trailName) {
+      case 'gr10':
+      default:
+        switch (this.getLanguage()) {
+          case 'fr':
+            title = 'GR10 Carte';
+            break;
+          case 'en':
+          default:
+            title = 'GR10 Map';
+        }
+        break;
+      case 'gr20':
+        switch (this.getLanguage()) {
+          case 'fr':
+            title = 'GR20 Carte';
+            break;
+          case 'en':
+          default:
+            title = 'GR20 Map';
+        }
         break;
     }
 
@@ -122,9 +154,9 @@ export class TrailMap extends Component {
           <div className="mapContainer">
             <Map
               google={this.props.google}
-              zoom={7}
+              zoom={this.initialZoom}
               onReady={this.onMapReady}
-              initialCenter={{ lat: 42.956607, lng: -0.328833 }}
+              initialCenter={this.initialCenter}
               clickableIcons={true}
               className="map"
             />

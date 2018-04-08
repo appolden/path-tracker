@@ -138,10 +138,34 @@ class App extends Component {
 
                 switch (props.match.params.language) {
                   case 'fr':
-                    return <TrailMapFrench origin="/gr10/map" />;
+                    return (
+                      <TrailMapFrench origin="/gr10/map" trailName="gr10" />
+                    );
                   case 'en':
                   default:
-                    return <TrailMapEnglish origin="/gr10/map" />;
+                    return (
+                      <TrailMapEnglish origin="/gr10/map" trailName="gr10" />
+                    );
+                }
+              }}
+            />
+
+            <Route
+              exaxt
+              path="/:language/gr20/map"
+              component={props => {
+                this.onRouterUpdate();
+
+                switch (props.match.params.language) {
+                  case 'fr':
+                    return (
+                      <TrailMapFrench origin="/gr20/map" trailName="gr20" />
+                    );
+                  case 'en':
+                  default:
+                    return (
+                      <TrailMapEnglish origin="/gr20/map" trailName="gr20" />
+                    );
                 }
               }}
             />

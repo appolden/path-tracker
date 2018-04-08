@@ -10,6 +10,7 @@ export class TrailMapEnglish extends Component {
           google={this.props.google}
           language="en"
           origin={this.props.origin}
+          trailName={this.props.trailName}
         />
       </React.Fragment>
     );
