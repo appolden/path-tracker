@@ -10,11 +10,11 @@ import Contribute from './component/contribute';
 import TrailMapFrench from './component/trail-map-fr.jsx';
 import TrailMapEnglish from './component/trail-map-en.jsx';
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-76203188-2'); //Unique Google Analytics tracking number
+ReactGA.initialize('UA-76203188-2');
 
 class App extends Component {
   onRouterUpdate() {
-    ReactGA.pageview(window.location.pathname); //<Route exact path="/" component={About} />    <Route exact path="/about" component={About} />
+    ReactGA.pageview(window.location.pathname);
   }
 
   render() {

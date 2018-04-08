@@ -153,11 +153,13 @@ class PathTracker extends Component {
   render() {
     this.language = this.props.language || 'en';
 
+    this.pageTitle = 'GR10 trail tracker';
     this.title = 'GR10 trail tracker';
     this.aboutLinkText = 'About';
     switch (this.language.toLowerCase()) {
       case 'fr':
-        this.title = 'Traqueur de sentier GR10';
+        this.pageTitle = 'Traqueur de sentier GR10';
+        this.title = 'Sentier GR10';
         this.aboutLinkText = 'Informations';
         break;
       case 'en':
@@ -232,7 +234,7 @@ class PathTracker extends Component {
       />
     );
     //console.log(window.outerHeight);
-    const offset = 140;
+    const offset = 130;
     const style = { height: window.outerHeight - offset };
 
     return (
@@ -240,8 +242,9 @@ class PathTracker extends Component {
         <Helmet htmlAttributes={{ lang: this.language }}>
           <title>{this.title}</title>
         </Helmet>
-        <Menu language={this.props.language} origin={this.props.origin} />
+
         <header className="App-header">
+          <Menu language={this.props.language} origin={this.props.origin} />
           <h1 className="App-title">{this.title}</h1>
         </header>
         <div className="App-content">

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import FrenchFlag from '../images/flags/france.svg';
 import UkFlag from '../images/flags/united-kingdom.svg';
+import LanguageHelper from '../component/language-helper.js';
 
 class Menu extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class Menu extends Component {
 
     this.state = {
       menuActive: false,
-      language: this.getLanguage()
+      language: LanguageHelper.getLanguage(this.props.language)
     };
 
     this.sideNavItems = [
@@ -67,20 +68,8 @@ class Menu extends Component {
     }
   }
 
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-        break;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
-    }
-  }
-
   render() {
-    const language = this.getLanguage();
+    const language = LanguageHelper.getLanguage(this.props.language);
 
     const className =
       'menuButtonContainer' +

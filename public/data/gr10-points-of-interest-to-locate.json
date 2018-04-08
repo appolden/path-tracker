@@ -263,14 +263,14 @@
     }
   },
   {
-    "name": "gites berretechia",
+    "name": "Gîtes berretechia",
     "point": {
       "lat": 42.995757,
       "lng": -0.816175
     }
   },
   {
-    "name": "Gite d'Etape Sainte Engrace Burguburu",
+    "name": "Gîte d'Etape Sainte Engrace Burguburu",
     "point": {
       "lat": 42.995812,
       "lng": -0.809936
@@ -330,7 +330,7 @@
     }
   },
   {
-    "name": "Départ gr10 pour Gite et camping Accous, Lhers-Lescun",
+    "name": "Départ gr10 pour Gîte et camping Accous, Lhers-Lescun",
     "point": {
       "lat": 42.914462,
       "lng": -0.615819
@@ -436,7 +436,7 @@
     }
   },
   {
-    "name": "Rue D918",
+    "name": "Route D918",
     "point": {
       "lat": 42.964251,
       "lng": -0.303090
@@ -527,7 +527,7 @@
     }
   },
   {
-    "name": "Rue (Route de Cambasque)",
+    "name": "Route de Cambasque",
     "point": {
       "lat": 42.887722,
       "lng": -0.126101
@@ -597,7 +597,7 @@
     }
   },
   {
-    "name": " Refuge de Bayssellance ",
+    "name": "Refuge de Bayssellance ",
     "point": {
       "lat": 42.779315,
       "lng": -0.124127
@@ -618,7 +618,7 @@
     }
   },
   {
-    "name": " Cabane de Sausse Dessus",
+    "name": "Cabane de Sausse Dessus",
     "point": {
       "lat": 42.737602,
       "lng": -0.071256
@@ -631,8 +631,98 @@
       "lng": -0.022493
     }
   },
+  {
+    "name": "Gîte d'etape le Saugue",
+    "point": {
+      "lat": 42.768577,
+      "lng": -0.005777
+    }
+  },
+  {
+    "name": "Route",
+    "point": {
+      "lat": 42.806262,
+      "lng": 0.004825
+    }
+  },
 
-
+  {
+    "name": "Pont sur Gave d'Aspé ",
+    "point": {
+      "lat": 42.773223,
+      "lng": -0.016013
+    }
+  },
+  {
+    "name": "Pont sur Gave de Gavarnie",
+    "point": {
+      "lat": 42.821202,
+      "lng": 0.009331
+    }
+  },
+  {
+    "name": "Sia",
+    "point": {
+      "lat": 42.829927,
+      "lng": 0.004785
+    }
+  },
+  {
+    "name": "Quitter la Route D291",
+    "point": {
+      "lat": 42.833782,
+      "lng": -0.000174
+    }
+  },
+  {
+    "name": "Route",
+    "point": {
+      "lat": 42.862451,
+      "lng": -0.009710
+    }
+  },
+  {
+    "name": "Pont Napoléon Saut à l'élastique",
+    "point": {
+      "lat": 42.858436,
+      "lng": -0.005729
+    }
+  },
+  {
+    "name": " Chapelle de Solférino",
+    "point": {
+      "lat": 42.868339,
+      "lng": -0.008208
+    }
+  },
+  {
+    "name": "Pont transversal pour Luz Saint Sauveur",
+    "point": {
+      "lat": 42.869173,
+      "lng": -0.003350
+    }
+  },
+  {
+    "name": "Pont",
+    "point": {
+      "lat": 42.869271,
+      "lng": 0.003090
+    }
+  },
+  {
+    "name": "Ruisseau de Bolou",
+    "point": {
+      "lat": 42.863979,
+      "lng": 0.059052
+    }
+  },
+  {
+    "name": "Barèges",
+    "point": {
+      "lat": 42.897743,
+      "lng": 0.067785
+    }
+  },
   {
     "name": "Col de L'Estaca",
     "point": {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import LanguageHelper from '../component/language-helper.js';
 
 class AboutIntroductionParagraph extends Component {
   constructor(props) {
@@ -8,20 +9,8 @@ class AboutIntroductionParagraph extends Component {
     this.trailName = this.props.trailName || 'gr10';
   }
 
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-        break;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
-    }
-  }
-
   render() {
-    const language = this.getLanguage();
+    const language = LanguageHelper.getLanguage(this.props.language);
     let title = 'Introduction';
     let traitrackerLinkText = 'GR10 Trail Tracker';
     let text = (
@@ -38,19 +27,6 @@ class AboutIntroductionParagraph extends Component {
           <a href="https://www.pctmap.net/" title="Halfmile PCT maps">
             Halfmile's PCT Maps
           </a>
-        </p>
-        <p>
-          I'm grateful to{' '}
-          <a href="http://www.gr10.fr/" title="GR10">
-            www.gr10.fr
-          </a>{' '}
-          for providing the information about camping sites. The gpx data that I
-          used for the trail coordinates was donwloaded from{' '}
-          <a href="http://www.gr-infos.com/" title="gpx source">
-            www.gr-infos.com
-          </a>. I have made admendments to the gpx to follow the variant options
-          that are more appealing to me. I plan to add variants, to the list of
-          points.
         </p>
       </React.Fragment>
     );

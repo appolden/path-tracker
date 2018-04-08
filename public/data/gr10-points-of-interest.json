@@ -238,14 +238,14 @@
     "cumulativeDescent": 10238
   },
   {
-    "name": "gites berretechia",
+    "name": "Gîtes berretechia",
     "nearestMetreOfPath": 175524,
     "elevation": 632,
     "cumulativeAscent": 10868,
     "cumulativeDescent": 10241
   },
   {
-    "name": "Gite d'Etape Sainte Engrace Burguburu",
+    "name": "Gîte d'Etape Sainte Engrace Burguburu",
     "nearestMetreOfPath": 176040,
     "elevation": 626,
     "cumulativeAscent": 10873,
@@ -308,7 +308,7 @@
     "cumulativeDescent": 11844
   },
   {
-    "name": "Départ gr10 pour Gite et camping Accous, Lhers-Lescun",
+    "name": "Départ gr10 pour Gîte et camping Accous, Lhers-Lescun",
     "nearestMetreOfPath": 207960,
     "elevation": 1024,
     "cumulativeAscent": 13020,
@@ -406,7 +406,7 @@
     "cumulativeDescent": 16325
   },
   {
-    "name": "Rue D918",
+    "name": "Route D918",
     "nearestMetreOfPath": 263280,
     "elevation": 1393,
     "cumulativeAscent": 18119,
@@ -497,7 +497,7 @@
     "cumulativeDescent": 18230
   },
   {
-    "name": "Rue (Route de Cambasque)",
+    "name": "Route de Cambasque",
     "nearestMetreOfPath": 293844,
     "elevation": 1235,
     "cumulativeAscent": 20152,
@@ -567,7 +567,7 @@
     "cumulativeDescent": 19676
   },
   {
-    "name": " Refuge de Bayssellance ",
+    "name": "Refuge de Bayssellance ",
     "nearestMetreOfPath": 315148,
     "elevation": 2637,
     "cumulativeAscent": 22418,
@@ -588,7 +588,7 @@
     "cumulativeDescent": 20702
   },
   {
-    "name": " Cabane de Sausse Dessus",
+    "name": "Cabane de Sausse Dessus",
     "nearestMetreOfPath": 324717,
     "elevation": 1918,
     "cumulativeAscent": 22776,
@@ -600,6 +600,97 @@
     "elevation": 1504,
     "cumulativeAscent": 23016,
     "cumulativeDescent": 21517
+  },
+  {
+    "name": "Gîte d'etape le Saugue",
+    "nearestMetreOfPath": 335312,
+    "elevation": 1615,
+    "cumulativeAscent": 23426,
+    "cumulativeDescent": 21816
+  },
+  {
+    "name": "Pont sur Gave d'Aspé ",
+    "nearestMetreOfPath": 336486,
+    "elevation": 1601,
+    "cumulativeAscent": 23458,
+    "cumulativeDescent": 21862
+  },
+  {
+    "name": "Route",
+    "nearestMetreOfPath": 345804,
+    "elevation": 1005,
+    "cumulativeAscent": 23964,
+    "cumulativeDescent": 22964
+  },
+  {
+    "name": "Pont sur Gave de Gavarnie",
+    "nearestMetreOfPath": 347619,
+    "elevation": 909,
+    "cumulativeAscent": 23969,
+    "cumulativeDescent": 23065
+  },
+  {
+    "name": "Sia",
+    "nearestMetreOfPath": 348756,
+    "elevation": 880,
+    "cumulativeAscent": 23976,
+    "cumulativeDescent": 23101
+  },
+  {
+    "name": "Quitter la Route D291",
+    "nearestMetreOfPath": 349365,
+    "elevation": 845,
+    "cumulativeAscent": 23978,
+    "cumulativeDescent": 23138
+  },
+  {
+    "name": "Route",
+    "nearestMetreOfPath": 353748,
+    "elevation": 732,
+    "cumulativeAscent": 24227,
+    "cumulativeDescent": 23500
+  },
+  {
+    "name": "Pont Napoléon Saut à l'élastique",
+    "nearestMetreOfPath": 354315,
+    "elevation": 735,
+    "cumulativeAscent": 24248,
+    "cumulativeDescent": 23518
+  },
+  {
+    "name": " Chapelle de Solférino",
+    "nearestMetreOfPath": 355590,
+    "elevation": 730,
+    "cumulativeAscent": 24308,
+    "cumulativeDescent": 23583
+  },
+  {
+    "name": "Pont transversal pour Luz Saint Sauveur",
+    "nearestMetreOfPath": 356185,
+    "elevation": 722,
+    "cumulativeAscent": 24365,
+    "cumulativeDescent": 23648
+  },
+  {
+    "name": "Pont",
+    "nearestMetreOfPath": 356721,
+    "elevation": 794,
+    "cumulativeAscent": 24437,
+    "cumulativeDescent": 23648
+  },
+  {
+    "name": "Ruisseau de Bolou",
+    "nearestMetreOfPath": 362800,
+    "elevation": 1454,
+    "cumulativeAscent": 25205,
+    "cumulativeDescent": 23756
+  },
+  {
+    "name": "Barèges",
+    "nearestMetreOfPath": 367841,
+    "elevation": 1242,
+    "cumulativeAscent": 25377,
+    "cumulativeDescent": 24140
   },
   {
     "name": "Col de L'Estaca",

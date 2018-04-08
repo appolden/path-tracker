@@ -6,6 +6,7 @@ import AboutInstallationSection from '../component/about-installation-section.js
 import AboutGr10Section from '../component/about-gr10-section.jsx';
 import AboutContributeSection from '../component/about-contribute-section.jsx';
 import Menu from '../component/menu.jsx';
+import LanguageHelper from '../component/language-helper.js';
 
 class About extends Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class About extends Component {
 
     this.pageTitle = 'GR10 trail tracker';
     this.title = 'About';
-    switch (this.getLanguage()) {
+    switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         this.title = 'Informations';
         this.pageTitle = 'Le tracker de GR10';
@@ -24,22 +25,11 @@ class About extends Component {
       default:
     }
 
-    this.state = { language: this.getLanguage() };
+    this.state = { language: LanguageHelper.getLanguage(this.props.language) };
   }
 
   onLanguageChange(newLanguage) {
     this.setState({ language: newLanguage });
-  }
-
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
-    }
   }
 
   render() {
@@ -48,12 +38,13 @@ class About extends Component {
         <Helmet htmlAttributes={{ lang: this.state.language }}>
           <title>{this.pageTitle}</title>
         </Helmet>
-        <Menu
-          language={this.state.language}
-          origin={this.props.origin}
-          onLanguageChange={this.onLanguageChange}
-        />
+
         <header className="App-header">
+          <Menu
+            language={this.state.language}
+            origin={this.props.origin}
+            onLanguageChange={this.onLanguageChange}
+          />
           <h1 className="App-title">{this.title}</h1>
         </header>
         <div className="App-content">
@@ -64,22 +55,15 @@ class About extends Component {
           <AboutContributeSection language={this.state.language} />
           <h2>About me</h2>
           <p>
-            When I overcome my shyness, I'll write something about myself here.
-            <a href="https://hiking-al.herokuapp.com/"> Hiking Al</a>.<br />
+            When I overcome my shyness, I'll write something about myself here.{' '}
+            <a href="https://hiking-al.herokuapp.com/">Hiking Al</a>.<br />
             Follow me on{' '}
             <a href="https://www.instagram.com/alpolden/">Instagram</a>
           </p>
           <h2>Technical information</h2>
           <p>
             One of the goals of this website was for me to become more familiar
-            wiht ReactJs and progressive web apps. The source code can be found
-            on GitHub.{' '}
-            <a
-              href="https://github.com/appolden/path-tracker"
-              title="source code"
-            >
-              Source code
-            </a>{' '}
+            wiht ReactJs and progressive web apps.
           </p>
           <p>
             To refresh the cached data goto the{' '}

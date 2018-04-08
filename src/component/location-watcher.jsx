@@ -9,12 +9,12 @@ class LocationWatcher extends Component {
 
     this.buttonText = {
       en: 'Start tracking',
-      fr: 'Loacte francais'
+      fr: 'Commencer le suivi'
     };
 
     this.buttonTextWhenTracking = {
       en: 'Stop tracking',
-      fr: 'Arrete'
+      fr: 'Arrêter le suivi'
     };
 
     this.state = {
@@ -47,7 +47,7 @@ class LocationWatcher extends Component {
 
   startPositionWatch() {
     if ('geolocation' in navigator) {
-      this.setState({ watchingPosition: true });
+      this.setState({ error: '', watchingPosition: true });
       var geoLocateOptions = {
         enableHighAccuracy: true,
         timeout: 25000,
@@ -64,7 +64,6 @@ class LocationWatcher extends Component {
             return prevState;
           });
 
-          console.log(position);
           if (this.props.onLocationChanged !== undefined) {
             this.props.onLocationChanged(
               position.coords.latitude,
@@ -95,7 +94,7 @@ class LocationWatcher extends Component {
         navigator.geolocation.clearWatch(this.watchPositionId);
         this.watchPositionId = undefined;
 
-        switch (LanguageHelper.getLanguage(this.props.langauge)) {
+        switch (LanguageHelper.getLanguage(this.props.language)) {
           case 'fr':
             this.setState({ watchingPosition: false });
             break;
@@ -109,7 +108,7 @@ class LocationWatcher extends Component {
   render() {
     let buttonText = '';
 
-    switch (LanguageHelper.getLanguage(this.props.langauge)) {
+    switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         buttonText = this.state.watchingPosition
           ? this.buttonTextWhenTracking.fr
@@ -123,7 +122,7 @@ class LocationWatcher extends Component {
     }
 
     return (
-      <p>
+      <div>
         {this.state.position.lat !== undefined && (
           <React.Fragment>
             Lat:{this.state.position.lat.toFixed(5)}, Lng:{this.state.position.lng.toFixed(
@@ -139,7 +138,7 @@ class LocationWatcher extends Component {
           disabled={this.state.getCurrentPositionInProgress}
         />{' '}
         {this.state.error}
-      </p>
+      </div>
     );
   }
 }

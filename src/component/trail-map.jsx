@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import { Map } from 'google-maps-react';
 import Menu from '../component/menu.jsx';
+import LanguageHelper from '../component/language-helper.js';
 
 export class TrailMap extends Component {
   constructor(props) {
@@ -15,7 +16,7 @@ export class TrailMap extends Component {
       case 'gr10':
         this.polylineUrl = '/data/gr10-route.json';
         this.campingUrl = '/data/gr10-camping.json';
-        this.initialCenter = { lat: 42.823647, lng: 0.795077 }; //{ lat: 42.956607, lng: -0.328833 };
+        this.initialCenter = { lat: 42.823647, lng: 0.795077 };
         this.initialZoom = 6;
         break;
       case 'gr20':
@@ -96,27 +97,15 @@ export class TrailMap extends Component {
     this.infoWindow.open(this.map, marker);
   }
 
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-        break;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
-    }
-  }
-
   render() {
     let title = 'GR10 Mapss';
 
-    const language = this.getLanguage();
+    const language = LanguageHelper.getLanguage(this.props.language);
 
     switch (this.props.trailName) {
       case 'gr10':
       default:
-        switch (this.getLanguage()) {
+        switch (LanguageHelper.getLanguage(this.props.language)) {
           case 'fr':
             title = 'GR10 Carte';
             break;
@@ -126,7 +115,7 @@ export class TrailMap extends Component {
         }
         break;
       case 'gr20':
-        switch (this.getLanguage()) {
+        switch (LanguageHelper.getLanguage(this.props.language)) {
           case 'fr':
             title = 'GR20 Carte';
             break;
@@ -142,12 +131,13 @@ export class TrailMap extends Component {
         <Helmet htmlAttributes={{ lang: language }}>
           <title>{title}</title>
         </Helmet>
-        <Menu
-          language={language}
-          origin={this.props.origin}
-          useBrowserLinks={true}
-        />
+
         <header className="App-header">
+          <Menu
+            language={language}
+            origin={this.props.origin}
+            useBrowserLinks={true}
+          />
           <h1 className="App-title">{title}</h1>
         </header>
         <div className="App-content">

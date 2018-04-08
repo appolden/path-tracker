@@ -26,8 +26,9 @@ class Contribute extends Component {
         <Helmet htmlAttributes={{ lang: language }}>
           <title>{this.title}</title>
         </Helmet>
-        <Menu language={language} origin={this.props.origin} />
+
         <header className="App-header">
+          <Menu language={language} origin={this.props.origin} />
           <h1 className="App-title">{this.title}</h1>
         </header>
 

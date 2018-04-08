@@ -1,20 +1,9 @@
 import React, { Component } from 'react';
+import LanguageHelper from '../component/language-helper.js';
 
 class AboutInstallationSection extends Component {
   constructor(props) {
     super(props);
-  }
-
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-        break;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
-    }
   }
 
   render() {
@@ -29,7 +18,7 @@ class AboutInstallationSection extends Component {
       </React.Fragment>
     );
 
-    switch (this.getLanguage()) {
+    switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         text = (
           <React.Fragment>

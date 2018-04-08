@@ -1,24 +1,12 @@
 import React, { Component } from 'react';
+import LanguageHelper from '../component/language-helper.js';
 
 class AboutGr10Section extends Component {
   constructor(props) {
     super(props);
   }
 
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-        break;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
-    }
-  }
-
   render() {
-    const language = this.getLanguage();
     let text = (
       <React.Fragment>
         <h2>The GR10 trail</h2>
@@ -51,7 +39,7 @@ class AboutGr10Section extends Component {
       </React.Fragment>
     );
 
-    switch (language) {
+    switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         text = (
           <React.Fragment>
