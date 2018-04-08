@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import LanguageHelper from '../component/language-helper.js';
 
 class AboutContributeSection extends Component {
   constructor(props) {
@@ -8,24 +9,12 @@ class AboutContributeSection extends Component {
     this.onAmountChange = this.onAmountChange.bind(this);
   }
 
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-        break;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
-    }
-  }
-
   onAmountChange(event) {
     this.setState({ amount: event.target.value });
   }
 
   render() {
-    const language = this.getLanguage();
+      const language = LanguageHelper.getLanguage(this.props.language);
     let text = (
       <React.Fragment>
         <h2>Donate</h2>
@@ -93,7 +82,7 @@ class AboutContributeSection extends Component {
             >
               <input type="hidden" name="cmd" value="_xclick" />
               <input type="hidden" name="business" value="a.polden@gmail.com" />
-              <input type="hidden" name="currency_code" value="GBP" />
+              <input type="hidden" name="currency_code" value="EUR" />
               <input
                 type="hidden"
                 name="item_name"

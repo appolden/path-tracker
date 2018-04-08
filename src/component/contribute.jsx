@@ -1,59 +1,38 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import AboutContributeSection from '../component/about-contribute-section';
 import Menu from '../component/menu.jsx';
+import LanguageHelper from '../component/language-helper.js';
 
 class Contribute extends Component {
   constructor(props) {
     super(props);
 
     this.title = 'Donate';
-    switch (this.getLanguage()) {
+      switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         this.title = 'Faire un don';
-        break;
-      case 'en':
-      default:
-        this.language = 'en';
-    }
-  }
-
-  getLanguage() {
-    const language = (this.props.language || 'en').toLowerCase();
-    switch (language) {
-      case 'fr':
-        return language;
-        break;
-      case 'en': // in case a user enters a language code that is not supported
-      default:
-        return 'en';
+              break;
+          default:
+              break;
     }
   }
 
   render() {
-    const traitrackerLinkText = 'Return to the GR10 Trail Tracker';
+      const language = LanguageHelper.getLanguage(this.props.language);
+
     return (
       <React.Fragment>
-        <Helmet htmlAttributes={{ lang: this.getLanguage() }}>
+        <Helmet htmlAttributes={{ lang: language }}>
           <title>{this.title}</title>
         </Helmet>
-        <Menu language={this.getLanguage()} origin={this.props.origin} />
+            <Menu language={language} origin={this.props.origin} />
         <header className="App-header">
           <h1 className="App-title">{this.title}</h1>
         </header>
 
         <div className="App-content">
-          <AboutContributeSection language={this.getLanguage()} />
-          <p>
-            {'<<'}{' '}
-            <Link
-              to={'/' + this.language + '/trail-tracker'}
-              title={traitrackerLinkText}
-            >
-              {traitrackerLinkText}
-            </Link>
-          </p>
+                <AboutContributeSection language={language} />
         </div>
       </React.Fragment>
     );

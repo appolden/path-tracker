@@ -226,10 +226,7 @@ class PathTracker extends Component {
         language={this.language}
       />
     ) : (
-      <Location
-        onLocationChanged={this.onLocationChanged}
-        language={this.language}
-      />
+            <LocationWatcher onLocationChanged={this.onLocationChanged} language={this.language} />
     );
     //console.log(window.outerHeight);
     const offset = 140;
@@ -246,7 +243,7 @@ class PathTracker extends Component {
         </header>
         <div className="App-content">
           <div>
-                    <LocationWatcher onLocationChanged={this.onLocationChanged} language={this.language} />
+                   
 
             <div style={style} className="pointsOfInterest">
               {rows}
