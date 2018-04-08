@@ -148,7 +148,7 @@ class PathTracker extends Component {
   onLocationChanged(lat, lng) {
     this.findNearestPointToLocationAndUpdate(lat, lng);
     this.scrollToAfterComponentDidUpdate = true;
-    }
+  }
 
   render() {
     this.language = this.props.language || 'en';
@@ -226,7 +226,10 @@ class PathTracker extends Component {
         language={this.language}
       />
     ) : (
-            <LocationWatcher onLocationChanged={this.onLocationChanged} language={this.language} />
+      <LocationWatcher
+        onLocationChanged={this.onLocationChanged}
+        language={this.language}
+      />
     );
     //console.log(window.outerHeight);
     const offset = 140;
@@ -243,7 +246,7 @@ class PathTracker extends Component {
         </header>
         <div className="App-content">
           <div>
-                   
+            {locationComponent}
 
             <div style={style} className="pointsOfInterest">
               {rows}

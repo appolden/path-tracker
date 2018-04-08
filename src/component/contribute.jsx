@@ -9,30 +9,30 @@ class Contribute extends Component {
     super(props);
 
     this.title = 'Donate';
-      switch (LanguageHelper.getLanguage(this.props.language)) {
+    switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         this.title = 'Faire un don';
-              break;
-          default:
-              break;
+        break;
+      default:
+        break;
     }
   }
 
   render() {
-      const language = LanguageHelper.getLanguage(this.props.language);
+    const language = LanguageHelper.getLanguage(this.props.language);
 
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: language }}>
           <title>{this.title}</title>
         </Helmet>
-            <Menu language={language} origin={this.props.origin} />
+        <Menu language={language} origin={this.props.origin} />
         <header className="App-header">
           <h1 className="App-title">{this.title}</h1>
         </header>
 
         <div className="App-content">
-                <AboutContributeSection language={language} />
+          <AboutContributeSection language={language} />
         </div>
       </React.Fragment>
     );

@@ -14,7 +14,7 @@ class AboutContributeSection extends Component {
   }
 
   render() {
-      const language = LanguageHelper.getLanguage(this.props.language);
+    const language = LanguageHelper.getLanguage(this.props.language);
     let text = (
       <React.Fragment>
         <h2>Donate</h2>
