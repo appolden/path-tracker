@@ -9,6 +9,7 @@ import Location from '../component/location.jsx';
 import LocationOverride from '../component/location-override.jsx';
 import LocationWatcher from '../component/location-watcher.jsx';
 import Menu from '../component/menu.jsx';
+import LanguageHelper from '../component/language-helper.js';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -62,22 +63,35 @@ class PathTracker extends Component {
   loadPoints() {
     const url = this.props.pointsUrl;
 
-    if ('caches' in navigator) {
-      caches.open('data').then(cache => {
-        return cache.match(url).then(response => {
-          if (response === undefined) {
-            console.log('adding points to the cache');
-            fetch(url).then(response => {
-              const cloned = response.clone();
-              cache.put(url, response);
-              cloned.json().then(data => this.pointsLoaded(data));
-            });
-          } else {
-            console.log('retrieved points from cache');
-            response.json().then(data => this.pointsLoaded(data));
-          }
+    if ('caches' in window) {
+      caches
+        .open('data')
+        .then(cache => {
+          return cache.match(url).then(cacheResponse => {
+            if (cacheResponse === undefined) {
+              fetch(url).then(fetchResponse => {
+                const cloned = fetchResponse.clone();
+                cache.put(url, fetchResponse);
+                cloned.json().then(data => this.pointsLoaded(data));
+              });
+            } else {
+              cacheResponse.json().then(data => this.pointsLoaded(data));
+
+              //now check for new data and update the cache
+              fetch(url).then(fetchResponse => {
+                const cloned = fetchResponse.clone();
+                fetchResponse.json().then(data => {
+                  cache.put(url, cloned);
+                });
+              });
+            }
+          });
+        })
+        .catch(() => {
+          fetch(url)
+            .then(response => response.json())
+            .then(data => this.pointsLoaded(data));
         });
-      });
     } else {
       fetch(url)
         .then(response => response.json())
@@ -97,22 +111,45 @@ class PathTracker extends Component {
   loadPointsOfInterest() {
     const url = this.props.poisUrl;
 
-    if ('caches' in navigator) {
-      caches.open('data').then(cache => {
-        return cache.match(url).then(response => {
-          if (response === undefined) {
-            console.log('adding pois to the cache');
-            fetch(url).then(response => {
-              const cloned = response.clone();
-              cache.put(url, response);
-              cloned.json().then(data => this.pointsOfInterestLoaded(data));
-            });
-          } else {
-            console.log('retrieved pois from cache');
-            response.json().then(data => this.pointsOfInterestLoaded(data));
-          }
+    if ('caches' in window) {
+      caches
+        .open('data')
+        .then(cache => {
+          return cache.match(url).then(cacheResponse => {
+            if (cacheResponse === undefined) {
+              fetch(url).then(response => {
+                const cloned = response.clone();
+                cache.put(url, response);
+                cloned.json().then(data => this.pointsOfInterestLoaded(data));
+              });
+            } else {
+              cacheResponse
+                .json()
+                .then(data => this.pointsOfInterestLoaded(data));
+
+              //now check for new data and update the cache
+              fetch(url).then(fetchResponse => {
+                const cloned = fetchResponse.clone();
+                fetchResponse.json().then(data => {
+                  if (
+                    JSON.stringify(this.state.pointsOfInterest) !==
+                    JSON.stringify(data)
+                  ) {
+                    console.log('new data');
+                    cache.put(url, cloned);
+                    this.pointsOfInterestLoaded(data);
+                  }
+                });
+              });
+            }
+          });
+        })
+        .catch(error => {
+          console.error(`Error using cache. ${error}`);
+          fetch(url)
+            .then(response => response.json())
+            .then(data => this.pointsOfInterestLoaded(data));
         });
-      });
     } else {
       fetch(url)
         .then(response => response.json())
@@ -151,12 +188,12 @@ class PathTracker extends Component {
   }
 
   render() {
-    this.language = this.props.language || 'en';
+    this.language = LanguageHelper.getLanguage(this.props.language);
 
     this.pageTitle = 'GR10 trail tracker';
     this.title = 'GR10 trail tracker';
     this.aboutLinkText = 'About';
-    switch (this.language.toLowerCase()) {
+    switch (this.language) {
       case 'fr':
         this.pageTitle = 'Traqueur de sentier GR10';
         this.title = 'Sentier GR10';

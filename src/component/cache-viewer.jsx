@@ -20,14 +20,16 @@ class CacheViewer extends Component {
   loadCache(cacheKey) {
     const cacheItems = [];
 
-    if ('serviceWorker' in navigator) {
+    console.log(`'caches' in window  ${'caches' in window}`);
+
+    if ('caches' in window) {
       this.setState({ serviceWorkerEnabled: true });
       caches
         .open(cacheKey)
         .then(cache => cache.keys())
         .then(keys => {
           keys.forEach(key => cacheItems.push(key));
-          //  console.log(keys);
+
           this.setState({
             serviceWorkerEnabled: true,
             cacheItems: cacheItems
@@ -40,7 +42,7 @@ class CacheViewer extends Component {
 
   onDeleteCacheItem(request) {
     console.log(request);
-    if ('serviceWorker' in navigator) {
+    if ('caches' in window) {
       caches.open(this.cacheKey).then(cache => {
         cache.delete(request);
         this.loadCache(this.cacheKey);
