@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import LanguageHelper from '../component/language-helper.js';
 
 class AboutGr10Section extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     let text = (
       <React.Fragment>

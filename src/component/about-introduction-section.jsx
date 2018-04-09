@@ -52,20 +52,6 @@ class AboutIntroductionParagraph extends Component {
                 Halfmile's PCT Maps
               </a>
             </p>
-            <p>
-              Je suis reconnaissant à{' '}
-              <a href="http://www.gr10.fr/" title="GR10">
-                www.gr10.fr
-              </a>{' '}
-              pour avoir fourni des informations sur les campings. Les données
-              gpx que j'ai utilisées pour les coordonnées de la piste ont été
-              téléchargées sur{' '}
-              <a href="http://www.gr-infos.com/" title="gpx source">
-                www.gr-infos.com
-              </a>. J'ai fait des aveux à la gpx pour suivre les variantes qui
-              me plaisent. Je prévois d'ajouter des variantes, à la liste des
-              points.
-            </p>
           </React.Fragment>
         );
         break;

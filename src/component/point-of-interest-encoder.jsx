@@ -59,7 +59,9 @@ class PointOfInterestEncoder extends Component {
         nearestMetreOfPath: parseInt(x.nearestMetreOfPath, 10),
         elevation: x.elevation,
         cumulativeAscent: x.cumulativeAscent,
-        cumulativeDescent: x.cumulativeDescent
+        cumulativeDescent: x.cumulativeDescent,
+        description: x.description,
+        accommodations: x.accomodation
       };
     });
 

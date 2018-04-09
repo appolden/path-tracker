@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 import MapHelper from '../maps/map-helper.js';
 import PointOfInterest from '../component/point-of-interest.jsx';
 import PointCurrent from '../component/point-current.jsx';
-import Location from '../component/location.jsx';
 import LocationOverride from '../component/location-override.jsx';
 import LocationWatcher from '../component/location-watcher.jsx';
 import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
+import PointOfInterestModal from '../component/point-of-interest-modal.jsx';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -19,7 +19,8 @@ class PathTracker extends Component {
       pointsOfInterest: [],
       nearestMetreOfPath: 0,
       elevationAtNearestMetreOfPath: 0,
-      distanceFromPath: 0
+      distanceFromPath: 0,
+      selectedPointOfInterest: undefined
     };
     this.pointsWithDistance = [];
     this.pois = [];
@@ -28,6 +29,10 @@ class PathTracker extends Component {
     this.pointsOfInterest = undefined;
 
     this.onLocationChanged = this.onLocationChanged.bind(this);
+    this.onPointOfInterestClick = this.onPointOfInterestClick.bind(this);
+    this.onPointOfInterestModalClose = this.onPointOfInterestModalClose.bind(
+      this
+    );
   }
 
   componentDidMount() {
@@ -135,7 +140,6 @@ class PathTracker extends Component {
                     JSON.stringify(this.state.pointsOfInterest) !==
                     JSON.stringify(data)
                   ) {
-                    console.log('new data');
                     cache.put(url, cloned);
                     this.pointsOfInterestLoaded(data);
                   }
@@ -187,6 +191,14 @@ class PathTracker extends Component {
     this.scrollToAfterComponentDidUpdate = true;
   }
 
+  onPointOfInterestModalClose(name) {
+    this.setState({ selectedPointOfInterest: undefined });
+  }
+
+  onPointOfInterestClick(pointOfInterest) {
+    this.setState({ selectedPointOfInterest: pointOfInterest });
+  }
+
   render() {
     this.language = LanguageHelper.getLanguage(this.props.language);
 
@@ -235,6 +247,8 @@ class PathTracker extends Component {
           pathCumulativeDescent={
             this.state.cumulativeDescentAtNearestMetreOfPath
           }
+          onClick={this.onPointOfInterestClick}
+          pointOfInterest={x}
         />
       );
 
@@ -271,6 +285,7 @@ class PathTracker extends Component {
       />
     );
     //console.log(window.outerHeight);
+
     const offset = 130;
     const style = { height: window.outerHeight - offset };
 
@@ -279,7 +294,13 @@ class PathTracker extends Component {
         <Helmet htmlAttributes={{ lang: this.language }}>
           <title>{this.title}</title>
         </Helmet>
-
+        {this.state.selectedPointOfInterest && (
+          <PointOfInterestModal
+            visible={this.state.selectedPointOfInterest !== undefined}
+            pointOfInterest={this.state.selectedPointOfInterest}
+            onClose={this.onPointOfInterestModalClose}
+          />
+        )}
         <header className="App-header">
           <Menu language={this.props.language} origin={this.props.origin} />
           <h1 className="App-title">{this.title}</h1>

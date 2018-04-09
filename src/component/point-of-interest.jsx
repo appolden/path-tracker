@@ -4,6 +4,18 @@ import ArrowUp from '../icons/arrow-top.svg';
 import ArrowBottom from '../icons/arrow-bottom.svg';
 
 class PointOfInterest extends Component {
+  constructor(props) {
+    super(props);
+
+    this.onClick = this.onClick.bind(this);
+  }
+
+  onClick(name) {
+    if (this.props.onClick !== undefined) {
+      this.props.onClick(this.props.pointOfInterest);
+    }
+  }
+
   render() {
     let ascent = 0;
     let descent = 0;
@@ -26,7 +38,11 @@ class PointOfInterest extends Component {
     }
 
     return (
-      <div key={this.props.nearestMetreOfPath} className="pointOfInterest">
+      <div
+        key={this.props.nearestMetreOfPath}
+        className="pointOfInterest"
+        onClick={this.onClick}
+      >
         <div>
           {this.props.pathMetre > this.props.nearestMetreOfPath ? 'W' : 'E'}{' '}
           {(

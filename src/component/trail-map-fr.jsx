@@ -4,7 +4,6 @@ import { TrailMap } from '../component/trail-map.jsx';
 
 export class TrailMapFrench extends Component {
   render() {
-    const title = 'G10 Map';
     return (
       <React.Fragment>
         <TrailMap
@@ -17,8 +16,6 @@ export class TrailMapFrench extends Component {
     );
   }
 }
-
-//export default TrailMapFrench
 
 export default GoogleApiWrapper({
   apiKey: 'AIzaSyCbTwcCRBzA9Qc5dT_aPYebyiprFlV1WVE',
