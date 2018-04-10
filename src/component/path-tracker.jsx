@@ -296,7 +296,14 @@ class PathTracker extends Component {
         language={this.language}
       />
     );
-    //console.log(window.outerHeight);
+
+    //{this.state.selectedPointOfInterest && (
+    //  <PointOfInterestModal
+    //    visible={this.state.selectedPointOfInterest !== undefined}
+    //    pointOfInterest={this.state.selectedPointOfInterest}
+    //    onClose={this.onPointOfInterestModalClose}
+    //  />
+    //)}
 
     const offset = 130;
     const style = { height: window.outerHeight - offset };
@@ -306,13 +313,7 @@ class PathTracker extends Component {
         <Helmet htmlAttributes={{ lang: this.language }}>
           <title>{this.title}</title>
         </Helmet>
-        {this.state.selectedPointOfInterest && (
-          <PointOfInterestModal
-            visible={this.state.selectedPointOfInterest !== undefined}
-            pointOfInterest={this.state.selectedPointOfInterest}
-            onClose={this.onPointOfInterestModalClose}
-          />
-        )}
+
         <header className="App-header">
           <Menu language={this.props.language} origin={this.props.origin} />
           <h1 className="App-title">{this.title}</h1>

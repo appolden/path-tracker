@@ -30,7 +30,8 @@
       "en": "There are two gîtes and one hotel",
       "fr": "Il y a deux gîte d'etapes et un hôtel"
     },
-    "accommodations": [ "Hôtel Restaurant Trabenia", "Manttu-Baita (Chambres d'hôtes)", "Gîte d'Etape Manttu-Baita", "Trapero Baïta (Chambre d'hôtes)" ]
+    "accommodations": [ "Hôtel Restaurant Trabenia", "Manttu-Baita (Chambres d'hôtes)", "Gîte d'Etape Manttu-Baita", "Trapero Baïta (Chambre d'hôtes)" ],
+    "foodshop":  true
   },
   {
     "name": "Bivouac des Trois Fontaines",
@@ -44,7 +45,8 @@
     "nearestMetreOfPath": 43645,
     "elevation": 124,
     "cumulativeAscent": 1932,
-    "cumulativeDescent": 1813
+    "cumulativeDescent": 1813,
+    "camping": true
   },
   {
     "name": "Col des Trois Croix",

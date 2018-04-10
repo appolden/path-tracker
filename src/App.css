@@ -301,6 +301,17 @@ However, delay the fade out process for 2.5 seconds */
   border-radius: 8px;
 }
 
+.facilityImgContainer {
+  height: 45px;
+  margin-top: -15px;
+}
+
+.facilityImgContainer img {
+  width: 45px;
+  height: 45px;
+  float: right;
+}
+
 .w3-modal {
   z-index: 3;
   display: block;
