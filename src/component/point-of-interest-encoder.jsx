@@ -61,7 +61,9 @@ class PointOfInterestEncoder extends Component {
         cumulativeAscent: x.cumulativeAscent,
         cumulativeDescent: x.cumulativeDescent,
         description: x.description,
-        accommodations: x.accomodation
+        accommodations: x.accommodations,
+        foodshop: x.foodshop,
+        camping: x.camping
       };
     });
 

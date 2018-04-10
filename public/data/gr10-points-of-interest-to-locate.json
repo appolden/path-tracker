@@ -40,15 +40,25 @@
   },
 
   {
-    "name": "Bivouac des Trois Fontaines",
+    "name": "Col des Trois Fontaines",
     "point": {
       "lat": 43.316729,
       "lng": -1.631098
+    }
+  },
+  {
+    "name": "Sare",
+    "point": {
+      "lat": 43.312759,
+      "lng": -1.580250
     },
-    "nearestMetreOfPath": 25386,
-    "elevation": 546,
-    "cumulativeAscent": 1540,
-    "cumulativeDescent": 999
+    "description": {
+      "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
+      "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
+    },
+    "accommodations": [ "Hôtel Arraya", "Hôtel-restaurant Lastiry", "Hôtel-restaurant Pikassaria", "Camping/Gîte d'Etape la Petite Rhune" ],
+    "foodshop": true,
+    "camping": true
   },
   {
     "name": "Camping Harazpy",
@@ -56,10 +66,11 @@
       "lat": 43.310206,
       "lng": -1.501994
     },
-    "nearestMetreOfPath": 43645,
-    "elevation": 124,
-    "cumulativeAscent": 1932,
-    "cumulativeDescent": 1813
+    "description": {
+      "en": "The small family campsite is located 150m north-west of the village center of Ainhoa, open from early April to late September.",
+      "fr": "à 150m au nord-ouest du centre du village d'Ainhoa, ouvert de début avril à fin septembre."
+    },
+    "camping": true
   },
   {
     "name": "Col des Trois Croix",

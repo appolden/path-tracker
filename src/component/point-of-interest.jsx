@@ -34,10 +34,10 @@ class PointOfInterest extends Component {
   getLanguageSpecificDescription(props) {
     switch (props.language) {
       case 'fr':
-        return props.pointOfInterest.description.fr;
+        return <p>{props.pointOfInterest.description.fr}</p>;
       case 'en':
       default:
-        return props.pointOfInterest.description.en;
+        return <p>{props.pointOfInterest.description.en}</p>;
     }
   }
 
@@ -84,22 +84,23 @@ class PointOfInterest extends Component {
         </div>
 
         <div>Altitude: {this.props.elevationAtNearestMetreOfPath} m</div>
+
+        {this.state.showDetail &&
+          (this.props.pointOfInterest.description ||
+            this.props.pointOfInterest.accommodations) && (
+            <React.Fragment>
+              {this.getLanguageSpecificDescription(this.props)}{' '}
+              {this.accommodationList(
+                this.props.pointOfInterest.accommodations
+              )}
+            </React.Fragment>
+          )}
+
         <PointOfInterestFacilities
           hotel={this.props.pointOfInterest.accommodations}
           foodshop={this.props.pointOfInterest.foodshop}
           camping={this.props.pointOfInterest.camping}
         />
-
-        {this.state.showDetail &&
-          (this.props.pointOfInterest.description ||
-            this.props.pointOfInterest.accommodations) && (
-            <p>
-              {this.getLanguageSpecificDescription(this.props)}{' '}
-              {this.accommodationList(
-                this.props.pointOfInterest.accommodations
-              )}
-            </p>
-          )}
       </div>
     );
   }

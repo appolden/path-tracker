@@ -30,15 +30,28 @@
       "en": "There are two gîtes and one hotel",
       "fr": "Il y a deux gîte d'etapes et un hôtel"
     },
-    "accommodations": [ "Hôtel Restaurant Trabenia", "Manttu-Baita (Chambres d'hôtes)", "Gîte d'Etape Manttu-Baita", "Trapero Baïta (Chambre d'hôtes)" ],
-    "foodshop":  true
+    "accommodations": [ "Hôtel Restaurant Trabenia", "Manttu-Baita (Chambres d'hôtes)", "Gîte d'Etape Manttu-Baita", "Trapero Baïta (Chambre d'hôtes)" ]
   },
   {
-    "name": "Bivouac des Trois Fontaines",
+    "name": "Col des Trois Fontaines",
     "nearestMetreOfPath": 25415,
     "elevation": 546,
     "cumulativeAscent": 1540,
     "cumulativeDescent": 999
+  },
+  {
+    "name": "Sare",
+    "nearestMetreOfPath": 30865,
+    "elevation": 77,
+    "cumulativeAscent": 1611,
+    "cumulativeDescent": 1539,
+    "description": {
+      "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
+      "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
+    },
+    "accommodations": [ "Hôtel Arraya", "Hôtel-restaurant Lastiry", "Hôtel-restaurant Pikassaria", "Camping/Gîte d'Etape la Petite Rhune" ],
+    "foodshop": true,
+    "camping": true
   },
   {
     "name": "Camping Harazpy",
@@ -46,6 +59,10 @@
     "elevation": 124,
     "cumulativeAscent": 1932,
     "cumulativeDescent": 1813,
+    "description": {
+      "en": "The small family campsite is located 150m north-west of the village center of Ainhoa, open from early April to late September.",
+      "fr": "à 150m au nord-ouest du centre du village d'Ainhoa, ouvert de début avril à fin septembre."
+    },
     "camping": true
   },
   {
