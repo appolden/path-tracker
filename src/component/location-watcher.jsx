@@ -26,6 +26,7 @@ class LocationWatcher extends Component {
     this.onStartStopPositionWatchButtonClick = this.onStartStopPositionWatchButtonClick.bind(
       this
     );
+    //  this.onStartPositionWatch = this.onStartPositionWatch.bind(this);
   }
 
   componentWillUnmount() {
@@ -48,6 +49,11 @@ class LocationWatcher extends Component {
   startPositionWatch() {
     if ('geolocation' in navigator) {
       this.setState({ error: '', watchingPosition: true });
+
+      if (this.props.onStartPositionWatch !== undefined) {
+        this.props.onStartPositionWatch();
+      }
+
       var geoLocateOptions = {
         enableHighAccuracy: true,
         timeout: 25000,
@@ -76,6 +82,7 @@ class LocationWatcher extends Component {
             error: 'Unable to find location. Ensure you have location enabled.'
           });
           console.log(error);
+
           this.stopPositionWatch();
         },
         geoLocateOptions

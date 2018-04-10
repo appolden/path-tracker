@@ -17,6 +17,7 @@ class PathTracker extends Component {
 
     this.state = {
       pointsOfInterest: [],
+      locationKnown: false,
       nearestMetreOfPath: 0,
       elevationAtNearestMetreOfPath: 0,
       distanceFromPath: 0,
@@ -33,6 +34,7 @@ class PathTracker extends Component {
     this.onPointOfInterestModalClose = this.onPointOfInterestModalClose.bind(
       this
     );
+    this.onStartPositionWatch = this.onStartPositionWatch.bind(this);
   }
 
   componentDidMount() {
@@ -176,6 +178,7 @@ class PathTracker extends Component {
     );
 
     this.setState({
+      locationKnown: true,
       nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
       elevationAtNearestMetreOfPath: nearestPointToCurrentLocation.elevation,
       cumulativeAscentAtNearestMetreOfPath:
@@ -187,8 +190,16 @@ class PathTracker extends Component {
   }
 
   onLocationChanged(lat, lng) {
+    if (this.state.locationKnown === false) {
+      this.scrollToAfterComponentDidUpdate = true;
+    }
+
     this.findNearestPointToLocationAndUpdate(lat, lng);
-    this.scrollToAfterComponentDidUpdate = true;
+  }
+
+  onStartPositionWatch() {
+    this.setState({ locationKnown: false });
+    //this.scrollToAfterComponentDidUpdate = true;
   }
 
   onPointOfInterestModalClose(name) {
@@ -207,7 +218,7 @@ class PathTracker extends Component {
     this.aboutLinkText = 'About';
     switch (this.language) {
       case 'fr':
-        this.pageTitle = 'Traqueur de sentier GR10';
+        this.pageTitle = 'Suivre le sentier de GR10';
         this.title = 'Sentier GR10';
         this.aboutLinkText = 'Informations';
         break;
@@ -230,7 +241,7 @@ class PathTracker extends Component {
         distanceFromPath={this.state.distanceFromPath}
       />
     );
-
+    //alert(this.state.nearestMetreOfPath);
     this.state.pointsOfInterest.forEach((x, index) => {
       const pointOfInterest = (
         <PointOfInterest
@@ -281,6 +292,7 @@ class PathTracker extends Component {
     ) : (
       <LocationWatcher
         onLocationChanged={this.onLocationChanged}
+        onStartPositionWatch={this.onStartPositionWatch}
         language={this.language}
       />
     );
