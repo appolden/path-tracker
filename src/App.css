@@ -309,6 +309,18 @@ However, delay the fade out process for 2.5 seconds */
   height: 40px;
 }
 
+.pathTrackerHeader {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  background-color: #eaecf0;
+  padding: 5px;
+}
+
+.pathTrackerContent {
+  margin-top: 100px;
+}
+
 .w3-modal {
   z-index: 3;
   display: block;

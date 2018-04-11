@@ -115,15 +115,12 @@
     }
   },
   {
-    "name": "Bivouac au Camping l'Irouleguy (Baigorry)",
+    "name": "Camping l'Irouleguy (Baigorry)",
     "point": {
       "lat": 43.183691,
       "lng": -1.335728
-    },
-    "nearestMetreOfPath": 80229,
-    "elevation": 164,
-    "cumulativeAscent": 4305,
-    "cumulativeDescent": 4146
+    }
+
   },
   {
     "name": "Col d'Aharza",
@@ -151,14 +148,6 @@
     "point": {
       "lat": 43.161447,
       "lng": -1.236167
-    },
-    "nearestMetreOfPath": 98407
-  },
-  {
-    "name": "Bridge ??",
-    "point": {
-      "lat": 43.135488,
-      "lng": -1.205213
     }
   },
   {
@@ -177,18 +166,10 @@
     "nearestMetreOfPath": 114246
   },
   {
-    "name": "Bridge",
+    "name": "Pont",
     "point": {
       "lat": 43.061002,
       "lng": -1.151483
-    },
-    "nearestMetreOfPath": 114246
-  },
-  {
-    "name": "Bivouac aux bordes d'inzarrazquy",
-    "point": {
-      "lat": 43.063927,
-      "lng": -1.1500513
     }
   },
   {
@@ -199,7 +180,7 @@
     }
   },
   {
-    "name": "Bivouac des sommets d'Occabé",
+    "name": "Sommets d'Occabé",
     "point": {
       "lat": 43.041515,
       "lng": -1.113891
@@ -211,22 +192,16 @@
     "point": {
       "lat": 43.036968,
       "lng": -1.075373
-    }
-  },
-  {
-    "name": "Bivouac à proximité du Chalet Pédro",
-    "point": {
-      "lat": 43.037475,
-      "lng": -1.077464
     },
-    "nearestMetreOfPath": 127806
+    "camping": true
   },
   {
     "name": "Exit for 'Aire Naturelle De Camping D'Iraty'",
     "point": {
       "lat": 43.040995,
       "lng": -1.058539
-    }
+    },
+    "camping": true
   },
   {
     "name": "Chalets d'Iraty",
@@ -311,10 +286,7 @@
       "lat": 42.979064,
       "lng": -0.749551
     },
-    "nearestMetreOfPath": 183453,
-    "elevation": 1631,
-    "cumulativeAscent": 11742,
-    "cumulativeDescent": 10116
+    "camping": true
   },
   {
     "name": "Pas de l'Osque",

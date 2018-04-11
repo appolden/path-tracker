@@ -1,44 +1,33 @@
 import React, { Component } from 'react';
+import LanguageHelper from '../component/language-helper.js';
 
 class LocationOverride extends Component {
   constructor(props) {
     super(props);
 
     this.testLocations = [
-      { lat: 43.300447, lng: -1.473541 },
-      { lat: 43.196166, lng: -1.374664 },
-      { lat: 43.151348, lng: -1.268578 },
-      { lat: 43.028243, lng: -1.058121 },
-      { lat: 42.977525, lng: -0.806122 },
-      { lat: 42.88653, lng: -0.578156 },
-      { lat: 42.92928, lng: -0.251312 },
-      { lat: 42.865899, lng: 0.097504 },
-      { lat: 42.807492, lng: 0.291138 },
-      { lat: 42.83771, lng: 0.822601 },
-      { lat: 42.808247, lng: 1.151848 },
-      { lat: 42.793669, lng: 1.169057 },
-      { lat: 42.787716, lng: 1.268749 },
-      { lat: 42.699595, lng: 1.486244 },
-      { lat: 42.727848, lng: 1.613274 },
-      { lat: 42.631938, lng: 1.777725 },
-      { lat: 42.470577, lng: 2.331848 },
-      { lat: 42.470577, lng: 2.331848 },
-      { lat: 42.474629, lng: 3.12252 }
+      { lat: 43.309316, lng: -1.59246 },
+      { lat: 43.323148, lng: -1.656661 },
+      { lat: 43.305069, lng: -1.522808 },
+      { lat: 43.272112, lng: -1.418138 },
+      { lat: 43.263613, lng: -1.356039 }
     ];
 
-    //this.state = {
-    //  lat: 42.865442,
-    //  lng: -0.879819
-    //};
+    this.buttonText = {
+      en: 'Start tracking',
+      fr: 'Commencer le suivi'
+    };
+
+    this.buttonTextWhenTracking = {
+      en: 'Stop tracking',
+      fr: 'Arr�ter le suivi'
+    };
 
     this.state = {
-      lat: 53.48176,
-      lng: -2.241521
+      position: { lat: undefined, lng: undefined },
+      error: undefined,
+      watchingPosition: false
     };
-    //,
-    this.handleLatChange = this.handleLatChange.bind(this);
-    this.handleLngChange = this.handleLngChange.bind(this);
-    this.handleClick = this.handleClick.bind(this);
     this.handleRandomLocationClick = this.handleRandomLocationClick.bind(this);
   }
 
@@ -63,6 +52,15 @@ class LocationOverride extends Component {
 
     this.setState({ lat: randomTestLocation.lat, lng: randomTestLocation.lng });
 
+    this.setState(prevState => {
+      prevState.position.lat = randomTestLocation.lat;
+      prevState.position.lng = randomTestLocation.lng;
+      prevState.error = '';
+      prevState.watchingPosition = !prevState.watchingPosition;
+
+      return prevState;
+    });
+
     if (this.props.onLocationChanged !== undefined) {
       this.props.onLocationChanged(
         randomTestLocation.lat,
@@ -72,29 +70,38 @@ class LocationOverride extends Component {
   }
 
   render() {
+    let buttonText = '';
+
+    switch (LanguageHelper.getLanguage(this.props.language)) {
+      case 'fr':
+        buttonText = this.state.watchingPosition
+          ? this.buttonTextWhenTracking.fr
+          : this.buttonText.fr;
+        break;
+      case 'en':
+      default:
+        buttonText = this.state.watchingPosition
+          ? this.buttonTextWhenTracking.en
+          : this.buttonText.en;
+    }
+
     return (
-      <p>
-        Lat:{' '}
+      <div>
+        {this.state.position.lat !== undefined && (
+          <React.Fragment>
+            {this.state.position.lat.toFixed(5)},{' '}
+            {this.state.position.lng.toFixed(5)}{' '}
+          </React.Fragment>
+        )}
         <input
-          type="text"
-          value={this.state.lat}
-          onChange={this.handleLatChange}
-          style={{ width: '80px' }}
-        />
-        Lng:{' '}
-        <input
-          type="text"
-          value={this.state.lng}
-          onChange={this.handleLngChange}
-          style={{ width: '80px' }}
-        />
-        <input type="button" value="Update" onClick={this.handleClick} />{' '}
-        <input
+          className="btn"
           type="button"
-          value="Random location"
+          value={buttonText}
           onClick={this.handleRandomLocationClick}
-        />
-      </p>
+          disabled={this.state.getCurrentPositionInProgress}
+        />{' '}
+        {this.state.error}
+      </div>
     );
   }
 }

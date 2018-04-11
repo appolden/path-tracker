@@ -132,9 +132,8 @@ class LocationWatcher extends Component {
       <div>
         {this.state.position.lat !== undefined && (
           <React.Fragment>
-            Lat:{this.state.position.lat.toFixed(5)}, Lng:{this.state.position.lng.toFixed(
-              5
-            )}{' '}
+            {this.state.position.lat.toFixed(5)},{' '}
+            {this.state.position.lng.toFixed(5)}{' '}
           </React.Fragment>
         )}
         <input

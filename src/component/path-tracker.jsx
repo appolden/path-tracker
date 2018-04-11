@@ -50,8 +50,7 @@ class PathTracker extends Component {
       var pointCurrentElement = ReactDOM.findDOMNode(this.pointCurrent);
 
       if (pointCurrentElement !== undefined && pointCurrentElement !== null) {
-        pointCurrentElement.parentNode.scrollTop =
-          pointCurrentElement.offsetTop - 150;
+        window.scrollTo(0, pointCurrentElement.offsetTop - 150);
       }
 
       this.scrollToAfterComponentDidUpdate = false;
@@ -304,7 +303,7 @@ class PathTracker extends Component {
     //    onClose={this.onPointOfInterestModalClose}
     //  />
     //)}
-
+    //style={style}
     const offset = 130;
     const style = { height: window.outerHeight - offset };
 
@@ -314,25 +313,18 @@ class PathTracker extends Component {
           <title>{this.title}</title>
         </Helmet>
 
-        <header className="App-header">
-          <Menu language={this.props.language} origin={this.props.origin} />
-          <h1 className="App-title">{this.title}</h1>
-        </header>
-        <div className="App-content">
+        <div className="pathTrackerHeader">
+          <header className="App-header">
+            <Menu language={this.props.language} origin={this.props.origin} />
+            <h1 className="App-title">{this.title}</h1>
+          </header>
+          {locationComponent}
+        </div>
+
+        <div className="App-content pathTrackerContent">
           <div>
-            {locationComponent}
-
-            <div style={style} className="pointsOfInterest">
-              {rows}
-            </div>
+            <div className="pointsOfInterest">{rows}</div>
           </div>
-          <footer className="App-footer">
-            <Link to={'/' + this.language + '/about'}>
-              {this.aboutLinkText}
-            </Link>
-
-            <Link to={'/' + this.language + '/donate'}>Donate</Link>
-          </footer>
         </div>
       </React.Fragment>
     );

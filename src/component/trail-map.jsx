@@ -82,7 +82,7 @@ export class TrailMap extends Component {
     let description =
       campingLocation.description.en || campingLocation.description.fr;
 
-    switch (this.getLanguage()) {
+    switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         description = campingLocation.description.fr;
         break;

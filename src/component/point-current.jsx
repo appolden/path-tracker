@@ -8,7 +8,7 @@ class PointCurrent extends Component {
     return (
       <div key={this.props.name} className="pointCurrent">
         <div style={{ textAlign: 'right' }}>
-          {' '}
+          <div style={{ float: 'left' }}>Current location</div>
           <img src={ArrowUp} alt="Up" height="15px" /> East
         </div>
         <div style={{ textAlign: 'center', fontSize: '1.5em' }}>

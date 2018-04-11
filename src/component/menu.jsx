@@ -22,7 +22,7 @@ class Menu extends Component {
         url: '/about',
         linkText: {
           en: 'About',
-          fr: 'Info'
+          fr: 'À propos'
         }
       },
       {
