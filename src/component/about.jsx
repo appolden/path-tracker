@@ -36,7 +36,9 @@ class About extends Component {
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.state.language }}>
-          <title>{this.pageTitle}</title>
+                <title>{this.pageTitle}</title>
+                <link rel="alternative" href="/en/about" hreflang="en" />
+                <link rel="alternative" href="/fr/about" hreflang="fr" />
         </Helmet>
 
         <header className="App-header">
@@ -53,30 +55,7 @@ class About extends Component {
 
           <AboutGr10Section language={this.state.language} />
           <AboutContributeSection language={this.state.language} />
-          <h2>About me</h2>
-          <p>
-            When I overcome my shyness, I'll write something about myself here.{' '}
-            <a href="https://hiking-al.herokuapp.com/">Hiking Al</a>.<br />
-            Follow me on{' '}
-            <a href="https://www.instagram.com/alpolden/">Instagram</a>
-          </p>
-          <h2>Technical information</h2>
-          <p>
-            One of the goals of this website was for me to become more familiar
-            wiht ReactJs and progressive web apps.
-          </p>
-          <p>
-            To refresh the cached data goto the{' '}
-            <Link to="/cache-viewer" title="cache viewer">
-              cache viewer
-            </Link>
-          </p>
-          <p>
-            For testing this is a walk to the pub.{' '}
-            <Link to="/trail-tracker-chorlton" title="trail tracker chorlton">
-              Home to Chorlton
-            </Link>
-          </p>
+         
         </div>
       </React.Fragment>
     );

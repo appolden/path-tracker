@@ -294,22 +294,13 @@ class PathTracker extends Component {
         language={this.language}
       />
     );
-
-    //{this.state.selectedPointOfInterest && (
-    //  <PointOfInterestModal
-    //    visible={this.state.selectedPointOfInterest !== undefined}
-    //    pointOfInterest={this.state.selectedPointOfInterest}
-    //    onClose={this.onPointOfInterestModalClose}
-    //  />
-    //)}
-    //style={style}
-    const offset = 130;
-    const style = { height: window.outerHeight - offset };
-
+ 
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.language }}>
                 <title>{this.pageTitle}</title>
+                <link rel="alternative" href="en/gr10/trail-tracker" hreflang="en" />
+                <link rel="alternative" href="fr/gr10/trail-tracker" hreflang="fr" />
         </Helmet>
 
         <div className="pathTrackerHeader">

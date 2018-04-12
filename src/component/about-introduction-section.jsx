@@ -40,7 +40,7 @@ class AboutIntroductionParagraph extends Component {
             <p>
               Le but du site est d'aider les randonneurs sur le GR10 à
               déterminer où ils se trouvent sur le chemin. Lorsque la position
-              actuelle a été localisée, les distances au point d'intérêt ( cols
+              actuelle a été localisée, les distances au point d'intérêt (cols
               de montagne, sommets, villes, eaux, ponts, etc.) peuvent alors
               être calculées.
             </p>

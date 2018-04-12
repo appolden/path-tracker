@@ -15,6 +15,11 @@
 				hreflang="fr"
 				href="https://www.gr-trail-tracker.com/fr/about"
 				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/about"
+				/>
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/fr/about</loc>
@@ -22,6 +27,11 @@
 				rel="alternate"
 				hreflang="en"
 				href="https://www.gr-trail-tracker.com/en/about"
+				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/about"
 				/>
 	</url>
 	<url>
@@ -31,6 +41,11 @@
 				hreflang="fr"
 				href="https://www.gr-trail-tracker.com/fr/gr10/map"
 				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/gr10/map"
+				/>
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/fr/gr10/map</loc>
@@ -38,6 +53,11 @@
 				rel="alternate"
 				hreflang="en"
 				href="https://www.gr-trail-tracker.com/en/gr10/map"
+				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/gr10/map"
 				/>
 	</url>
 	<url>
@@ -47,6 +67,11 @@
 				hreflang="fr"
 				href="https://www.gr-trail-tracker.com/en/gr10/trail-tracker"
 				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/gr10/trail-tracker"
+				/>
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/fr/gr10/trail-tracker</loc>
@@ -54,6 +79,37 @@
 				rel="alternate"
 				hreflang="en"
 				href="https://www.gr-trail-tracker.com/en/gr10/trail-tracker"
+				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/en/gr10/trail-tracker"
+				/>
+	</url>
+	<url>
+		<loc>https://www.gr-trail-tracker.com/en/gr20/map</loc>
+		<xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/gr20/map"
+				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/gr20/map"
+				/>
+	</url>
+	<url>
+		<loc>https://www.gr-trail-tracker.com/fr/gr20/map</loc>
+		<xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/gr20/map"
+				/>
+		<xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/gr20/map"
 				/>
 	</url>
 </urlset>

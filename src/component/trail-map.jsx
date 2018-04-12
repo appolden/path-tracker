@@ -129,7 +129,9 @@ export class TrailMap extends Component {
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: language }}>
-          <title>{title}</title>
+                <title>{title}</title>
+                <link rel="alternative" href={'en/' + this.props.trailName + '/map'} hreflang="en" />
+                <link rel="alternative" href={'fr/' + this.props.trailName + '/map'} hreflang="fr" />
         </Helmet>
 
         <header className="App-header">

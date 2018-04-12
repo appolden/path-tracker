@@ -63,7 +63,7 @@ class AboutGr10Section extends Component {
               </a>{' '}
               pour avoir fourni des informations sur les campings. Les données
               gpx que j'ai utilisées pour les coordonnées du sentier ont été
-              téléchargées sur
+              téléchargées sur{' '}
               <a href="http://www.gr-infos.com/" title="gpx source">
                 www.gr-infos.com
               </a>. J'ai fait des aveux à la gpx pour suivre les variantes qui
