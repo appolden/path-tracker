@@ -7,6 +7,18 @@
     "cumulativeDescent": 0
   },
   {
+    "name": "Biriatou",
+    "nearestMetreOfPath": 7208,
+    "elevation": 69,
+    "cumulativeAscent": 235,
+    "cumulativeDescent": 171,
+    "description": {
+      "en": "Turn right for Maison Kabia",
+      "fr": "Turn right for Maison Kabia"
+    },
+    "accommodations": [ "Maison Kabia", "Les jardins de Bakea", "Etxeberrikoborda EARL", "Lecuona location de vacances sur la côte basque" ]
+  },
+  {
     "name": "Col des Poiriers",
     "nearestMetreOfPath": 11628,
     "elevation": 317,
@@ -18,7 +30,9 @@
     "nearestMetreOfPath": 15147,
     "elevation": 318,
     "cumulativeAscent": 794,
-    "cumulativeDescent": 481
+    "cumulativeDescent": 481,
+    "accommodations": [],
+    "foodshop": true
   },
   {
     "name": "Olhette",
@@ -49,9 +63,20 @@
       "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
-    "accommodations": [ "Hôtel Arraya", "Hôtel-restaurant Lastiry", "Hôtel-restaurant Pikassaria", "Camping/Gîte d'Etape la Petite Rhune" ],
+    "accommodations": [ "Hôtel Arraya", "Hôtel-restaurant Lastiry", "Hôtel-restaurant Pikasaria", "Camping/Gîte d'Etape la Petite Rhune" ],
     "foodshop": true,
     "camping": true
+  },
+  {
+    "name": "Camping/Gîte d'Etape la Petite Rhune",
+    "nearestMetreOfPath": 31736,
+    "elevation": 89,
+    "cumulativeAscent": 1647,
+    "cumulativeDescent": 1563,
+    "description": {
+      "en": "Turn right for La Petite Rhune campsite, Hotel Pikasaria",
+      "fr": "La Petite Rhune campsite, Hôtel Pikasaria"
+    }
   },
   {
     "name": "Camping Harazpy",
@@ -108,7 +133,7 @@
     "cumulativeDescent": 3408
   },
   {
-    "name": "Bivouac au Camping l'Irouleguy (Baigorry)",
+    "name": "Camping l'Irouleguy (Baigorry)",
     "nearestMetreOfPath": 80229,
     "elevation": 164,
     "cumulativeAscent": 4305,
@@ -143,13 +168,6 @@
     "cumulativeDescent": 5149
   },
   {
-    "name": "Bridge ??",
-    "nearestMetreOfPath": 103191,
-    "elevation": 253,
-    "cumulativeAscent": 5455,
-    "cumulativeDescent": 5207
-  },
-  {
     "name": "Estérençuby",
     "nearestMetreOfPath": 110207,
     "elevation": 238,
@@ -164,18 +182,11 @@
     "cumulativeDescent": 5777
   },
   {
-    "name": "Bridge",
+    "name": "Pont",
     "nearestMetreOfPath": 118618,
     "elevation": 698,
     "cumulativeAscent": 6728,
     "cumulativeDescent": 6035
-  },
-  {
-    "name": "Bivouac aux bordes d'inzarrazquy",
-    "nearestMetreOfPath": 119032,
-    "elevation": 677,
-    "cumulativeAscent": 6736,
-    "cumulativeDescent": 6064
   },
   {
     "name": "Col d'Irau",
@@ -185,32 +196,27 @@
     "cumulativeDescent": 6086
   },
   {
-    "name": "Bivouac des sommets d'Occabé",
+    "name": "Sommets d'Occabé",
     "nearestMetreOfPath": 123561,
     "elevation": 1370,
     "cumulativeAscent": 7451,
     "cumulativeDescent": 6086
   },
   {
-    "name": "Chalet Pédro. (Bivouac)",
+    "name": "Chalet Pédro.",
     "nearestMetreOfPath": 127619,
     "elevation": 1000,
     "cumulativeAscent": 7507,
-    "cumulativeDescent": 6512
-  },
-  {
-    "name": "Bivouac à proximité du Chalet Pédro",
-    "nearestMetreOfPath": 127721,
-    "elevation": 1022,
-    "cumulativeAscent": 7529,
-    "cumulativeDescent": 6512
+    "cumulativeDescent": 6512,
+    "camping": true
   },
   {
     "name": "Exit for 'Aire Naturelle De Camping D'Iraty'",
     "nearestMetreOfPath": 130545,
     "elevation": 1136,
     "cumulativeAscent": 7733,
-    "cumulativeDescent": 6602
+    "cumulativeDescent": 6602,
+    "camping": true
   },
   {
     "name": "Chalets d'Iraty",
@@ -294,7 +300,8 @@
     "nearestMetreOfPath": 187087,
     "elevation": 1631,
     "cumulativeAscent": 12109,
-    "cumulativeDescent": 10483
+    "cumulativeDescent": 10483,
+    "camping": true
   },
   {
     "name": "Pas de l'Osque",
@@ -518,7 +525,8 @@
     "nearestMetreOfPath": 288973,
     "elevation": 1882,
     "cumulativeAscent": 20107,
-    "cumulativeDescent": 18230
+    "cumulativeDescent": 18230,
+    "camping": true
   },
   {
     "name": "Path for Refuge d'Ilhéou",
@@ -577,14 +585,14 @@
     "cumulativeDescent": 19559
   },
   {
-    "name": " Refuge des Oulettes de Gaube",
+    "name": "Refuge des Oulettes de Gaube",
     "nearestMetreOfPath": 310988,
     "elevation": 2149,
     "cumulativeAscent": 21792,
     "cumulativeDescent": 19648
   },
   {
-    "name": " La Villa Meillon",
+    "name": "La Villa Meillon",
     "nearestMetreOfPath": 311712,
     "elevation": 2301,
     "cumulativeAscent": 21952,

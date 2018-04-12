@@ -184,36 +184,32 @@ class PathTracker extends Component {
     let pointCurrentIndex = 0;
     const newPois = [];
 
-    this.state.pointsOfInterest
-      .forEach((x, index) => {
-        if (x.currentLocation !== undefined && x.currentLocation) {
-          return;
-        }
-        if (index === this.state.pointsOfInterest.length - 1) {
-          //reached the end
-          newPois.push(x);
-          if (
-            x.nearestMetreOfPath < nearestPointToCurrentLocation.metreOfPath
-          ) {
-            newPois.push(pointCurrent);
-            pointCurrentIndex = index;
-          }
-          return;
-        }
-        const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
-        if (
-          x.nearestMetreOfPath <= nearestPointToCurrentLocation.metreOfPath &&
-          nextPointOfInterest.nearestMetreOfPath >
-            nearestPointToCurrentLocation.metreOfPath
-        ) {
-          newPois.push(x);
+    this.state.pointsOfInterest.forEach((x, index) => {
+      if (x.currentLocation !== undefined && x.currentLocation) {
+        return;
+      }
+      if (index === this.state.pointsOfInterest.length - 1) {
+        //reached the end
+        newPois.push(x);
+        if (x.nearestMetreOfPath < nearestPointToCurrentLocation.metreOfPath) {
           newPois.push(pointCurrent);
           pointCurrentIndex = index;
-        } else {
-          newPois.push(x);
         }
-      });
-
+        return;
+      }
+      const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
+      if (
+        x.nearestMetreOfPath <= nearestPointToCurrentLocation.metreOfPath &&
+        nextPointOfInterest.nearestMetreOfPath >
+          nearestPointToCurrentLocation.metreOfPath
+      ) {
+        newPois.push(x);
+        newPois.push(pointCurrent);
+        pointCurrentIndex = index;
+      } else {
+        newPois.push(x);
+      }
+    });
 
     this.setState({
       locationKnown: true,
@@ -262,8 +258,8 @@ class PathTracker extends Component {
         this.aboutLinkText = 'Informations';
         break;
       case 'en':
-        default:
-            break;
+      default:
+        break;
     }
 
     const rows = this.state.pointsOfInterest.map((x, index) => {
@@ -316,7 +312,12 @@ class PathTracker extends Component {
 
         <div className="App-content pathTrackerContent">
           <div>
-            <div className="pointsOfInterest">{rows}</div>
+            <div className="pointsOfInterest">
+              {this.state.pointsOfInterest.length == 0 && (
+                <div className="loader" />
+              )}
+              {rows}
+            </div>
           </div>
         </div>
       </React.Fragment>

@@ -20,7 +20,11 @@ class PointOfInterestFacilities extends Component {
             ''
           )}
           {this.props.foodshop ? (
-            <img className="facilityImg" src={ShoppingBagImage} alt="foodshop" />
+            <img
+              className="facilityImg"
+              src={ShoppingBagImage}
+              alt="foodshop"
+            />
           ) : (
             ''
           )}

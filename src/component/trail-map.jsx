@@ -12,10 +12,9 @@ export class TrailMap extends Component {
     this.map = undefined;
     this.infoWindow = undefined;
 
-      switch (this.props.trailName) {
-        
+    switch (this.props.trailName) {
       case 'gr10':
-              default:
+      default:
         this.polylineUrl = '/data/gr10-route.json';
         this.campingUrl = '/data/gr10-camping.json';
         this.initialCenter = { lat: 42.823647, lng: 0.795077 };

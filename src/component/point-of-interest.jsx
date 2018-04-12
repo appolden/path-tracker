@@ -31,7 +31,11 @@ class PointOfInterest extends Component {
     }
   }
 
-  getLanguageSpecificDescription(props) {
+    getLanguageSpecificDescription(props) {
+        if (props.pointOfInterest.description === undefined) {
+            return '';
+        }
+
     switch (props.language) {
       case 'fr':
         return <p>{props.pointOfInterest.description.fr}</p>;

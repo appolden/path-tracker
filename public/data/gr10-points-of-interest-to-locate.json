@@ -7,19 +7,34 @@
     }
   },
   {
+    "name": "Biriatou",
+    "point": {
+      "lat": 43.334402,
+      "lng": -1.741451
+    },
+    "description": {
+      "en": "Turn right for Maison Kabia",
+      "fr": "Turn right for Maison Kabia"
+    },
+    "accommodations": ["Maison Kabia", "Les jardins de Bakea", "Etxeberrikoborda EARL", "Lecuona location de vacances sur la côte basque" ],
+    "restaurant": true
+  },
+  {
     "name": "Col des Poiriers",
     "point": {
       "lat": 43.31715,
       "lng": -1.71667
     }
-
   },
   {
     "name": "Col d'Ibardin",
     "point": {
       "lat": 43.30967,
       "lng": -1.68431
-    }
+    },
+    "accommodations": [],
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Olhette",
@@ -56,8 +71,20 @@
       "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
-    "accommodations": [ "Hôtel Arraya", "Hôtel-restaurant Lastiry", "Hôtel-restaurant Pikassaria", "Camping/Gîte d'Etape la Petite Rhune" ],
+    "accommodations": [ "Hôtel Arraya", "Hôtel-restaurant Lastiry", "Hôtel-restaurant Pikasaria", "Camping/Gîte d'Etape la Petite Rhune" ],
     "foodshop": true,
+    "camping": true
+  },
+  {
+    "name": "Camping la Petite Rhune",
+    "point": {
+      "lat": 43.305217,
+      "lng": -1.582423
+    },
+    "description": {
+      "en": "Turn right for La Petite Rhune campsite, Hotel Pikasaria",
+      "fr": "La Petite Rhune campsite, Hôtel Pikasaria"
+    },
     "camping": true
   },
   {
@@ -188,7 +215,7 @@
     "nearestMetreOfPath": 123542
   },
   {
-    "name": "Chalet Pédro. (Bivouac)",
+    "name": "Chalet Pédro.",
     "point": {
       "lat": 43.036968,
       "lng": -1.075373
@@ -511,7 +538,8 @@
     "point": {
       "lat": 42.866267,
       "lng": -0.173724
-    }
+    },
+    "camping": true
   },
   {
     "name": "Path for Refuge d'Ilhéou",
@@ -570,14 +598,14 @@
     }
   },
   {
-    "name": " Refuge des Oulettes de Gaube",
+    "name": "Refuge des Oulettes de Gaube",
     "point": {
       "lat": 42.792897,
       "lng": -0.141406
     }
   },
   {
-    "name": " La Villa Meillon",
+    "name": "La Villa Meillon",
     "point": {
       "lat": 42.788157,
       "lng": -0.137769
