@@ -217,7 +217,6 @@ class PathTracker extends Component {
     this.aboutLinkText = 'About';
     switch (this.language) {
       case 'fr':
-        this.pageTitle = 'Suivre le sentier de GR10';
         this.title = 'Sentier GR10';
         this.aboutLinkText = 'Informations';
         break;
@@ -310,7 +309,7 @@ class PathTracker extends Component {
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.language }}>
-          <title>{this.title}</title>
+                <title>{this.pageTitle}</title>
         </Helmet>
 
         <div className="pathTrackerHeader">

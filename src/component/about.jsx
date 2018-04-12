@@ -19,7 +19,7 @@ class About extends Component {
     switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         this.title = 'À propos';
-        this.pageTitle = 'Suivre le sentier de GR10';
+        this.pageTitle = 'GR10 trail tracker';
         break;
       case 'en':
       default:
