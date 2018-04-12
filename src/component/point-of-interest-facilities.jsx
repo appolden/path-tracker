@@ -9,18 +9,18 @@ class PointOfInterestFacilities extends Component {
       return (
         <div className="facilityImgContainer">
           {this.props.hotel ? (
-            <img className="facilityImg" src={HotelImage} />
+            <img className="facilityImg" src={HotelImage} alt="hotel" />
           ) : (
             ''
           )}
 
           {this.props.camping ? (
-            <img className="facilityImg" src={CampingImage} />
+            <img className="facilityImg" src={CampingImage} alt="campground" />
           ) : (
             ''
           )}
           {this.props.foodshop ? (
-            <img className="facilityImg" src={ShoppingBagImage} />
+            <img className="facilityImg" src={ShoppingBagImage} alt="foodshop" />
           ) : (
             ''
           )}

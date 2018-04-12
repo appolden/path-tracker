@@ -4,7 +4,6 @@ class LanguageHelper {
     switch (language) {
       case 'fr':
         return language;
-        break;
       case 'en': // in case a user enters a language code that is not supported
       default:
         return 'en';

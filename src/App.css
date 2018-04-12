@@ -56,7 +56,6 @@ p {
 }
 
 .pointsOfInterest {
-  overflow-y: scroll;
   padding-bottom: 5px;
 }
 
@@ -315,6 +314,7 @@ However, delay the fade out process for 2.5 seconds */
   width: 100%; /* Full width */
   background-color: #eaecf0;
   padding: 5px;
+  z-index: 1;
 }
 
 .pathTrackerContent {

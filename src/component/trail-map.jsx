@@ -12,8 +12,10 @@ export class TrailMap extends Component {
     this.map = undefined;
     this.infoWindow = undefined;
 
-    switch (this.props.trailName) {
+      switch (this.props.trailName) {
+        
       case 'gr10':
+              default:
         this.polylineUrl = '/data/gr10-route.json';
         this.campingUrl = '/data/gr10-camping.json';
         this.initialCenter = { lat: 42.823647, lng: 0.795077 };
@@ -129,9 +131,17 @@ export class TrailMap extends Component {
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: language }}>
-                <title>{title}</title>
-                <link rel="alternative" href={'en/' + this.props.trailName + '/map'} hreflang="en" />
-                <link rel="alternative" href={'fr/' + this.props.trailName + '/map'} hreflang="fr" />
+          <title>{title}</title>
+          <link
+            rel="alternative"
+            href={'en/' + this.props.trailName + '/map'}
+            hreflang="en"
+          />
+          <link
+            rel="alternative"
+            href={'fr/' + this.props.trailName + '/map'}
+            hreflang="fr"
+          />
         </Helmet>
 
         <header className="App-header">

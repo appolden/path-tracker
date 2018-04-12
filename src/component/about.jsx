@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import AboutIntroductionParagraph from '../component/about-introduction-section.jsx';
 import AboutInstallationSection from '../component/about-installation-section.jsx';
@@ -36,9 +35,9 @@ class About extends Component {
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.state.language }}>
-                <title>{this.pageTitle}</title>
-                <link rel="alternative" href="/en/about" hreflang="en" />
-                <link rel="alternative" href="/fr/about" hreflang="fr" />
+          <title>{this.pageTitle}</title>
+          <link rel="alternative" href="/en/about" hreflang="en" />
+          <link rel="alternative" href="/fr/about" hreflang="fr" />
         </Helmet>
 
         <header className="App-header">
@@ -55,7 +54,6 @@ class About extends Component {
 
           <AboutGr10Section language={this.state.language} />
           <AboutContributeSection language={this.state.language} />
-         
         </div>
       </React.Fragment>
     );

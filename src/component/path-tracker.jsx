@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import ReactDOM from 'react-dom';
-import { Link } from 'react-router-dom';
 import MapHelper from '../maps/map-helper.js';
-import PointOfInterest from '../component/point-of-interest.jsx';
-import PointCurrent from '../component/point-current.jsx';
 import LocationOverride from '../component/location-override.jsx';
 import LocationWatcher from '../component/location-watcher.jsx';
 import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
-import PointOfInterestModal from '../component/point-of-interest-modal.jsx';
+import PointOfInterestRow from '../component/point-of-interest-row.jsx';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -176,6 +173,48 @@ class PathTracker extends Component {
       findNearestPointResult.latLng
     );
 
+    const pointCurrent = {
+      name: 'Current Location',
+      nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
+      elevation: nearestPointToCurrentLocation.elevation,
+      cumulativeAscent: nearestPointToCurrentLocation.cumulativeAscent,
+      cumulativeDescent: nearestPointToCurrentLocation.cumulativeDescent,
+      currentLocation: true
+    };
+    let pointCurrentIndex = 0;
+    const newPois = [];
+
+    this.state.pointsOfInterest
+      .forEach((x, index) => {
+        if (x.currentLocation !== undefined && x.currentLocation) {
+          return;
+        }
+        if (index === this.state.pointsOfInterest.length - 1) {
+          //reached the end
+          newPois.push(x);
+          if (
+            x.nearestMetreOfPath < nearestPointToCurrentLocation.metreOfPath
+          ) {
+            newPois.push(pointCurrent);
+            pointCurrentIndex = index;
+          }
+          return;
+        }
+        const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
+        if (
+          x.nearestMetreOfPath <= nearestPointToCurrentLocation.metreOfPath &&
+          nextPointOfInterest.nearestMetreOfPath >
+            nearestPointToCurrentLocation.metreOfPath
+        ) {
+          newPois.push(x);
+          newPois.push(pointCurrent);
+          pointCurrentIndex = index;
+        } else {
+          newPois.push(x);
+        }
+      });
+
+
     this.setState({
       locationKnown: true,
       nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
@@ -184,7 +223,9 @@ class PathTracker extends Component {
         nearestPointToCurrentLocation.cumulativeAscent,
       cumulativeDescentAtNearestMetreOfPath:
         nearestPointToCurrentLocation.cumulativeDescent,
-      distanceFromPath: distanceFromPath
+      distanceFromPath: distanceFromPath,
+      pointsOfInterest: newPois,
+      pointOfInterestScrollToIndex: pointCurrentIndex
     });
   }
 
@@ -221,35 +262,17 @@ class PathTracker extends Component {
         this.aboutLinkText = 'Informations';
         break;
       case 'en':
-      default:
-        this.language = 'en';
-      //default to english
+        default:
+            break;
     }
 
-    const rows = [];
-    const pointCurrent = (
-      <PointCurrent
-        language={this.language}
-        key="CurrentPoint"
-        ref={section => {
-          this.pointCurrent = section;
-        }}
-        pathMetre={this.state.nearestMetreOfPath}
-        pathElevation={this.state.elevationAtNearestMetreOfPath}
-        distanceFromPath={this.state.distanceFromPath}
-      />
-    );
-    //alert(this.state.nearestMetreOfPath);
-    this.state.pointsOfInterest.forEach((x, index) => {
-      const pointOfInterest = (
-        <PointOfInterest
+    const rows = this.state.pointsOfInterest.map((x, index) => {
+      return (
+        <PointOfInterestRow
           language={this.language}
           key={x.nearestMetreOfPath}
           name={x.name}
-          nearestMetreOfPath={x.nearestMetreOfPath}
           elevationAtNearestMetreOfPath={x.elevation}
-          cumulativeAscentAtNearestMetreOfPath={x.cumulativeAscent}
-          cumulativeDescentAtNearestMetreOfPath={x.cumulativeDescent}
           pathMetre={this.state.nearestMetreOfPath}
           pathElevation={this.state.elevationAtNearestMetreOfPath}
           pathCumulativeAscent={this.state.cumulativeAscentAtNearestMetreOfPath}
@@ -260,26 +283,6 @@ class PathTracker extends Component {
           pointOfInterest={x}
         />
       );
-
-      if (index === this.state.pointsOfInterest.length - 1) {
-        //reached the end
-        rows.push(pointOfInterest);
-        if (x.nearestMetreOfPath < this.state.nearestMetreOfPath) {
-          rows.push(pointCurrent);
-        }
-        return;
-      }
-
-      const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
-      if (
-        x.nearestMetreOfPath <= this.state.nearestMetreOfPath &&
-        nextPointOfInterest.nearestMetreOfPath > this.state.nearestMetreOfPath
-      ) {
-        rows.push(pointOfInterest);
-        rows.push(pointCurrent);
-      } else {
-        rows.push(pointOfInterest);
-      }
     });
 
     const locationComponent = this.props.testMode ? (
@@ -294,13 +297,13 @@ class PathTracker extends Component {
         language={this.language}
       />
     );
- 
+
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.language }}>
-                <title>{this.pageTitle}</title>
-                <link rel="alternative" href="en/gr10/trail-tracker" hreflang="en" />
-                <link rel="alternative" href="fr/gr10/trail-tracker" hreflang="fr" />
+          <title>{this.pageTitle}</title>
+          <link rel="alternative" href="en/gr10/trail-tracker" hreflang="en" />
+          <link rel="alternative" href="fr/gr10/trail-tracker" hreflang="fr" />
         </Helmet>
 
         <div className="pathTrackerHeader">

@@ -42,48 +42,55 @@ class PointOfInterest extends Component {
   }
 
   render() {
+    //console.log(this.props);
+
     let ascent = 0;
     let descent = 0;
-    if (this.props.pathMetre <= this.props.nearestMetreOfPath) {
+    if (this.props.pathMetre <= this.props.pointOfInterest.nearestMetreOfPath) {
       //point is west
       ascent =
-        this.props.cumulativeAscentAtNearestMetreOfPath -
+        this.props.pointOfInterest.cumulativeAscent -
         (this.props.pathCumulativeAscent || 0);
       descent =
-        this.props.cumulativeDescentAtNearestMetreOfPath -
+        this.props.pointOfInterest.cumulativeDescent -
         (this.props.pathCumulativeDescent || 0);
     } else {
       //point is east
       ascent =
         (this.props.pathCumulativeDescent || 0) -
-        this.props.cumulativeDescentAtNearestMetreOfPath;
+        this.props.pointOfInterest.cumulativeDescent;
       descent =
         (this.props.pathCumulativeAscent || 0) -
-        this.props.cumulativeAscentAtNearestMetreOfPath;
+        this.props.pointOfInterest.cumulativeAscent;
     }
 
     return (
       <div
-        key={this.props.nearestMetreOfPath}
+        key={this.props.pointOfInterest.nearestMetreOfPath}
         className="pointOfInterest"
         onClick={this.onClick}
       >
         <div>
-          {this.props.pathMetre > this.props.nearestMetreOfPath ? 'W' : 'E'}{' '}
+          {this.props.pathMetre > this.props.pointOfInterest.nearestMetreOfPath
+            ? 'W'
+            : 'E'}{' '}
           {(
-            Math.abs(this.props.pathMetre - this.props.nearestMetreOfPath) *
-            0.001
+            Math.abs(
+              this.props.pathMetre -
+                this.props.pointOfInterest.nearestMetreOfPath
+            ) * 0.001
           ).toFixed(2)}{' '}
           kms, <img src={ArrowUp} alt="Up" height="12px" />
           {ascent}m, <img src={ArrowBottom} alt="Up" height="12px" />
           {descent}m
         </div>
         <div>
-          Km {(this.props.nearestMetreOfPath * 0.001).toFixed(2)},{' '}
+          Km{' '}
+          {(this.props.pointOfInterest.nearestMetreOfPath * 0.001).toFixed(2)},{' '}
           {this.props.name}
         </div>
 
-        <div>Altitude: {this.props.elevationAtNearestMetreOfPath} m</div>
+        <div>Altitude: {this.props.pointOfInterest.elevation} m</div>
 
         {this.state.showDetail &&
           (this.props.pointOfInterest.description ||
