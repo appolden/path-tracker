@@ -136,6 +136,7 @@ export class TrailMap extends Component {
             href={'en/' + this.props.trailName + '/map'}
             hreflang="en"
           />
+
           <link
             rel="alternative"
             href={'fr/' + this.props.trailName + '/map'}

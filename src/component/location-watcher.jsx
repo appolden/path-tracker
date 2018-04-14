@@ -8,12 +8,12 @@ class LocationWatcher extends Component {
     this.watchPositionId = undefined;
 
     this.buttonText = {
-      en: 'Start tracking',
+      en: 'Enable location detection',
       fr: 'Commencer le suivi'
     };
 
     this.buttonTextWhenTracking = {
-      en: 'Stop tracking',
+      en: 'Stop locating',
       fr: 'Arrêter le suivi'
     };
 
@@ -130,12 +130,6 @@ class LocationWatcher extends Component {
 
     return (
       <div>
-        {this.state.position.lat !== undefined && (
-          <React.Fragment>
-            {this.state.position.lat.toFixed(5)},{' '}
-            {this.state.position.lng.toFixed(5)}{' '}
-          </React.Fragment>
-        )}
         <input
           className="btn"
           type="button"
@@ -143,6 +137,13 @@ class LocationWatcher extends Component {
           onClick={this.onStartStopPositionWatchButtonClick}
           disabled={this.state.getCurrentPositionInProgress}
         />{' '}
+        {this.state.watchingPosition &&
+          this.state.position.lat !== undefined && (
+            <React.Fragment>
+              {this.state.position.lat.toFixed(5)},{' '}
+              {this.state.position.lng.toFixed(5)}{' '}
+            </React.Fragment>
+          )}
         {this.state.error}
       </div>
     );

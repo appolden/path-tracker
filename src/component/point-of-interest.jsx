@@ -23,7 +23,23 @@ class PointOfInterest extends Component {
     if ((accommodations || []).length > 0) {
       const accommodationList = this.props.pointOfInterest.accommodations.map(
         accommodation => {
-          return <li key={accommodation}>{accommodation}</li>;
+          const tel = accommodation.tel || '';
+          const telLink =
+            tel.length > 0 ? <a href={'tel:' + tel}>{tel}</a> : '';
+          const url = accommodation.url || '';
+          const urlLink =
+            url.length > 0 ? (
+              <a href={accommodation.url}>{accommodation.name}</a>
+            ) : (
+              ''
+            );
+
+          return (
+            <li key={accommodation.name}>
+              {accommodation.name} {urlLink}
+              {telLink}
+            </li>
+          );
         }
       );
 
@@ -31,10 +47,25 @@ class PointOfInterest extends Component {
     }
   }
 
-    getLanguageSpecificDescription(props) {
-        if (props.pointOfInterest.description === undefined) {
-            return '';
-        }
+  accommodationSearch(props) {
+    if (props.pointOfInterest.accommodationSearchUrl) {
+      return (
+        <p>
+          <a
+            href={props.pointOfInterest.accommodationSearchUrl}
+            target="_blank"
+          >
+            Search for accommodation
+          </a>
+        </p>
+      );
+    }
+  }
+
+  getLanguageSpecificDescription(props) {
+    if (props.pointOfInterest.description === undefined) {
+      return '';
+    }
 
     switch (props.language) {
       case 'fr':
@@ -72,30 +103,31 @@ class PointOfInterest extends Component {
       <div
         key={this.props.pointOfInterest.nearestMetreOfPath}
         className="pointOfInterest"
-        onClick={this.onClick}
       >
-        <div>
-          {this.props.pathMetre > this.props.pointOfInterest.nearestMetreOfPath
-            ? 'W'
-            : 'E'}{' '}
-          {(
-            Math.abs(
-              this.props.pathMetre -
-                this.props.pointOfInterest.nearestMetreOfPath
-            ) * 0.001
-          ).toFixed(2)}{' '}
-          kms, <img src={ArrowUp} alt="Up" height="12px" />
-          {ascent}m, <img src={ArrowBottom} alt="Up" height="12px" />
-          {descent}m
-        </div>
-        <div>
-          Km{' '}
-          {(this.props.pointOfInterest.nearestMetreOfPath * 0.001).toFixed(2)},{' '}
-          {this.props.name}
-        </div>
+        <div onClick={this.onClick}>
+          <div>
+            {this.props.pathMetre >
+            this.props.pointOfInterest.nearestMetreOfPath
+              ? 'W'
+              : 'E'}{' '}
+            {(
+              Math.abs(
+                this.props.pathMetre -
+                  this.props.pointOfInterest.nearestMetreOfPath
+              ) * 0.001
+            ).toFixed(2)}{' '}
+            kms, <img src={ArrowUp} alt="Up" height="12px" />
+            {ascent}m, <img src={ArrowBottom} alt="Up" height="12px" />
+            {descent}m
+          </div>
+          <div>
+            Km{' '}
+            {(this.props.pointOfInterest.nearestMetreOfPath * 0.001).toFixed(2)},{' '}
+            {this.props.name}
+          </div>
 
-        <div>Altitude: {this.props.pointOfInterest.elevation} m</div>
-
+          <div>Altitude: {this.props.pointOfInterest.elevation} m</div>
+        </div>
         {this.state.showDetail &&
           (this.props.pointOfInterest.description ||
             this.props.pointOfInterest.accommodations) && (
@@ -104,14 +136,20 @@ class PointOfInterest extends Component {
               {this.accommodationList(
                 this.props.pointOfInterest.accommodations
               )}
+              {this.accommodationSearch(this.props)}
             </React.Fragment>
           )}
 
-        <PointOfInterestFacilities
-          hotel={this.props.pointOfInterest.accommodations}
-          foodshop={this.props.pointOfInterest.foodshop}
-          camping={this.props.pointOfInterest.camping}
-        />
+        <div onClick={this.onClick}>
+          <PointOfInterestFacilities
+            hotel={
+              this.props.pointOfInterest.accommodations ||
+              this.props.pointOfInterest.accommodationSearchUrl
+            }
+            foodshop={this.props.pointOfInterest.foodshop}
+            camping={this.props.pointOfInterest.camping}
+          />
+        </div>
       </div>
     );
   }

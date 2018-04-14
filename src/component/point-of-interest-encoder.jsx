@@ -5,6 +5,7 @@ class PointOfInterestEncoder extends Component {
   constructor(props) {
     super(props);
 
+    this.state = { locatedPois: '' };
     this.pathPoints = [];
     this.pois = [];
     this.pathPointsUrl = '/data/gr10-points-elevation.json';
@@ -63,7 +64,9 @@ class PointOfInterestEncoder extends Component {
         description: x.description,
         accommodations: x.accommodations,
         foodshop: x.foodshop,
-        camping: x.camping
+        camping: x.camping,
+        restaurant: x.restaurant,
+        accommodationSearchUrl: x.accommodationSearchUrl
       };
     });
 
@@ -72,6 +75,8 @@ class PointOfInterestEncoder extends Component {
       if (a.nearestMetreOfPath > b.nearestMetreOfPath) return 1;
       return 0;
     });
+
+    this.setState({ locatedPois: JSON.stringify(sorted) });
     console.log(JSON.stringify(sorted));
   }
 
@@ -85,7 +90,12 @@ class PointOfInterestEncoder extends Component {
             nearest trail metre. The result is then logged in the console
           </li>
         </ol>
-        Check the console log
+        <textarea
+          className="form-control"
+          rows="25"
+          value={this.state.locatedPois}
+          style={{ fontSize: '1rem', width: '100%' }}
+        />
       </div>
     );
   }

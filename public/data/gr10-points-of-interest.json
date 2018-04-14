@@ -4,7 +4,26 @@
     "nearestMetreOfPath": 0,
     "elevation": 5,
     "cumulativeAscent": 0,
-    "cumulativeDescent": 0
+    "cumulativeDescent": 0,
+    "description": {
+      "en": "Large town with all the facilities you might need. The tourist office can be found east of the old casino.",
+      "fr": "Large town with all the facilities you might need. The tourist office can be found east of the old casino."
+    },
+    "foodshop": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Hendaye"
+  },
+  {
+    "name": "Turn right for the Intermarché Supermarket",
+    "nearestMetreOfPath": 1763,
+    "elevation": 5,
+    "cumulativeAscent": 9,
+    "cumulativeDescent": 9,
+    "description": {
+      "en": "Turn right onto the Boulevard de l'Emperor for the Intermarché Supermarket (15 minutes) which sells original and easy-clic camping gas",
+      "fr": "Turn right onto the Boulevard de l'Emperor for the Intermarché Supermarket (15 minutes) which sells original and easy-clic camping gas"
+    },
+    "foodshop": true
   },
   {
     "name": "Biriatou",
@@ -13,10 +32,26 @@
     "cumulativeAscent": 235,
     "cumulativeDescent": 171,
     "description": {
-      "en": "Turn right for Maison Kabia",
-      "fr": "Turn right for Maison Kabia"
+      "en": "Turn right for Biriatou. There is a waterpoint at the public toilets.",
+      "fr": "Turn right for Biriatou."
     },
-    "accommodations": [ "Maison Kabia", "Les jardins de Bakea", "Etxeberrikoborda EARL", "Lecuona location de vacances sur la côte basque" ]
+    "accommodations": [
+      {
+        "name": "Chambre d'hôte Maison Kabia",
+        "tel": "+33 5 59 26 03 16",
+        "url": "http://resa.terreetcotebasques.com/fr/hebergements/a358610/chambre-dh%C3%B4te-maison-kabia/details"
+      },
+      {
+        "name": "Les Jardins de Bakea",
+        "tel": "+33 5 59 20 02 01"
+      },
+      {
+        "name": "Auberge Hiribarren",
+        "tel": "+33 5 59 20 61 83",
+        "url": "http://www.auberge-hiribarren.com/"
+      }
+    ],
+    "restaurant": true
   },
   {
     "name": "Col des Poiriers",
@@ -32,7 +67,8 @@
     "cumulativeAscent": 794,
     "cumulativeDescent": 481,
     "accommodations": [],
-    "foodshop": true
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Olhette",
@@ -44,7 +80,23 @@
       "en": "There are two gîtes and one hotel",
       "fr": "Il y a deux gîte d'etapes et un hôtel"
     },
-    "accommodations": [ "Hôtel Restaurant Trabenia", "Manttu-Baita (Chambres d'hôtes)", "Gîte d'Etape Manttu-Baita", "Trapero Baïta (Chambre d'hôtes)" ]
+    "accommodations": [
+      {
+        "name": "Hôtel Restaurant Trabenia",
+        "tel": "+33 5 59 54 01 91",
+        "url": "https://www.hotel-trabenia.com/"
+      },
+      {
+        "name": "Chambres d'hôtes/Gîte Manttu-Baita",
+        "tel": "+33 5 59 54 46 72",
+        "url": "http://www.chambre-d-hote-cote-basque-manttu.fr/"
+      },
+      {
+        "name": "Chambres d'hôtes/Gîte Trapero Baïta",
+        "tel": "+33 5 59 54 42 59"
+      }
+    ],
+    "restaurant": true
   },
   {
     "name": "Col des Trois Fontaines",
@@ -63,12 +115,39 @@
       "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
-    "accommodations": [ "Hôtel Arraya", "Hôtel-restaurant Lastiry", "Hôtel-restaurant Pikasaria", "Camping/Gîte d'Etape la Petite Rhune" ],
+    "accommodations": [
+      {
+        "name": "Hôtel Arraya",
+        "tel": "+33 5 59 54 20 46",
+        "url": "http://www.arraya.com/"
+      },
+      {
+        "name": "Hôtel-restaurant Lastiry",
+        "tel": "+33 5 59 54 20 07",
+        "url": "http://www.hotel-lastiry.com/"
+      },
+      {
+        "name": "Hôtel-restaurant Pikasaria",
+        "tel": "+33 5 59 54 21 51",
+        "url": "http://www.hotel-pikassaria.com/"
+      },
+      {
+        "name": "Camping/Gîte d'Etape la Petite Rhune",
+        "tel": "+33 6 15 29 36 38",
+        "url": "http://www.lapetiterhune.com/"
+      },
+      {
+        "name": "Chalet Elisa",
+        "tel": "+33 6 11 50 03 63",
+        "url": "http://www.chalet-elisa.com/"
+      }
+    ],
     "foodshop": true,
-    "camping": true
+    "camping": true,
+    "restaurant": true
   },
   {
-    "name": "Camping/Gîte d'Etape la Petite Rhune",
+    "name": "Camping la Petite Rhune",
     "nearestMetreOfPath": 31736,
     "elevation": 89,
     "cumulativeAscent": 1647,
@@ -76,7 +155,8 @@
     "description": {
       "en": "Turn right for La Petite Rhune campsite, Hotel Pikasaria",
       "fr": "La Petite Rhune campsite, Hôtel Pikasaria"
-    }
+    },
+    "camping": true
   },
   {
     "name": "Camping Harazpy",

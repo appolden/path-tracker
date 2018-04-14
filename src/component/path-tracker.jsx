@@ -7,6 +7,7 @@ import LocationWatcher from '../component/location-watcher.jsx';
 import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
 import PointOfInterestRow from '../component/point-of-interest-row.jsx';
+import PointOfInterestList from '../component/points-interest-virtulaized-list.jsx';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -168,61 +169,111 @@ class PathTracker extends Component {
     );
 
     const nearestPointToCurrentLocation = findNearestPointResult.routePoint;
+
+    if (
+      nearestPointToCurrentLocation.metreOfPath ===
+        this.state.nearestMetreOfPath &&
+      this.state.locationKnown
+    ) {
+      return;
+    }
+
     const distanceFromPath = MapHelper.computeDistanceBetween(
       currentLocation,
       findNearestPointResult.latLng
     );
 
-    const pointCurrent = {
-      name: 'Current Location',
-      nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
-      elevation: nearestPointToCurrentLocation.elevation,
-      cumulativeAscent: nearestPointToCurrentLocation.cumulativeAscent,
-      cumulativeDescent: nearestPointToCurrentLocation.cumulativeDescent,
-      currentLocation: true
-    };
-    let pointCurrentIndex = 0;
-    const newPois = [];
-
-    this.state.pointsOfInterest.forEach((x, index) => {
-      if (x.currentLocation !== undefined && x.currentLocation) {
-        return;
-      }
-      if (index === this.state.pointsOfInterest.length - 1) {
-        //reached the end
-        newPois.push(x);
-        if (x.nearestMetreOfPath < nearestPointToCurrentLocation.metreOfPath) {
-          newPois.push(pointCurrent);
-          pointCurrentIndex = index;
-        }
-        return;
-      }
-      const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
-      if (
-        x.nearestMetreOfPath <= nearestPointToCurrentLocation.metreOfPath &&
-        nextPointOfInterest.nearestMetreOfPath >
-          nearestPointToCurrentLocation.metreOfPath
-      ) {
-        newPois.push(x);
-        newPois.push(pointCurrent);
-        pointCurrentIndex = index;
+    this.setState(prevState => {
+      const indexOf = prevState.pointsOfInterest.findIndex(
+        x => x.currentLocation
+      );
+      if (indexOf > -1) {
+        const pointCurrent = prevState.pointsOfInterest[indexOf];
+        pointCurrent.nearestMetreOfPath =
+          nearestPointToCurrentLocation.metreOfPath;
+        pointCurrent.elevation = nearestPointToCurrentLocation.elevation;
+        pointCurrent.cumulativeAscent =
+          nearestPointToCurrentLocation.cumulativeAscent;
+        pointCurrent.cumulativeDescent =
+          nearestPointToCurrentLocation.cumulativeDescent;
       } else {
-        newPois.push(x);
+        const pointCurrent = {
+          name: 'Current Location',
+          nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
+          elevation: nearestPointToCurrentLocation.elevation,
+          cumulativeAscent: nearestPointToCurrentLocation.cumulativeAscent,
+          cumulativeDescent: nearestPointToCurrentLocation.cumulativeDescent,
+          currentLocation: true
+        };
+        prevState.pointsOfInterest.push(pointCurrent);
       }
+
+      const newPois = prevState.pointsOfInterest.sort(function compare(a, b) {
+        if (a.nearestMetreOfPath < b.nearestMetreOfPath) return -1;
+        if (a.nearestMetreOfPath > b.nearestMetreOfPath) return 1;
+        return 0;
+      });
+
+      return {
+        locationKnown: true,
+        nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
+        elevationAtNearestMetreOfPath: nearestPointToCurrentLocation.elevation,
+        cumulativeAscentAtNearestMetreOfPath:
+          nearestPointToCurrentLocation.cumulativeAscent,
+        cumulativeDescentAtNearestMetreOfPath:
+          nearestPointToCurrentLocation.cumulativeDescent,
+        distanceFromPath: distanceFromPath,
+        pointsOfInterest: newPois,
+        pointOfInterestScrollToIndex: 1
+      };
     });
 
-    this.setState({
-      locationKnown: true,
-      nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
-      elevationAtNearestMetreOfPath: nearestPointToCurrentLocation.elevation,
-      cumulativeAscentAtNearestMetreOfPath:
-        nearestPointToCurrentLocation.cumulativeAscent,
-      cumulativeDescentAtNearestMetreOfPath:
-        nearestPointToCurrentLocation.cumulativeDescent,
-      distanceFromPath: distanceFromPath,
-      pointsOfInterest: newPois,
-      pointOfInterestScrollToIndex: pointCurrentIndex
-    });
+    //
+    // console.log(indexOf);
+    //update current location
+
+    //let pointCurrentIndex = 0;
+    //const newPois = [];
+
+    //this.state.pointsOfInterest.forEach((x, index) => {
+    //  if (x.currentLocation !== undefined && x.currentLocation) {
+    //    return;
+    //  }
+    //  if (index === this.state.pointsOfInterest.length - 1) {
+    //    //reached the end
+    //    newPois.push(x);
+    //    if (x.nearestMetreOfPath < nearestPointToCurrentLocation.metreOfPath) {
+    //      newPois.push(pointCurrent);
+    //      pointCurrentIndex = index;
+    //    }
+    //    return;
+    //  }
+    //  const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
+    //  if (
+    //    x.nearestMetreOfPath <= nearestPointToCurrentLocation.metreOfPath &&
+    //    nextPointOfInterest.nearestMetreOfPath >
+    //      nearestPointToCurrentLocation.metreOfPath
+    //  ) {
+    //    newPois.push(x);
+    //    newPois.push(pointCurrent);
+    //    pointCurrentIndex = index;
+    //  } else {
+    //    newPois.push(x);
+    //  }
+    //});
+
+    //this.setState({
+    //  locationKnown: true,
+    //  nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
+    //  elevationAtNearestMetreOfPath: nearestPointToCurrentLocation.elevation,
+    //  cumulativeAscentAtNearestMetreOfPath:
+    //    nearestPointToCurrentLocation.cumulativeAscent,
+    //  cumulativeDescentAtNearestMetreOfPath:
+    //    nearestPointToCurrentLocation.cumulativeDescent,
+    //  distanceFromPath: distanceFromPath,
+    //  pointsOfInterest: newPois,
+    //  pointOfInterestScrollToIndex: 1
+    //});
   }
 
   onLocationChanged(lat, lng) {
@@ -263,10 +314,12 @@ class PathTracker extends Component {
     }
 
     const rows = this.state.pointsOfInterest.map((x, index) => {
+      const key = `${x.nearestMetreOfPath}${x.currentLocation ? x.name : ''}`;
+
       return (
         <PointOfInterestRow
           language={this.language}
-          key={x.nearestMetreOfPath}
+          key={key}
           name={x.name}
           elevationAtNearestMetreOfPath={x.elevation}
           pathMetre={this.state.nearestMetreOfPath}
@@ -313,7 +366,7 @@ class PathTracker extends Component {
         <div className="App-content pathTrackerContent">
           <div>
             <div className="pointsOfInterest">
-              {this.state.pointsOfInterest.length == 0 && (
+              {this.state.pointsOfInterest.length === 0 && (
                 <div className="loader" />
               )}
               {rows}
@@ -326,3 +379,5 @@ class PathTracker extends Component {
 }
 
 export default PathTracker;
+//<PointOfInterestList
+//    pointsOfInterest={this.state.pointsOfInterest} />
