@@ -25,18 +25,24 @@ class PointOfInterest extends Component {
         accommodation => {
           const tel = accommodation.tel || '';
           const telLink =
-            tel.length > 0 ? <a href={'tel:' + tel}>{tel}</a> : '';
+            tel.length > 0 ? (
+              <React.Fragment>
+                {' - '} <a href={'tel:' + tel}>{tel}</a>{' '}
+              </React.Fragment>
+            ) : (
+              ''
+            );
           const url = accommodation.url || '';
-          const urlLink =
+          const item =
             url.length > 0 ? (
               <a href={accommodation.url}>{accommodation.name}</a>
             ) : (
-              ''
+              accommodation.name
             );
 
           return (
             <li key={accommodation.name}>
-              {accommodation.name} {urlLink}
+              {item}
               {telLink}
             </li>
           );
