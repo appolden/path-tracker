@@ -56,19 +56,7 @@ class CacheViewer extends Component {
     ));
 
     return (
-      <div className="App-content">
-        <h2>Cache viewer</h2>
-        <p>
-          {this.state.serviceWorkerEnabled}
-          This is one of the first apps/websites I have created that utilises
-          HTML5 caching. This page provides information about what is cached and
-          the option to remove the cached data so that a fresh copy is retrieved
-          from the server.
-        </p>
-        <p>
-          For caching to work and the app/website to work offline a service
-          worker needs to be available.
-        </p>
+      <div>
         <p>
           Is service working available ={' '}
           {this.state.serviceWorkerEnabled.toString()}.

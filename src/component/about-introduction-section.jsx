@@ -12,15 +12,27 @@ class AboutIntroductionParagraph extends Component {
   render() {
     const language = LanguageHelper.getLanguage(this.props.language);
     let title = 'Introduction';
-    let traitrackerLinkText = 'GR10 Trail Tracker';
+    let traitrackerLinkText = 'Click here to access the GR10 Trail Tracker';
     let text = (
       <React.Fragment>
         <p>
-          The aim of the website is to help hikers on the GR10 determine where
-          they are on the path. When the current position has been located the
-          distances to point of interests (mountain passes, summits, towns,
-          water, bridges etc.) can then be calculated.
+          The aim of the app/website is to help hikers on the GR10 determine
+          where they are on the path. The phone's GPS is used to determine your
+          location and calculates distances to landmarks (mountain passes,
+          summits, towns, water, bridges etc.) along the GR10. If you are using
+          an up to date phone the app/website will work offline in areas without
+          a data connection.
         </p>
+        <p>Key features </p>
+        <ul>
+          <li>Works offline, when a data connection is unavailable</li>
+          <li>Calculates distances to all points</li>
+          <li>
+            Calculates cumulative elevation gains and losses to all points
+          </li>
+          <li>Hotels/Gites with phone numbers </li>
+          <li>Links to hotel websites (requires a data connection)</li>
+        </ul>
         <p>
           The inspiration for the app/website came from the Halfmile app I used
           when I hiked the Pacific Crest Trail.{' '}
@@ -34,7 +46,7 @@ class AboutIntroductionParagraph extends Component {
     switch (language) {
       case 'fr':
         title = 'Introduction';
-        traitrackerLinkText = 'Traqueur de sentier GR10';
+        traitrackerLinkText = 'GR10 Trail Tracker';
         text = (
           <React.Fragment>
             <p>

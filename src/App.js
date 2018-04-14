@@ -9,6 +9,8 @@ import About from './component/about.jsx';
 import Contribute from './component/contribute';
 import TrailMapFrench from './component/trail-map-fr.jsx';
 import TrailMapEnglish from './component/trail-map-en.jsx';
+import Legal from './component/legal.jsx';
+import TechnicalPage from './component/technical-page';
 import ReactGA from 'react-ga';
 ReactGA.initialize('UA-76203188-2');
 
@@ -168,6 +170,13 @@ class App extends Component {
                     );
                 }
               }}
+            />
+
+            <Route exact path="/:language/legal" component={Legal} />
+            <Route
+              exact
+              path="/:language/technical"
+              component={TechnicalPage}
             />
           </React.Fragment>
         </Router>

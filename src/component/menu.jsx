@@ -45,6 +45,20 @@ class Menu extends Component {
           en: 'Donate',
           fr: 'Faire un don'
         }
+      },
+      {
+        url: '/legal',
+        linkText: {
+          en: 'Legal',
+          fr: 'Legal'
+        }
+      },
+      {
+        url: '/technical',
+        linkText: {
+          en: 'Technical',
+          fr: 'Technical'
+        }
       }
     ];
   }
