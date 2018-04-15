@@ -17,8 +17,8 @@ class TechnicalPage extends Component {
   }
 
   render() {
-    const pageTitle = 'Techincal Information';
-    const title = 'Techincal';
+    const pageTitle = 'Technical Information';
+    const title = 'Technical';
 
     return (
       <React.Fragment>

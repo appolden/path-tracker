@@ -149,11 +149,14 @@ class PointOfInterest extends Component {
         <div onClick={this.onClick}>
           <PointOfInterestFacilities
             hotel={
-              this.props.pointOfInterest.accommodations ||
+              this.props.pointOfInterest.hotel ||
               this.props.pointOfInterest.accommodationSearchUrl
             }
-            foodshop={this.props.pointOfInterest.foodshop}
+            gite={this.props.pointOfInterest.gite}
             camping={this.props.pointOfInterest.camping}
+            cabane={this.props.pointOfInterest.cabane}
+            foodshop={this.props.pointOfInterest.foodshop}
+            restaurant={this.props.pointOfInterest.restaurant}
           />
         </div>
       </div>

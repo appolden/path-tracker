@@ -9,6 +9,7 @@
       "en": "Large town with all the facilities you might need. The tourist office can be found east of the old casino.",
       "fr": "Large town with all the facilities you might need. The tourist office can be found east of the old casino."
     },
+    "hotel": true,
     "foodshop": true,
     "restaurant": true,
     "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Hendaye"
@@ -51,6 +52,7 @@
         "url": "http://www.auberge-hiribarren.com/"
       }
     ],
+    "hotel": true,
     "restaurant": true
   },
   {
@@ -66,7 +68,10 @@
     "elevation": 318,
     "cumulativeAscent": 794,
     "cumulativeDescent": 481,
-    "accommodations": [],
+    "description": {
+      "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
+      "fr": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices."
+    },
     "foodshop": true,
     "restaurant": true
   },
@@ -96,6 +101,8 @@
         "tel": "+33 5 59 54 42 59"
       }
     ],
+    "hotel": true,
+    "gite": true,
     "restaurant": true
   },
   {
@@ -142,8 +149,9 @@
         "url": "http://www.chalet-elisa.com/"
       }
     ],
+    "hotel": true,
+    "gite": true,
     "foodshop": true,
-    "camping": true,
     "restaurant": true
   },
   {
@@ -159,6 +167,38 @@
     "camping": true
   },
   {
+    "name": "Chambres d'hôtes/Gite Hego Alde",
+    "nearestMetreOfPath": 34058,
+    "elevation": 65,
+    "cumulativeAscent": 1672,
+    "cumulativeDescent": 1612,
+    "description": {
+      "en": "Hego Alde Gîte et Chambres d'hôtes à Sare",
+      "fr": "Hego Alde Gîte et Chambres d'hôtes à Sare"
+    },
+    "accommodations": [
+      {
+        "name": "Chambres d'hôtes/Gite Hego Alde",
+        "tel": "+33 5 59 54 60 41",
+        "url": "http://www.hegoalde.fr/"
+      }
+    ],
+    "hotel": true,
+    "gite": true
+  },
+  {
+    "name": "Ventà Berrouet",
+    "nearestMetreOfPath": 34848,
+    "elevation": 100,
+    "cumulativeAscent": 1722,
+    "cumulativeDescent": 1627,
+    "description": {
+      "en": "Ventà Berrouet is a resturant snack bar. Open everyday 7h to 20h.",
+      "fr": "La station service reste ouverte tous jours de 7h a 20h"
+    },
+    "restaurant": true
+  },
+  {
     "name": "Camping Harazpy",
     "nearestMetreOfPath": 43645,
     "elevation": 124,
@@ -169,6 +209,56 @@
       "fr": "à 150m au nord-ouest du centre du village d'Ainhoa, ouvert de début avril à fin septembre."
     },
     "camping": true
+  },
+  {
+    "name": "Ainhoa",
+    "nearestMetreOfPath": 43862,
+    "elevation": 119,
+    "cumulativeAscent": 1933,
+    "cumulativeDescent": 1819,
+    "description": {
+      "en": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets.",
+      "fr": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets."
+    },
+    "accommodations": [
+      {
+        "name": "Chambres d'Hôtes Maison Tartea",
+        "tel": "+33 5 59 03 82 38",
+        "url": "http://www.maison-tartea.com"
+      },
+      {
+        "name": "Chambres d'hôtes Xaharenea",
+        "tel": "+33 5 59 29 90 72",
+        "url": "http://www.xaharenea.com/"
+      },
+      {
+        "name": "Hôtel-restaurant La Maison Oppoca",
+        "tel": "+33 5 59 29 90 72",
+        "url": "https://www.oppoca.com/"
+      },
+      {
+        "name": "Hôtel Ithurria",
+        "tel": "+33 5 59 29 92 11",
+        "url": "http://www.ithurria.com/"
+      },
+      {
+        "name": "Hôtel-Restaurant Argi Eder",
+        "tel": "+33 5 59 93 72 00",
+        "url": "http://www.ithurria.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": " Chapelle Notre Dame de l'Aubépine",
+    "nearestMetreOfPath": 45776,
+    "elevation": 381,
+    "cumulativeAscent": 2199,
+    "cumulativeDescent": 1823
   },
   {
     "name": "Col des Trois Croix",
@@ -185,6 +275,26 @@
     "cumulativeDescent": 2032
   },
   {
+    "name": "Col des Veaux",
+    "nearestMetreOfPath": 54711,
+    "elevation": 556,
+    "cumulativeAscent": 2736,
+    "cumulativeDescent": 2185,
+    "description": {
+      "en": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
+      "fr": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer."
+    },
+    "accommodations": [
+      {
+        "name": "Venata Burkaitz",
+        "tel": "+33 5 59 29 82 55",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "restaurant": true
+  },
+  {
     "name": "Col de Méhatché",
     "nearestMetreOfPath": 56657,
     "elevation": 713,
@@ -192,11 +302,58 @@
     "cumulativeDescent": 2213
   },
   {
+    "name": "Gîte Urrizate",
+    "nearestMetreOfPath": 63896,
+    "elevation": 142,
+    "cumulativeAscent": 3107,
+    "cumulativeDescent": 2970,
+    "accommodations": [
+      {
+        "name": "Gîte Urrizate",
+        "tel": "+33 5 59 37 74 76",
+        "url": "giteurrizate.fr"
+      }
+    ],
+    "gite": true
+  },
+  {
     "name": "Bidarray",
-    "nearestMetreOfPath": 60536,
-    "elevation": 199,
-    "cumulativeAscent": 3009,
-    "cumulativeDescent": 2815
+    "nearestMetreOfPath": 64555,
+    "elevation": 134,
+    "cumulativeAscent": 3128,
+    "cumulativeDescent": 2999,
+    "description": {
+      "en": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray",
+      "fr": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray"
+    },
+    "accommodations": [
+      {
+        "name": "L'Auberge Iparla",
+        "tel": "+33 5 59 37 87 09",
+        "url": "http://www.auberge-iparla-bidarray.fr/"
+      },
+      {
+        "name": "Hôtel Barberaenea",
+        "tel": "+33 5 59 37 74 86",
+        "url": "http://www.hotel-bidarray.com"
+      },
+      {
+        "name": "Gîte Aire Zabal",
+        "tel": "+33 6 60 81 09 20",
+        "url": "http://www.saintjeanpieddeport-paysbasque-tourisme.com/gite-groupe-aire-zabal/148"
+      },
+      {
+        "name": "Hôtel Noblia",
+        "tel": "+33 5 59 37 70 89",
+        "url": "https://www.logishotels.com"
+      }
+    ],
+    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=bidarray",
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Pic d'Iparla",
@@ -320,7 +477,7 @@
     "cumulativeDescent": 8251
   },
   {
-    "name": "Une jonction",
+    "name": "Trail junction",
     "nearestMetreOfPath": 150951,
     "elevation": 407,
     "cumulativeAscent": 8668,
@@ -381,6 +538,7 @@
     "elevation": 1631,
     "cumulativeAscent": 12109,
     "cumulativeDescent": 10483,
+    "gite": true,
     "camping": true
   },
   {
@@ -391,25 +549,31 @@
     "cumulativeDescent": 10611
   },
   {
-    "name": "Cabane du Cap de la baitch (Bivouac)",
+    "name": "Cabane du Cap de la baitch",
     "nearestMetreOfPath": 194021,
     "elevation": 1650,
     "cumulativeAscent": 12546,
-    "cumulativeDescent": 10901
+    "cumulativeDescent": 10901,
+    "cabane": true,
+    "camping": true
   },
   {
-    "name": "Cabane d'Ardinet (Bivouac)",
+    "name": "Cabane d'Ardinet",
     "nearestMetreOfPath": 194673,
     "elevation": 1564,
     "cumulativeAscent": 12547,
-    "cumulativeDescent": 10988
+    "cumulativeDescent": 10988,
+    "cabane": true,
+    "camping": true
   },
   {
-    "name": "Refuge de L'Abérouat (Bivouac)",
+    "name": "Refuge de L'Abérouat",
     "nearestMetreOfPath": 197401,
     "elevation": 1432,
     "cumulativeAscent": 12609,
-    "cumulativeDescent": 11182
+    "cumulativeDescent": 11182,
+    "cabane": true,
+    "camping": true
   },
   {
     "name": "Lescun",
@@ -440,7 +604,7 @@
     "cumulativeDescent": 12029
   },
   {
-    "name": "Cabane ruinée d’Udapet-le-Haut (Bivouac)",
+    "name": "Cabane ruinée d’Udapet-le-Haut",
     "nearestMetreOfPath": 212445,
     "elevation": 1377,
     "cumulativeAscent": 13606,

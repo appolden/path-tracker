@@ -9,6 +9,7 @@
       "en": "Large town with all the facilities you might need. The tourist office can be found east of the old casino.",
       "fr": "Large town with all the facilities you might need. The tourist office can be found east of the old casino."
     },
+    "hotel": true,
     "foodshop": true,
     "restaurant": true,
     "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Hendaye"
@@ -39,6 +40,7 @@
         "url": "http://www.auberge-hiribarren.com/"
       }
     ],
+    "hotel": true,
     "restaurant": true
   },
   {
@@ -66,7 +68,10 @@
       "lat": 43.30967,
       "lng": -1.68431
     },
-    "accommodations": [],
+    "description": {
+      "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
+      "fr": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices."
+    },
     "foodshop": true,
     "restaurant": true
   },
@@ -96,6 +101,8 @@
         "tel": "+33 5 59 54 42 59"
       }
     ],
+    "hotel": true,
+    "gite": true,
     "restaurant": true
   },
   {
@@ -142,10 +149,11 @@
         "url": "http://www.chalet-elisa.com/"
       }
     ],
+    "hotel": true,
+    "gite": true,
     "foodshop": true,
-    "camping": true,
-    "restaurant": true 
-  }, 
+    "restaurant": true
+  },
   {
     "name": "Camping la Petite Rhune",
     "point": {
@@ -159,6 +167,82 @@
     "camping": true
   },
   {
+    "name": "Chambres d'hôtes/Gite Hego Alde",
+    "point": {
+      "lat": 43.293790,
+      "lng": -1.566539
+    },
+    "description": {
+      "en": "Hego Alde Gîte et Chambres d'hôtes à Sare",
+      "fr": "Hego Alde Gîte et Chambres d'hôtes à Sare"
+    },
+    "accommodations": [
+      {
+        "name": "Chambres d'hôtes/Gite Hego Alde",
+        "tel": "+33 5 59 54 60 41",
+        "url": "http://www.hegoalde.fr/"
+      }
+    ],
+    "hotel": true,
+    "gite": true
+  },
+  {
+    "name": "Ventà Berrouet",
+    "point": {
+      "lat": 43.290045,
+      "lng": -1.559265
+    },
+    "description": {
+      "en": "Ventà Berrouet is a resturant snack bar. Open everyday 7h to 20h.",
+      "fr": "La station service reste ouverte tous jours de 7h a 20h"
+    },
+
+    "restaurant": true
+  },
+  {
+    "name": "Ainhoa",
+    "point": {
+      "lat": 43.307427,
+      "lng": -1.496201
+    },
+    "description": {
+      "en": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets.",
+      "fr": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets."
+    },
+    "accommodations": [
+      {
+        "name": "Chambres d'Hôtes Maison Tartea",
+        "tel": "+33 5 59 03 82 38",
+        "url": "http://www.maison-tartea.com"
+      },
+      {
+        "name": "Chambres d'hôtes Xaharenea",
+        "tel": "+33 5 59 29 90 72",
+        "url": "http://www.xaharenea.com/"
+      },
+      {
+        "name": "Hôtel-restaurant La Maison Oppoca",
+        "tel": "+33 5 59 29 90 72",
+        "url": "https://www.oppoca.com/"
+      },
+      {
+        "name": "Hôtel Ithurria",
+        "tel": "+33 5 59 29 92 11",
+        "url": "http://www.ithurria.com/"
+      },
+      {
+        "name": "Hôtel-Restaurant Argi Eder",
+        "tel": "+33 5 59 93 72 00",
+        "url": "http://www.ithurria.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
     "name": "Camping Harazpy",
     "point": {
       "lat": 43.310206,
@@ -169,6 +253,13 @@
       "fr": "à 150m au nord-ouest du centre du village d'Ainhoa, ouvert de début avril à fin septembre."
     },
     "camping": true
+  },
+  {
+    "name": " Chapelle Notre Dame de l'Aubépine",
+    "point": {
+      "lat": 43.303558,
+      "lng": -1.482393
+    }
   },
   {
     "name": "Col des Trois Croix",
@@ -185,6 +276,26 @@
     }
   },
   {
+    "name": "Col des Veaux",
+    "point": {
+      "lat": 43.264534,
+      "lng": -1.434993
+    },
+    "description": {
+      "en": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
+      "fr": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer."
+    },
+    "accommodations": [
+      {
+        "name": "Venata Burkaitz",
+        "tel": "+33 5 59 29 82 55",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "restaurant": true
+  },
+  {
     "name": "Col de Méhatché",
     "point": {
       "lat": 43.272612,
@@ -192,11 +303,58 @@
     }
   },
   {
+    "name": "Gîte Urrizate",
+    "point": {
+      "lat": 43.263718,
+      "lng": -1.356774
+    },
+    "accommodations": [
+      {
+        "name": "Gîte Urrizate",
+        "tel": "+33 5 59 37 74 76",
+        "url": "giteurrizate.fr"
+      }
+    ],
+    "gite": true
+  },
+  {
     "name": "Bidarray",
     "point": {
-      "lat": 43.261612,
-      "lng": -1.385393
-    }
+      "lat": 43.266409,
+      "lng": -1.342885
+    },
+    "description": {
+      "en": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray",
+      "fr": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray"
+    },
+    "accommodations": [
+      {
+        "name": "L'Auberge Iparla",
+        "tel": "+33 5 59 37 87 09",
+        "url": "http://www.auberge-iparla-bidarray.fr/"
+      },
+      {
+        "name": "Hôtel Barberaenea",
+        "tel": "+33 5 59 37 74 86",
+        "url": "http://www.hotel-bidarray.com"
+      },
+      {
+        "name": "Gîte Aire Zabal",
+        "tel": "+33 6 60 81 09 20",
+        "url": "http://www.saintjeanpieddeport-paysbasque-tourisme.com/gite-groupe-aire-zabal/148"
+      },
+      {
+        "name": "Hôtel Noblia",
+        "tel": "+33 5 59 37 70 89",
+        "url": "https://www.logishotels.com"
+      }
+    ],
+    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=bidarray",
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Pic d'Iparla",
@@ -323,7 +481,7 @@
     }
   },
   {
-    "name": "Une jonction",
+    "name": "Trail junction",
     "point": {
       "lat": 43.017043,
       "lng": -0.928136
@@ -384,6 +542,7 @@
       "lat": 42.979064,
       "lng": -0.749551
     },
+    "gite": true,
     "camping": true
   },
   {
@@ -394,25 +553,31 @@
     }
   },
   {
-    "name": "Cabane du Cap de la baitch (Bivouac)",
+    "name": "Cabane du Cap de la baitch",
     "point": {
       "lat": 42.959076,
       "lng": -0.704616
-    }
+    },
+    "camping": true,
+    "cabane": true
   },
   {
-    "name": "Cabane d'Ardinet (Bivouac)",
+    "name": "Cabane d'Ardinet",
     "point": {
       "lat": 42.959579,
       "lng": -0.695733
-    }
+    },
+    "camping": true,
+    "cabane": true
   },
   {
-    "name": "Refuge de L'Abérouat (Bivouac)",
+    "name": "Refuge de L'Abérouat",
     "point": {
       "lat": 42.950286,
       "lng": -0.666545
-    }
+    },
+    "camping": true,
+    "cabane": true
   },
   {
     "name": "Lescun",
@@ -436,7 +601,7 @@
     }
   },
   {
-    "name": "Cabane ruinée d’Udapet-le-Haut (Bivouac)",
+    "name": "Cabane ruinée d’Udapet-le-Haut",
     "point": {
       "lat": 42.901378,
       "lng": -0.590993

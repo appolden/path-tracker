@@ -63,8 +63,11 @@ class PointOfInterestEncoder extends Component {
         cumulativeDescent: x.cumulativeDescent,
         description: x.description,
         accommodations: x.accommodations,
-        foodshop: x.foodshop,
+        hotel: x.hotel,
+        gite: x.gite,
+        cabane: x.cabane,
         camping: x.camping,
+        foodshop: x.foodshop,
         restaurant: x.restaurant,
         accommodationSearchUrl: x.accommodationSearchUrl
       };
@@ -76,7 +79,10 @@ class PointOfInterestEncoder extends Component {
       return 0;
     });
 
-    this.setState({ locatedPois: JSON.stringify(sorted) });
+    this.setState({
+      locatedPois: JSON.stringify(sorted),
+      countOfPois: sorted.length
+    });
     console.log(JSON.stringify(sorted));
   }
 
@@ -96,6 +102,7 @@ class PointOfInterestEncoder extends Component {
           value={this.state.locatedPois}
           style={{ fontSize: '1rem', width: '100%' }}
         />
+        Total POIS: {this.state.countOfPois}
       </div>
     );
   }
