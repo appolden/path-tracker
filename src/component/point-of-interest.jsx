@@ -49,7 +49,7 @@ class PointOfInterest extends Component {
         }
       );
 
-      return <ul>{accommodationList}</ul>;
+      return <ul style={{ paddingLeft: '20px' }}>{accommodationList}</ul>;
     }
   }
 

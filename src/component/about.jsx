@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
 import AboutIntroductionParagraph from '../component/about-introduction-section.jsx';
 import AboutInstallationSection from '../component/about-installation-section.jsx';
+import AboutMeSection from '../component/about-me.jsx';
 import AboutGr10Section from '../component/about-gr10-section.jsx';
 import AboutContributeSection from '../component/about-contribute-section.jsx';
 import Menu from '../component/menu.jsx';
@@ -51,7 +52,7 @@ class About extends Component {
         <div className="App-content">
           <AboutIntroductionParagraph language={this.state.language} />
           <AboutInstallationSection language={this.state.language} />
-
+          <AboutMeSection language={this.state.language} />
           <AboutGr10Section language={this.state.language} />
           <AboutContributeSection language={this.state.language} />
         </div>

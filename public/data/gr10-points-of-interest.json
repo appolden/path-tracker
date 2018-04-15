@@ -38,7 +38,7 @@
     },
     "accommodations": [
       {
-        "name": "Chambre d'hôte Maison Kabia",
+        "name": "Chambre d'hôtes Maison Kabia",
         "tel": "+33 5 59 26 03 16",
         "url": "http://resa.terreetcotebasques.com/fr/hebergements/a358610/chambre-dh%C3%B4te-maison-kabia/details"
       },
@@ -348,12 +348,12 @@
         "url": "https://www.logishotels.com"
       }
     ],
-    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=bidarray",
     "hotel": true,
     "gite": true,
     "camping": true,
     "foodshop": true,
-    "restaurant": true
+    "restaurant": true,
+    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=bidarray"
   },
   {
     "name": "Pic d'Iparla",
@@ -370,11 +370,42 @@
     "cumulativeDescent": 3408
   },
   {
-    "name": "Camping l'Irouleguy (Baigorry)",
-    "nearestMetreOfPath": 80229,
-    "elevation": 164,
-    "cumulativeAscent": 4305,
-    "cumulativeDescent": 4146
+    "name": "St Etienne de Baigorry",
+    "nearestMetreOfPath": 81825,
+    "elevation": 263,
+    "cumulativeAscent": 4422,
+    "cumulativeDescent": 4164,
+    "description": {
+      "en": "Tourist office.Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan",
+      "fr": "Tourist office.Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan"
+    },
+    "accommodations": [
+      {
+        "name": "Hôtel-restaurant Juantorena",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Hôtel-restaurant Arcé",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gite Gaineko Karrikan",
+        "tel": "+33 5 59 37 47 04",
+        "url": ""
+      },
+      {
+        "name": "Camping Municipal Irouleguy",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Col d'Aharza",
@@ -395,35 +426,142 @@
     "nearestMetreOfPath": 96022,
     "elevation": 207,
     "cumulativeAscent": 5296,
-    "cumulativeDescent": 5094
+    "cumulativeDescent": 5094,
+    "description": {
+      "en": "You will pass restaurant Lespade shortly before arriving in Lasse. Turn right at the crossroads for Gîte de groupe de la Cidrerie Aldakurria",
+      "fr": "You will pass restaurant Lespade shortly before arriving in Lasse. Turn right at the crossroads for Gîte de groupe de la Cidrerie Aldakurria"
+    },
+    "accommodations": [
+      {
+        "name": "Auberge Etchoinia",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gîte de France",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gîte de groupe de la Cidrerie Aldakurria",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
   },
   {
     "name": "Saint-Jean-Pied-de-Port",
-    "nearestMetreOfPath": 98446,
-    "elevation": 172,
-    "cumulativeAscent": 5316,
-    "cumulativeDescent": 5149
+    "nearestMetreOfPath": 98566,
+    "elevation": 174,
+    "cumulativeAscent": 5318,
+    "cumulativeDescent": 5149,
+    "description": {
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for the French Way Camino Francés, the most popular option for travelling the Camino de Santiago. St-Jean-Pied-de-Port specializes in fromage de brebis, which is an Ossau-Iraty cheese, local trout and pipérade omelette with peppers and Bayonne ham. Mondays see a large market, with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.",
+      "fr": "Saint-Jean-Pied-de-Port is also a starting point for the French Way Camino Francés, the most popular option for travelling the Camino de Santiago. St-Jean-Pied-de-Port specializes in fromage de brebis, which is an Ossau-Iraty cheese, local trout and pipérade omelette with peppers and Bayonne ham. Mondays see a large market, with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton."
+    },
+    "accommodations": [
+      {
+        "name": "Gîte d'etape Compostella",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gîte d'étape Zuharpeta",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Hôtel-restaurant des Remparts",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Hôtel des Pyrénées",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Saint-Jean-Pied-de-Port"
+  },
+  {
+    "name": "Caro",
+    "nearestMetreOfPath": 101283,
+    "elevation": 245,
+    "cumulativeAscent": 5418,
+    "cumulativeDescent": 5178,
+    "accommodations": [
+      {
+        "name": "Gite Iparza",
+        "tel": "+33 6 80 37 39 94",
+        "url": ""
+      },
+      {
+        "name": "Maison Florenia",
+        "tel": "+33 6 37 71 49 00",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true
   },
   {
     "name": "Estérençuby",
     "nearestMetreOfPath": 110207,
     "elevation": 238,
     "cumulativeAscent": 5908,
-    "cumulativeDescent": 5675
+    "cumulativeDescent": 5675,
+    "description": {
+      "en": "Water opposite the Auberge Carricaburu.",
+      "fr": "Water opposite the Auberge Carricaburu."
+    },
+    "accommodations": [
+      {
+        "name": "Hôtel Andreinia Logis",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Hôtel/Gîte d'étape Andreinia",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Auberge Carricaburu",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
   },
   {
-    "name": "Gîte d'étape de Kaskoleta",
-    "nearestMetreOfPath": 114246,
+    "name": "Gîte d'étape Kaskoleta",
+    "nearestMetreOfPath": 114230,
     "elevation": 614,
     "cumulativeAscent": 6386,
-    "cumulativeDescent": 5777
-  },
-  {
-    "name": "Pont",
-    "nearestMetreOfPath": 118618,
-    "elevation": 698,
-    "cumulativeAscent": 6728,
-    "cumulativeDescent": 6035
+    "cumulativeDescent": 5777,
+    "description": {
+      "en": "Camping is possible",
+      "fr": "Le bivouac y est possible - Location de tentes à la demande. "
+    },
+    "accommodations": [
+      {
+        "name": "Gîte d'étape Kaskoleta",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "gite": true,
+    "camping": true
   },
   {
     "name": "Col d'Irau",
@@ -440,12 +578,29 @@
     "cumulativeDescent": 6086
   },
   {
-    "name": "Chalet Pédro.",
-    "nearestMetreOfPath": 127619,
+    "name": "Chalet Pédro",
+    "nearestMetreOfPath": 127621,
     "elevation": 1000,
     "cumulativeAscent": 7507,
     "cumulativeDescent": 6512,
-    "camping": true
+    "description": {
+      "en": "Camping is possible here a short distance west of the trail.",
+      "fr": "Camping is possible here a short distance west of the trail."
+    },
+    "camping": true,
+    "restaurant": true
+  },
+  {
+    "name": "Snack Bar Chalet de Cize",
+    "nearestMetreOfPath": 128781,
+    "elevation": 1007,
+    "cumulativeAscent": 7541,
+    "cumulativeDescent": 6539,
+    "description": {
+      "en": "Continue along the D18 to Snack Bar Chalet de Cize. Otherwise turn right for Iraty",
+      "fr": "Continue along the D18 to Snack Bar Chalet de Cize. Otherwise turn right for Iraty"
+    },
+    "restaurant": true
   },
   {
     "name": "Exit for 'Aire Naturelle De Camping D'Iraty'",
@@ -456,11 +611,19 @@
     "camping": true
   },
   {
-    "name": "Chalets d'Iraty",
+    "name": "Gîte d'étape Chalets d'Iraty",
     "nearestMetreOfPath": 130820,
     "elevation": 1152,
     "cumulativeAscent": 7756,
-    "cumulativeDescent": 6609
+    "cumulativeDescent": 6609,
+    "description": {
+      "en": "A bar-restaurant with a small shop. Camping is possible",
+      "fr": "A bar-restaurant with a small shop. Camping is possible"
+    },
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Col Bagargiak",
@@ -474,7 +637,21 @@
     "nearestMetreOfPath": 150662,
     "elevation": 396,
     "cumulativeAscent": 8642,
-    "cumulativeDescent": 8251
+    "cumulativeDescent": 8251,
+    "description": {
+      "en": "A bar-restaurant",
+      "fr": "A bar-restaurant"
+    },
+    "accommodations": [
+      {
+        "name": "Chambre d'hôtes/Gîte Auberge Logibar",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "gite": true,
+    "camping": true,
+    "restaurant": true
   },
   {
     "name": "Trail junction",
@@ -505,25 +682,21 @@
     "cumulativeDescent": 10113
   },
   {
-    "name": "Grotte de la Verna (Sainte-Engrace)",
-    "nearestMetreOfPath": 175125,
-    "elevation": 614,
-    "cumulativeAscent": 10847,
-    "cumulativeDescent": 10238
-  },
-  {
-    "name": "Gîtes berretechia",
+    "name": "Gîtes berretechia (Sainte-Engrace)",
     "nearestMetreOfPath": 175524,
     "elevation": 632,
     "cumulativeAscent": 10868,
-    "cumulativeDescent": 10241
+    "cumulativeDescent": 10241,
+    "gite": true
   },
   {
-    "name": "Gîte d'Etape Sainte Engrace Burguburu",
+    "name": "Auberge Elichalt/Gîte d'Etape (Sainte-Engrace)",
     "nearestMetreOfPath": 176040,
     "elevation": 626,
     "cumulativeAscent": 10873,
-    "cumulativeDescent": 10252
+    "cumulativeDescent": 10252,
+    "gite": true,
+    "restaurant": true
   },
   {
     "name": "Col de la Pierre-St-Martin",
@@ -538,8 +711,20 @@
     "elevation": 1631,
     "cumulativeAscent": 12109,
     "cumulativeDescent": 10483,
+    "description": {
+      "en": "Open all year round. Camping is possible",
+      "fr": "Open all year round. Camping is possible"
+    },
+    "accommodations": [
+      {
+        "name": "Refugee Jeandel",
+        "tel": "+33 5 59 66 14 46",
+        "url": "http://refugejeandel.cicm.fr/"
+      }
+    ],
     "gite": true,
-    "camping": true
+    "camping": true,
+    "restaurant": true
   },
   {
     "name": "Pas de l'Osque",
@@ -554,6 +739,10 @@
     "elevation": 1650,
     "cumulativeAscent": 12546,
     "cumulativeDescent": 10901,
+    "description": {
+      "en": "Small room which may be available. Camp next to the cabane. Water present",
+      "fr": "Bivouac next to the cabane. Water present"
+    },
     "cabane": true,
     "camping": true
   },
@@ -572,50 +761,158 @@
     "elevation": 1432,
     "cumulativeAscent": 12609,
     "cumulativeDescent": 11182,
-    "cabane": true,
-    "camping": true
+    "description": {
+      "en": "Will take GR10 hikers with reservations. Water present",
+      "fr": "Will take GR10 hikers with reservations. Water present"
+    },
+    "accommodations": [
+      {
+        "name": "Refuge de L'Abérouat",
+        "tel": "+33 5 59 34 71 67",
+        "url": "http://aberouat.fr/contact/gites"
+      }
+    ],
+    "gite": true
   },
   {
     "name": "Lescun",
-    "nearestMetreOfPath": 201832,
-    "elevation": 892,
-    "cumulativeAscent": 12651,
-    "cumulativeDescent": 11764
+    "nearestMetreOfPath": 201300,
+    "elevation": 948,
+    "cumulativeAscent": 12648,
+    "cumulativeDescent": 11705,
+    "description": {
+      "en": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00",
+      "fr": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00"
+    },
+    "accommodations": [
+      {
+        "name": "Hébergement du Pic d'Anie",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gîte Paouline",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gîte Dubois",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gîte d' étape la Maison de la Montagne",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "foodshop": true
   },
   {
-    "name": "Lac Gentau",
-    "nearestMetreOfPath": 202955,
+    "name": "Camping du Lauzart",
+    "nearestMetreOfPath": 202934,
     "elevation": 858,
     "cumulativeAscent": 12697,
-    "cumulativeDescent": 11844
+    "cumulativeDescent": 11844,
+    "description": {
+      "en": "The campsite has a grocery store. They may be able to provide breakfast and evening meals. Laundry is also available.",
+      "fr": "The campsite has a grocery store. They may be able to provide breakfast and evening meals. Laundry is also available."
+    },
+    "accommodations": [
+      {
+        "name": "Camping du Lauzart",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "camping": true,
+    "foodshop": true
   },
   {
-    "name": "Départ gr10 pour Gîte et camping Accous, Lhers-Lescun",
-    "nearestMetreOfPath": 207960,
-    "elevation": 1024,
-    "cumulativeAscent": 13020,
-    "cumulativeDescent": 12001
+    "name": "Gîte d'étape et camping Lhers",
+    "nearestMetreOfPath": 207575,
+    "elevation": 1011,
+    "cumulativeAscent": 13007,
+    "cumulativeDescent": 12001,
+    "description": {
+      "en": "The Gîte is to the right where camping may be possible.",
+      "fr": "The Gîte is to the right where camping may be possible."
+    },
+    "accommodations": [
+      {
+        "name": "Gîte d'étape de Lhers",
+        "tel": "+33 5 59 34 75 39",
+        "url": "http://www.gite-camping-lhers.com/"
+      }
+    ],
+    "gite": true,
+    "camping": true
   },
   {
     "name": "Col de barrancq",
     "nearestMetreOfPath": 211149,
     "elevation": 1576,
     "cumulativeAscent": 13600,
-    "cumulativeDescent": 12029
-  },
-  {
-    "name": "Cabane ruinée d’Udapet-le-Haut",
-    "nearestMetreOfPath": 212445,
-    "elevation": 1377,
-    "cumulativeAscent": 13606,
-    "cumulativeDescent": 12234
+    "cumulativeDescent": 12029,
+    "description": {
+      "en": "The path on the right could be followed to Pic De Labigouer (2175m). 160 minute round trip",
+      "fr": "The path on the right could be followed to Pic De Labigouer (2175m). 160 minute round trip"
+    }
   },
   {
     "name": "Borce",
-    "nearestMetreOfPath": 216280,
-    "elevation": 643,
+    "nearestMetreOfPath": 216265,
+    "elevation": 647,
     "cumulativeAscent": 13663,
-    "cumulativeDescent": 13025
+    "cumulativeDescent": 13021,
+    "description": {
+      "en": "Turn right for le Communal (bar-restaurant,gît) and Maison Bergoun.",
+      "fr": "Turn right for le Communal (bar-restaurant,gît) and Maison Bergoun."
+    },
+    "accommodations": [
+      {
+        "name": "Gîte Le Communal",
+        "tel": "+33 5 59 34 86 40",
+        "url": "http://www.lecommunal.fr/"
+      },
+      {
+        "name": "Chambre d'hôtes Maison Bergoun",
+        "tel": "+33 6 42 69 47 45",
+        "url": "http://www.bergoun.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Etsaut",
+    "nearestMetreOfPath": 216762,
+    "elevation": 603,
+    "cumulativeAscent": 13670,
+    "cumulativeDescent": 13072,
+    "description": {
+      "en": "Turn left for Etsaut. La Randonneur bar-restaurant where there is a small shop selling basic supplies.",
+      "fr": "Turn left for Etsaut. La Randonneur bar-restaurant where there is a small shop selling basic supplies."
+    },
+    "accommodations": [
+      {
+        "name": "Chambres d’Hôtes La Maison d’en Bas",
+        "tel": "+33 6 32 91 55 23",
+        "url": "http://www.etsaut.com/"
+      },
+      {
+        "name": "Gîte Auberge La Garbure",
+        "tel": "+33 5 59 34 88 98",
+        "url": "http://www.garbure.net/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Chemin de la Mâture",
@@ -629,7 +926,25 @@
     "nearestMetreOfPath": 225594,
     "elevation": 1566,
     "cumulativeAscent": 14879,
-    "cumulativeDescent": 13318
+    "cumulativeDescent": 13318,
+    "description": {
+      "en": "Water",
+      "fr": "L'Eau"
+    },
+    "cabane": true,
+    "camping": true
+  },
+  {
+    "name": "Refuge de Larry (off-route)",
+    "nearestMetreOfPath": 228737,
+    "elevation": 2005,
+    "cumulativeAscent": 15347,
+    "cumulativeDescent": 13347,
+    "description": {
+      "en": "Take the path to the right for Refuge de Larry",
+      "fr": "Take the path to the right for Refuge de Larry"
+    },
+    "cabane": true
   },
   {
     "name": "Col d'Ayous",
@@ -637,6 +952,18 @@
     "elevation": 2185,
     "cumulativeAscent": 15530,
     "cumulativeDescent": 13350
+  },
+  {
+    "name": "Refuge d'Ayuous (off-route)",
+    "nearestMetreOfPath": 230903,
+    "elevation": 1965,
+    "cumulativeAscent": 15536,
+    "cumulativeDescent": 13576,
+    "description": {
+      "en": "When you reach Lac Gentau, take the path to the right for Refuge d'Ayous (10 minutes).",
+      "fr": "When you reach Lac Gentau, take the path to the right for Refuge d'Ayous (10 minutes)."
+    },
+    "cabane": true
   },
   {
     "name": "Lac de Bious Artigues",
@@ -647,17 +974,41 @@
   },
   {
     "name": "Gabas",
-    "nearestMetreOfPath": 239076,
-    "elevation": 1036,
-    "cumulativeAscent": 15622,
-    "cumulativeDescent": 14591
+    "nearestMetreOfPath": 241150,
+    "elevation": 1208,
+    "cumulativeAscent": 15832,
+    "cumulativeDescent": 14629,
+    "description": {
+      "en": "Turn left for Gabas. ",
+      "fr": "Turn left for Gabas. "
+    },
+    "accommodations": [
+      {
+        "name": "Hôtel-restaurant Le Biscaü",
+        "tel": "+33 5 59 05 31 37",
+        "url": "http://www.hotel-vallee-ossau-biscau.fr/"
+      },
+      {
+        "name": "Hôtel-restaurant Vignau",
+        "tel": "+33 5 59 05 34 06",
+        "url": "https://www.hotelvignau.fr/"
+      }
+    ],
+    "hotel": true,
+    "restaurant": true
   },
   {
-    "name": "Cabane de Cézy (Bivouac)",
+    "name": "Cabane de Cézy",
     "nearestMetreOfPath": 247341,
     "elevation": 1611,
     "cumulativeAscent": 16545,
-    "cumulativeDescent": 14939
+    "cumulativeDescent": 14939,
+    "description": {
+      "en": "Waterpoint just below the main cabin",
+      "fr": "Waterpoint just below the main cabin"
+    },
+    "cabane": true,
+    "camping": true
   },
   {
     "name": "Hourquete d'Arre",
@@ -675,10 +1026,29 @@
   },
   {
     "name": "Gourette",
-    "nearestMetreOfPath": 259774,
-    "elevation": 1379,
-    "cumulativeAscent": 17668,
-    "cumulativeDescent": 16294
+    "nearestMetreOfPath": 260605,
+    "elevation": 1444,
+    "cumulativeAscent": 17764,
+    "cumulativeDescent": 16325,
+    "description": {
+      "en": "Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. Check opening times. ",
+      "fr": "Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. Check opening times. "
+    },
+    "accommodations": [
+      {
+        "name": "Hôtel Le Glacier",
+        "tel": "+33 5 59 05 10 18",
+        "url": "http://hotel-leglacier-gourette.com/"
+      },
+      {
+        "name": "Hôtel Restaurant de l'Amoulat",
+        "tel": "+33 5 59 05 12 06",
+        "url": "http://www.gourette.com/minisites/Amoulat/"
+      }
+    ],
+    "hotel": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Col de Tortes",
@@ -686,20 +1056,6 @@
     "elevation": 1758,
     "cumulativeAscent": 18078,
     "cumulativeDescent": 16325
-  },
-  {
-    "name": "Route D918",
-    "nearestMetreOfPath": 263280,
-    "elevation": 1393,
-    "cumulativeAscent": 18119,
-    "cumulativeDescent": 16731
-  },
-  {
-    "name": "Sortie rud D918",
-    "nearestMetreOfPath": 266119,
-    "elevation": 1400,
-    "cumulativeAscent": 18276,
-    "cumulativeDescent": 16881
   },
   {
     "name": "Col de Saucède",

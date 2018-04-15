@@ -19,9 +19,9 @@ class AboutIntroductionParagraph extends Component {
           The aim of the app/website is to help hikers on the GR10 determine
           where they are on the path. The phone's GPS is used to determine your
           location and calculates distances to landmarks (mountain passes,
-          summits, towns, water, bridges etc.) along the GR10. If you are using
-          an up to date phone the app/website will work offline in areas without
-          a data connection.
+          summits, towns, gîtes, hotels, campgrounds etc.) along the GR10. If
+          you are using an up to date phone the app/website will work offline in
+          areas without a data connection.
         </p>
         <p>Key features </p>
         <ul>
@@ -46,16 +46,37 @@ class AboutIntroductionParagraph extends Component {
     switch (language) {
       case 'fr':
         title = 'Introduction';
-        traitrackerLinkText = 'GR10 Trail Tracker';
+        traitrackerLinkText = 'Cliquez ici pour accéder au GR10 Trail Tracker';
         text = (
           <React.Fragment>
             <p>
-              Le but du site est d'aider les randonneurs sur le GR10 à
-              déterminer où ils se trouvent sur le chemin. Lorsque la position
-              actuelle a été localisée, les distances au point d'intérêt (cols
-              de montagne, sommets, villes, eaux, ponts, etc.) peuvent alors
-              être calculées.
+              Le but de l'application / site web est d'aider les randonneurs sur
+              le GR10 à déterminer où ils se trouvent sur le chemin. Le GPS du
+              téléphone est utilisé pour déterminer votre position et calcule
+              les distances aux points de repère (cols, sommets, villes, gîtes,
+              hôtels, terrains de camping, etc.) le long du GR10. Si vous
+              utilisez un téléphone à jour, l'application / site Web
+              fonctionnera hors connexion dans les zones sans connexion de
+              données.
             </p>
+            <p> Principales caractéristiques</p>
+            <ul>
+              <li>
+                Fonctionne hors connexion, lorsqu'une connexion de données est
+                indisponible
+              </li>
+              <li>Calcule les distances à tous les points</li>
+              <li>
+                Calcule les gains et les pertes d'altitude cumulés pour tous les
+                points
+              </li>
+              <li>Hôtels / Gîtes avec numéros de téléphone</li>
+              <li>
+                Liens vers des sites Web d'hôtels (nécessite une connexion de
+                données)
+              </li>
+            </ul>
+
             <p>
               L'inspiration pour l'application / site provient de l'application
               Halfmile que j'ai utilisé quand j'ai fait une randonnée sur le
