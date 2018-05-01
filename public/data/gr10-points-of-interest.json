@@ -935,7 +935,7 @@
     "camping": true
   },
   {
-    "name": "Refuge de Larry (off-route)",
+    "name": "Refuge de Larry (2.5 km off-route)",
     "nearestMetreOfPath": 228737,
     "elevation": 2005,
     "cumulativeAscent": 15347,
@@ -1062,14 +1062,12 @@
     "nearestMetreOfPath": 266634,
     "elevation": 1525,
     "cumulativeAscent": 18401,
-    "cumulativeDescent": 16881
-  },
-  {
-    "name": "Route des Borders (pour Arrens-Marsous)",
-    "nearestMetreOfPath": 271714,
-    "elevation": 890,
-    "cumulativeAscent": 18421,
-    "cumulativeDescent": 17536
+    "cumulativeDescent": 16881,
+    "description": {
+      "en": "Take the path to the left for the bar-restaurants on the Col du Soulor (10 minutes)",
+      "fr": "Take the path to the left for the bar-restaurants on the Col du Soulor (10 minutes)"
+    },
+    "restaurant": true
   },
   {
     "name": "Tour du Val d'Azun (alternate)",
@@ -1079,6 +1077,44 @@
     "cumulativeDescent": 17536
   },
   {
+    "name": "Arrens-Marsous",
+    "nearestMetreOfPath": 272689,
+    "elevation": 1020,
+    "cumulativeAscent": 18553,
+    "cumulativeDescent": 17538,
+    "description": {
+      "en": "Turn left for Arrens-Marsous. There is a waterpoint near the church, limited accommodation options and small shops. The Proxi supermarket is open everyday, SunWed 8:00-12:00, MonTuesThuFriSat 08:00-12:30, 16:00-19:00",
+      "fr": "Turn left for Arrens-Marsous. There is a waterpoint near the church, limited accommodation options and small shops. The Proxi supermarket is open everyday, SunWed 8:00-12:00, MonTuesThuFriSat 08:00-12:30, 16:00-19:00"
+    },
+    "accommodations": [
+      {
+        "name": "Gîte du Hôo Arrens Marsous",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Gîtes Estives d'Arrens",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Camping Mialanne",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Camping G.C.U.",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
     "name": "Col des Bordères",
     "nearestMetreOfPath": 273736,
     "elevation": 1159,
@@ -1086,11 +1122,48 @@
     "cumulativeDescent": 17542
   },
   {
+    "name": " Camping Pyrénées Natura",
+    "nearestMetreOfPath": 276267,
+    "elevation": 969,
+    "cumulativeAscent": 18720,
+    "cumulativeDescent": 17756,
+    "description": {
+      "en": "D103 Turn right for Camping Pyrénées Natura. Special rates for hikers as well as a small shop and snack-bar. You can rejoin the GR10 by continuing along the D103",
+      "fr": "D103 Turn right for Camping Pyrénées Natura. You can rejoin the GR10 by continuing along the D103"
+    },
+    "accommodations": [
+      {
+        "name": "Camping Pyrénées Natura",
+        "tel": "",
+        "url": "https://camping-pyrenees-natura.com"
+      }
+    ],
+    "camping": true
+  },
+  {
     "name": "Estaing",
     "nearestMetreOfPath": 276267,
     "elevation": 969,
     "cumulativeAscent": 18720,
-    "cumulativeDescent": 17756
+    "cumulativeDescent": 17756,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": "Camping Le Vieux Moulin",
+    "nearestMetreOfPath": 277060,
+    "elevation": 991,
+    "cumulativeAscent": 18749,
+    "cumulativeDescent": 17763,
+    "accommodations": [
+      {
+        "name": "Le Vieux Moulin",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "camping": true
   },
   {
     "name": "Tour du Val d'Azun (alternate)",
@@ -1104,7 +1177,9 @@
     "nearestMetreOfPath": 281743,
     "elevation": 1187,
     "cumulativeAscent": 18981,
-    "cumulativeDescent": 17799
+    "cumulativeDescent": 17799,
+    "camping": true,
+    "restaurant": true
   },
   {
     "name": "Col d'Ilhéou",
@@ -1126,7 +1201,36 @@
     "elevation": 1882,
     "cumulativeAscent": 20107,
     "cumulativeDescent": 18230,
-    "camping": true
+    "description": {
+      "en": "Open from June to Septmember. Demi-pension Adultes (à partir de 13 ans) : 40 €/pers. Nuitée: 15 €/pers. Repas: 17 €/pers. Petit-déjeuner: 8€/pers.",
+      "fr": "Open from June to Septmember. Demi-pension Adultes (à partir de 13 ans) : 40 €/pers. Nuitée: 15 €/pers. Repas: 17 €/pers. Petit-déjeuner: 8€/pers."
+    },
+    "accommodations": [
+      {
+        "name": "Refuge d'Ilhéou",
+        "tel": "+33 5 62 92 07 18",
+        "url": ""
+      }
+    ],
+    "gite": true,
+    "camping": true,
+    "restaurant": true
+  },
+  {
+    "name": "Cauterets",
+    "nearestMetreOfPath": 288973,
+    "elevation": 1882,
+    "cumulativeAscent": 20107,
+    "cumulativeDescent": 18230,
+    "description": {
+      "en": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie",
+      "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
+    },
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Path for Refuge d'Ilhéou",
@@ -1136,32 +1240,16 @@
     "cumulativeDescent": 18230
   },
   {
-    "name": "Route de Cambasque",
-    "nearestMetreOfPath": 293844,
-    "elevation": 1235,
-    "cumulativeAscent": 20152,
-    "cumulativeDescent": 18922
-  },
-  {
-    "name": "Office de Tourisme de Cauterets",
-    "nearestMetreOfPath": 295931,
-    "elevation": 966,
-    "cumulativeAscent": 20184,
-    "cumulativeDescent": 19223
-  },
-  {
     "name": "La Raillère",
-    "nearestMetreOfPath": 299390,
+    "nearestMetreOfPath": 299415,
     "elevation": 1066,
     "cumulativeAscent": 20538,
-    "cumulativeDescent": 19477
-  },
-  {
-    "name": "Cascade de Bousses",
-    "nearestMetreOfPath": 302454,
-    "elevation": 1436,
-    "cumulativeAscent": 20940,
-    "cumulativeDescent": 19509
+    "cumulativeDescent": 19477,
+    "description": {
+      "en": "Two restaurants. La cascade and l'Abri du Benques. Établissement Thermal des Griffons is a health spa",
+      "fr": "Two restaurants. La cascade and l'Abri du Benques. Établissement Thermal des Griffons is a health spa"
+    },
+    "restaurant": true
   },
   {
     "name": "Pont d´Espagne",
@@ -1182,14 +1270,18 @@
     "nearestMetreOfPath": 306922,
     "elevation": 1782,
     "cumulativeAscent": 21336,
-    "cumulativeDescent": 19559
+    "cumulativeDescent": 19559,
+    "cabane": true,
+    "camping": true
   },
   {
     "name": "Refuge des Oulettes de Gaube",
     "nearestMetreOfPath": 310988,
     "elevation": 2149,
     "cumulativeAscent": 21792,
-    "cumulativeDescent": 19648
+    "cumulativeDescent": 19648,
+    "gite": true,
+    "camping": true
   },
   {
     "name": "La Villa Meillon",
@@ -1210,10 +1302,12 @@
     "nearestMetreOfPath": 315148,
     "elevation": 2637,
     "cumulativeAscent": 22418,
-    "cumulativeDescent": 19786
+    "cumulativeDescent": 19786,
+    "gite": true,
+    "camping": true
   },
   {
-    "name": "Cabane d'Ossoue ",
+    "name": "Cabane d'Ossoue",
     "nearestMetreOfPath": 320354,
     "elevation": 1838,
     "cumulativeAscent": 22487,
@@ -1224,42 +1318,96 @@
     "nearestMetreOfPath": 322106,
     "elevation": 1953,
     "cumulativeAscent": 22650,
-    "cumulativeDescent": 20702
+    "cumulativeDescent": 20702,
+    "cabane": true,
+    "camping": true
   },
   {
     "name": "Cabane de Sausse Dessus",
     "nearestMetreOfPath": 324717,
     "elevation": 1918,
     "cumulativeAscent": 22776,
-    "cumulativeDescent": 20863
+    "cumulativeDescent": 20863,
+    "cabane": true,
+    "camping": true
   },
   {
     "name": "Chalet la Grange de Holle",
-    "nearestMetreOfPath": 329897,
+    "nearestMetreOfPath": 329869,
     "elevation": 1504,
     "cumulativeAscent": 23016,
-    "cumulativeDescent": 21517
+    "cumulativeDescent": 21517,
+    "description": {
+      "en": "Basic, woodsy dorms with mountain views, plus a cozy dining room, a terrace & a lounge. Camping might be possible",
+      "fr": "Basic, woodsy dorms with mountain views, plus a cozy dining room, a terrace & a lounge. Camping might be possible"
+    },
+    "accommodations": [
+      {
+        "name": "Chalet la Grange de Holle",
+        "tel": "+33 5 62 92 48 77",
+        "url": "http://chaletlagrangedeholle.ffcam.fr/"
+      }
+    ],
+    "gite": true,
+    "camping": true
+  },
+  {
+    "name": "Pont de st Savin",
+    "nearestMetreOfPath": 330809,
+    "elevation": 1462,
+    "cumulativeAscent": 23033,
+    "cumulativeDescent": 21576,
+    "description": {
+      "en": "Bivouac next to the water.",
+      "fr": "Bivouac next to the water."
+    },
+    "camping": true
+  },
+  {
+    "name": "Gavarnie",
+    "nearestMetreOfPath": 332074,
+    "elevation": 1536,
+    "cumulativeAscent": 23151,
+    "cumulativeDescent": 21620,
+    "description": {
+      "en": "If you want to visit Gavarnie take the road leading down from Chalet la Grange de Holle.  Tourist office hotels, gites, a campground and small shops. There is a bus service to Luz-Saint-Sauveur",
+      "fr": "If you want to visit Gavarnie take the road leading down from Chalet la Grange de Holle.  Tourist office hotels, gites, a campground and small shops. There is a bus service to Luz-Saint-Sauveur"
+    },
+    "accommodations": [
+      {
+        "name": "Chambres d'hôtes chez Sanyou - Jean-Michel et Bernadette Tajan",
+        "tel": "+33 5 62 45 37 75",
+        "url": "http://www.location-gavarnie.com/"
+      },
+      {
+        "name": "Hôtel Restaurant Le Marboré",
+        "tel": "+33 5 62 92 40 40",
+        "url": "http://www.lemarbore.com/"
+      },
+      {
+        "name": "Gite d'étape Oxygène",
+        "tel": "+33 5 62 92 48 23",
+        "url": "https://gite-gavarnie.com/"
+      },
+      {
+        "name": "Hôtel Club Vignemale",
+        "tel": "+33 5 62 92 40 00",
+        "url": "http://www.hotel-vignemale.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Gîte d'etape le Saugue",
     "nearestMetreOfPath": 335312,
     "elevation": 1615,
     "cumulativeAscent": 23426,
-    "cumulativeDescent": 21816
-  },
-  {
-    "name": "Pont sur Gave d'Aspé ",
-    "nearestMetreOfPath": 336486,
-    "elevation": 1601,
-    "cumulativeAscent": 23458,
-    "cumulativeDescent": 21862
-  },
-  {
-    "name": "Route",
-    "nearestMetreOfPath": 345804,
-    "elevation": 1005,
-    "cumulativeAscent": 23964,
-    "cumulativeDescent": 22964
+    "cumulativeDescent": 21816,
+    "gite": true
   },
   {
     "name": "Pont sur Gave de Gavarnie",
@@ -1270,24 +1418,45 @@
   },
   {
     "name": "Sia",
-    "nearestMetreOfPath": 348756,
-    "elevation": 880,
-    "cumulativeAscent": 23976,
-    "cumulativeDescent": 23101
-  },
-  {
-    "name": "Quitter la Route D291",
-    "nearestMetreOfPath": 349365,
-    "elevation": 845,
+    "nearestMetreOfPath": 349103,
+    "elevation": 861,
     "cumulativeAscent": 23978,
-    "cumulativeDescent": 23138
+    "cumulativeDescent": 23122,
+    "description": {
+      "en": "Basic campground with bar",
+      "fr": "Basic campground with bar"
+    },
+    "camping": true
   },
   {
-    "name": "Route",
-    "nearestMetreOfPath": 353748,
-    "elevation": 732,
+    "name": "Saint-Sauver",
+    "nearestMetreOfPath": 353547,
+    "elevation": 787,
     "cumulativeAscent": 24227,
-    "cumulativeDescent": 23500
+    "cumulativeDescent": 23445,
+    "description": {
+      "en": "Turn left here if require the Hôtel Panoramic et des Bains, Hôtel Ardiden or Les Gîtes du Pla de Moura. The GR10 continues to the right.",
+      "fr": "Turn left here if require the Hôtel Panoramic et des Bains, Hôtel Ardiden or Les Gîtes du Pla de Moura. The GR10 continues to the right."
+    },
+    "accommodations": [
+      {
+        "name": "Hôtel Panoramic et des Bains",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Hôtel Ardiden",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Les Gîtes du Pla de Moura",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "restaurant": true
   },
   {
     "name": "Pont Napoléon Saut à l'élastique",
@@ -1297,18 +1466,38 @@
     "cumulativeDescent": 23518
   },
   {
-    "name": " Chapelle de Solférino",
-    "nearestMetreOfPath": 355590,
+    "name": "Chapelle de Solférino",
+    "nearestMetreOfPath": 355696,
     "elevation": 730,
-    "cumulativeAscent": 24308,
-    "cumulativeDescent": 23583
+    "cumulativeAscent": 24326,
+    "cumulativeDescent": 23601,
+    "description": {
+      "en": "Catholic Church",
+      "fr": "Catholic Church"
+    }
   },
   {
-    "name": "Pont transversal pour Luz Saint Sauveur",
-    "nearestMetreOfPath": 356185,
-    "elevation": 722,
-    "cumulativeAscent": 24365,
-    "cumulativeDescent": 23648
+    "name": "Luz Saint Sauveur",
+    "nearestMetreOfPath": 356308,
+    "elevation": 734,
+    "cumulativeAscent": 24377,
+    "cumulativeDescent": 23648,
+    "description": {
+      "en": "Cross the bridge to enter Luz Saint Sauveur. Gites, hotels, two Carrefour supermarkets. Bus services to Lourdes, Gavarnie and Cauterets",
+      "fr": "Cross the bridge to enter Luz Saint Sauveur. Gites, hotels, two Carrefour supermarkets. Bus services to Lourdes, Gavarnie and Cauterets"
+    },
+    "accommodations": [
+      {
+        "name": "Camping Les Cascades",
+        "tel": "+33 5 62 92 85 85",
+        "url": "http://www.camping-luz.fr/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Luz%20Saint%20Sauveur"
   },
   {
     "name": "Pont",
@@ -1326,10 +1515,890 @@
   },
   {
     "name": "Barèges",
-    "nearestMetreOfPath": 367841,
-    "elevation": 1242,
+    "nearestMetreOfPath": 367791,
+    "elevation": 1254,
     "cumulativeAscent": 25377,
-    "cumulativeDescent": 24140
+    "cumulativeDescent": 24128,
+    "description": {
+      "en": "Turn left for the centre of Barèges.",
+      "fr": "Turn left for the centre of Barèges."
+    },
+    "accommodations": [
+      {
+        "name": "Camping La ribere",
+        "tel": "+33 5 62 92 69 01",
+        "url": "http://www.laribere.com/"
+      },
+      {
+        "name": "Gîte l'Oasis",
+        "tel": "+33 5 62 92 69 47",
+        "url": "http://www.gite-oasis.fr/"
+      },
+      {
+        "name": "Hôtel Le Grand Bivouac",
+        "tel": "+33 5 62 92 68 20",
+        "url": "http://www.hotel-grand-bivouac.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "restaurant": true
+  },
+  {
+    "name": "Auberge La Couquelle",
+    "nearestMetreOfPath": 370712,
+    "elevation": 1429,
+    "cumulativeAscent": 25592,
+    "cumulativeDescent": 24168,
+    "restaurant": true
+  },
+  {
+    "name": "Route du Tourmalet",
+    "nearestMetreOfPath": 371121,
+    "elevation": 1452,
+    "cumulativeAscent": 25615,
+    "cumulativeDescent": 24168,
+    "description": {
+      "en": "Dodge the cyclists attempting the col du Tourmalet. One day I will return with my bike.",
+      "fr": "Dodge the cyclists attempting the col du Tourmalet. One day I will return with my bike."
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Cabane d'Aygues Cluses",
+    "nearestMetreOfPath": 377353,
+    "elevation": 2155,
+    "cumulativeAscent": 26324,
+    "cumulativeDescent": 24174,
+    "cabane": true,
+    "camping": true
+  },
+  {
+    "name": "Col de Madamète - start of camping restrictions",
+    "nearestMetreOfPath": 379900,
+    "elevation": 2510,
+    "cumulativeAscent": 26693,
+    "cumulativeDescent": 24188,
+    "description": {
+      "en": "You are now entering an area where camping is restricted to the aire de bivouac below the Lac d'Aubert dam and at Lad d'Orédon. Apart from these sites the next legal wild camping is at the north end of Lac de l'Oule",
+      "fr": "You are now entering an area where camping is restricted to the aire de bivouac below the Lac d'Aubert dam and at Lad d'Orédon. Apart from these sites the next legal wild camping is at the north end of Lac de l'Oule"
+    }
+  },
+  {
+    "name": "Turn right for Lac d'Aubert",
+    "nearestMetreOfPath": 384512,
+    "elevation": 2160,
+    "cumulativeAscent": 26736,
+    "cumulativeDescent": 24581,
+    "description": {
+      "en": "Turn right for the aire de bivouac below the Lac d'Aubert and Lac d'Orédon. And the Refuge d'Orédon",
+      "fr": "Turn right for the aire de bivouac below the Lac d'Aubert and Lac d'Orédon. And the Refuge d'Orédon"
+    },
+    "camping": true
+  },
+  {
+    "name": "Lac de l'Oule",
+    "nearestMetreOfPath": 387520,
+    "elevation": 1813,
+    "cumulativeAscent": 26867,
+    "cumulativeDescent": 25059,
+    "description": {
+      "en": "Turn right for refuge de l'Oule. The GR10 continues to the left.",
+      "fr": "Turn right for refuge de l'Oule. The GR10 continues to the left."
+    },
+    "gite": true
+  },
+  {
+    "name": "Col de Portet",
+    "nearestMetreOfPath": 394335,
+    "elevation": 2208,
+    "cumulativeAscent": 27391,
+    "cumulativeDescent": 25188
+  },
+  {
+    "name": "Vielle-Aure",
+    "nearestMetreOfPath": 403644,
+    "elevation": 793,
+    "cumulativeAscent": 27396,
+    "cumulativeDescent": 26608,
+    "description": {
+      "en": "Carrefour supermarket. Saint-Lary-Soulan is a larger town with a wider selection of hotels",
+      "fr": "Carrefour supermarket"
+    },
+    "accommodations": [
+      {
+        "name": "Gîte Orédon",
+        "tel": "+33 6 89 96 50 60",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "restaurant": true
+  },
+  {
+    "name": "Camping La Mousquère/Camping d'Autun",
+    "nearestMetreOfPath": 404417,
+    "elevation": 795,
+    "cumulativeAscent": 27402,
+    "cumulativeDescent": 26612,
+    "description": {
+      "en": "Turn right at the roundabout for  Camping d'Autun. Continue over the roundabout for Camping La Mousquère",
+      "fr": "Turn right at the roundabout for  Camping d'Autun. Continue over the roundabout for Camping La Mousquère"
+    },
+    "accommodations": [
+      {
+        "name": "Camping La Mousquère",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Camping d'Autun",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "camping": true
+  },
+  {
+    "name": "Estensan",
+    "nearestMetreOfPath": 406005,
+    "elevation": 1014,
+    "cumulativeAscent": 27641,
+    "cumulativeDescent": 26632
+  },
+  {
+    "name": "Azet",
+    "nearestMetreOfPath": 407436,
+    "elevation": 1161,
+    "cumulativeAscent": 27806,
+    "cumulativeDescent": 26650,
+    "accommodations": [
+      {
+        "name": "Maison Seignou - Chambres et Table d'Hôtes",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Chambres d'hôtes L'ARBIZON 5",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true
+  },
+  {
+    "name": "Loudenvielle",
+    "nearestMetreOfPath": 413999,
+    "elevation": 950,
+    "cumulativeAscent": 28277,
+    "cumulativeDescent": 27332,
+    "description": {
+      "en": "Small Carrefour supermarker",
+      "fr": "Small Carrefour supermarker"
+    },
+    "accommodations": [
+      {
+        "name": "Maison Seignou - Chambres et Table d'Hôtes",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Chambres d'hôtes L'ARBIZON 5, ",
+        "tel": "",
+        "url": ""
+      },
+      {
+        "name": "Camping La Vacance Pène Blanche",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "hotel": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": "Germ",
+    "nearestMetreOfPath": 415881,
+    "elevation": 1316,
+    "cumulativeAscent": 28659,
+    "cumulativeDescent": 27348,
+    "hotel": true,
+    "restaurant": true
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 419901,
+    "elevation": 1529,
+    "cumulativeAscent": 29048,
+    "cumulativeDescent": 27524,
+    "description": {
+      "en": "Turn tight for Cabane d'Ourtiga. Or continue on the GR10 on the left hand side of the stream",
+      "fr": "Turn tight for Cabane d'Ourtiga. Or continue on the GR10 on the left hand side of the stream"
+    },
+    "cabane": true
+  },
+  {
+    "name": "Couret d'Esquierry",
+    "nearestMetreOfPath": 423070,
+    "elevation": 2130,
+    "cumulativeAscent": 29684,
+    "cumulativeDescent": 27559
+  },
+  {
+    "name": "Cabane du Val d'Esquierry",
+    "nearestMetreOfPath": 425059,
+    "elevation": 1642,
+    "cumulativeAscent": 29684,
+    "cumulativeDescent": 28047,
+    "cabane": true
+  },
+  {
+    "name": "Les Granges d'Astau",
+    "nearestMetreOfPath": 427457,
+    "elevation": 1134,
+    "cumulativeAscent": 29797,
+    "cumulativeDescent": 28668,
+    "restaurant": true
+  },
+  {
+    "name": " Refuge du Lac d'Oô",
+    "nearestMetreOfPath": 430687,
+    "elevation": 1532,
+    "cumulativeAscent": 30360,
+    "cumulativeDescent": 28833,
+    "description": {
+      "en": "No camping or swimming",
+      "fr": "No camping or swimming"
+    },
+    "gite": true
+  },
+  {
+    "name": "Trail junction for Le Refuge d'Espingo",
+    "nearestMetreOfPath": 432879,
+    "elevation": 1962,
+    "cumulativeAscent": 30844,
+    "cumulativeDescent": 28887,
+    "description": {
+      "en": "Le Refuge d'Espingo has full refuge facilities",
+      "fr": "Le Refuge d'Espingo has full refuge facilities"
+    },
+    "gite": true,
+    "camping": true
+  },
+  {
+    "name": "Superbagnères",
+    "nearestMetreOfPath": 442671,
+    "elevation": 1785,
+    "cumulativeAscent": 31543,
+    "cumulativeDescent": 29763,
+    "description": {
+      "en": "Only open in July and August",
+      "fr": "Only open in July and August"
+    },
+    "hotel": true,
+    "restaurant": true
+  },
+  {
+    "name": "Casino supermarket",
+    "nearestMetreOfPath": 449380,
+    "elevation": 633,
+    "cumulativeAscent": 31598,
+    "cumulativeDescent": 30970,
+    "description": {
+      "en": "Turn right at the supermarket",
+      "fr": "Turn right at the supermarket"
+    },
+    "foodshop": true
+  },
+  {
+    "name": "Bagnères-de-Luchon",
+    "nearestMetreOfPath": 449684,
+    "elevation": 626,
+    "cumulativeAscent": 31598,
+    "cumulativeDescent": 30977,
+    "description": {
+      "en": "Large tourist town. Casino supermarket. The campsites are located north of the town",
+      "fr": "Large tourist town. Casino supermarket. The campsites are located north of the town"
+    },
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": " Église Martyre de Saint Jean-Baptiste, Artigue",
+    "nearestMetreOfPath": 456724,
+    "elevation": 1183,
+    "cumulativeAscent": 32360,
+    "cumulativeDescent": 31182
+  },
+  {
+    "name": "Cabane de Saunères",
+    "nearestMetreOfPath": 460062,
+    "elevation": 1654,
+    "cumulativeAscent": 32849,
+    "cumulativeDescent": 31200,
+    "cabane": true,
+    "camping": true
+  },
+  {
+    "name": "Cabane de Peyrehitte",
+    "nearestMetreOfPath": 462021,
+    "elevation": 1931,
+    "cumulativeAscent": 33137,
+    "cumulativeDescent": 31211,
+    "cabane": true,
+    "camping": true
+  },
+  {
+    "name": "Col des Taons de Bacanère",
+    "nearestMetreOfPath": 462922,
+    "elevation": 1976,
+    "cumulativeAscent": 33186,
+    "cumulativeDescent": 31215
+  },
+  {
+    "name": "Col d'Esclot d'Aou",
+    "nearestMetreOfPath": 466201,
+    "elevation": 2091,
+    "cumulativeAscent": 33427,
+    "cumulativeDescent": 31341
+  },
+  {
+    "name": "Bridge over a canal",
+    "nearestMetreOfPath": 474923,
+    "elevation": 553,
+    "cumulativeAscent": 33499,
+    "cumulativeDescent": 32951
+  },
+  {
+    "name": "Chapelle du Batan",
+    "nearestMetreOfPath": 475451,
+    "elevation": 538,
+    "cumulativeAscent": 33499,
+    "cumulativeDescent": 32966
+  },
+  {
+    "name": "Fos",
+    "nearestMetreOfPath": 476131,
+    "elevation": 542,
+    "cumulativeAscent": 33504,
+    "cumulativeDescent": 32967,
+    "accommodations": [
+      {
+        "name": "Gîte Le Sériail",
+        "tel": "+34 629 03 02 38",
+        "url": ""
+      },
+      {
+        "name": "Gîte de Fos",
+        "tel": "+33 6 66 50 71 03",
+        "url": "https://www.legitedefos.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Melles",
+    "nearestMetreOfPath": 479841,
+    "elevation": 714,
+    "cumulativeAscent": 33716,
+    "cumulativeDescent": 33007,
+    "accommodations": [
+      {
+        "name": "Chambre d'hôtes en Haute-Garonne à Melles",
+        "tel": "+33 5 61 79 76 33",
+        "url": "http://www.chezpascale.fr/"
+      }
+    ],
+    "hotel": true,
+    "restaurant": true
+  },
+  {
+    "name": " Cabane d'Uls",
+    "nearestMetreOfPath": 488617,
+    "elevation": 1866,
+    "cumulativeAscent": 35080,
+    "cumulativeDescent": 33219,
+    "cabane": true
+  },
+  {
+    "name": "Pas du Bouc",
+    "nearestMetreOfPath": 490653,
+    "elevation": 2165,
+    "cumulativeAscent": 35379,
+    "cumulativeDescent": 33219
+  },
+  {
+    "name": "Col d'Aueran",
+    "nearestMetreOfPath": 491670,
+    "elevation": 2171,
+    "cumulativeAscent": 35403,
+    "cumulativeDescent": 33237
+  },
+  {
+    "name": "Refuge de l'Etang d'Araing",
+    "nearestMetreOfPath": 492853,
+    "elevation": 1940,
+    "cumulativeAscent": 35418,
+    "cumulativeDescent": 33483,
+    "gite": true,
+    "camping": true
+  },
+  {
+    "name": "Anciennes Mines de Bentaillou",
+    "nearestMetreOfPath": 496918,
+    "elevation": 1908,
+    "cumulativeAscent": 35830,
+    "cumulativeDescent": 33927
+  },
+  {
+    "name": "Gite d'Etape d'Eylie",
+    "nearestMetreOfPath": 500745,
+    "elevation": 993,
+    "cumulativeAscent": 35913,
+    "cumulativeDescent": 34925,
+    "accommodations": [
+      {
+        "name": "Gite d'Etape d'Eylie",
+        "tel": "+33 5 61 96 14 00",
+        "url": "https://giteseylie.jimdo.com/"
+      }
+    ],
+    "gite": true
+  },
+  {
+    "name": "Col de l'Arech",
+    "nearestMetreOfPath": 505495,
+    "elevation": 1785,
+    "cumulativeAscent": 36811,
+    "cumulativeDescent": 35031
+  },
+  {
+    "name": "Cabane de l'Arech",
+    "nearestMetreOfPath": 506596,
+    "elevation": 1616,
+    "cumulativeAscent": 36829,
+    "cumulativeDescent": 35218,
+    "cabane": true
+  },
+  {
+    "name": "Ruisseau L'Orle",
+    "nearestMetreOfPath": 509295,
+    "elevation": 1105,
+    "cumulativeAscent": 36921,
+    "cumulativeDescent": 35821
+  },
+  {
+    "name": "Cabane du Besset",
+    "nearestMetreOfPath": 512027,
+    "elevation": 1550,
+    "cumulativeAscent": 37453,
+    "cumulativeDescent": 35908,
+    "cabane": true
+  },
+  {
+    "name": "Cabane Clot du Lac",
+    "nearestMetreOfPath": 513033,
+    "elevation": 1827,
+    "cumulativeAscent": 37734,
+    "cumulativeDescent": 35912,
+    "cabane": true
+  },
+  {
+    "name": "Cabane du Trapech du Milieu",
+    "nearestMetreOfPath": 515080,
+    "elevation": 1556,
+    "cumulativeAscent": 37793,
+    "cumulativeDescent": 36242,
+    "cabane": true
+  },
+  {
+    "name": "Cabane de l'Artigue",
+    "nearestMetreOfPath": 515744,
+    "elevation": 1439,
+    "cumulativeAscent": 37806,
+    "cumulativeDescent": 36372,
+    "cabane": true
+  },
+  {
+    "name": "La Maison du Valier",
+    "nearestMetreOfPath": 517531,
+    "elevation": 952,
+    "cumulativeAscent": 37837,
+    "cumulativeDescent": 36890,
+    "description": {
+      "en": "Full meals service and picnic lunches",
+      "fr": "Full meals service and picnic lunches"
+    },
+    "accommodations": [
+      {
+        "name": "La Maison du Valier",
+        "tel": "+33 5 61 01 01 01",
+        "url": "http://www.maison-valier.fr/"
+      }
+    ],
+    "hotel": true,
+    "gite": true
+  },
+  {
+    "name": "Col de Lazies",
+    "nearestMetreOfPath": 524211,
+    "elevation": 1830,
+    "cumulativeAscent": 39099,
+    "cumulativeDescent": 37274
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 525068,
+    "elevation": 1910,
+    "cumulativeAscent": 39219,
+    "cumulativeDescent": 37314,
+    "description": {
+      "en": "Turn right for the GR10",
+      "fr": "Turn right for the GR10"
+    }
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 525636,
+    "elevation": 1863,
+    "cumulativeAscent": 39252,
+    "cumulativeDescent": 37394,
+    "description": {
+      "en": "Turn left for the GR10",
+      "fr": "Turn left for the GR10"
+    }
+  },
+  {
+    "name": "Etang d'Ayres",
+    "nearestMetreOfPath": 526252,
+    "elevation": 1689,
+    "cumulativeAscent": 39262,
+    "cumulativeDescent": 37578,
+    "description": {
+      "en": "Small lake",
+      "fr": "Small lake"
+    }
+  },
+  {
+    "name": "Col d'Auedole",
+    "nearestMetreOfPath": 527479,
+    "elevation": 1704,
+    "cumulativeAscent": 39355,
+    "cumulativeDescent": 37656
+  },
+  {
+    "name": "Col d'Eliet",
+    "nearestMetreOfPath": 527711,
+    "elevation": 1666,
+    "cumulativeAscent": 39355,
+    "cumulativeDescent": 37694,
+    "cabane": true
+  },
+  {
+    "name": "Col de la Core",
+    "nearestMetreOfPath": 535783,
+    "elevation": 1398,
+    "cumulativeAscent": 39883,
+    "cumulativeDescent": 38490
+  },
+  {
+    "name": "Cabane de Tariolle",
+    "nearestMetreOfPath": 537195,
+    "elevation": 1187,
+    "cumulativeAscent": 39910,
+    "cumulativeDescent": 38728,
+    "cabane": true
+  },
+  {
+    "name": "Esbintz",
+    "nearestMetreOfPath": 540722,
+    "elevation": 836,
+    "cumulativeAscent": 40067,
+    "cumulativeDescent": 39236,
+    "description": {
+      "en": "Full meals and camping is possible",
+      "fr": "Full meals and camping is possible"
+    },
+    "accommodations": [
+      {
+        "name": "Gite d'étape A la ferme d'Esbintz",
+        "tel": "+33 9 80 08 63 53",
+        "url": "https://www.gite-ferme-esbintz.fr/"
+      }
+    ],
+    "gite": true,
+    "camping": true
+  },
+  {
+    "name": "Leave D817",
+    "nearestMetreOfPath": 542862,
+    "elevation": 663,
+    "cumulativeAscent": 40223,
+    "cumulativeDescent": 39565
+  },
+  {
+    "name": "Gîte d'Etape d'Aunac",
+    "nearestMetreOfPath": 544323,
+    "elevation": 672,
+    "cumulativeAscent": 40289,
+    "cumulativeDescent": 39622,
+    "description": {
+      "en": "Turn right for Gîte d'Etape d'Aunac",
+      "fr": "Turn right for Gîte d'Etape d'Aunac"
+    },
+    "accommodations": [
+      {
+        "name": "Gîte d'Etape d'Aunac",
+        "tel": "+33 5 61 66 82 15",
+        "url": ""
+      }
+    ],
+    "gite": true
+  },
+  {
+    "name": "Bridge (D3 for Seix)",
+    "nearestMetreOfPath": 547943,
+    "elevation": 569,
+    "cumulativeAscent": 40472,
+    "cumulativeDescent": 39908,
+    "description": {
+      "en": "The town of Seix can be reached by taking the D3 road north. Seix has camping, a casino supermarket, hotels, restaurants and a pharmacy",
+      "fr": "The town of Seix can be reached by taking the D3 road north. Seix has camping, a casino supermarket, hotels, restaurants and a pharmacy"
+    },
+    "hotel": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": "Moulin Lauga",
+    "nearestMetreOfPath": 548548,
+    "elevation": 561,
+    "cumulativeAscent": 40476,
+    "cumulativeDescent": 39920
+  },
+  {
+    "name": "Estours",
+    "nearestMetreOfPath": 551706,
+    "elevation": 649,
+    "cumulativeAscent": 40625,
+    "cumulativeDescent": 39981
+  },
+  {
+    "name": "Refuge d'Aula",
+    "nearestMetreOfPath": 560707,
+    "elevation": 1559,
+    "cumulativeAscent": 41731,
+    "cumulativeDescent": 40177,
+    "description": {
+      "en": "Water from nearby streams",
+      "fr": "Water from nearby streams"
+    },
+    "cabane": true,
+    "camping": true
+  },
+  {
+    "name": "Etang d'Areau",
+    "nearestMetreOfPath": 564209,
+    "elevation": 1891,
+    "cumulativeAscent": 42170,
+    "cumulativeDescent": 40284,
+    "description": {
+      "en": "Water from nearby streams",
+      "fr": "Water from nearby streams"
+    }
+  },
+  {
+    "name": "Col de Pause",
+    "nearestMetreOfPath": 566447,
+    "elevation": 1522,
+    "cumulativeAscent": 42171,
+    "cumulativeDescent": 40654
+  },
+  {
+    "name": "Faup",
+    "nearestMetreOfPath": 569769,
+    "elevation": 1042,
+    "cumulativeAscent": 42209,
+    "cumulativeDescent": 41172
+  },
+  {
+    "name": "Raufaste",
+    "nearestMetreOfPath": 570312,
+    "elevation": 963,
+    "cumulativeAscent": 42220,
+    "cumulativeDescent": 41262
+  },
+  {
+    "name": "Couflens",
+    "nearestMetreOfPath": 572543,
+    "elevation": 723,
+    "cumulativeAscent": 42265,
+    "cumulativeDescent": 41547,
+    "description": {
+      "en": "There a waterpoint with toilets. Bus service to Seix",
+      "fr": "There a waterpoint with toilets. Bus service to Seix"
+    }
+  },
+  {
+    "name": "Gîte de Rouze d'Ustou",
+    "nearestMetreOfPath": 574535,
+    "elevation": 973,
+    "cumulativeAscent": 42527,
+    "cumulativeDescent": 41559,
+    "description": {
+      "en": "Meals and small shop",
+      "fr": "Meals and small shop"
+    },
+    "gite": true,
+    "foodshop": true
+  },
+  {
+    "name": "Col de la Serre du Cot",
+    "nearestMetreOfPath": 577189,
+    "elevation": 1544,
+    "cumulativeAscent": 43164,
+    "cumulativeDescent": 41625
+  },
+  {
+    "name": "Saint-Lizier d'Ustou",
+    "nearestMetreOfPath": 582723,
+    "elevation": 753,
+    "cumulativeAscent": 43233,
+    "cumulativeDescent": 42485,
+    "description": {
+      "en": "Bus service to Seix",
+      "fr": "Bus service to Seix"
+    },
+    "accommodations": [
+      {
+        "name": "Gite d'étape la Colline Verte",
+        "tel": "+33 5 61 04 68 17",
+        "url": "http://gite-colline-verte.com/"
+      },
+      {
+        "name": "Camping Municipal d'Ustou",
+        "tel": "+33 5 61 66 92 21",
+        "url": "http://www.camping-municipal-ustou.com/"
+      }
+    ],
+    "gite": true,
+    "camping": true,
+    "restaurant": true
+  },
+  {
+    "name": "Chapelle du Pont d'Oque",
+    "nearestMetreOfPath": 583079,
+    "elevation": 723,
+    "cumulativeAscent": 43233,
+    "cumulativeDescent": 42515,
+    "description": {
+      "en": "Turn left for GR10",
+      "fr": "Turn left for GR10"
+    }
+  },
+  {
+    "name": "Col d'Escots",
+    "nearestMetreOfPath": 589545,
+    "elevation": 1612,
+    "cumulativeAscent": 44276,
+    "cumulativeDescent": 42669,
+    "description": {
+      "en": "Chalet de Beauregard (French restaurant) Open everyday 0930h to 1630h",
+      "fr": "Chalet de Beauregard (French restaurant) Open everyday 0930h to 1630h"
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Shortcut for Aulus les Bains",
+    "nearestMetreOfPath": 593657,
+    "elevation": 1188,
+    "cumulativeAscent": 44419,
+    "cumulativeDescent": 43236
+  },
+  {
+    "name": " La Cascade d'Ars",
+    "nearestMetreOfPath": 599429,
+    "elevation": 1308,
+    "cumulativeAscent": 45086,
+    "cumulativeDescent": 43783
+  },
+  {
+    "name": "D8 Road Crossing",
+    "nearestMetreOfPath": 599429,
+    "elevation": 1308,
+    "cumulativeAscent": 45086,
+    "cumulativeDescent": 43783
+  },
+  {
+    "name": "Aulus les Bains",
+    "nearestMetreOfPath": 599429,
+    "elevation": 1308,
+    "cumulativeAscent": 45086,
+    "cumulativeDescent": 43783,
+    "description": {
+      "en": "Turn left onto the D8 road to reach the town of Aulus les Bains.",
+      "fr": "Turn left onto the D8 road to reach the town of Aulus les Bains."
+    },
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "restaurant": true
+  },
+  {
+    "name": "D8F Road crossing",
+    "nearestMetreOfPath": 606721,
+    "elevation": 1384,
+    "cumulativeAscent": 45714,
+    "cumulativeDescent": 44335
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 607143,
+    "elevation": 1447,
+    "cumulativeAscent": 45777,
+    "cumulativeDescent": 44335,
+    "description": {
+      "en": "Turn left for the GR10",
+      "fr": "Turn left for the GR10"
+    }
+  },
+  {
+    "name": "Port de Saleix",
+    "nearestMetreOfPath": 607143,
+    "elevation": 1447,
+    "cumulativeAscent": 45777,
+    "cumulativeDescent": 44335
+  },
+  {
+    "name": "Etaing d'Alate",
+    "nearestMetreOfPath": 610738,
+    "elevation": 1845,
+    "cumulativeAscent": 46287,
+    "cumulativeDescent": 44447
+  },
+  {
+    "name": "Refuge des étangs de Bassies",
+    "nearestMetreOfPath": 612429,
+    "elevation": 1666,
+    "cumulativeAscent": 46367,
+    "cumulativeDescent": 44706,
+    "description": {
+      "en": "Full refuge facilities with a small shop.",
+      "fr": "Full refuge facilities with a small shop."
+    },
+    "gite": true,
+    "camping": true
   },
   {
     "name": "Col de L'Estaca",

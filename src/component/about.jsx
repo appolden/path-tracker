@@ -7,6 +7,8 @@ import AboutGr10Section from '../component/about-gr10-section.jsx';
 import AboutContributeSection from '../component/about-contribute-section.jsx';
 import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
+import SlideshowGallery from '../component/slideshow-gallery';
+import FacilityKey from '../component/facility-key.jsx';
 
 class About extends Component {
   constructor(props) {
@@ -51,6 +53,8 @@ class About extends Component {
         </header>
         <div className="App-content">
           <AboutIntroductionParagraph language={this.state.language} />
+          <SlideshowGallery language={this.state.language} />
+          <FacilityKey language={this.state.language} />
           <AboutInstallationSection language={this.state.language} />
           <AboutMeSection language={this.state.language} />
           <AboutGr10Section language={this.state.language} />

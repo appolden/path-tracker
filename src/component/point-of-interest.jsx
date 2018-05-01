@@ -104,12 +104,10 @@ class PointOfInterest extends Component {
         (this.props.pathCumulativeAscent || 0) -
         this.props.pointOfInterest.cumulativeAscent;
     }
+    const key = this.props.pointOfInterest.nearestMetreOfPath + this.props.name;
 
     return (
-      <div
-        key={this.props.pointOfInterest.nearestMetreOfPath}
-        className="pointOfInterest"
-      >
+      <div key={key} className="pointOfInterest">
         <div onClick={this.onClick}>
           <div>
             {this.props.pathMetre >

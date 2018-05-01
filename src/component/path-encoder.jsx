@@ -77,9 +77,7 @@ class PathEncoder extends Component {
           <li>
             Decode the polyline and for each point on the polyline
             <ol>
-              <li>
-                Add cumuldative distance of path to each point (in metres)
-              </li>
+              <li>Add cumulative distance of path to each point (in metres)</li>
               <li>Add elevation and cumulative elevation </li>
             </ol>
           </li>

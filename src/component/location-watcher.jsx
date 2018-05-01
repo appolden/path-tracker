@@ -26,7 +26,6 @@ class LocationWatcher extends Component {
     this.onStartStopPositionWatchButtonClick = this.onStartStopPositionWatchButtonClick.bind(
       this
     );
-    //  this.onStartPositionWatch = this.onStartPositionWatch.bind(this);
   }
 
   componentWillUnmount() {

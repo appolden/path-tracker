@@ -92,7 +92,7 @@ class PointOfInterestEncoder extends Component {
         <p>On load this page will do the following:</p>
         <ol>
           <li>
-            Retireve the points of interest and for each point locate the
+            Retrieve the points of interest and for each point locate the
             nearest trail metre. The result is then logged in the console
           </li>
         </ol>

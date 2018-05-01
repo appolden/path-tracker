@@ -39,33 +39,43 @@ class LocationOverride extends Component {
     this.setState({ lng: event.target.value });
   }
 
-  handleClick(event) {
-    if (this.props.onLocationChanged !== undefined) {
-      this.props.onLocationChanged(this.state.lat, this.state.lng);
-    }
-  }
-
   handleRandomLocationClick(event) {
-    const randomTestLocation = this.testLocations[
-      Math.floor(Math.random() * this.testLocations.length)
-    ];
+    console.log(` handleRandomLocationClick ${this.state.watchingPosition}`);
+    if (this.state.watchingPosition) {
+      this.setState(prevState => {
+        prevState.watchingPosition = !prevState.watchingPosition;
+        return prevState;
+      });
+    } else {
+      if (this.props.onStartPositionWatch !== undefined) {
+        this.props.onStartPositionWatch();
+      }
 
-    this.setState({ lat: randomTestLocation.lat, lng: randomTestLocation.lng });
+      //pick a random location
+      const randomTestLocation = this.testLocations[
+        Math.floor(Math.random() * this.testLocations.length)
+      ];
 
-    this.setState(prevState => {
-      prevState.position.lat = randomTestLocation.lat;
-      prevState.position.lng = randomTestLocation.lng;
-      prevState.error = '';
-      prevState.watchingPosition = !prevState.watchingPosition;
+      this.setState({
+        lat: randomTestLocation.lat,
+        lng: randomTestLocation.lng
+      });
 
-      return prevState;
-    });
+      this.setState(prevState => {
+        prevState.position.lat = randomTestLocation.lat;
+        prevState.position.lng = randomTestLocation.lng;
+        prevState.error = '';
+        prevState.watchingPosition = !prevState.watchingPosition;
 
-    if (this.props.onLocationChanged !== undefined) {
-      this.props.onLocationChanged(
-        randomTestLocation.lat,
-        randomTestLocation.lng
-      );
+        return prevState;
+      });
+
+      if (this.props.onLocationChanged !== undefined) {
+        this.props.onLocationChanged(
+          randomTestLocation.lat,
+          randomTestLocation.lng
+        );
+      }
     }
   }
 

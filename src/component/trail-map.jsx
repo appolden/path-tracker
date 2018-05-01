@@ -16,13 +16,13 @@ export class TrailMap extends Component {
       case 'gr10':
       default:
         this.polylineUrl = '/data/gr10-route.json';
-        this.campingUrl = '/data/gr10-camping.json';
+        this.campingUrl = '/data/gr10-points-of-interest-to-locate.json'; //C:\Code\path-tracker\public\data\gr10-points-of-interest-to-locate.json
         this.initialCenter = { lat: 42.823647, lng: 0.795077 };
         this.initialZoom = 6;
         break;
       case 'gr20':
         this.polylineUrl = '/data//gr20/gr20-route.json';
-        this.campingUrl = '/data/gr10-camping.json';
+        this.campingUrl = undefined;
         this.initialCenter = { lat: 42.121206, lng: 9.124647 };
         this.initialZoom = 8;
     }
@@ -48,13 +48,15 @@ export class TrailMap extends Component {
         trail.setMap(map);
       });
 
-    fetch(this.campingUrl)
-      .then(response => response.json())
-      .then(campingLocations => {
-        campingLocations.forEach(x => {
-          this.addCampingLocation(mapProps.google, map, x);
+    if (this.campingUrl !== undefined) {
+      fetch(this.campingUrl)
+        .then(response => response.json())
+        .then(campingLocations => {
+          campingLocations.forEach(x => {
+            this.addCampingLocation(mapProps.google, map, x);
+          });
         });
-      });
+    }
   };
 
   addCampingLocation(google, map, campingLocation) {
@@ -70,8 +72,7 @@ export class TrailMap extends Component {
         lat: campingLocation.point.lat,
         lng: campingLocation.point.lng
       },
-      title: campingLocation.name,
-      icon: '/images/tent.png'
+      title: campingLocation.name
     });
 
     marker.addListener('click', () => {
@@ -81,7 +82,9 @@ export class TrailMap extends Component {
 
   onMarkerClick(marker, campingLocation) {
     let description =
-      campingLocation.description.en || campingLocation.description.fr;
+      campingLocation.description !== undefined
+        ? campingLocation.description.en || campingLocation.description.fr
+        : '';
 
     switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':

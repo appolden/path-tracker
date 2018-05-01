@@ -1,9 +1,24 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import ArrowUp from '../icons/arrow-thick-top.svg';
 import ArrowBottom from '../icons/arrow-thick-bottom.svg';
 
 class PointCurrent extends Component {
+  componentDidMount() {
+    if (this.props.scrollTo) {
+      const elem = ReactDOM.findDOMNode(this);
+      window.scrollTo(0, elem.offsetTop - 150);
+    }
+  }
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    if (this.props.scrollTo) {
+      const elem = ReactDOM.findDOMNode(this);
+      window.scrollTo(0, elem.offsetTop - 150);
+    }
+  }
+
   render() {
     return (
       <div key={this.props.name} className="pointCurrent">
@@ -32,7 +47,8 @@ class PointCurrent extends Component {
 
 PointCurrent.propTypes = {
   pathMetre: PropTypes.number,
-  pathElevation: PropTypes.number
+  pathElevation: PropTypes.number,
+  scrollTo: PropTypes.bool
 };
 
 export default PointCurrent;

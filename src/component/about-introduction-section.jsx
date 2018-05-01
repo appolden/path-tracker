@@ -12,7 +12,7 @@ class AboutIntroductionParagraph extends Component {
   render() {
     const language = LanguageHelper.getLanguage(this.props.language);
     let title = 'Introduction';
-    let traitrackerLinkText = 'Click here to access the GR10 Trail Tracker';
+    let trailTrackerLinkText = 'Click here to access the GR10 Trail Tracker';
     let text = (
       <React.Fragment>
         <p>
@@ -34,6 +34,14 @@ class AboutIntroductionParagraph extends Component {
           <li>Links to hotel websites (requires a data connection)</li>
         </ul>
         <p>
+          <Link
+            to={'/' + language + '/' + this.trailName + '/trail-tracker'}
+            title={trailTrackerLinkText}
+          >
+            {trailTrackerLinkText}
+          </Link>
+        </p>
+        <p>
           The inspiration for the app/website came from the Halfmile app I used
           when I hiked the Pacific Crest Trail.{' '}
           <a href="https://www.pctmap.net/" title="Halfmile PCT maps">
@@ -46,7 +54,7 @@ class AboutIntroductionParagraph extends Component {
     switch (language) {
       case 'fr':
         title = 'Introduction';
-        traitrackerLinkText = 'Cliquez ici pour accéder au GR10 Trail Tracker';
+        trailTrackerLinkText = 'Cliquez ici pour accéder au GR10 Trail Tracker';
         text = (
           <React.Fragment>
             <p>
@@ -76,7 +84,14 @@ class AboutIntroductionParagraph extends Component {
                 données)
               </li>
             </ul>
-
+            <p>
+              <Link
+                to={'/' + language + '/' + this.trailName + '/trail-tracker'}
+                title={trailTrackerLinkText}
+              >
+                {trailTrackerLinkText}
+              </Link>
+            </p>
             <p>
               L'inspiration pour l'application / site provient de l'application
               Halfmile que j'ai utilisé quand j'ai fait une randonnée sur le
@@ -96,24 +111,6 @@ class AboutIntroductionParagraph extends Component {
       <React.Fragment>
         <h2>{title}</h2>
         {text}
-
-        <p>
-          <Link
-            to={'/' + language + '/' + this.trailName + '/trail-tracker'}
-            title={traitrackerLinkText}
-          >
-            {traitrackerLinkText}
-          </Link>
-        </p>
-
-        <p>
-          <Link
-            to={'/' + language + '/' + this.trailName + '/map'}
-            title="GR10 Map"
-          >
-            GR10 Map
-          </Link>
-        </p>
       </React.Fragment>
     );
   }

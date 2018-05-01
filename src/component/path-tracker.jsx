@@ -8,6 +8,7 @@ import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
 import PointOfInterestRow from '../component/point-of-interest-row.jsx';
 import PointOfInterestList from '../component/points-interest-virtulaized-list.jsx';
+import pointCurrent from './point-current';
 
 class PathTracker extends Component {
   constructor(props) {
@@ -41,16 +42,7 @@ class PathTracker extends Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    if (
-      this.pointCurrent !== undefined &&
-      this.scrollToAfterComponentDidUpdate
-    ) {
-      var pointCurrentElement = ReactDOM.findDOMNode(this.pointCurrent);
-
-      if (pointCurrentElement !== undefined && pointCurrentElement !== null) {
-        window.scrollTo(0, pointCurrentElement.offsetTop - 150);
-      }
-
+    if (this.scrollToAfterComponentDidUpdate) {
       this.scrollToAfterComponentDidUpdate = false;
     }
   }
@@ -196,6 +188,7 @@ class PathTracker extends Component {
           nearestPointToCurrentLocation.cumulativeAscent;
         pointCurrent.cumulativeDescent =
           nearestPointToCurrentLocation.cumulativeDescent;
+        pointCurrent.scrollTo = !this.state.locationKnown;
       } else {
         const pointCurrent = {
           name: 'Current Location',
@@ -203,7 +196,8 @@ class PathTracker extends Component {
           elevation: nearestPointToCurrentLocation.elevation,
           cumulativeAscent: nearestPointToCurrentLocation.cumulativeAscent,
           cumulativeDescent: nearestPointToCurrentLocation.cumulativeDescent,
-          currentLocation: true
+          currentLocation: true,
+          scrollTo: !this.state.locationKnown
         };
         prevState.pointsOfInterest.push(pointCurrent);
       }
@@ -227,53 +221,6 @@ class PathTracker extends Component {
         pointOfInterestScrollToIndex: 1
       };
     });
-
-    //
-    // console.log(indexOf);
-    //update current location
-
-    //let pointCurrentIndex = 0;
-    //const newPois = [];
-
-    //this.state.pointsOfInterest.forEach((x, index) => {
-    //  if (x.currentLocation !== undefined && x.currentLocation) {
-    //    return;
-    //  }
-    //  if (index === this.state.pointsOfInterest.length - 1) {
-    //    //reached the end
-    //    newPois.push(x);
-    //    if (x.nearestMetreOfPath < nearestPointToCurrentLocation.metreOfPath) {
-    //      newPois.push(pointCurrent);
-    //      pointCurrentIndex = index;
-    //    }
-    //    return;
-    //  }
-    //  const nextPointOfInterest = this.state.pointsOfInterest[index + 1];
-    //  if (
-    //    x.nearestMetreOfPath <= nearestPointToCurrentLocation.metreOfPath &&
-    //    nextPointOfInterest.nearestMetreOfPath >
-    //      nearestPointToCurrentLocation.metreOfPath
-    //  ) {
-    //    newPois.push(x);
-    //    newPois.push(pointCurrent);
-    //    pointCurrentIndex = index;
-    //  } else {
-    //    newPois.push(x);
-    //  }
-    //});
-
-    //this.setState({
-    //  locationKnown: true,
-    //  nearestMetreOfPath: nearestPointToCurrentLocation.metreOfPath,
-    //  elevationAtNearestMetreOfPath: nearestPointToCurrentLocation.elevation,
-    //  cumulativeAscentAtNearestMetreOfPath:
-    //    nearestPointToCurrentLocation.cumulativeAscent,
-    //  cumulativeDescentAtNearestMetreOfPath:
-    //    nearestPointToCurrentLocation.cumulativeDescent,
-    //  distanceFromPath: distanceFromPath,
-    //  pointsOfInterest: newPois,
-    //  pointOfInterestScrollToIndex: 1
-    //});
   }
 
   onLocationChanged(lat, lng) {
@@ -286,7 +233,6 @@ class PathTracker extends Component {
 
   onStartPositionWatch() {
     this.setState({ locationKnown: false });
-    //this.scrollToAfterComponentDidUpdate = true;
   }
 
   onPointOfInterestModalClose(name) {
@@ -314,7 +260,9 @@ class PathTracker extends Component {
     }
 
     const rows = this.state.pointsOfInterest.map((x, index) => {
-      const key = `${x.nearestMetreOfPath}${x.currentLocation ? x.name : ''}`;
+      const key = `${x.nearestMetreOfPath}${
+        x.currentLocation ? x.name : x.name
+      }`;
 
       return (
         <PointOfInterestRow
@@ -330,6 +278,7 @@ class PathTracker extends Component {
           }
           onClick={this.onPointOfInterestClick}
           pointOfInterest={x}
+          scrollTo={x.scrollTo}
         />
       );
     });
@@ -337,6 +286,7 @@ class PathTracker extends Component {
     const locationComponent = this.props.testMode ? (
       <LocationOverride
         onLocationChanged={this.onLocationChanged}
+        onStartPositionWatch={this.onStartPositionWatch}
         language={this.language}
       />
     ) : (
@@ -379,5 +329,3 @@ class PathTracker extends Component {
 }
 
 export default PathTracker;
-//<PointOfInterestList
-//    pointsOfInterest={this.state.pointsOfInterest} />

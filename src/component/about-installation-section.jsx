@@ -15,10 +15,7 @@ class AboutInstallationSection extends Component {
         <h3>IPhone</h3>
         <p>
           The Safari browser installed on Iphones has limited support for
-          offline usages and doesn't consistently work offline or when its been
-          added to the homescreen. Refer to the technical section (via the menu)
-          for an explanation. Bookmark the website and it should be accessible
-          offline.
+          offline usage and doesn't consistently work offline.
         </p>
       </React.Fragment>
     );

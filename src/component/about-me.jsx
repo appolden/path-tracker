@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class AboutMeSection extends Component {
   render() {
-    if (this.props.language == 'fr') {
+    if (this.props.language === 'fr') {
       return (
         <React.Fragment>
           <h2>À propos me</h2>

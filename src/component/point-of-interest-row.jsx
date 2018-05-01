@@ -15,6 +15,7 @@ class PointOfInterestRow extends Component {
           pathMetre={this.props.pathMetre}
           pathElevation={this.props.pathElevation}
           distanceFromPath={this.props.distanceFromPath}
+          scrollTo={this.props.scrollTo}
         />
       );
     } else {
@@ -22,10 +23,6 @@ class PointOfInterestRow extends Component {
         <PointOfInterest
           language={this.props.language}
           name={this.props.pointOfInterest.name}
-          //     nearestMetreOfPath={this.props.pointOfInterest.nearestMetreOfPath}
-          //     elevationAtNearestMetreOfPath={this.props.pointOfInterest.elevation}
-          //  cumulativeAscentAtNearestMetreOfPath={this.props.pointOfInterest.cumulativeAscent}
-          //   cumulativeDescentAtNearestMetreOfPath={this.props.pointOfInterest.cumulativeDescent}
           pathMetre={this.props.pathMetre}
           pathElevation={this.props.pathElevation}
           pathCumulativeAscent={this.props.pathCumulativeAscent}
