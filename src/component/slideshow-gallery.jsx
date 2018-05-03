@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import LanguageHelper from '../component/language-helper.js';
 import Screenshot1 from '../images/screenshots/screenshot-1.png';
 import Screenshot2 from '../images/screenshots/screenshot-2.png';
+import Screenshot3 from '../images/screenshots/screenshot-3.png';
+import Screenshot4 from '../images/screenshots/screenshot-4.png';
 
 class SlideshowGallery extends Component {
   constructor(props) {
@@ -9,7 +11,7 @@ class SlideshowGallery extends Component {
 
     this.state = {
       slideIndex: 0,
-      slidesLength: 2
+      slidesLength: 4
     };
     this.onPrevClick = this.onPrevClick.bind(this);
     this.onNextClick = this.onNextClick.bind(this);
@@ -72,6 +74,8 @@ class SlideshowGallery extends Component {
       <div className="slideShowContainer">
         {this.slideShowImage(0, Screenshot1, this.state.slideIndex === 0)}
         {this.slideShowImage(1, Screenshot2, this.state.slideIndex === 1)}
+        {this.slideShowImage(0, Screenshot1, this.state.slideIndex === 2)}
+        {this.slideShowImage(1, Screenshot2, this.state.slideIndex === 3)}
 
         <a className="prev" onClick={this.onPrevClick}>
           &#10094; prev
@@ -87,6 +91,8 @@ class SlideshowGallery extends Component {
         <div style={{ textAlign: 'center' }}>
           {this.slideShowDot(0, this.state.slideIndex === 0)}
           {this.slideShowDot(1, this.state.slideIndex === 1)}
+          {this.slideShowDot(0, this.state.slideIndex === 2)}
+          {this.slideShowDot(1, this.state.slideIndex === 3)}
         </div>
       </div>
     );

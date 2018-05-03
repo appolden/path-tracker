@@ -1111,7 +1111,7 @@
     "restaurant": true
   },
   {
-    "name": " Camping Pyrénées Natura",
+    "name": "Camping Pyrénées Natura",
     "point": {
       "lat": 42.943618,
       "lng": -0.176436
@@ -2394,13 +2394,7 @@
       "lng": 1.406398
     }
   },
-  {
-    "name": "Col de L'Estaca",
-    "point": {
-      "lat": 42.472034,
-      "lng": 2.983239
-    }
-  },
+
   {
     "name": "Refuge des étangs de Bassies",
     "point": {
@@ -2453,22 +2447,176 @@
     "accommodations": [
       {
         "name": "Gîte Girolle",
-        "tel": "",
-        "url": ""
+        "tel": "+33 3 86 33 59 61",
+        "url": "http://www.girolleslesforges.com/"
       },
       {
         "name": "Gîte d'étape de Marc",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 61 64 88 54",
+        "url": "http://www.marc-montmija.com/"
       },
       {
-        "name": "Village de vacances de Marc",
-        "tel": "",
-        "url": ""
+        "name": "Gîte Morillon",
+        "tel": "+33 7 87 60 84 29",
+        "url": "http://location-gite-ariege.fr/g%C3%AEte-morillon/"
       }
     ],
     "hotel": true,
     "gite": true
+  },
+  {
+    "name": "Mounicou",
+    "point": {
+      "lat": 42.707708,
+      "lng": 1.450769
+    },
+    "accommodations": [
+      {
+        "name": "Gîte de Mounicou",
+        "tel": "+33 6 22 24 60 02",
+        "url": "http://www.ariegepyrenees.com/auzat/gite-d-etape-de-mounicou/tabid/1022/offreid/9288ccf6-aa75-4fc9-99f0-2c9ecb75361e"
+      }
+    ],
+    "gite": true
+  },
+  {
+    "name": "Refuge Forestier de Prunadière",
+    "point": {
+      "lat": 42.721639,
+      "lng": 1.463816
+    }
+  },
+  {
+    "name": "Artie (For Auzat)",
+    "point": {
+      "lat": 42.735248,
+      "lng": 1.478436
+    },
+    "description": {
+      "en": "Divert to Arties and follow the road north for Auzat and Vicdessos. ",
+      "fr": "Divert to Arties and follow the road north for Auzat and Vicdessos. "
+    }
+  },
+  {
+    "name": "Pradières (shortcut)",
+    "point": {
+      "lat": 42.720928,
+      "lng": 1.486046
+    },
+    "description": {
+      "en": "Turn left for a steep shortcut to rejoin the GR10 at Coumasses-Grandes",
+      "fr": "Turn left for a steep shortcut to rejoin the GR10 at Coumasses-Grandes"
+    }
+  },
+  {
+    "name": "Etang d'lzourt",
+    "point": {
+      "lat": 42.693460,
+      "lng": 1.498346
+    },
+    "description": {
+      "en": "Contine along the shore of the Etang d'lzourt for the Refuge de l'Etang Fourcat (3 hours)",
+      "fr": "Contine along the shore of the Etang d'lzourt for the Refuge de l'Etang Fourcat (3 hours)"
+    }
+  },
+  {
+    "name": "Pradières (shortcut)",
+    "point": {
+      "lat": 42.714385,
+      "lng": 1.501983
+    }
+  },
+  {
+    "name": "Goulier",
+    "point": {
+      "lat": 42.754260,
+      "lng": 1.503459
+    },
+    "description": {
+      "en": "Gîte La Grange",
+      "fr": "Gîte La Grange"
+    },
+    "accommodations": [
+      {
+        "name": "Gîte La Grange",
+        "tel": "+33 6 04 59 73 97",
+        "url": "https://www.ariege-vacances.com/"
+      }
+    ],
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Col de Risoul",
+    "point": {
+      "lat": 42.763166,
+      "lng": 1.509697
+    }
+  },
+  {
+    "name": "Col de l'Esquerus",
+    "point": {
+      "lat": 42.753807,
+      "lng": 1.517074
+    }
+  },
+  {
+    "name": "Col de Grail",
+    "point": {
+      "lat": 42.753555,
+      "lng": 1.532217
+    }
+  },
+  {
+    "name": "Col de Lercoul",
+    "point": {
+      "lat": 42.763030,
+      "lng": 1.533143
+    }
+  },
+  {
+    "name": "Trail Junction",
+    "point": {
+      "lat": 42.771595,
+      "lng": 1.539387
+    },
+    "description": {
+      "en": "Turn right for the GR10",
+      "fr": "Turn right for the GR10"
+    }
+  },
+  {
+    "name": "Lercoul",
+    "point": {
+      "lat": 42.770081,
+      "lng": 1.545628
+    }
+  },
+  {
+    "name": "Siguer",
+    "point": {
+      "lat": 42.766706,
+      "lng": 1.565691
+    },
+    "description": {
+      "en": "Maison Cancela",
+      "fr": "Maison Cancela"
+    },
+    "accommodations": [
+      {
+        "name": "Maison Cancela",
+        "tel": "+33 5 61 05 88 84",
+        "url": "https://www.maisoncancela.fr/"
+      }
+    ],
+    "hotel": true
+  },
+  {
+    "name": "Col de L'Estaca",
+    "point": {
+      "lat": 42.472034,
+      "lng": 2.983239
+    }
   },
   {
     "name": "Col de Llagastera",

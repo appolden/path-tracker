@@ -55,6 +55,13 @@ class Legal extends Component {
           {this.state.language === 'fr' && (
             <React.Fragment>
               <p>
+                Cette application et ses données de support sont distribuées
+                dans l'espoir qu'elles seront utiles, mais sont transmises SANS
+                AUCUNE GARANTIE et sans garantie implicite d'ADÉQUATION À UN
+                USAGE PARTICULIER.
+              </p>
+              <p>Ne comptez pas sur cette application pour la navigation.</p>
+              <p>
                 Les sigles <strong>GR&reg;</strong> et <strong>GRP&reg;</strong>sont
                 des marques déposées par la Fédération Française de la Randonnée
                 Pédestre. Elles ne peuvent être reproduites sans son

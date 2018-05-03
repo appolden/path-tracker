@@ -93,6 +93,7 @@ class App extends Component {
                     pointsUrl="/data/gr10-points-elevation.json"
                     poisUrl="/data/gr10-points-of-interest.json"
                     testMode="true"
+                    language="fr"
                   />
                 );
               }}
@@ -172,7 +173,20 @@ class App extends Component {
               }}
             />
 
-            <Route exact path="/:language/legal" component={Legal} />
+            <Route
+              exact
+              path="/:language/legal"
+              component={props => {
+                this.onRouterUpdate();
+
+                return (
+                  <Legal
+                    language={props.match.params.language}
+                    origin="/legal"
+                  />
+                );
+              }}
+            />
             <Route
               exact
               path="/:language/technical"

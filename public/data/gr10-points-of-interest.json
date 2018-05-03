@@ -1122,6 +1122,16 @@
     "cumulativeDescent": 17542
   },
   {
+    "name": "Estaing",
+    "nearestMetreOfPath": 276267,
+    "elevation": 969,
+    "cumulativeAscent": 18720,
+    "cumulativeDescent": 17756,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
     "name": " Camping Pyrénées Natura",
     "nearestMetreOfPath": 276267,
     "elevation": 969,
@@ -1139,16 +1149,6 @@
       }
     ],
     "camping": true
-  },
-  {
-    "name": "Estaing",
-    "nearestMetreOfPath": 276267,
-    "elevation": 969,
-    "cumulativeAscent": 18720,
-    "cumulativeDescent": 17756,
-    "camping": true,
-    "foodshop": true,
-    "restaurant": true
   },
   {
     "name": "Camping Le Vieux Moulin",
@@ -2399,6 +2399,209 @@
     },
     "gite": true,
     "camping": true
+  },
+  {
+    "name": "Etangs de Bassies",
+    "nearestMetreOfPath": 613729,
+    "elevation": 1643,
+    "cumulativeAscent": 46390,
+    "cumulativeDescent": 44752
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 617824,
+    "elevation": 1116,
+    "cumulativeAscent": 46439,
+    "cumulativeDescent": 45328
+  },
+  {
+    "name": "Auzat and Vicdessos",
+    "nearestMetreOfPath": 617824,
+    "elevation": 1116,
+    "cumulativeAscent": 46439,
+    "cumulativeDescent": 45328,
+    "description": {
+      "en": "Small supermarket, campgrounds and bar-restaurants",
+      "fr": "Small supermarket, campgrounds and bar-restaurants"
+    },
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": "Marc",
+    "nearestMetreOfPath": 622032,
+    "elevation": 1046,
+    "cumulativeAscent": 46824,
+    "cumulativeDescent": 45783,
+    "accommodations": [
+      {
+        "name": "Gîte Girolle",
+        "tel": "+33 3 86 33 59 61",
+        "url": "http://www.girolleslesforges.com/"
+      },
+      {
+        "name": "Gîte d'étape de Marc",
+        "tel": "+33 5 61 64 88 54",
+        "url": "http://www.marc-montmija.com/"
+      },
+      {
+        "name": "Gîte Morillon",
+        "tel": "+33 7 87 60 84 29",
+        "url": "http://location-gite-ariege.fr/g%C3%AEte-morillon/"
+      }
+    ],
+    "hotel": true,
+    "gite": true
+  },
+  {
+    "name": "Mounicou",
+    "nearestMetreOfPath": 623215,
+    "elevation": 1127,
+    "cumulativeAscent": 46914,
+    "cumulativeDescent": 45792,
+    "accommodations": [
+      {
+        "name": "Gîte de Mounicou",
+        "tel": "+33 6 22 24 60 02",
+        "url": "http://www.ariegepyrenees.com/auzat/gite-d-etape-de-mounicou/tabid/1022/offreid/9288ccf6-aa75-4fc9-99f0-2c9ecb75361e"
+      }
+    ],
+    "gite": true
+  },
+  {
+    "name": "Refuge Forestier de Prunadière",
+    "nearestMetreOfPath": 626240,
+    "elevation": 1623,
+    "cumulativeAscent": 47520,
+    "cumulativeDescent": 45902
+  },
+  {
+    "name": "Artie (For Auzat)",
+    "nearestMetreOfPath": 630038,
+    "elevation": 1005,
+    "cumulativeAscent": 47667,
+    "cumulativeDescent": 46667,
+    "description": {
+      "en": "Divert to Arties and follow the road north for Auzat and Vicdessos. ",
+      "fr": "Divert to Arties and follow the road north for Auzat and Vicdessos. "
+    }
+  },
+  {
+    "name": "Pradières (shortcut)",
+    "nearestMetreOfPath": 632104,
+    "elevation": 1139,
+    "cumulativeAscent": 47837,
+    "cumulativeDescent": 46703,
+    "description": {
+      "en": "Turn left for a steep shortcut to rejoin the GR10 at Coumasses-Grandes",
+      "fr": "Turn left for a steep shortcut to rejoin the GR10 at Coumasses-Grandes"
+    }
+  },
+  {
+    "name": "Etang d'lzourt",
+    "nearestMetreOfPath": 635580,
+    "elevation": 1667,
+    "cumulativeAscent": 48404,
+    "cumulativeDescent": 46742,
+    "description": {
+      "en": "Contine along the shore of the Etang d'lzourt for the Refuge de l'Etang Fourcat (3 hours)",
+      "fr": "Contine along the shore of the Etang d'lzourt for the Refuge de l'Etang Fourcat (3 hours)"
+    }
+  },
+  {
+    "name": "Pradières (shortcut)",
+    "nearestMetreOfPath": 638262,
+    "elevation": 1730,
+    "cumulativeAscent": 48606,
+    "cumulativeDescent": 46881
+  },
+  {
+    "name": "Goulier",
+    "nearestMetreOfPath": 645779,
+    "elevation": 1096,
+    "cumulativeAscent": 49179,
+    "cumulativeDescent": 48088,
+    "description": {
+      "en": "Gîte La Grange",
+      "fr": "Gîte La Grange"
+    },
+    "accommodations": [
+      {
+        "name": "Gîte La Grange",
+        "tel": "+33 6 04 59 73 97",
+        "url": "https://www.ariege-vacances.com/"
+      }
+    ],
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Col de Risoul",
+    "nearestMetreOfPath": 647095,
+    "elevation": 1332,
+    "cumulativeAscent": 49421,
+    "cumulativeDescent": 48094
+  },
+  {
+    "name": "Col de l'Esquerus",
+    "nearestMetreOfPath": 648781,
+    "elevation": 1453,
+    "cumulativeAscent": 49584,
+    "cumulativeDescent": 48136
+  },
+  {
+    "name": "Col de Grail",
+    "nearestMetreOfPath": 651046,
+    "elevation": 1491,
+    "cumulativeAscent": 49770,
+    "cumulativeDescent": 48284
+  },
+  {
+    "name": "Col de Lercoul",
+    "nearestMetreOfPath": 652319,
+    "elevation": 1545,
+    "cumulativeAscent": 49870,
+    "cumulativeDescent": 48330
+  },
+  {
+    "name": "Trail Junction",
+    "nearestMetreOfPath": 653615,
+    "elevation": 1304,
+    "cumulativeAscent": 49877,
+    "cumulativeDescent": 48578,
+    "description": {
+      "en": "Turn right for the GR10",
+      "fr": "Turn right for the GR10"
+    }
+  },
+  {
+    "name": "Lercoul",
+    "nearestMetreOfPath": 654799,
+    "elevation": 1139,
+    "cumulativeAscent": 49883,
+    "cumulativeDescent": 48749
+  },
+  {
+    "name": "Siguer",
+    "nearestMetreOfPath": 657366,
+    "elevation": 765,
+    "cumulativeAscent": 49922,
+    "cumulativeDescent": 49162,
+    "description": {
+      "en": "Maison Cancela",
+      "fr": "Maison Cancela"
+    },
+    "accommodations": [
+      {
+        "name": "Maison Cancela",
+        "tel": "+33 5 61 05 88 84",
+        "url": "https://www.maisoncancela.fr/"
+      }
+    ],
+    "hotel": true
   },
   {
     "name": "Col de L'Estaca",

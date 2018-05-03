@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import ArrowUp from '../icons/arrow-thick-top.svg';
 import ArrowBottom from '../icons/arrow-thick-bottom.svg';
+import LanguageHelper from '../component/language-helper.js';
 
 class PointCurrent extends Component {
   componentDidMount() {
@@ -20,10 +21,18 @@ class PointCurrent extends Component {
   }
 
   render() {
+    let currentLocationText = 'Current location';
+    switch (this.props.language) {
+      case 'fr':
+        currentLocationText = 'Localisation actuelle';
+      case 'en':
+      default:
+    }
+
     return (
       <div key={this.props.name} className="pointCurrent">
         <div style={{ textAlign: 'right' }}>
-          <div style={{ float: 'left' }}>Current location</div>
+          <div style={{ float: 'left' }}>{currentLocationText}</div>
           <img src={ArrowUp} alt="Up" height="15px" /> East
         </div>
         <div style={{ textAlign: 'center', fontSize: '1.5em' }}>

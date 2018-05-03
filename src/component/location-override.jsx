@@ -20,7 +20,7 @@ class LocationOverride extends Component {
 
     this.buttonTextWhenTracking = {
       en: 'Stop tracking',
-      fr: 'Arr�ter le suivi'
+      fr: 'Arrêter le suivi'
     };
 
     this.state = {

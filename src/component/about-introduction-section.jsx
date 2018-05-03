@@ -93,6 +93,15 @@ class AboutIntroductionParagraph extends Component {
               </Link>
             </p>
             <p>
+              Le français n'est pas ma langue maternelle. Je n'aurai pas assez
+              de temps pour traduire les notes de sentier pour chaque point de
+              repère avant le départ de cet été pour le GR10.
+            </p>
+            <p>
+              Si quelqu'un veut aider, alors s'il vous plaît contactez-moi via
+              mon profil instagram.
+            </p>
+            <p>
               L'inspiration pour l'application / site provient de l'application
               Halfmile que j'ai utilisé quand j'ai fait une randonnée sur le
               Pacific Crest Trail.{' '}
