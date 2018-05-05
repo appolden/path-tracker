@@ -11,6 +11,7 @@ export class TrailMapEnglish extends Component {
           language="en"
           origin={this.props.origin}
           trailName={this.props.trailName}
+          poisUrl={this.props.poisUrl}
         />
       </React.Fragment>
     );

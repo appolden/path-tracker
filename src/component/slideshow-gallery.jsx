@@ -74,8 +74,8 @@ class SlideshowGallery extends Component {
       <div className="slideShowContainer">
         {this.slideShowImage(0, Screenshot1, this.state.slideIndex === 0)}
         {this.slideShowImage(1, Screenshot2, this.state.slideIndex === 1)}
-        {this.slideShowImage(0, Screenshot1, this.state.slideIndex === 2)}
-        {this.slideShowImage(1, Screenshot2, this.state.slideIndex === 3)}
+        {this.slideShowImage(0, Screenshot3, this.state.slideIndex === 2)}
+        {this.slideShowImage(1, Screenshot4, this.state.slideIndex === 3)}
 
         <a className="prev" onClick={this.onPrevClick}>
           &#10094; prev

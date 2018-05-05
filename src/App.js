@@ -142,12 +142,20 @@ class App extends Component {
                 switch (props.match.params.language) {
                   case 'fr':
                     return (
-                      <TrailMapFrench origin="/gr10/map" trailName="gr10" />
+                      <TrailMapFrench
+                        origin="/gr10/map"
+                        trailName="gr10"
+                        poisUrl="/data/gr10-points-of-interest.json"
+                      />
                     );
                   case 'en':
                   default:
                     return (
-                      <TrailMapEnglish origin="/gr10/map" trailName="gr10" />
+                      <TrailMapEnglish
+                        origin="/gr10/map"
+                        trailName="gr10"
+                        poisUrl="/data/gr10-points-of-interest.json"
+                      />
                     );
                 }
               }}

@@ -12,7 +12,7 @@
     "hotel": true,
     "foodshop": true,
     "restaurant": true,
-    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Hendaye"
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1431845&aid=1522735&no_rooms=1&group_adults=1"
   },
   {
     "name": "Biriatou",
@@ -26,13 +26,46 @@
     },
     "accommodations": [
       {
-        "name": "Chambre d'hôtes Maison Kabia",
-        "tel": "+33 5 59 26 03 16",
-        "url": "http://resa.terreetcotebasques.com/fr/hebergements/a358610/chambre-dh%C3%B4te-maison-kabia/details"
+        "name": "Appts maison Onbor Zilo",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/appts-maison-onbor-zilo.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.334090,
+          "lng": -1.744643
+        }
       },
       {
         "name": "Les Jardins de Bakea",
-        "tel": "+33 5 59 20 02 01"
+        "tel": "",
+        "description": "The Jardins De Bakea is located in Biriatou, next to the Spanish border. It offers accommodation with a traditional Basque décor and free Wi-Fi access.\nGuest rooms at the Jardins Hotel are equipped with a private bathroom and a flat-screen TV. Some rooms also have a balcony that overlooks the Bidassoa Valley.\nThe Bakea’s restaurant serves traditional cuisine with regional specialities. There is also a bar and guests are invited to relax on the garden terrace.",
+        "url": "http://www.booking.com/hotel/fr/les-jardins-de-bakea.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.333450,
+          "lng": -1.744482
+        }
+      },
+      {
+        "name": "Xagardixar",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/xagardixar.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.333688,
+          "lng": -1.736526
+        }
+      },
+      {
+        "name": "Istokita Berri",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/istokita-berri.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.326680,
+          "lng": -1.735523
+        }
+      },
+      {
+        "name": "Chambre d'hôtes Maison Kabia",
+        "tel": "+33 5 59 26 03 16",
+        "url": "http://resa.terreetcotebasques.com/fr/hebergements/a358610/chambre-dh%C3%B4te-maison-kabia/details"
       },
       {
         "name": "Auberge Hiribarren",
@@ -72,6 +105,17 @@
       "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
       "fr": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices."
     },
+    "accommodations": [
+      {
+        "name": "Casa Rural Erreteneko borda",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/es/erreteneko-borda.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.307864,
+          "lng": -1.692785
+        }
+      }
+    ],
     "foodshop": true,
     "restaurant": true
   },
@@ -94,11 +138,25 @@
       {
         "name": "Chambres d'hôtes/Gîte Manttu-Baita",
         "tel": "+33 5 59 54 46 72",
-        "url": "http://www.chambre-d-hote-cote-basque-manttu.fr/"
+        "url": "http://www.booking.com/hotel/fr/chambres-d-39-hotes-manttu-urrugne1.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.332409,
+          "lng": -1.660352
+        }
       },
       {
         "name": "Chambres d'hôtes/Gîte Trapero Baïta",
         "tel": "+33 5 59 54 42 59"
+      },
+      {
+        "name": "Amalur",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/amalur.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.338226,
+          "lng": -1.672626
+        }
+
       }
     ],
     "hotel": true,
@@ -349,7 +407,7 @@
         "url": "https://www.logishotels.com"
       }
     ],
-    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=bidarray",
+    "accommodationSearchUrl": "http://www.booking.com/city/fr/bidarray.html?aid=1522736&no_rooms=1&group_adults=1",
     "hotel": true,
     "gite": true,
     "camping": true,
@@ -485,7 +543,7 @@
         "url": ""
       }
     ],
-    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Saint-Jean-Pied-de-Port",
+    "accommodationSearchUrl": "http://www.booking.com/city/fr/saint-jean-pied-de-port.html?aid=1522736&no_rooms=1&group_adults=1",
     "hotel": true,
     "gite": true,
     "camping": true,
@@ -1480,7 +1538,7 @@
     }
   },
   {
-    "name": "Luz Saint Sauveur",
+    "name": "Luz-Saint-Sauveur",
     "point": {
       "lat": 42.869922,
       "lng": -0.002124
@@ -1500,7 +1558,7 @@
     "gite": true,
     "camping": true,
     "restaurant": true,
-    "accommodationSearchUrl": "https://www.booking.com/searchresults.html?ss=Luz%20Saint%20Sauveur"
+    "accommodationSearchUrl": "http://www.booking.com/city/fr/luz-saint-sauveur.html?aid=1522736&no_rooms=1&group_adults=1"
   },
   {
     "name": "Pont",
