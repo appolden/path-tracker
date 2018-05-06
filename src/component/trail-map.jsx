@@ -155,9 +155,7 @@ export class TrailMap extends Component {
       (previousValue, currentValue) => previousValue.concat(currentValue)
     );
 
-    //console.log(placesWithHotels);
     this.hotels.forEach(x => {
-      console.log(x);
       this.addHotel(this.google, this.map, x);
     });
   }
@@ -203,7 +201,7 @@ export class TrailMap extends Component {
     this.infoWindow.open(this.map, marker);
   }
   onHotelDoubleClick(marker) {
-    const zoomLevel = 17;
+    const zoomLevel = 16;
     this.map.setCenter(marker.getPosition());
 
     if (this.map.getZoom() < zoomLevel) {
@@ -254,7 +252,8 @@ export class TrailMap extends Component {
   }
 
   render() {
-    let title = 'GR10 Mapss';
+    let title = 'GR10 Map';
+    let metaDescription = 'Map of the GR10 (The pyrenees) and hotel locations';
 
     const language = LanguageHelper.getLanguage(this.props.language);
 
@@ -264,6 +263,7 @@ export class TrailMap extends Component {
         switch (LanguageHelper.getLanguage(this.props.language)) {
           case 'fr':
             title = 'GR10 Carte';
+            metaDescription = 'Carte du GR10 (Les Pyrénées) et des hôtels';
             break;
           case 'en':
           default:
@@ -274,10 +274,12 @@ export class TrailMap extends Component {
         switch (LanguageHelper.getLanguage(this.props.language)) {
           case 'fr':
             title = 'GR20 Carte';
+            metaDescription = 'Carte du GR20';
             break;
           case 'en':
           default:
             title = 'GR20 Map';
+            metaDescription = 'GR20 map Corsica';
         }
         break;
     }
@@ -286,6 +288,7 @@ export class TrailMap extends Component {
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: language }}>
           <title>{title}</title>
+          <meta name="description" content={metaDescription} />
           <link
             rel="alternative"
             href={'en/' + this.props.trailName + '/map'}

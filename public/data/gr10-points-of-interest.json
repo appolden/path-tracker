@@ -9,6 +9,30 @@
       "en": "Large town with all the facilities you might need. The tourist office can be found east of the old casino.",
       "fr": "Large town with all the facilities you might need. The tourist office can be found east of the old casino."
     },
+    "accommodations": [
+      {
+        "name": "Hotel de La Gare",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/de-la-gare-hendaye.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.352354,
+          "lng": -1.7814
+        }
+      },
+      {
+        "name": "La Palombe Bleue",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/la-palombe-bleue.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.352621,
+          "lng": -1.781161
+        }
+      }
+    ],
+    "accommodationDescription": {
+      "en": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There a couple of options close to the railway station.",
+      "fr": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There a couple of options close to the railway station."
+    },
     "hotel": true,
     "foodshop": true,
     "restaurant": true,
@@ -183,7 +207,11 @@
       {
         "name": "Hôtel Arraya",
         "tel": "+33 5 59 54 20 46",
-        "url": "http://www.arraya.com/"
+        "url": "http://www.booking.com/hotel/fr/arraya.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.3124,
+          "lng": -1.580122
+        }
       },
       {
         "name": "Hôtel-restaurant Lastiry",
@@ -193,7 +221,7 @@
       {
         "name": "Hôtel-restaurant Pikasaria",
         "tel": "+33 5 59 54 21 51",
-        "url": "http://www.hotel-pikassaria.com/"
+        "url": "http://www.booking.com/hotel/fr/pikassaria.html?aid=1522736&no_rooms=1&group_adults=1"
       },
       {
         "name": "Camping/Gîte d'Etape la Petite Rhune",
@@ -203,9 +231,35 @@
       {
         "name": "Chalet Elisa",
         "tel": "+33 6 11 50 03 63",
-        "url": "http://www.chalet-elisa.com/"
+        "url": "http://www.chalet-elisa.com/",
+        "point": {
+          "lat": 43.313563,
+          "lng": -1.578743
+        }
+      },
+      {
+        "name": "Villa mendi zola",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/villa-mendi-zola-sare.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.313571,
+          "lng": -1.583319
+        }
+      },
+      {
+        "name": "Chambres d'hôtes Amets",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/maison-amets.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.316623,
+          "lng": -1.556411
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
+      "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz."
+    },
     "hotel": true,
     "gite": true,
     "foodshop": true,
@@ -256,6 +310,29 @@
     "restaurant": true
   },
   {
+    "name": " Appartement Larraburuko-Borda",
+    "nearestMetreOfPath": 38140,
+    "elevation": 108,
+    "cumulativeAscent": 1812,
+    "cumulativeDescent": 1709,
+    "description": {
+      "en": "Turn left for Appartement Larraburuko-Borda",
+      "fr": "Turn left for Appartement Larraburuko-Borda"
+    },
+    "accommodations": [
+      {
+        "name": "Appartement Larraburuko-Borda",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/larraburuko-borda.html?aid=1522736&no_rooms=1&group_adults=1"
+      }
+    ],
+    "accommodationDescription": {
+      "en": "Appartement Larraburuko-Borda is a self-catering accommodation with a terrace viewing the mountains.",
+      "fr": "Appartement Larraburuko-Borda is a self-catering accommodation with a terrace viewing the mountains."
+    },
+    "hotel": true
+  },
+  {
     "name": "Camping Harazpy",
     "nearestMetreOfPath": 43645,
     "elevation": 124,
@@ -286,22 +363,38 @@
       {
         "name": "Chambres d'hôtes Xaharenea",
         "tel": "+33 5 59 29 90 72",
-        "url": "http://www.xaharenea.com/"
+        "url": "http://www.booking.com/hotel/fr/maison-xaharenia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.306993,
+          "lng": -1.498722
+        }
       },
       {
         "name": "Hôtel-restaurant La Maison Oppoca",
         "tel": "+33 5 59 29 90 72",
-        "url": "https://www.oppoca.com/"
+        "url": "http://www.booking.com/hotel/fr/logis-la-maison-oppoca.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.307446,
+          "lng": -1.498829
+        }
       },
       {
         "name": "Hôtel Ithurria",
         "tel": "+33 5 59 29 92 11",
-        "url": "http://www.ithurria.com/"
+        "url": "http://www.booking.com/hotel/fr/ithurria.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.307961,
+          "lng": -1.499221
+        }
       },
       {
         "name": "Hôtel-Restaurant Argi Eder",
         "tel": "+33 5 59 93 72 00",
-        "url": "http://www.ithurria.com/"
+        "url": "http://www.booking.com/hotel/fr/argi-eder.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.307349,
+          "lng": -1.496201
+        }
       }
     ],
     "hotel": true,
@@ -368,7 +461,7 @@
       {
         "name": "Gîte Urrizate",
         "tel": "+33 5 59 37 74 76",
-        "url": "giteurrizate.fr"
+        "url": "http//www.giteurrizate.fr/"
       }
     ],
     "gite": true
@@ -387,12 +480,20 @@
       {
         "name": "L'Auberge Iparla",
         "tel": "+33 5 59 37 87 09",
-        "url": "http://www.auberge-iparla-bidarray.fr/"
+        "url": "http://www.booking.com/hotel/fr/le-chalet-d-39-iparla.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.2653,
+          "lng": -1.349993
+        }
       },
       {
         "name": "Hôtel Barberaenea",
         "tel": "+33 5 59 37 74 86",
-        "url": "http://www.hotel-bidarray.com"
+        "url": "http://www.hotel-bidarray.com",
+        "point": {
+          "lat": 43.265761,
+          "lng": -1.348738
+        }
       },
       {
         "name": "Gîte Aire Zabal",
@@ -402,7 +503,20 @@
       {
         "name": "Hôtel Noblia",
         "tel": "+33 5 59 37 70 89",
-        "url": "https://www.logishotels.com"
+        "url": "http://www.booking.com/hotel/fr/noblia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.268409,
+          "lng": -1.34476
+        }
+      },
+      {
+        "name": "Le Chalet d'Iparla",
+        "tel": "",
+        "url": "http://www.saintjeanpieddeport-paysbasque-tourisme.com/gite-groupe-aire-zabal/148",
+        "point": {
+          "lat": 43.266782,
+          "lng": -1.339291
+        }
       }
     ],
     "hotel": true,

@@ -112,4 +112,33 @@
 				href="https://www.gr-trail-tracker.com/fr/gr20/map"
 				/>
 	</url>
+
+  <url>
+    <loc>https://www.gr-trail-tracker.com/en/gr10/accommodation-list</loc>
+    <xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/gr10/accommodation-list"
+				/>
+    <xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/gr10/accommodation-list"
+				/>
+  </url>
+  <url>
+    <loc>https://www.gr-trail-tracker.com/fr/gr10/accommodation-list</loc>
+    <xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/gr10/accommodation-list"
+				/>
+    <xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/gr10/accommodation-list"
+				/>
+  </url>
+
+
 </urlset>

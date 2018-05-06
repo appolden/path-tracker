@@ -12,6 +12,7 @@ import TrailMapEnglish from './component/trail-map-en.jsx';
 import Legal from './component/legal.jsx';
 import TechnicalPage from './component/technical-page';
 import ReactGA from 'react-ga';
+import AccommodationList from './component/accommodation-list.jsx';
 ReactGA.initialize('UA-76203188-2');
 
 class App extends Component {
@@ -199,6 +200,21 @@ class App extends Component {
               exact
               path="/:language/technical"
               component={TechnicalPage}
+            />
+
+            <Route
+              exact
+              path="/:language/gr10/accommodation-list"
+              component={props => {
+                this.onRouterUpdate();
+
+                return (
+                  <AccommodationList
+                    language={props.match.params.language}
+                    origin="/gr10/accommodation-list"
+                  />
+                );
+              }}
             />
           </React.Fragment>
         </Router>

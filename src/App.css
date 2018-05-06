@@ -219,7 +219,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 
 .sidenavActive {
-  width: 200px;
+  width: 250px;
   transition: 0.5s;
 }
 
