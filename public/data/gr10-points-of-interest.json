@@ -31,7 +31,7 @@
     ],
     "accommodationDescription": {
       "en": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There a couple of options close to the railway station.",
-      "fr": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There a couple of options close to the railway station."
+      "fr": "La plupart des hôtels de Hendaye se trouvent près de la plage. Il y a beaucoup de terrains de camping à l'est. Il y a quelques options près de la gare."
     },
     "hotel": true,
     "foodshop": true,
@@ -200,7 +200,7 @@
     "cumulativeAscent": 1611,
     "cumulativeDescent": 1539,
     "description": {
-      "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
+      "en": "Tourist office, campground and many small shops. There a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
     "accommodations": [
@@ -576,7 +576,8 @@
     "gite": true,
     "camping": true,
     "foodshop": true,
-    "restaurant": true
+    "restaurant": true,
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1465185&aid=1522735&no_rooms=1&group_adults=1"
   },
   {
     "name": "Col d'Aharza",
@@ -877,7 +878,7 @@
     "cumulativeDescent": 10312
   },
   {
-    "name": "Refugee Jeandel",
+    "name": "Refuge Jeandel",
     "nearestMetreOfPath": 187087,
     "elevation": 1631,
     "cumulativeAscent": 12109,
@@ -1293,16 +1294,6 @@
     "cumulativeDescent": 17542
   },
   {
-    "name": "Estaing",
-    "nearestMetreOfPath": 276267,
-    "elevation": 969,
-    "cumulativeAscent": 18720,
-    "cumulativeDescent": 17756,
-    "camping": true,
-    "foodshop": true,
-    "restaurant": true
-  },
-  {
     "name": "Camping Pyrénées Natura",
     "nearestMetreOfPath": 276267,
     "elevation": 969,
@@ -1320,6 +1311,16 @@
       }
     ],
     "camping": true
+  },
+  {
+    "name": "Estaing",
+    "nearestMetreOfPath": 276267,
+    "elevation": 969,
+    "cumulativeAscent": 18720,
+    "cumulativeDescent": 17756,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true
   },
   {
     "name": "Camping Le Vieux Moulin",
@@ -1401,7 +1402,8 @@
     "gite": true,
     "camping": true,
     "foodshop": true,
-    "restaurant": true
+    "restaurant": true,
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1"
   },
   {
     "name": "Path for Refuge d'Ilhéou",
@@ -2498,20 +2500,6 @@
     "cumulativeDescent": 43236
   },
   {
-    "name": " La Cascade d'Ars",
-    "nearestMetreOfPath": 599429,
-    "elevation": 1308,
-    "cumulativeAscent": 45086,
-    "cumulativeDescent": 43783
-  },
-  {
-    "name": "D8 Road Crossing",
-    "nearestMetreOfPath": 599429,
-    "elevation": 1308,
-    "cumulativeAscent": 45086,
-    "cumulativeDescent": 43783
-  },
-  {
     "name": "Aulus les Bains",
     "nearestMetreOfPath": 599429,
     "elevation": 1308,
@@ -2525,6 +2513,20 @@
     "gite": true,
     "camping": true,
     "restaurant": true
+  },
+  {
+    "name": " La Cascade d'Ars",
+    "nearestMetreOfPath": 599429,
+    "elevation": 1308,
+    "cumulativeAscent": 45086,
+    "cumulativeDescent": 43783
+  },
+  {
+    "name": "D8 Road Crossing",
+    "nearestMetreOfPath": 599429,
+    "elevation": 1308,
+    "cumulativeAscent": 45086,
+    "cumulativeDescent": 43783
   },
   {
     "name": "D8F Road crossing",
@@ -2579,13 +2581,6 @@
     "cumulativeDescent": 44752
   },
   {
-    "name": "Trail junction",
-    "nearestMetreOfPath": 617824,
-    "elevation": 1116,
-    "cumulativeAscent": 46439,
-    "cumulativeDescent": 45328
-  },
-  {
     "name": "Auzat and Vicdessos",
     "nearestMetreOfPath": 617824,
     "elevation": 1116,
@@ -2600,6 +2595,13 @@
     "camping": true,
     "foodshop": true,
     "restaurant": true
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 617824,
+    "elevation": 1116,
+    "cumulativeAscent": 46439,
+    "cumulativeDescent": 45328
   },
   {
     "name": "Marc",
@@ -2762,17 +2764,370 @@
     "cumulativeAscent": 49922,
     "cumulativeDescent": 49162,
     "description": {
-      "en": "Maison Cancela",
-      "fr": "Maison Cancela"
+      "en": "If you can't find accommodation here you can hitch to Vicdessos (8.5km) or Tarascon-sur-Ariège (10.5km) ",
+      "fr": "If you can't find accommodation here you can hitch to Vicdessos (8.5km) or Tarascon-sur-Ariège (10.5km) "
     },
     "accommodations": [
       {
         "name": "Maison Cancela",
         "tel": "+33 5 61 05 88 84",
-        "url": "https://www.maisoncancela.fr/"
+        "url": "http://www.booking.com/hotel/fr/maison-cancela.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.766621,
+          "lng": 1.565707
+        }
+      },
+      {
+        "name": "House Le carbounet",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/house-le-carbounet.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.765379,
+          "lng": 1.56545
+        }
+      },
+      {
+        "name": "Gîte de seuillac",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/house-gite-de-seuillac.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.766659,
+          "lng": 1.560193
+        }
+      },
+      {
+        "name": "Gite du Carbounet",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/gite-du-carbounet.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.766627,
+          "lng": 1.565251
+        }
       }
     ],
     "hotel": true
+  },
+  {
+    "name": "Tarascon-sur-Ariège",
+    "nearestMetreOfPath": 657366,
+    "elevation": 765,
+    "cumulativeAscent": 49922,
+    "cumulativeDescent": 49162,
+    "description": {
+      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station.",
+      "fr": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station."
+    },
+    "accommodations": [
+      {
+        "name": "Le Manoir d'Agnès",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/le-manoir-d-agnes.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.843079,
+          "lng": 1.601751
+        }
+      },
+      {
+        "name": "Hôtel Confort",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/confort-tarascon-sur-aria-ge.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.846823,
+          "lng": 1.605865
+        }
+      },
+      {
+        "name": "Hôtel Le Bellevue",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/le-bellevue-tarascon-sur-aria-ge.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.847197,
+          "lng": 1.605581
+        }
+      }
+    ],
+    "accommodationDescription": {
+      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. There appears to be no bus service but hitch-hiking should be possible.",
+      "fr": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. There appears to be no bus service but hitch-hiking should be possible."
+    },
+    "hotel": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1472088&aid=1522735&no_rooms=1&group_adults=1"
+  },
+  {
+    "name": "Gestiès",
+    "nearestMetreOfPath": 658622,
+    "elevation": 983,
+    "cumulativeAscent": 50144,
+    "cumulativeDescent": 49166
+  },
+  {
+    "name": "Col de Gamel",
+    "nearestMetreOfPath": 660147,
+    "elevation": 1393,
+    "cumulativeAscent": 50554,
+    "cumulativeDescent": 49166
+  },
+  {
+    "name": "Col du Sasc",
+    "nearestMetreOfPath": 663720,
+    "elevation": 1790,
+    "cumulativeAscent": 51055,
+    "cumulativeDescent": 49270
+  },
+  {
+    "name": "Cabane de Courtal Marti",
+    "nearestMetreOfPath": 665499,
+    "elevation": 1806,
+    "cumulativeAscent": 51146,
+    "cumulativeDescent": 49345,
+    "cabane": true
+  },
+  {
+    "name": "Cabane des Clarans",
+    "nearestMetreOfPath": 671377,
+    "elevation": 1066,
+    "cumulativeAscent": 51537,
+    "cumulativeDescent": 50476,
+    "description": {
+      "en": "Path for Cabane des Clarans",
+      "fr": "Path for Cabane des Clarans"
+    },
+    "cabane": true
+  },
+  {
+    "name": "Cabane d'Artaran",
+    "nearestMetreOfPath": 673709,
+    "elevation": 1673,
+    "cumulativeAscent": 52146,
+    "cumulativeDescent": 50478,
+    "cabane": true
+  },
+  {
+    "name": "Plateau de Beille",
+    "nearestMetreOfPath": 675401,
+    "elevation": 1790,
+    "cumulativeAscent": 52276,
+    "cumulativeDescent": 50491,
+    "description": {
+      "en": "The ski complex of Plateau de Beille. Accommodation available for hikers in yurts or teepees. Restaurant is not open in the evening. ",
+      "fr": "The ski complex of Plateau de Beille. Accommodation available for hikers in yurts or teepees. Restaurant is not open in the evening. "
+    },
+    "accommodations": [
+      {
+        "name": "Angaka Nordique Village",
+        "tel": "+33 5 61 01 75 60",
+        "url": "http://www.angaka.com/"
+      }
+    ],
+    "hotel": true,
+    "restaurant": true
+  },
+  {
+    "name": "Col de Finestres",
+    "nearestMetreOfPath": 681682,
+    "elevation": 1970,
+    "cumulativeAscent": 52555,
+    "cumulativeDescent": 50590
+  },
+  {
+    "name": "Col de la Didorte",
+    "nearestMetreOfPath": 683454,
+    "elevation": 2082,
+    "cumulativeAscent": 52711,
+    "cumulativeDescent": 50634,
+    "description": {
+      "en": "GR10 Continues to the left",
+      "fr": "GR10 Continues to the left"
+    }
+  },
+  {
+    "name": "Crête des Isards",
+    "nearestMetreOfPath": 686821,
+    "elevation": 2344,
+    "cumulativeAscent": 53065,
+    "cumulativeDescent": 50726
+  },
+  {
+    "name": "Col de Belh",
+    "nearestMetreOfPath": 687496,
+    "elevation": 2267,
+    "cumulativeAscent": 53068,
+    "cumulativeDescent": 50806
+  },
+  {
+    "name": "Refuge Du Rulhe",
+    "nearestMetreOfPath": 688695,
+    "elevation": 2205,
+    "cumulativeAscent": 53076,
+    "cumulativeDescent": 50876,
+    "description": {
+      "en": "Open late May to late September. Full facilities including packed lunches.",
+      "fr": "Open late May to late September. Full facilities including packed lunches."
+    },
+    "accommodations": [
+      {
+        "name": "Refuge Du Rulhe",
+        "tel": "+33 6 74 24 50 71",
+        "url": "http://rulhe.com/"
+      }
+    ],
+    "gite": true
+  },
+  {
+    "name": "Crête de la Lhasse",
+    "nearestMetreOfPath": 692356,
+    "elevation": 2395,
+    "cumulativeAscent": 53417,
+    "cumulativeDescent": 51027,
+    "description": {
+      "en": "For the GR10 turn right",
+      "fr": "For the GR10 turn right"
+    }
+  },
+  {
+    "name": "Le Moruguillou",
+    "nearestMetreOfPath": 696851,
+    "elevation": 1555,
+    "cumulativeAscent": 53430,
+    "cumulativeDescent": 51880,
+    "description": {
+      "en": "Hidden by bushes just above the path",
+      "fr": "Hidden by bushes just above the path"
+    },
+    "cabane": true
+  },
+  {
+    "name": "Mérens-les-Vals",
+    "nearestMetreOfPath": 699856,
+    "elevation": 1065,
+    "cumulativeAscent": 53448,
+    "cumulativeDescent": 52388,
+    "description": {
+      "en": "Post office, train station. The municipal campsite is 1.5km to the south. ",
+      "fr": "Post office, train station. The municipal campsite is 1.5km to the south."
+    },
+    "accommodations": [
+      {
+        "name": "Camping de Mérens",
+        "tel": "+33 5 61 02 85 40",
+        "url": "http://www.camping.merenslesvals.fr/"
+      },
+      {
+        "name": "Gite du soula",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/gite-du-soula.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.657839,
+          "lng": 1.841044
+        }
+      },
+      {
+        "name": "Maison Pinet Le Soula",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/maison-pinet-le-soula.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.657582,
+          "lng": 1.842423
+        }
+      }
+    ],
+    "accommodationDescription": {
+      "en": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train, or approximately 9km by road.",
+      "fr": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train, or approximately 9km by road."
+    },
+    "hotel": true,
+    "gite": true,
+    "camping": true
+  },
+  {
+    "name": "Église romaine",
+    "nearestMetreOfPath": 700617,
+    "elevation": 1148,
+    "cumulativeAscent": 53534,
+    "cumulativeDescent": 52391,
+    "description": {
+      "en": "Historical landmark",
+      "fr": "Historical landmark"
+    }
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 700904,
+    "elevation": 1182,
+    "cumulativeAscent": 53570,
+    "cumulativeDescent": 52393,
+    "description": {
+      "en": "Turn left onto Route des Vives",
+      "fr": "Turn left onto Route des Vives"
+    }
+  },
+  {
+    "name": "Porteille des Bésines",
+    "nearestMetreOfPath": 706912,
+    "elevation": 2339,
+    "cumulativeAscent": 54774,
+    "cumulativeDescent": 52440
+  },
+  {
+    "name": "Refuge Bésines",
+    "nearestMetreOfPath": 708398,
+    "elevation": 2103,
+    "cumulativeAscent": 54777,
+    "cumulativeDescent": 52679,
+    "description": {
+      "en": "Full refuge facilities including packed lunch. Its is possible to camp given permission",
+      "fr": "Full refuge facilities including packed lunch. Its is possible to camp given permission"
+    },
+    "gite": true
+  },
+  {
+    "name": "Col de la Coma d'Anyell",
+    "nearestMetreOfPath": 710984,
+    "elevation": 2477,
+    "cumulativeAscent": 55167,
+    "cumulativeDescent": 52695
+  },
+  {
+    "name": "Portella de la Grava",
+    "nearestMetreOfPath": 715118,
+    "elevation": 2426,
+    "cumulativeAscent": 55428,
+    "cumulativeDescent": 53007
+  },
+  {
+    "name": "Lac des Bouillouses dam",
+    "nearestMetreOfPath": 723845,
+    "elevation": 2005,
+    "cumulativeAscent": 55463,
+    "cumulativeDescent": 53463,
+    "description": {
+      "en": "Tourist office, toilets, water. Camping is only permitted around the lake and to the south between 19h and 09h.",
+      "fr": "Tourist office, toilets, water. Camping is only permitted around the lake and to the south between 19h and 09h."
+    },
+    "accommodations": [
+      {
+        "name": "Les Bones Hores",
+        "tel": "+33 4 68 04 24 22",
+        "url": ""
+      },
+      {
+        "name": "Auberge du Carlit",
+        "tel": "+33 4 68 04 22 23",
+        "url": ""
+      },
+      {
+        "name": "Refuge CAF Bouillouses",
+        "tel": "+33 4 68 04 93 88",
+        "url": "http://refugedesbouillouses.ffcam.fr/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "restaurant": true
   },
   {
     "name": "Col de L'Estaca",

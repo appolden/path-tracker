@@ -16,17 +16,6 @@ class About extends Component {
 
     this.onLanguageChange = this.onLanguageChange.bind(this);
 
-    this.pageTitle = 'GR10 trail tracker - About';
-    this.title = 'About';
-    switch (LanguageHelper.getLanguage(this.props.language)) {
-      case 'fr':
-        this.title = 'À propos';
-        this.pageTitle = 'GR10 trail tracker - À propos';
-        break;
-      case 'en':
-      default:
-    }
-
     this.state = { language: LanguageHelper.getLanguage(this.props.language) };
   }
 
@@ -35,12 +24,36 @@ class About extends Component {
   }
 
   render() {
+    let pageTitle = 'GR10 trail tracker - About';
+    let title = 'About';
+    let metaDescription =
+      'A guide for hikers on the GR10 trail. The app will locate you relative to the trail and calculate the distances to the next landmarks. For example mountain passes, summits, towns, restaurants, hotels.';
+    switch (LanguageHelper.getLanguage(this.props.language)) {
+      case 'fr':
+        pageTitle = 'GR10 trail tracker - À propos';
+        title = 'À propos';
+        metaDescription =
+          "Un guide pour les randonneurs sur le sentier du GR10.L'application va vous localiser par rapport à la piste et calculer les distances aux points de repère suivants. Par exemple les cols de montagne, les sommets, les villes, les restaurants, les hôtels.";
+        break;
+      case 'en':
+      default:
+    }
+
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.state.language }}>
-          <title>{this.pageTitle}</title>
-          <link rel="alternative" href="/en/about" hreflang="en" />
-          <link rel="alternative" href="/fr/about" hreflang="fr" />
+          <title>{pageTitle}</title>
+          <meta name="description" content={metaDescription} />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com/en/about"
+            hreflang="en"
+          />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com/fr/about"
+            hreflang="fr"
+          />
         </Helmet>
 
         <header className="App-header">
@@ -49,7 +62,7 @@ class About extends Component {
             origin={this.props.origin}
             onLanguageChange={this.onLanguageChange}
           />
-          <h1 className="App-title">{this.title}</h1>
+          <h1 className="App-title">{title}</h1>
         </header>
         <div className="App-content">
           <AboutIntroductionParagraph language={this.state.language} />

@@ -38,14 +38,14 @@ class Menu extends Component {
           en: 'GR10 Map',
           fr: 'GR10 Carte'
         }
-        },
-        {
-            url: '/gr10/accommodation-list',
-            linkText: {
-                en: 'Accommodation',
-                fr: 'Hébergement'
-            }
-        },
+      },
+      {
+        url: '/gr10/accommodation-list',
+        linkText: {
+          en: 'Accommodation',
+          fr: 'Hébergement'
+        }
+      },
       {
         url: '/donate',
         linkText: {

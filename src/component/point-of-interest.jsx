@@ -35,7 +35,9 @@ class PointOfInterest extends Component {
           const url = accommodation.url || '';
           const item =
             url.length > 0 ? (
-              <a href={accommodation.url}>{accommodation.name}</a>
+              <a href={accommodation.url} target="_blank">
+                {accommodation.name}
+              </a>
             ) : (
               accommodation.name
             );

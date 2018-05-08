@@ -253,7 +253,8 @@ export class TrailMap extends Component {
 
   render() {
     let title = 'GR10 Map';
-    let metaDescription = 'Map of the GR10 (The pyrenees) and hotel locations';
+    let metaDescription =
+      'Map of the GR10 trail (The pyrenees) and hotel locations';
 
     const language = LanguageHelper.getLanguage(this.props.language);
 
@@ -267,7 +268,7 @@ export class TrailMap extends Component {
             break;
           case 'en':
           default:
-            title = 'GR10 Map';
+            title = 'GR10 Route Map';
         }
         break;
       case 'gr20':
@@ -278,7 +279,7 @@ export class TrailMap extends Component {
             break;
           case 'en':
           default:
-            title = 'GR20 Map';
+            title = 'GR20 Route Map';
             metaDescription = 'GR20 map Corsica';
         }
         break;
@@ -291,13 +292,21 @@ export class TrailMap extends Component {
           <meta name="description" content={metaDescription} />
           <link
             rel="alternative"
-            href={'en/' + this.props.trailName + '/map'}
+            href={
+              'https://www.gr-trail-tracker.com/en/' +
+              this.props.trailName +
+              '/map'
+            }
             hreflang="en"
           />
 
           <link
             rel="alternative"
-            href={'fr/' + this.props.trailName + '/map'}
+            href={
+              'https://www.gr-trail-tracker.com/fr/' +
+              this.props.trailName +
+              '/map'
+            }
             hreflang="fr"
           />
         </Helmet>

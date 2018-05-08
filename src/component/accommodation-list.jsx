@@ -8,15 +8,15 @@ class AccommodationList extends Component {
   constructor(props) {
     super(props);
 
-      this.state = {
-          language: LanguageHelper.getLanguage(this.props.language),
-          pointsOfInterest: []
-      };
+    this.state = {
+      language: LanguageHelper.getLanguage(this.props.language),
+      pointsOfInterest: []
+    };
   }
 
   componentDidMount() {
     this.loadPointsOfInterest();
-    }
+  }
 
   loadPointsOfInterest() {
     const url = '/data/gr10-points-of-interest.json';
@@ -128,20 +128,20 @@ class AccommodationList extends Component {
   accommodationSearch(pointOfInterest) {
     if (pointOfInterest.accommodationSearchUrl === undefined) {
       return;
-      }
+    }
 
-      let searchText = 'Search for accommodation';
-      switch (LanguageHelper.getLanguage(this.props.language)) {
-          case 'fr':
-              searchText = 'Rechercher un logement';
-          case 'en':
-          default:
-      }
+    let searchText = 'Search for accommodation';
+    switch (LanguageHelper.getLanguage(this.props.language)) {
+      case 'fr':
+        searchText = 'Rechercher un logement';
+      case 'en':
+      default:
+    }
 
     return (
       <p>
         <a href={pointOfInterest.accommodationSearchUrl} target="_blank">
-                {searchText}
+          {searchText}
         </a>
       </p>
     );
@@ -157,8 +157,15 @@ class AccommodationList extends Component {
             Km of the GR10
           </p>
           <p>
-            {x.accommodationDescription && x.accommodationDescription.en
+            {LanguageHelper.getLanguage(this.props.language) === 'en' &&
+            x.accommodationDescription &&
+            x.accommodationDescription.en
               ? x.accommodationDescription.en
+              : ''}
+            {LanguageHelper.getLanguage(this.props.language) === 'fr' &&
+            x.accommodationDescription &&
+            x.accommodationDescription.fr
+              ? x.accommodationDescription.fr
               : ''}
           </p>
           {this.accommodationList(x.accommodations)}
@@ -169,26 +176,34 @@ class AccommodationList extends Component {
 
     let pageTitle = 'GR10 Accommodation List';
     let title = 'Accommodation';
-    let metaDescription =
-          'A list of accommodation options on the GR10 trail.';
+    let metaDescription = 'A list of accommodation options on the GR10 trail.';
 
-      switch (LanguageHelper.getLanguage(this.props.language)) {
-          case 'fr':
-              pageTitle = 'GR10 Liste des hébergements';
-              title = 'Hébergements';
-              metaDescription = 'Une liste d\'options d\'hébergement sur le sentier GR10.';
-              break;
-          case 'en':
-          default:
-      }
+    switch (LanguageHelper.getLanguage(this.props.language)) {
+      case 'fr':
+        pageTitle = 'GR10 Liste des hébergements';
+        title = 'Hébergements';
+        metaDescription =
+          "Une liste d'options d'hébergement sur le sentier GR10.";
+        break;
+      case 'en':
+      default:
+    }
 
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.props.language }}>
           <title>{pageTitle}</title>
           <meta name="description" content={metaDescription} />
-          <link rel="alternative" href="/en/gr10/accommodation-list" hreflang="en" />
-          <link rel="alternative" href="/fr/gr10/accommodation-list" hreflang="fr" />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com/en/gr10/accommodation-list"
+            hreflang="en"
+          />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com/fr/gr10/accommodation-list"
+            hreflang="fr"
+          />
         </Helmet>
 
         <header className="App-header">
@@ -201,7 +216,11 @@ class AccommodationList extends Component {
         </header>
         <div className="App-content">
           <h2>{title}</h2>
-          <p>A list of accommodation options on the GR10.</p>
+          {LanguageHelper.getLanguage(this.props.language) === 'fr' ? (
+            <p>Une liste d'options d'hébergement sur le sentier GR10.</p>
+          ) : (
+            <p>A list of accommodation options on the GR10 trail.</p>
+          )}
           {rows}
         </div>
       </React.Fragment>
