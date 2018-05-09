@@ -224,7 +224,7 @@ However, delay the fade out process for 2.5 seconds */
 }
 
 /* The navigation menu links */
-.sidenav > a {
+.sidenav > nav > a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;

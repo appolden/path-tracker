@@ -119,7 +119,7 @@ class Menu extends Component {
 
     if (this.props.useBrowserLinks) {
       languageSelection = (
-        <nav>
+        <React.Fragment>
           <a href={'/fr' + pathWithOutLanguageCode}>
             <input
               type="image"
@@ -138,11 +138,11 @@ class Menu extends Component {
               alt="Set language to English"
             />
           </a>{' '}
-        </nav>
+        </React.Fragment>
       );
     } else {
       languageSelection = (
-        <nav>
+        <React.Fragment>
           <Link to={'/fr' + pathWithOutLanguageCode}>
             <input
               type="image"
@@ -163,7 +163,7 @@ class Menu extends Component {
               alt="Set language to English"
             />
           </Link>{' '}
-        </nav>
+        </React.Fragment>
       );
     }
 
@@ -179,7 +179,7 @@ class Menu extends Component {
             &times;
           </a>
           <div className="languageSelectContainer">{languageSelection}</div>
-          {sideNavLinks}
+          <nav>{sideNavLinks}</nav>
         </div>
       </React.Fragment>
     );
