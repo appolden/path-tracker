@@ -10,6 +10,7 @@
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/en/about</loc>
+    <lastmod>2018-05-09</lastmod>
 		<xhtml:link
 				rel="alternate"
 				hreflang="fr"
@@ -23,6 +24,7 @@
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/fr/about</loc>
+    <lastmod>2018-05-09</lastmod>
 		<xhtml:link
 				rel="alternate"
 				hreflang="en"
@@ -36,6 +38,7 @@
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/en/gr10/map</loc>
+    <lastmod>2018-05-09</lastmod>
 		<xhtml:link
 				rel="alternate"
 				hreflang="fr"
@@ -49,6 +52,7 @@
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/fr/gr10/map</loc>
+    <lastmod>2018-05-09</lastmod>
 		<xhtml:link
 				rel="alternate"
 				hreflang="en"
@@ -88,6 +92,7 @@
 	</url>
 	<url>
 		<loc>https://www.gr-trail-tracker.com/en/gr20/map</loc>
+    <lastmod>2018-05-09</lastmod>
 		<xhtml:link
 				rel="alternate"
 				hreflang="fr"
@@ -112,33 +117,32 @@
 				href="https://www.gr-trail-tracker.com/fr/gr20/map"
 				/>
 	</url>
-
   <url>
-    <loc>https://www.gr-trail-tracker.com/en/gr10/accommodation-list</loc>
+    <loc>https://www.gr-trail-tracker.com/en/gr10/town-guide</loc>
+    <lastmod>2018-05-09</lastmod>
     <xhtml:link
 				rel="alternate"
 				hreflang="fr"
-				href="https://www.gr-trail-tracker.com/fr/gr10/accommodation-list"
+				href="https://www.gr-trail-tracker.com/fr/gr10/town-guide"
 				/>
     <xhtml:link
 				rel="alternate"
 				hreflang="en"
-				href="https://www.gr-trail-tracker.com/en/gr10/accommodation-list"
+				href="https://www.gr-trail-tracker.com/en/gr10/town-guide"
 				/>
   </url>
   <url>
-    <loc>https://www.gr-trail-tracker.com/fr/gr10/accommodation-list</loc>
+    <loc>https://www.gr-trail-tracker.com/fr/gr10/town-guide</loc>
+    <lastmod>2018-05-09</lastmod>
     <xhtml:link
 				rel="alternate"
 				hreflang="en"
-				href="https://www.gr-trail-tracker.com/en/gr10/accommodation-list"
+				href="https://www.gr-trail-tracker.com/en/gr10/town-guide"
 				/>
     <xhtml:link
 				rel="alternate"
 				hreflang="fr"
-				href="https://www.gr-trail-tracker.com/fr/gr10/accommodation-list"
+				href="https://www.gr-trail-tracker.com/fr/gr10/town-guide"
 				/>
   </url>
-
-
 </urlset>

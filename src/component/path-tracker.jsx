@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
 import { Helmet } from 'react-helmet';
-import ReactDOM from 'react-dom';
 import MapHelper from '../maps/map-helper.js';
 import LocationOverride from '../component/location-override.jsx';
 import LocationWatcher from '../component/location-watcher.jsx';
 import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
 import PointOfInterestRow from '../component/point-of-interest-row.jsx';
-import PointOfInterestList from '../component/points-interest-virtulaized-list.jsx';
-import pointCurrent from './point-current';
 
 class PathTracker extends Component {
   constructor(props) {

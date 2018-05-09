@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import LanguageHelper from '../component/language-helper.js';
 import Screenshot1 from '../images/screenshots/screenshot-1.png';
 import Screenshot2 from '../images/screenshots/screenshot-2.png';
 import Screenshot3 from '../images/screenshots/screenshot-3.png';

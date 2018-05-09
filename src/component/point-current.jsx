@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import ArrowUp from '../icons/arrow-thick-top.svg';
 import ArrowBottom from '../icons/arrow-thick-bottom.svg';
-import LanguageHelper from '../component/language-helper.js';
 
 class PointCurrent extends Component {
   componentDidMount() {
@@ -25,6 +24,7 @@ class PointCurrent extends Component {
     switch (this.props.language) {
       case 'fr':
         currentLocationText = 'Localisation actuelle';
+        break;
       case 'en':
       default:
     }

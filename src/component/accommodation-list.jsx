@@ -86,7 +86,6 @@ class AccommodationList extends Component {
   }
 
   accommodationList(accommodations) {
-    console.log(accommodations);
     if ((accommodations || []).length > 0) {
       const accommodationList = accommodations.map(accommodation => {
         const tel = accommodation.tel || '';
@@ -134,6 +133,7 @@ class AccommodationList extends Component {
     switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         searchText = 'Rechercher un logement';
+        break;
       case 'en':
       default:
     }
@@ -153,10 +153,6 @@ class AccommodationList extends Component {
         <React.Fragment key={x.name}>
           <h3>{x.name}</h3>
           <p>
-            Located at approximately {(x.nearestMetreOfPath * 0.001).toFixed(2)}{' '}
-            Km of the GR10
-          </p>
-          <p>
             {LanguageHelper.getLanguage(this.props.language) === 'en' &&
             x.accommodationDescription &&
             x.accommodationDescription.en
@@ -174,16 +170,19 @@ class AccommodationList extends Component {
       );
     });
 
-    let pageTitle = 'GR10 Accommodation List';
-    let title = 'Accommodation';
-    let metaDescription = 'A list of accommodation options on the GR10 trail.';
+    let pageTitle = 'GR10 accommodation and town guide';
+    let title = 'Accommodation & town guide';
+    let shortTitle = 'Town guide';
+    let metaDescription =
+      'A town guide for the stages of the GR10 trail. Including details of accommodation, supermarkets and public transport.';
 
     switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
-        pageTitle = 'GR10 Liste des hébergements';
-        title = 'Hébergements';
+        pageTitle = 'GR10 Guide de la ville';
+        title = 'Guide de la ville';
+        shortTitle = 'Guide de la ville';
         metaDescription =
-          "Une liste d'options d'hébergement sur le sentier GR10.";
+          "Un guide de la ville pour les étapes du sentier du GR10. Y compris les détails de l'hébergement, les supermarchés et les transports publics.";
         break;
       case 'en':
       default:
@@ -196,12 +195,12 @@ class AccommodationList extends Component {
           <meta name="description" content={metaDescription} />
           <link
             rel="alternative"
-            href="https://www.gr-trail-tracker.com/en/gr10/accommodation-list"
+            href="https://www.gr-trail-tracker.com/en/gr10/town-guide"
             hreflang="en"
           />
           <link
             rel="alternative"
-            href="https://www.gr-trail-tracker.com/fr/gr10/accommodation-list"
+            href="https://www.gr-trail-tracker.com/fr/gr10/town-guide"
             hreflang="fr"
           />
         </Helmet>
@@ -212,14 +211,30 @@ class AccommodationList extends Component {
             origin={this.props.origin}
             onLanguageChange={this.onLanguageChange}
           />
-          <h1 className="App-title">{title}</h1>
+          <h1 className="App-title">{shortTitle}</h1>
         </header>
         <div className="App-content">
           <h2>{title}</h2>
           {LanguageHelper.getLanguage(this.props.language) === 'fr' ? (
-            <p>Une liste d'options d'hébergement sur le sentier GR10.</p>
+            <React.Fragment>
+              <p>
+                Un guide de la ville pour les étapes du sentier du GR10. Y
+                compris les détails de l'hébergement, les supermarchés et les
+                transports publics.
+              </p>
+              <p>
+                Les villes sont énumérées dans une direction d'ouest en est.
+              </p>
+            </React.Fragment>
           ) : (
-            <p>A list of accommodation options on the GR10 trail.</p>
+            <React.Fragment>
+              <p>
+                A town guide for the GR10 trail. The guide includes details of
+                accommodation (hotels, bed & breakfast, gites), supermarkets and
+                public transport.
+              </p>
+              <p>The towns are listed in a west to east direction.</p>
+            </React.Fragment>
           )}
           {rows}
         </div>

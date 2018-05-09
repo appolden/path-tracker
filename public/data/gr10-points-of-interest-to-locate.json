@@ -48,6 +48,10 @@
       "en": "Turn right for Biriatou. There is a waterpoint at the public toilets.",
       "fr": "Turn right for Biriatou."
     },
+    "accommodationDescription": {
+      "en": "The Basque village of Biriatou is situated on the side of Xoldokogaina (486m). Look out for events held on the pelota pitch.",
+      "fr": "Le village basque de Biriatou est situé du côté de Xoldokogaina (486m). Surveillez les événements organisés sur le terrain de la pelote."
+    },
     "accommodations": [
       {
         "name": "Appts maison Onbor Zilo",
@@ -153,11 +157,19 @@
       "en": "There are two gîtes and one hotel",
       "fr": "Il y a deux gîte d'etapes et un hôtel"
     },
+    "accommodationDescription": {
+      "en": "There are two gites and one hotel. The Gîte Manttu-Baita is located next to the GR10 path. The hotel restaurant Trabenia can be found further donw the road on the main road.",
+      "fr": "Il y a deux gîte d'etapes et un hôtel. Le Gîte Manttu-Baita est situé à côté du sentier GR10. Le restaurant de l'hôtel Trabenia se trouve plus loin sur la route principale."
+    },
     "accommodations": [
       {
         "name": "Hôtel Restaurant Trabenia",
         "tel": "+33 5 59 54 01 91",
-        "url": "https://www.hotel-trabenia.com/"
+        "url": "https://www.hotel-trabenia.com/",
+        "point": {
+          "lat": 43.336946,
+          "lng": -1.659805
+        }
       },
       {
         "name": "Chambres d'hôtes/Gîte Manttu-Baita",
@@ -170,18 +182,23 @@
       },
       {
         "name": "Chambres d'hôtes/Gîte Trapero Baïta",
-        "tel": "+33 5 59 54 42 59"
+        "tel": "+33 5 59 54 42 59",
+        "point": {
+          "lat": 43.336088,
+          "lng": -1.660427
+        }
       },
       {
-        "name": "Amalur",
+        "name": "B&B Gypsie",
         "tel": "",
-        "url": "http://www.booking.com/hotel/fr/amalur.html?aid=1522736&no_rooms=1&group_adults=1",
+        "description": "B&B Gypsie offers a garden with a furnished terrace and barbecue facilities.",
+        "url": "http://www.booking.com/hotel/fr/b-amp-b-gypsie.html?aid=1522736&no_rooms=1&group_adults=1",
         "point": {
-          "lat": 43.338226,
-          "lng": -1.672626
+          "lat": 43.3368724,
+          "lng": -1.6642518
         }
-
       }
+
     ],
     "hotel": true,
     "gite": true,
@@ -205,7 +222,7 @@
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
     "accommodationDescription": {
-      "en": "Tourist office, campground and many small shops. A waterpoint can be found by the swimming pool. There a bus service from Sare to St-Jean-de-Luz.",
+      "en": "Tourist office, campground and many small shops. There a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz."
     },
     "accommodations": [
@@ -249,15 +266,6 @@
         "point": {
           "lat": 43.313571,
           "lng": -1.583319
-        }
-      },
-      {
-        "name": "Chambres d'hôtes Amets",
-        "tel": "",
-        "url": "http://www.booking.com/hotel/fr/maison-amets.html?aid=1522736&no_rooms=1&group_adults=1",
-        "point": {
-          "lat": 43.316623,
-          "lng": -1.556411
         }
       }
     ],
@@ -312,7 +320,7 @@
     "restaurant": true
   },
   {
-    "name": " Appartement Larraburuko-Borda",
+    "name": "Appartement Larraburuko-Borda",
     "point": {
       "lat": 43.295972,
       "lng": -1.536369
@@ -343,6 +351,10 @@
     "description": {
       "en": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets.",
       "fr": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets."
+    },
+    "accommodationDescription": {
+      "en": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce.",
+      "fr": "Un village touristique. Il n'y a pas de grands supermarchés mais vous pourrez acheter des produits basques locaux."
     },
     "accommodations": [
       {
@@ -406,7 +418,7 @@
     "camping": true
   },
   {
-    "name": " Chapelle Notre Dame de l'Aubépine",
+    "name": "Chapelle Notre Dame de l'Aubépine",
     "point": {
       "lat": 43.303558,
       "lng": -1.482393
@@ -478,6 +490,10 @@
       "en": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray",
       "fr": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray"
     },
+    "accommodationDescription": {
+      "en": "There is a train station that connects to Bayonne and Saint-Jean-Pied-de-Port. Some accommodation can be foud on the other side of the river Nive, such as the Le Chalet d'Iparla (1.4km from the GR10). Call ahead and they might come to pick you up.\n\nIf you have the time, then visit Noblia bridge which spans the Nive. The legend tells it was built by witches, which is why it's locally referred to as the \"the Bridge of Hell\"",
+      "fr": "Il y a une gare qui relie Bayonne et Saint-Jean-Pied-de-Port. Certains hébergements peuvent être fiers de l'autre côté de la Nive, comme le Chalet d'Iparla (à 1,4km du GR10). Appelez à l'avance et ils pourraient venir vous chercher. \n\nSi vous avez le temps, alors visitez le pont Noblia qui enjambe la Nive. La légende raconte qu'il a été construit par les sorcières, ce qui explique pourquoi il est appelé localement le «pont de l'enfer»"
+    },
     "accommodations": [
       {
         "name": "L'Auberge Iparla",
@@ -503,18 +519,9 @@
         "url": "http://www.saintjeanpieddeport-paysbasque-tourisme.com/gite-groupe-aire-zabal/148"
       },
       {
-        "name": "Hôtel Noblia",
-        "tel": "+33 5 59 37 70 89",
-        "url": "http://www.booking.com/hotel/fr/noblia.html?aid=1522736&no_rooms=1&group_adults=1",
-        "point": {
-          "lat": 43.268409,
-          "lng": -1.344760
-        }
-      },
-      {
         "name": "Le Chalet d'Iparla",
         "tel": "",
-        "url": "http://www.saintjeanpieddeport-paysbasque-tourisme.com/gite-groupe-aire-zabal/148",
+        "url": "http://www.booking.com/hotel/fr/le-chalet-d-39-iparla.html?aid=1522736&no_rooms=1&group_adults=1",
         "point": {
           "lat": 43.266782,
           "lng": -1.339291
@@ -549,24 +556,40 @@
       "lng": -1.348379
     },
     "description": {
-      "en": "Tourist office.Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan",
-      "fr": "Tourist office.Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan"
+      "en": "Tourist office. Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan",
+      "fr": "Tourist office. Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan"
+    },
+    "accommodationDescription": {
+      "en": "Tourist information center. Bakery Irastorza (closed on weekends). The Intermarche supermarket and campground are situated north of the tourist office. For the hotels and gites continue over the bridge that crosses La Nive des Aldudes. ",
+      "fr": "Centre d'information touristique. Boulangerie Irastorza (fermé le week-end). Le supermarché Intermarché et le camping sont situés au nord de l'office de tourisme. Pour les hôtels et les gîtes, continuez sur le pont qui traverse La Nive des Aldudes."
     },
     "accommodations": [
       {
         "name": "Hôtel-restaurant Juantorena",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 59 37 40 78",
+        "url": "http://www.hotelrestaurantjuantorena.fr/",
+        "point": {
+          "lat": 43.171516,
+          "lng": -1.353722
+        }
       },
       {
         "name": "Hôtel-restaurant Arcé",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/arce.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.175326,
+          "lng": -1.348583
+        }
       },
       {
         "name": "Gite Gaineko Karrikan",
         "tel": "+33 5 59 37 47 04",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 43.174432,
+          "lng": -1.348427
+        }
       },
       {
         "name": "Camping Municipal Irouleguy",
@@ -609,17 +632,29 @@
       {
         "name": "Auberge Etchoinia",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/etchoinia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.156904,
+          "lng": -1.260133
+        }
       },
       {
         "name": "Gîte de France",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 59 37 07 41",
+        "url": "http://urondoa64.free.fr/",
+        "point": {
+          "lat": 43.156123,
+          "lng": -1.260509
+        }
       },
       {
         "name": "Gîte de groupe de la Cidrerie Aldakurria",
-        "tel": "",
-        "url": ""
+        "tel": "+33 6 70 94 60 57",
+        "url": "http://www.location-cidrerie.com/",
+        "point": {
+          "lat": 43.154851,
+          "lng": -1.262907
+        }
       }
     ],
     "hotel": true,
@@ -633,29 +668,55 @@
       "lng": -1.237679
     },
     "description": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for the French Way Camino Francés, the most popular option for travelling the Camino de Santiago. St-Jean-Pied-de-Port specializes in fromage de brebis, which is an Ossau-Iraty cheese, local trout and pipérade omelette with peppers and Bayonne ham. Mondays see a large market, with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.",
-      "fr": "Saint-Jean-Pied-de-Port is also a starting point for the French Way Camino Francés, the most popular option for travelling the Camino de Santiago. St-Jean-Pied-de-Port specializes in fromage de brebis, which is an Ossau-Iraty cheese, local trout and pipérade omelette with peppers and Bayonne ham. Mondays see a large market, with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton."
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for the for travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
+    },
+    "accommodationDescription": {
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for the for travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents. \n\nMonday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\nThere are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "accommodations": [
       {
+        "name": "Hotel des Remparts",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/des-remparts-saint-jean-pied-de-port.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.162458,
+          "lng": -1.239266
+        }
+      },
+
+      {
         "name": "Gîte d'etape Compostella",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/gite-compostella.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.163149,
+          "lng": -1.240616
+        }
       },
       {
         "name": "Gîte d'étape Zuharpeta",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/maison-d-39-hotes-zuharpeta.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.161032,
+          "lng": -1.238953
+        }
       },
       {
-        "name": "Hôtel-restaurant des Remparts",
+        "name": "Gite Makila",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/makila-saint-jean-pied-de-port.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.163366,
+          "lng": -1.235944
+        }
       },
       {
         "name": "Hôtel des Pyrénées",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/les-pyrenees.html?aid=1522736&no_rooms=1&group_adults=1"
       }
     ],
     "accommodationSearchUrl": "http://www.booking.com/city/fr/saint-jean-pied-de-port.html?aid=1522736&no_rooms=1&group_adults=1",

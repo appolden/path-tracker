@@ -40,10 +40,10 @@ class Menu extends Component {
         }
       },
       {
-        url: '/gr10/accommodation-list',
+        url: '/gr10/town-guide',
         linkText: {
-          en: 'Accommodation',
-          fr: 'Hébergement'
+          en: 'Town Guide',
+          fr: 'Guide de la ville'
         }
       },
       {
@@ -119,7 +119,7 @@ class Menu extends Component {
 
     if (this.props.useBrowserLinks) {
       languageSelection = (
-        <React.Fragment>
+        <nav>
           <a href={'/fr' + pathWithOutLanguageCode}>
             <input
               type="image"
@@ -138,11 +138,11 @@ class Menu extends Component {
               alt="Set language to English"
             />
           </a>{' '}
-        </React.Fragment>
+        </nav>
       );
     } else {
       languageSelection = (
-        <React.Fragment>
+        <nav>
           <Link to={'/fr' + pathWithOutLanguageCode}>
             <input
               type="image"
@@ -163,7 +163,7 @@ class Menu extends Component {
               alt="Set language to English"
             />
           </Link>{' '}
-        </React.Fragment>
+        </nav>
       );
     }
 

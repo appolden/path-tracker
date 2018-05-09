@@ -264,11 +264,12 @@ export class TrailMap extends Component {
         switch (LanguageHelper.getLanguage(this.props.language)) {
           case 'fr':
             title = 'GR10 Carte';
-            metaDescription = 'Carte du GR10 (Les Pyrénées) et des hôtels';
+            metaDescription =
+              'Carte du GR10 (Les Pyrénées) et des hébergements';
             break;
           case 'en':
           default:
-            title = 'GR10 Route Map';
+            title = 'GR10 Map';
         }
         break;
       case 'gr20':
@@ -330,7 +331,7 @@ export class TrailMap extends Component {
               className="map"
             />
           </div>
-
+          <p>{metaDescription}</p>
           <p>
             Icons made by{' '}
             <a

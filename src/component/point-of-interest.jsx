@@ -85,8 +85,6 @@ class PointOfInterest extends Component {
   }
 
   render() {
-    //console.log(this.props);
-
     let ascent = 0;
     let descent = 0;
     if (this.props.pathMetre <= this.props.pointOfInterest.nearestMetreOfPath) {

@@ -20,8 +20,6 @@ class CacheViewer extends Component {
   loadCache(cacheKey) {
     const cacheItems = [];
 
-    console.log(`'caches' in window  ${'caches' in window}`);
-
     if ('caches' in window) {
       this.setState({ serviceWorkerEnabled: true });
       caches

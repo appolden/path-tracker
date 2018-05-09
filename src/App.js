@@ -204,14 +204,14 @@ class App extends Component {
 
             <Route
               exact
-              path="/:language/gr10/accommodation-list"
+              path="/:language/gr10/town-guide"
               component={props => {
                 this.onRouterUpdate();
 
                 return (
                   <AccommodationList
                     language={props.match.params.language}
-                    origin="/gr10/accommodation-list"
+                    origin="/gr10/town-guide"
                   />
                 );
               }}
