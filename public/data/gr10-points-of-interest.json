@@ -131,7 +131,7 @@
     "cumulativeDescent": 481,
     "description": {
       "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
-      "fr": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices."
+      "fr": "La frontière entre la France et l'Espagne traverse le Col d'Ibardin. Vous trouverez de nombreux restaurants et supermarchés aux prix espagnols."
     },
     "accommodations": [
       {
@@ -144,6 +144,11 @@
         }
       }
     ],
+    "accommodationDescription": {
+      "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
+      "fr": "La frontière entre la France et l'Espagne traverse le Col d'Ibardin. Vous trouverez de nombreux restaurants et supermarchés aux prix espagnols."
+    },
+    "hotel": true,
     "foodshop": true,
     "restaurant": true
   },
@@ -196,7 +201,7 @@
       }
     ],
     "accommodationDescription": {
-      "en": "There are two gites and one hotel. The Gîte Manttu-Baita is located next to the GR10 path. The hotel restaurant Trabenia can be found further donw the road on the main road.",
+      "en": "There are two gites and one hotel. The Gîte Manttu-Baita is located next to the GR10 path. The hotel restaurant Trabenia can be found further down the road next to the main road.",
       "fr": "Il y a deux gîte d'etapes et un hôtel. Le Gîte Manttu-Baita est situé à côté du sentier GR10. Le restaurant de l'hôtel Trabenia se trouve plus loin sur la route principale."
     },
     "hotel": true,
@@ -205,7 +210,7 @@
   },
   {
     "name": "Col des Trois Fontaines",
-    "nearestMetreOfPath": 25415,
+    "nearestMetreOfPath": 25410,
     "elevation": 546,
     "cumulativeAscent": 1540,
     "cumulativeDescent": 999
@@ -217,7 +222,7 @@
     "cumulativeAscent": 1611,
     "cumulativeDescent": 1539,
     "description": {
-      "en": "Tourist office, campground and many small shops. There a bus service from Sare to St-Jean-de-Luz.",
+      "en": "Tourist office, campground and many small shops. There is a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
     "accommodations": [
@@ -265,7 +270,7 @@
       }
     ],
     "accommodationDescription": {
-      "en": "Tourist office, campground and many small shops. There a bus service from Sare to St-Jean-de-Luz.",
+      "en": "Tourist office, campground and many small shops. There is a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz."
     },
     "hotel": true,
@@ -287,7 +292,7 @@
   },
   {
     "name": "Chambres d'hôtes/Gite Hego Alde",
-    "nearestMetreOfPath": 34058,
+    "nearestMetreOfPath": 34063,
     "elevation": 65,
     "cumulativeAscent": 1672,
     "cumulativeDescent": 1612,
@@ -302,6 +307,10 @@
         "url": "http://www.hegoalde.fr/"
       }
     ],
+    "accommodationDescription": {
+      "en": "The GR10 passes right in front of the house. This gite can be found approximately 3km from Sare and 9km before Ainhoa.",
+      "fr": "Le GR10 passe juste devant la maison. Ce gîte se trouve à environ 3 km de Sare et 9 km avant Ainhoa."
+    },
     "hotel": true,
     "gite": true
   },
@@ -316,29 +325,6 @@
       "fr": "La station service reste ouverte tous jours de 7h a 20h"
     },
     "restaurant": true
-  },
-  {
-    "name": "Appartement Larraburuko-Borda",
-    "nearestMetreOfPath": 38140,
-    "elevation": 108,
-    "cumulativeAscent": 1812,
-    "cumulativeDescent": 1709,
-    "description": {
-      "en": "Turn left for Appartement Larraburuko-Borda",
-      "fr": "Turn left for Appartement Larraburuko-Borda"
-    },
-    "accommodations": [
-      {
-        "name": "Appartement Larraburuko-Borda",
-        "tel": "",
-        "url": "http://www.booking.com/hotel/fr/larraburuko-borda.html?aid=1522736&no_rooms=1&group_adults=1"
-      }
-    ],
-    "accommodationDescription": {
-      "en": "Appartement Larraburuko-Borda is a self-catering accommodation with a terrace viewing the mountains.",
-      "fr": "Appartement Larraburuko-Borda is a self-catering accommodation with a terrace viewing the mountains."
-    },
-    "hotel": true
   },
   {
     "name": "Camping Harazpy",
@@ -424,14 +410,14 @@
   },
   {
     "name": "Col des Trois Croix",
-    "nearestMetreOfPath": 48225,
+    "nearestMetreOfPath": 48229,
     "elevation": 500,
     "cumulativeAscent": 2380,
     "cumulativeDescent": 1885
   },
   {
     "name": "Col de Zuharreteaco",
-    "nearestMetreOfPath": 51455,
+    "nearestMetreOfPath": 51460,
     "elevation": 557,
     "cumulativeAscent": 2584,
     "cumulativeDescent": 2032
@@ -450,9 +436,17 @@
       {
         "name": "Venata Burkaitz",
         "tel": "+33 5 59 29 82 55",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 43.264488,
+          "lng": -1.43481
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "Venta Burkaitz is a bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
+      "fr": "Venta Burkaitz est un bar-restaurant avec hébergement disponible. Vérifiez les heures d'ouverture, car il ne peut être ouvert en été."
+    },
     "hotel": true,
     "restaurant": true
   },
@@ -465,7 +459,7 @@
   },
   {
     "name": "Gîte Urrizate",
-    "nearestMetreOfPath": 63896,
+    "nearestMetreOfPath": 63901,
     "elevation": 142,
     "cumulativeAscent": 3107,
     "cumulativeDescent": 2970,
@@ -473,9 +467,17 @@
       {
         "name": "Gîte Urrizate",
         "tel": "+33 5 59 37 74 76",
-        "url": "http//www.giteurrizate.fr/"
+        "url": "http//www.giteurrizate.fr/",
+        "point": {
+          "lat": 43.263613,
+          "lng": -1.356715
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "The Gite Urrizate is situated next to the GR10 path just before reaching Bidarray.",
+      "fr": "Le Gite Urrizate est situé à côté du GR10 juste avant Bidarray."
+    },
     "gite": true
   },
   {
@@ -523,7 +525,7 @@
       }
     ],
     "accommodationDescription": {
-      "en": "There is a train station that connects to Bayonne and Saint-Jean-Pied-de-Port. Some accommodation can be foud on the other side of the river Nive, such as the Le Chalet d'Iparla (1.4km from the GR10). Call ahead and they might come to pick you up.\n\nIf you have the time, then visit Noblia bridge which spans the Nive. The legend tells it was built by the witches, which is why its locally referred to as the \"the Bridge of Hell\"",
+      "en": "There is a train station that connects to Bayonne and Saint-Jean-Pied-de-Port. Some accommodation can be found on the other side of the river Nive, such as the Le Chalet d'Iparla (1.4km from the GR10). Call ahead and they might come to pick you up.\n\nIf you have the time, then visit Noblia bridge which spans the Nive. The legend tells it was built by witches, which is why it's locally referred to as the \"the Bridge of Hell\"",
       "fr": "Il y a une gare qui relie Bayonne et Saint-Jean-Pied-de-Port. Certains hébergements peuvent être fiers de l'autre côté de la Nive, comme le Chalet d'Iparla (à 1,4km du GR10). Appelez à l'avance et ils pourraient venir vous chercher. \n\nSi vous avez le temps, alors visitez le pont Noblia qui enjambe la Nive. La légende raconte qu'il a été construit par les sorcières, ce qui explique pourquoi il est appelé localement le «pont de l'enfer»"
     },
     "hotel": true,
@@ -549,7 +551,7 @@
   },
   {
     "name": "St Etienne de Baigorry",
-    "nearestMetreOfPath": 81825,
+    "nearestMetreOfPath": 81829,
     "elevation": 263,
     "cumulativeAscent": 4422,
     "cumulativeDescent": 4164,
@@ -592,7 +594,7 @@
       }
     ],
     "accommodationDescription": {
-      "en": "Tourist information center. Bakery Irastorza (closed on weekends). The Intermarche supermarket and campground are situated north of the tourist office. For the hotels and gites continue over the bridge that crosses La Nive des Aldudes. ",
+      "en": "Tourist information center. Bakery Irastorza (closed on weekends). The Intermarche supermarket and campground are situated north of the tourist office. For the hotels and gites continue over the bridge that crosses the Nive des Aldudes. ",
       "fr": "Centre d'information touristique. Boulangerie Irastorza (fermé le week-end). Le supermarché Intermarché et le camping sont situés au nord de l'office de tourisme. Pour les hôtels et les gîtes, continuez sur le pont qui traverse La Nive des Aldudes."
     },
     "hotel": true,
@@ -655,6 +657,10 @@
         }
       }
     ],
+    "accommodationDescription": {
+      "en": "Lasse is a small hamlet centered around a crossroad. It is located 2.5 kms before reaching the large town of Saint-Jean-Pied-de-Port. If you want a quieter night then Lasse is the better option.",
+      "fr": "Lasse est un petit hameau centré autour d'un carrefour. Il est situé à 2,5 km avant d'atteindre la grande ville de Saint-Jean-Pied-de-Port. Si vous voulez passer une nuit tranquille, Lasse est la meilleure option."
+    },
     "hotel": true,
     "gite": true,
     "restaurant": true
@@ -666,7 +672,7 @@
     "cumulativeAscent": 5318,
     "cumulativeDescent": 5149,
     "description": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for the for travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
       "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "accommodations": [
@@ -713,7 +719,7 @@
       }
     ],
     "accommodationDescription": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for the for travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shells represent and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\nThere are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
       "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "hotel": true,
@@ -731,22 +737,25 @@
     "cumulativeDescent": 5178,
     "accommodations": [
       {
-        "name": "Gite Iparza",
-        "tel": "+33 6 80 37 39 94",
-        "url": ""
-      },
-      {
         "name": "Maison Florenia",
         "tel": "+33 6 37 71 49 00",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/maison-florenia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.148613,
+          "lng": -1.216253
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "The small village of Caro is on the GR10, approximately 3km after leaving Saint-Jean-Pied-de-Port. The Maison Florenia is the closest accommodation to the GR10 trail. ",
+      "fr": "Le petit village de Caro est sur le GR10, environ 3 km après avoir quitté Saint-Jean-Pied-de-Port. La Maison Florenia est l'hébergement le plus proche du sentier GR10."
+    },
     "hotel": true,
     "gite": true
   },
   {
     "name": "Estérençuby",
-    "nearestMetreOfPath": 110207,
+    "nearestMetreOfPath": 110202,
     "elevation": 238,
     "cumulativeAscent": 5908,
     "cumulativeDescent": 5675,
@@ -758,19 +767,26 @@
       {
         "name": "Hôtel Andreinia Logis",
         "tel": "",
-        "url": ""
-      },
-      {
-        "name": "Hôtel/Gîte d'étape Andreinia",
-        "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/logis-andreinia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.103611,
+          "lng": -1.196619
+        }
       },
       {
         "name": "Auberge Carricaburu",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 59 37 09 77",
+        "url": "",
+        "point": {
+          "lat": 43.104336,
+          "lng": -1.195836
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "Estérençuby has a couple of hotel-restaurants. The hotel Andreinia Logis can be reached by crossing the bridge over the Nive de Béhérobie.",
+      "fr": "Estérençuby a quelques hôtels-restaurants. L'Hôtel Andreinia Logis peut être atteint en traversant le pont sur la Nive de Béhérobie."
+    },
     "hotel": true,
     "gite": true,
     "restaurant": true
@@ -789,15 +805,23 @@
       {
         "name": "Gîte d'étape Kaskoleta",
         "tel": "",
-        "url": ""
+        "url": "http://kaskoleta.free.fr/",
+        "point": {
+          "lat": 43.092056,
+          "lng": -1.164438
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "The gîte Kaskoleta is located on the plateau Phalgacette next to the GR10. Ask permission if you want to camp here.",
+      "fr": "Le gîte d´étape Kaskoleta situé sur le plateau de Phalgacette jouit d´une situation privilégiée sur l´étape du GR10 menant de St jean Pied de Port aux chalets d´Iraty."
+    },
     "gite": true,
     "camping": true
   },
   {
     "name": "Col d'Irau",
-    "nearestMetreOfPath": 121288,
+    "nearestMetreOfPath": 121292,
     "elevation": 1004,
     "cumulativeAscent": 7085,
     "cumulativeDescent": 6086
@@ -811,7 +835,7 @@
   },
   {
     "name": "Chalet Pédro",
-    "nearestMetreOfPath": 127621,
+    "nearestMetreOfPath": 127625,
     "elevation": 1000,
     "cumulativeAscent": 7507,
     "cumulativeDescent": 6512,
@@ -824,7 +848,7 @@
   },
   {
     "name": "Snack Bar Chalet de Cize",
-    "nearestMetreOfPath": 128781,
+    "nearestMetreOfPath": 128786,
     "elevation": 1007,
     "cumulativeAscent": 7541,
     "cumulativeDescent": 6539,
@@ -859,7 +883,7 @@
   },
   {
     "name": "Col Bagargiak",
-    "nearestMetreOfPath": 134106,
+    "nearestMetreOfPath": 134111,
     "elevation": 1326,
     "cumulativeAscent": 7966,
     "cumulativeDescent": 6645
@@ -876,11 +900,19 @@
     },
     "accommodations": [
       {
-        "name": "Chambre d'hôtes/Gîte Auberge Logibar",
-        "tel": "",
-        "url": ""
+        "name": "Auberge Logibar",
+        "tel": "+33 5 59 28 61 14",
+        "url": "http://www.auberge-logibar.com/",
+        "point": {
+          "lat": 43.018178,
+          "lng": -0.927744
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "There is only one option of accommodation at Logibar, the Auberge Logibar. However, it is located next to the D26 road so it may be possible to hitch to Larrau, 2.5km west of Logibar. In Larrau there is a gite, campground and a couple of hotels.",
+      "fr": "Il n'y a qu'une seule option d'hébergement au Logibar, l'Auberge Logibar. Cependant, il est situé à côté de la route D26, il est donc possible de se rendre à Larrau, à 2,5 km à l'ouest de Logibar. À Larrau, il y a un gîte, un terrain de camping et quelques hôtels."
+    },
     "gite": true,
     "camping": true,
     "restaurant": true
@@ -894,7 +926,7 @@
   },
   {
     "name": "Pont suspendu sur les Gorges d'Olhadubi",
-    "nearestMetreOfPath": 152972,
+    "nearestMetreOfPath": 152967,
     "elevation": 584,
     "cumulativeAscent": 8934,
     "cumulativeDescent": 8355
@@ -908,14 +940,14 @@
   },
   {
     "name": "Gorges de Kakuetta",
-    "nearestMetreOfPath": 172756,
+    "nearestMetreOfPath": 172760,
     "elevation": 550,
     "cumulativeAscent": 10658,
     "cumulativeDescent": 10113
   },
   {
     "name": "Gîtes berretechia (Sainte-Engrace)",
-    "nearestMetreOfPath": 175524,
+    "nearestMetreOfPath": 175519,
     "elevation": 632,
     "cumulativeAscent": 10868,
     "cumulativeDescent": 10241,
@@ -932,14 +964,14 @@
   },
   {
     "name": "Col de la Pierre-St-Martin",
-    "nearestMetreOfPath": 185017,
+    "nearestMetreOfPath": 185012,
     "elevation": 1774,
     "cumulativeAscent": 12081,
     "cumulativeDescent": 10312
   },
   {
     "name": "Refuge Jeandel",
-    "nearestMetreOfPath": 187087,
+    "nearestMetreOfPath": 187092,
     "elevation": 1631,
     "cumulativeAscent": 12109,
     "cumulativeDescent": 10483,
@@ -960,7 +992,7 @@
   },
   {
     "name": "Pas de l'Osque",
-    "nearestMetreOfPath": 192209,
+    "nearestMetreOfPath": 192204,
     "elevation": 1880,
     "cumulativeAscent": 12486,
     "cumulativeDescent": 10611
@@ -1044,7 +1076,7 @@
   },
   {
     "name": "Camping du Lauzart",
-    "nearestMetreOfPath": 202934,
+    "nearestMetreOfPath": 202930,
     "elevation": 858,
     "cumulativeAscent": 12697,
     "cumulativeDescent": 11844,
@@ -1064,7 +1096,7 @@
   },
   {
     "name": "Gîte d'étape et camping Lhers",
-    "nearestMetreOfPath": 207575,
+    "nearestMetreOfPath": 207580,
     "elevation": 1011,
     "cumulativeAscent": 13007,
     "cumulativeDescent": 12001,
@@ -1095,7 +1127,7 @@
   },
   {
     "name": "Borce",
-    "nearestMetreOfPath": 216265,
+    "nearestMetreOfPath": 216269,
     "elevation": 647,
     "cumulativeAscent": 13663,
     "cumulativeDescent": 13021,
@@ -1155,7 +1187,7 @@
   },
   {
     "name": "Cabane de la Baigt de Saint-Cours",
-    "nearestMetreOfPath": 225594,
+    "nearestMetreOfPath": 225589,
     "elevation": 1566,
     "cumulativeAscent": 14879,
     "cumulativeDescent": 13318,
@@ -1199,7 +1231,7 @@
   },
   {
     "name": "Lac de Bious Artigues",
-    "nearestMetreOfPath": 235487,
+    "nearestMetreOfPath": 235493,
     "elevation": 1422,
     "cumulativeAscent": 15593,
     "cumulativeDescent": 14176
@@ -1231,7 +1263,7 @@
   },
   {
     "name": "Cabane de Cézy",
-    "nearestMetreOfPath": 247341,
+    "nearestMetreOfPath": 247346,
     "elevation": 1611,
     "cumulativeAscent": 16545,
     "cumulativeDescent": 14939,
@@ -1251,7 +1283,7 @@
   },
   {
     "name": "Lac d'Anglas",
-    "nearestMetreOfPath": 256277,
+    "nearestMetreOfPath": 256273,
     "elevation": 2050,
     "cumulativeAscent": 17659,
     "cumulativeDescent": 15614
@@ -1284,14 +1316,14 @@
   },
   {
     "name": "Col de Tortes",
-    "nearestMetreOfPath": 261663,
+    "nearestMetreOfPath": 261667,
     "elevation": 1758,
     "cumulativeAscent": 18078,
     "cumulativeDescent": 16325
   },
   {
     "name": "Col de Saucède",
-    "nearestMetreOfPath": 266634,
+    "nearestMetreOfPath": 266639,
     "elevation": 1525,
     "cumulativeAscent": 18401,
     "cumulativeDescent": 16881,
@@ -1355,7 +1387,7 @@
   },
   {
     "name": "Camping Pyrénées Natura",
-    "nearestMetreOfPath": 276267,
+    "nearestMetreOfPath": 276262,
     "elevation": 969,
     "cumulativeAscent": 18720,
     "cumulativeDescent": 17756,
@@ -1384,7 +1416,7 @@
   },
   {
     "name": "Camping Le Vieux Moulin",
-    "nearestMetreOfPath": 277060,
+    "nearestMetreOfPath": 277065,
     "elevation": 991,
     "cumulativeAscent": 18749,
     "cumulativeDescent": 17763,
@@ -1415,7 +1447,7 @@
   },
   {
     "name": "Col d'Ilhéou",
-    "nearestMetreOfPath": 286593,
+    "nearestMetreOfPath": 286588,
     "elevation": 2242,
     "cumulativeAscent": 20088,
     "cumulativeDescent": 17851
@@ -1428,8 +1460,25 @@
     "cumulativeDescent": 18036
   },
   {
+    "name": "Cauterets",
+    "nearestMetreOfPath": 288968,
+    "elevation": 1882,
+    "cumulativeAscent": 20107,
+    "cumulativeDescent": 18230,
+    "description": {
+      "en": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie",
+      "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
+    },
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1"
+  },
+  {
     "name": "Refuge d'Ilhéou",
-    "nearestMetreOfPath": 288973,
+    "nearestMetreOfPath": 288968,
     "elevation": 1882,
     "cumulativeAscent": 20107,
     "cumulativeDescent": 18230,
@@ -1447,23 +1496,6 @@
     "gite": true,
     "camping": true,
     "restaurant": true
-  },
-  {
-    "name": "Cauterets",
-    "nearestMetreOfPath": 288973,
-    "elevation": 1882,
-    "cumulativeAscent": 20107,
-    "cumulativeDescent": 18230,
-    "description": {
-      "en": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie",
-      "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
-    },
-    "hotel": true,
-    "gite": true,
-    "camping": true,
-    "foodshop": true,
-    "restaurant": true,
-    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1"
   },
   {
     "name": "Path for Refuge d'Ilhéou",
@@ -1525,14 +1557,14 @@
   },
   {
     "name": "Hourquette d'Ossoue",
-    "nearestMetreOfPath": 314294,
+    "nearestMetreOfPath": 314289,
     "elevation": 2741,
     "cumulativeAscent": 22412,
     "cumulativeDescent": 19676
   },
   {
     "name": "Refuge de Bayssellance ",
-    "nearestMetreOfPath": 315148,
+    "nearestMetreOfPath": 315152,
     "elevation": 2637,
     "cumulativeAscent": 22418,
     "cumulativeDescent": 19786,
@@ -1557,7 +1589,7 @@
   },
   {
     "name": "Cabane de Sausse Dessus",
-    "nearestMetreOfPath": 324717,
+    "nearestMetreOfPath": 324712,
     "elevation": 1918,
     "cumulativeAscent": 22776,
     "cumulativeDescent": 20863,
@@ -1586,7 +1618,7 @@
   },
   {
     "name": "Pont de st Savin",
-    "nearestMetreOfPath": 330809,
+    "nearestMetreOfPath": 330804,
     "elevation": 1462,
     "cumulativeAscent": 23033,
     "cumulativeDescent": 21576,
@@ -1651,7 +1683,7 @@
   },
   {
     "name": "Sia",
-    "nearestMetreOfPath": 349103,
+    "nearestMetreOfPath": 349097,
     "elevation": 861,
     "cumulativeAscent": 23978,
     "cumulativeDescent": 23122,
@@ -1711,7 +1743,7 @@
   },
   {
     "name": "Luz-Saint-Sauveur",
-    "nearestMetreOfPath": 356308,
+    "nearestMetreOfPath": 356313,
     "elevation": 734,
     "cumulativeAscent": 24377,
     "cumulativeDescent": 23648,
@@ -1734,7 +1766,7 @@
   },
   {
     "name": "Pont",
-    "nearestMetreOfPath": 356721,
+    "nearestMetreOfPath": 356727,
     "elevation": 794,
     "cumulativeAscent": 24437,
     "cumulativeDescent": 23648
@@ -1748,7 +1780,7 @@
   },
   {
     "name": "Barèges",
-    "nearestMetreOfPath": 367791,
+    "nearestMetreOfPath": 367786,
     "elevation": 1254,
     "cumulativeAscent": 25377,
     "cumulativeDescent": 24128,
@@ -1788,7 +1820,7 @@
   },
   {
     "name": "Route du Tourmalet",
-    "nearestMetreOfPath": 371121,
+    "nearestMetreOfPath": 371116,
     "elevation": 1452,
     "cumulativeAscent": 25615,
     "cumulativeDescent": 24168,
@@ -1800,7 +1832,7 @@
   },
   {
     "name": "Cabane d'Aygues Cluses",
-    "nearestMetreOfPath": 377353,
+    "nearestMetreOfPath": 377359,
     "elevation": 2155,
     "cumulativeAscent": 26324,
     "cumulativeDescent": 24174,
@@ -1809,7 +1841,7 @@
   },
   {
     "name": "Col de Madamète - start of camping restrictions",
-    "nearestMetreOfPath": 379900,
+    "nearestMetreOfPath": 379904,
     "elevation": 2510,
     "cumulativeAscent": 26693,
     "cumulativeDescent": 24188,
@@ -1820,7 +1852,7 @@
   },
   {
     "name": "Turn right for Lac d'Aubert",
-    "nearestMetreOfPath": 384512,
+    "nearestMetreOfPath": 384517,
     "elevation": 2160,
     "cumulativeAscent": 26736,
     "cumulativeDescent": 24581,
@@ -1924,7 +1956,7 @@
   },
   {
     "name": "Loudenvielle",
-    "nearestMetreOfPath": 413999,
+    "nearestMetreOfPath": 414004,
     "elevation": 950,
     "cumulativeAscent": 28277,
     "cumulativeDescent": 27332,
@@ -1977,7 +2009,7 @@
   },
   {
     "name": "Couret d'Esquierry",
-    "nearestMetreOfPath": 423070,
+    "nearestMetreOfPath": 423066,
     "elevation": 2130,
     "cumulativeAscent": 29684,
     "cumulativeDescent": 27559
@@ -2000,7 +2032,7 @@
   },
   {
     "name": " Refuge du Lac d'Oô",
-    "nearestMetreOfPath": 430687,
+    "nearestMetreOfPath": 430684,
     "elevation": 1532,
     "cumulativeAscent": 30360,
     "cumulativeDescent": 28833,
@@ -2050,7 +2082,7 @@
   },
   {
     "name": "Bagnères-de-Luchon",
-    "nearestMetreOfPath": 449684,
+    "nearestMetreOfPath": 449682,
     "elevation": 626,
     "cumulativeAscent": 31598,
     "cumulativeDescent": 30977,
@@ -2073,7 +2105,7 @@
   },
   {
     "name": "Cabane de Saunères",
-    "nearestMetreOfPath": 460062,
+    "nearestMetreOfPath": 460056,
     "elevation": 1654,
     "cumulativeAscent": 32849,
     "cumulativeDescent": 31200,
@@ -2091,7 +2123,7 @@
   },
   {
     "name": "Col des Taons de Bacanère",
-    "nearestMetreOfPath": 462922,
+    "nearestMetreOfPath": 462927,
     "elevation": 1976,
     "cumulativeAscent": 33186,
     "cumulativeDescent": 31215
@@ -2105,7 +2137,7 @@
   },
   {
     "name": "Bridge over a canal",
-    "nearestMetreOfPath": 474923,
+    "nearestMetreOfPath": 474928,
     "elevation": 553,
     "cumulativeAscent": 33499,
     "cumulativeDescent": 32951
@@ -2119,7 +2151,7 @@
   },
   {
     "name": "Fos",
-    "nearestMetreOfPath": 476131,
+    "nearestMetreOfPath": 476136,
     "elevation": 542,
     "cumulativeAscent": 33504,
     "cumulativeDescent": 32967,
@@ -2172,14 +2204,14 @@
   },
   {
     "name": "Col d'Aueran",
-    "nearestMetreOfPath": 491670,
+    "nearestMetreOfPath": 491674,
     "elevation": 2171,
     "cumulativeAscent": 35403,
     "cumulativeDescent": 33237
   },
   {
     "name": "Refuge de l'Etang d'Araing",
-    "nearestMetreOfPath": 492853,
+    "nearestMetreOfPath": 492849,
     "elevation": 1940,
     "cumulativeAscent": 35418,
     "cumulativeDescent": 33483,
@@ -2195,7 +2227,7 @@
   },
   {
     "name": "Gite d'Etape d'Eylie",
-    "nearestMetreOfPath": 500745,
+    "nearestMetreOfPath": 500751,
     "elevation": 993,
     "cumulativeAscent": 35913,
     "cumulativeDescent": 34925,
@@ -2232,7 +2264,7 @@
   },
   {
     "name": "Cabane du Besset",
-    "nearestMetreOfPath": 512027,
+    "nearestMetreOfPath": 512031,
     "elevation": 1550,
     "cumulativeAscent": 37453,
     "cumulativeDescent": 35908,
@@ -2264,7 +2296,7 @@
   },
   {
     "name": "La Maison du Valier",
-    "nearestMetreOfPath": 517531,
+    "nearestMetreOfPath": 517536,
     "elevation": 952,
     "cumulativeAscent": 37837,
     "cumulativeDescent": 36890,
@@ -2291,7 +2323,7 @@
   },
   {
     "name": "Trail junction",
-    "nearestMetreOfPath": 525068,
+    "nearestMetreOfPath": 525064,
     "elevation": 1910,
     "cumulativeAscent": 39219,
     "cumulativeDescent": 37314,
@@ -2324,7 +2356,7 @@
   },
   {
     "name": "Col d'Auedole",
-    "nearestMetreOfPath": 527479,
+    "nearestMetreOfPath": 527484,
     "elevation": 1704,
     "cumulativeAscent": 39355,
     "cumulativeDescent": 37656
@@ -2400,7 +2432,7 @@
   },
   {
     "name": "Bridge (D3 for Seix)",
-    "nearestMetreOfPath": 547943,
+    "nearestMetreOfPath": 547948,
     "elevation": 569,
     "cumulativeAscent": 40472,
     "cumulativeDescent": 39908,
@@ -2429,7 +2461,7 @@
   },
   {
     "name": "Refuge d'Aula",
-    "nearestMetreOfPath": 560707,
+    "nearestMetreOfPath": 560713,
     "elevation": 1559,
     "cumulativeAscent": 41731,
     "cumulativeDescent": 40177,
@@ -2467,7 +2499,7 @@
   },
   {
     "name": "Raufaste",
-    "nearestMetreOfPath": 570312,
+    "nearestMetreOfPath": 570307,
     "elevation": 963,
     "cumulativeAscent": 42220,
     "cumulativeDescent": 41262
@@ -2485,7 +2517,7 @@
   },
   {
     "name": "Gîte de Rouze d'Ustou",
-    "nearestMetreOfPath": 574535,
+    "nearestMetreOfPath": 574530,
     "elevation": 973,
     "cumulativeAscent": 42527,
     "cumulativeDescent": 41559,
@@ -2498,7 +2530,7 @@
   },
   {
     "name": "Col de la Serre du Cot",
-    "nearestMetreOfPath": 577189,
+    "nearestMetreOfPath": 577184,
     "elevation": 1544,
     "cumulativeAscent": 43164,
     "cumulativeDescent": 41625
@@ -2531,7 +2563,7 @@
   },
   {
     "name": "Chapelle du Pont d'Oque",
-    "nearestMetreOfPath": 583079,
+    "nearestMetreOfPath": 583083,
     "elevation": 723,
     "cumulativeAscent": 43233,
     "cumulativeDescent": 42515,
@@ -2542,7 +2574,7 @@
   },
   {
     "name": "Col d'Escots",
-    "nearestMetreOfPath": 589545,
+    "nearestMetreOfPath": 589540,
     "elevation": 1612,
     "cumulativeAscent": 44276,
     "cumulativeDescent": 42669,
@@ -2560,8 +2592,22 @@
     "cumulativeDescent": 43236
   },
   {
+    "name": " La Cascade d'Ars",
+    "nearestMetreOfPath": 599436,
+    "elevation": 1308,
+    "cumulativeAscent": 45086,
+    "cumulativeDescent": 43783
+  },
+  {
+    "name": "D8 Road Crossing",
+    "nearestMetreOfPath": 599436,
+    "elevation": 1308,
+    "cumulativeAscent": 45086,
+    "cumulativeDescent": 43783
+  },
+  {
     "name": "Aulus les Bains",
-    "nearestMetreOfPath": 599429,
+    "nearestMetreOfPath": 599436,
     "elevation": 1308,
     "cumulativeAscent": 45086,
     "cumulativeDescent": 43783,
@@ -2575,29 +2621,15 @@
     "restaurant": true
   },
   {
-    "name": " La Cascade d'Ars",
-    "nearestMetreOfPath": 599429,
-    "elevation": 1308,
-    "cumulativeAscent": 45086,
-    "cumulativeDescent": 43783
-  },
-  {
-    "name": "D8 Road Crossing",
-    "nearestMetreOfPath": 599429,
-    "elevation": 1308,
-    "cumulativeAscent": 45086,
-    "cumulativeDescent": 43783
-  },
-  {
     "name": "D8F Road crossing",
-    "nearestMetreOfPath": 606721,
+    "nearestMetreOfPath": 606731,
     "elevation": 1384,
     "cumulativeAscent": 45714,
     "cumulativeDescent": 44335
   },
   {
     "name": "Trail junction",
-    "nearestMetreOfPath": 607143,
+    "nearestMetreOfPath": 607148,
     "elevation": 1447,
     "cumulativeAscent": 45777,
     "cumulativeDescent": 44335,
@@ -2608,7 +2640,7 @@
   },
   {
     "name": "Port de Saleix",
-    "nearestMetreOfPath": 607143,
+    "nearestMetreOfPath": 607148,
     "elevation": 1447,
     "cumulativeAscent": 45777,
     "cumulativeDescent": 44335
@@ -2622,7 +2654,7 @@
   },
   {
     "name": "Refuge des étangs de Bassies",
-    "nearestMetreOfPath": 612429,
+    "nearestMetreOfPath": 612434,
     "elevation": 1666,
     "cumulativeAscent": 46367,
     "cumulativeDescent": 44706,
@@ -2641,6 +2673,13 @@
     "cumulativeDescent": 44752
   },
   {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 617824,
+    "elevation": 1116,
+    "cumulativeAscent": 46439,
+    "cumulativeDescent": 45328
+  },
+  {
     "name": "Auzat and Vicdessos",
     "nearestMetreOfPath": 617824,
     "elevation": 1116,
@@ -2655,13 +2694,6 @@
     "camping": true,
     "foodshop": true,
     "restaurant": true
-  },
-  {
-    "name": "Trail junction",
-    "nearestMetreOfPath": 617824,
-    "elevation": 1116,
-    "cumulativeAscent": 46439,
-    "cumulativeDescent": 45328
   },
   {
     "name": "Marc",
@@ -2724,7 +2756,7 @@
   },
   {
     "name": "Pradières (shortcut)",
-    "nearestMetreOfPath": 632104,
+    "nearestMetreOfPath": 632110,
     "elevation": 1139,
     "cumulativeAscent": 47837,
     "cumulativeDescent": 46703,
@@ -2746,7 +2778,7 @@
   },
   {
     "name": "Pradières (shortcut)",
-    "nearestMetreOfPath": 638262,
+    "nearestMetreOfPath": 638267,
     "elevation": 1730,
     "cumulativeAscent": 48606,
     "cumulativeDescent": 46881
@@ -2818,6 +2850,55 @@
     "cumulativeDescent": 48749
   },
   {
+    "name": "Tarascon-sur-Ariège",
+    "nearestMetreOfPath": 657366,
+    "elevation": 765,
+    "cumulativeAscent": 49922,
+    "cumulativeDescent": 49162,
+    "description": {
+      "en": "The town of Tarascon-sur-Ariège is located 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station.",
+      "fr": "La ville de Tarascon-sur-Ariège est située à 10,5 km au nord de Siguer. Si vous trouvez un tour, il y a deux supermarchés, des hôtels et une gare."
+    },
+    "accommodations": [
+      {
+        "name": "Le Manoir d'Agnès",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/le-manoir-d-agnes.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.843079,
+          "lng": 1.601751
+        }
+      },
+      {
+        "name": "Hôtel Confort",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/confort-tarascon-sur-aria-ge.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.846823,
+          "lng": 1.605865
+        }
+      },
+      {
+        "name": "Hôtel Le Bellevue",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/le-bellevue-tarascon-sur-aria-ge.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.847197,
+          "lng": 1.605581
+        }
+      }
+    ],
+    "accommodationDescription": {
+      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer where you will find two supermarkets, hotels and a train station. There appears to be no bus service but hitch-hiking should be possible.",
+      "fr": "La ville de Tarascon-sur-Ariège est située à 10,5 km au nord de Siguer où vous trouverez deux supermarchés, des hôtels et une gare. Il semble qu'il n'y ait pas de service d'autobus, mais l'auto-stop devrait être possible."
+    },
+    "hotel": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1472088&aid=1522735&no_rooms=1&group_adults=1"
+  },
+  {
     "name": "Siguer",
     "nearestMetreOfPath": 657366,
     "elevation": 765,
@@ -2868,78 +2949,29 @@
     "hotel": true
   },
   {
-    "name": "Tarascon-sur-Ariège",
-    "nearestMetreOfPath": 657366,
-    "elevation": 765,
-    "cumulativeAscent": 49922,
-    "cumulativeDescent": 49162,
-    "description": {
-      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station.",
-      "fr": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station."
-    },
-    "accommodations": [
-      {
-        "name": "Le Manoir d'Agnès",
-        "tel": "",
-        "url": "http://www.booking.com/hotel/fr/le-manoir-d-agnes.html?aid=1522736&no_rooms=1&group_adults=1",
-        "point": {
-          "lat": 42.843079,
-          "lng": 1.601751
-        }
-      },
-      {
-        "name": "Hôtel Confort",
-        "tel": "",
-        "url": "http://www.booking.com/hotel/fr/confort-tarascon-sur-aria-ge.html?aid=1522736&no_rooms=1&group_adults=1",
-        "point": {
-          "lat": 42.846823,
-          "lng": 1.605865
-        }
-      },
-      {
-        "name": "Hôtel Le Bellevue",
-        "tel": "",
-        "url": "http://www.booking.com/hotel/fr/le-bellevue-tarascon-sur-aria-ge.html?aid=1522736&no_rooms=1&group_adults=1",
-        "point": {
-          "lat": 42.847197,
-          "lng": 1.605581
-        }
-      }
-    ],
-    "accommodationDescription": {
-      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. There appears to be no bus service but hitch-hiking should be possible.",
-      "fr": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. There appears to be no bus service but hitch-hiking should be possible."
-    },
-    "hotel": true,
-    "camping": true,
-    "foodshop": true,
-    "restaurant": true,
-    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1472088&aid=1522735&no_rooms=1&group_adults=1"
-  },
-  {
     "name": "Gestiès",
-    "nearestMetreOfPath": 658622,
+    "nearestMetreOfPath": 658626,
     "elevation": 983,
     "cumulativeAscent": 50144,
     "cumulativeDescent": 49166
   },
   {
     "name": "Col de Gamel",
-    "nearestMetreOfPath": 660147,
+    "nearestMetreOfPath": 660141,
     "elevation": 1393,
     "cumulativeAscent": 50554,
     "cumulativeDescent": 49166
   },
   {
     "name": "Col du Sasc",
-    "nearestMetreOfPath": 663720,
+    "nearestMetreOfPath": 663724,
     "elevation": 1790,
     "cumulativeAscent": 51055,
     "cumulativeDescent": 49270
   },
   {
     "name": "Cabane de Courtal Marti",
-    "nearestMetreOfPath": 665499,
+    "nearestMetreOfPath": 665493,
     "elevation": 1806,
     "cumulativeAscent": 51146,
     "cumulativeDescent": 49345,
@@ -2987,7 +3019,7 @@
   },
   {
     "name": "Col de Finestres",
-    "nearestMetreOfPath": 681682,
+    "nearestMetreOfPath": 681687,
     "elevation": 1970,
     "cumulativeAscent": 52555,
     "cumulativeDescent": 50590
@@ -3005,7 +3037,7 @@
   },
   {
     "name": "Crête des Isards",
-    "nearestMetreOfPath": 686821,
+    "nearestMetreOfPath": 686826,
     "elevation": 2344,
     "cumulativeAscent": 53065,
     "cumulativeDescent": 50726
@@ -3019,7 +3051,7 @@
   },
   {
     "name": "Refuge Du Rulhe",
-    "nearestMetreOfPath": 688695,
+    "nearestMetreOfPath": 688700,
     "elevation": 2205,
     "cumulativeAscent": 53076,
     "cumulativeDescent": 50876,
@@ -3038,7 +3070,7 @@
   },
   {
     "name": "Crête de la Lhasse",
-    "nearestMetreOfPath": 692356,
+    "nearestMetreOfPath": 692351,
     "elevation": 2395,
     "cumulativeAscent": 53417,
     "cumulativeDescent": 51027,
@@ -3049,7 +3081,7 @@
   },
   {
     "name": "Le Moruguillou",
-    "nearestMetreOfPath": 696851,
+    "nearestMetreOfPath": 696846,
     "elevation": 1555,
     "cumulativeAscent": 53430,
     "cumulativeDescent": 51880,
@@ -3066,8 +3098,8 @@
     "cumulativeAscent": 53448,
     "cumulativeDescent": 52388,
     "description": {
-      "en": "Post office, train station. The municipal campsite is 1.5km to the south. ",
-      "fr": "Post office, train station. The municipal campsite is 1.5km to the south."
+      "en": "Post office, train station. The municipal campsite is 1.5km to the south.",
+      "fr": "Bureau de poste, gare. Le camping municipal est à 1,5 km au sud."
     },
     "accommodations": [
       {
@@ -3095,8 +3127,8 @@
       }
     ],
     "accommodationDescription": {
-      "en": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train, or approximately 9km by road.",
-      "fr": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train, or approximately 9km by road."
+      "en": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train.",
+      "fr": "Mérens-les-Vals possède une gare sur la ligne Latour-de-Carol et Toulouse. La grande ville d'Ax-les-Thermes se trouve à 9 km au nord, accessible en train."
     },
     "hotel": true,
     "gite": true,
@@ -3126,7 +3158,7 @@
   },
   {
     "name": "Porteille des Bésines",
-    "nearestMetreOfPath": 706912,
+    "nearestMetreOfPath": 706917,
     "elevation": 2339,
     "cumulativeAscent": 54774,
     "cumulativeDescent": 52440
@@ -3145,7 +3177,7 @@
   },
   {
     "name": "Col de la Coma d'Anyell",
-    "nearestMetreOfPath": 710984,
+    "nearestMetreOfPath": 710988,
     "elevation": 2477,
     "cumulativeAscent": 55167,
     "cumulativeDescent": 52695
@@ -3159,7 +3191,7 @@
   },
   {
     "name": "Lac des Bouillouses dam",
-    "nearestMetreOfPath": 723845,
+    "nearestMetreOfPath": 723840,
     "elevation": 2005,
     "cumulativeAscent": 55463,
     "cumulativeDescent": 53463,
@@ -3171,23 +3203,189 @@
       {
         "name": "Les Bones Hores",
         "tel": "+33 4 68 04 24 22",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 42.560428,
+          "lng": 1.996779
+        }
       },
       {
         "name": "Auberge du Carlit",
         "tel": "+33 4 68 04 22 23",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 42.559995,
+          "lng": 2.003967
+        }
       },
       {
         "name": "Refuge CAF Bouillouses",
         "tel": "+33 4 68 04 93 88",
-        "url": "http://refugedesbouillouses.ffcam.fr/"
+        "url": "http://refugedesbouillouses.ffcam.fr/",
+        "point": {
+          "lat": 42.558972,
+          "lng": 2.003358
+        }
       }
     ],
     "hotel": true,
     "gite": true,
     "camping": true,
     "restaurant": true
+  },
+  {
+    "name": "Estany De La Pradella",
+    "nearestMetreOfPath": 726319,
+    "elevation": 1966,
+    "cumulativeAscent": 55485,
+    "cumulativeDescent": 53524,
+    "description": {
+      "en": "There is a small cabane next to this small lake.",
+      "fr": "There is a small cabane next to this small lake."
+    },
+    "cabane": true
+  },
+  {
+    "name": "Col del Pam",
+    "nearestMetreOfPath": 730124,
+    "elevation": 1746,
+    "cumulativeAscent": 55501,
+    "cumulativeDescent": 53760
+  },
+  {
+    "name": "Crossing of road D618",
+    "nearestMetreOfPath": 730632,
+    "elevation": 1770,
+    "cumulativeAscent": 55527,
+    "cumulativeDescent": 53762
+  },
+  {
+    "name": "Bolquère",
+    "nearestMetreOfPath": 735536,
+    "elevation": 1613,
+    "cumulativeAscent": 55590,
+    "cumulativeDescent": 53982,
+    "description": {
+      "en": "Post office, hotels, restaurant in Hotel Lassus",
+      "fr": "Post office, hotels, restaurant in Hotel Lassus"
+    },
+    "accommodations": [
+      {
+        "name": "Hotel La Pradella",
+        "tel": "",
+        "url": "",
+        "point": {
+          "lat": 42.503807,
+          "lng": 2.072892
+        }
+      },
+      {
+        "name": "Logis Hôtel l'Ancienne Auberge",
+        "tel": "",
+        "url": "",
+        "point": {
+          "lat": 42.501927,
+          "lng": 2.077481
+        }
+      },
+      {
+        "name": "Hotel La Pradella",
+        "tel": "",
+        "url": "",
+        "point": {
+          "lat": 42.503807,
+          "lng": 2.072892
+        }
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Crossing of road N116",
+    "nearestMetreOfPath": 736983,
+    "elevation": 1582,
+    "cumulativeAscent": 55598,
+    "cumulativeDescent": 54021
+  },
+  {
+    "name": "La Cabanasse",
+    "nearestMetreOfPath": 739181,
+    "elevation": 1498,
+    "cumulativeAscent": 55604,
+    "cumulativeDescent": 54111,
+    "description": {
+      "en": "Post office, bakery, pizzeria. The narrow gauge railway connects to the main line at Latour-de-Carol and Villefranche",
+      "fr": "Post office, bakery, pizzeria. The narrow gauge railway connects to the main line at Latour-de-Carol and Villefranche"
+    },
+    "hotel": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": "Planès",
+    "nearestMetreOfPath": 742189,
+    "elevation": 1504,
+    "cumulativeAscent": 55713,
+    "cumulativeDescent": 54214,
+    "accommodations": [
+      {
+        "name": "L'Orri de Planès",
+        "tel": "+33 4 68 04 29 47",
+        "url": "http://www.orrideplanes.com/fra",
+        "point": {
+          "lat": 42.49097,
+          "lng": 2.138289
+        }
+      },
+      {
+        "name": "Gites de la Ferme Basso",
+        "tel": "+33 4 68 04 23 52",
+        "url": "https://www.gite-ferme-pyrenees.com/",
+        "point": {
+          "lat": 42.493907,
+          "lng": 2.141562
+        }
+      }
+    ],
+    "hotel": true,
+    "gite": true
+  },
+  {
+    "name": " L’église Notre-Dame de la Merci de Planès",
+    "nearestMetreOfPath": 742419,
+    "elevation": 1532,
+    "cumulativeAscent": 55741,
+    "cumulativeDescent": 54214
+  },
+  {
+    "name": " Refuge de l'Orri",
+    "nearestMetreOfPath": 748731,
+    "elevation": 1809,
+    "cumulativeAscent": 56245,
+    "cumulativeDescent": 54441,
+    "cabane": true
+  },
+  {
+    "name": "Col Mitja",
+    "nearestMetreOfPath": 753648,
+    "elevation": 2360,
+    "cumulativeAscent": 56954,
+    "cumulativeDescent": 54599
+  },
+  {
+    "name": "Refugi de Ras de la Carançà",
+    "nearestMetreOfPath": 755561,
+    "elevation": 1836,
+    "cumulativeAscent": 56956,
+    "cumulativeDescent": 55125,
+    "description": {
+      "en": "Full refuge facilities with a camping area. Packed lunches are often available.",
+      "fr": "Full refuge facilities with a camping area. Packed lunches are often available."
+    },
+    "gite": true,
+    "camping": true
   },
   {
     "name": "Col de L'Estaca",
@@ -3198,7 +3396,7 @@
   },
   {
     "name": "Col de Llagastera",
-    "nearestMetreOfPath": 892822,
+    "nearestMetreOfPath": 892816,
     "elevation": 255,
     "cumulativeAscent": 65264,
     "cumulativeDescent": 65014

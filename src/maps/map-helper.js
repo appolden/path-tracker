@@ -161,13 +161,12 @@
     var φ3 = Math.atan2(z, Math.sqrt(x * x + y * y));
     var λ3 = Math.atan2(y, x);
 
-    //return new LatLon(φ3.toDegrees(), (λ3.toDegrees() + 540) % 360 - 180); // normalise lon to −180..+180°
     return { lat: φ3.toDegrees(), lng: (λ3.toDegrees() + 540) % 360 - 180 };
   }
 
   static interpolateBetweenPoints(pointA, pointB) {
     const distanceBetweenPoints = this.computeDistanceBetween(pointA, pointB);
-    const maximumDistanceBetweenPoints = 10; //metres
+    const maximumDistanceBetweenPoints = 5; //metres
     const numberOfPoints = distanceBetweenPoints / maximumDistanceBetweenPoints;
     const fraction = 1 / numberOfPoints;
     const result = [];

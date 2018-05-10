@@ -74,7 +74,7 @@ class AccommodationList extends Component {
     const pointsOfInterest = data
       .filter(
         x =>
-          (x.accommodations || x.accommodationSearchUrl) && (x.hotel || x.gite)
+            (x.accommodations || x.accommodationSearchUrl) && (x.hotel || x.gite) && x.accommodationDescription
       )
       .sort(function compare(a, b) {
         if (a.nearestMetreOfPath < b.nearestMetreOfPath) return -1;
@@ -92,7 +92,7 @@ class AccommodationList extends Component {
         const telLink =
           tel.length > 0 ? (
             <React.Fragment>
-              {' - '} <a href={'tel:' + tel}>{tel}</a>{' '}
+                    {' - '} <a href={'tel:' + tel} rel="nofollow">{tel}</a>{' '}
             </React.Fragment>
           ) : (
             ''
@@ -104,7 +104,7 @@ class AccommodationList extends Component {
               href={accommodation.url}
               title={accommodation.name}
               target="_blank"
-              rel="noopener noreferrer"
+                    rel="noopener noreferrer nofollow"
             >
               {accommodation.name}
             </a>
@@ -140,7 +140,7 @@ class AccommodationList extends Component {
 
     return (
       <p>
-        <a href={pointOfInterest.accommodationSearchUrl} target="_blank">
+            <a href={pointOfInterest.accommodationSearchUrl} target="_blank" rel="noopener noreferrer nofollow">
           {searchText}
         </a>
       </p>
@@ -202,7 +202,12 @@ class AccommodationList extends Component {
             rel="alternative"
             href="https://www.gr-trail-tracker.com/fr/gr10/town-guide"
             hreflang="fr"
-          />
+                />
+                <link
+                    rel="alternative"
+                    href="https://www.gr-trail-tracker.com/en/gr10/town-guide"
+                    hreflang="x-default"
+                />
         </Helmet>
 
         <header className="App-header">

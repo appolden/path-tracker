@@ -280,7 +280,7 @@ export class TrailMap extends Component {
             break;
           case 'en':
           default:
-            title = 'GR20 Route Map';
+            title = 'GR20 Map';
             metaDescription = 'GR20 map Corsica';
         }
         break;

@@ -119,7 +119,7 @@
 	</url>
   <url>
     <loc>https://www.gr-trail-tracker.com/en/gr10/town-guide</loc>
-    <lastmod>2018-05-09</lastmod>
+    <lastmod>2018-05-10</lastmod>
     <xhtml:link
 				rel="alternate"
 				hreflang="fr"
@@ -133,7 +133,7 @@
   </url>
   <url>
     <loc>https://www.gr-trail-tracker.com/fr/gr10/town-guide</loc>
-    <lastmod>2018-05-09</lastmod>
+    <lastmod>2018-05-10</lastmod>
     <xhtml:link
 				rel="alternate"
 				hreflang="en"
@@ -143,6 +143,63 @@
 				rel="alternate"
 				hreflang="fr"
 				href="https://www.gr-trail-tracker.com/fr/gr10/town-guide"
+				/>
+  </url>
+
+  <url>
+    <loc>https://www.gr-trail-tracker.com/en/donate</loc>
+    <lastmod>2018-05-10</lastmod>
+    <xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/donate"
+				/>
+    <xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/donate"
+				/>
+  </url>
+  <url>
+    <loc>https://www.gr-trail-tracker.com/fr/donate</loc>
+    <lastmod>2018-05-10</lastmod>
+    <xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/donate"
+				/>
+    <xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/donate"
+				/>
+  </url>
+  <url>
+    <loc>https://www.gr-trail-tracker.com/en/legal</loc>
+    <lastmod>2018-05-10</lastmod>
+    <xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/legal"
+				/>
+    <xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/legal"
+				/>
+  </url>
+  <url>
+    <loc>https://www.gr-trail-tracker.com/fr/legal</loc>
+    <lastmod>2018-05-10</lastmod>
+    <xhtml:link
+				rel="alternate"
+				hreflang="en"
+				href="https://www.gr-trail-tracker.com/en/legal"
+				/>
+    <xhtml:link
+				rel="alternate"
+				hreflang="fr"
+				href="https://www.gr-trail-tracker.com/fr/legal"
 				/>
   </url>
 </urlset>

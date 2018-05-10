@@ -131,7 +131,11 @@
     },
     "description": {
       "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
-      "fr": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices."
+      "fr": "La frontière entre la France et l'Espagne traverse le Col d'Ibardin. Vous trouverez de nombreux restaurants et supermarchés aux prix espagnols."
+    },
+    "accommodationDescription": {
+      "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
+      "fr": "La frontière entre la France et l'Espagne traverse le Col d'Ibardin. Vous trouverez de nombreux restaurants et supermarchés aux prix espagnols."
     },
     "accommodations": [
       {
@@ -144,6 +148,7 @@
         }
       }
     ],
+    "hotel": true,
     "foodshop": true,
     "restaurant": true
   },
@@ -158,7 +163,7 @@
       "fr": "Il y a deux gîte d'etapes et un hôtel"
     },
     "accommodationDescription": {
-      "en": "There are two gites and one hotel. The Gîte Manttu-Baita is located next to the GR10 path. The hotel restaurant Trabenia can be found further donw the road on the main road.",
+      "en": "There are two gites and one hotel. The Gîte Manttu-Baita is located next to the GR10 path. The hotel restaurant Trabenia can be found further down the road next to the main road.",
       "fr": "Il y a deux gîte d'etapes et un hôtel. Le Gîte Manttu-Baita est situé à côté du sentier GR10. Le restaurant de l'hôtel Trabenia se trouve plus loin sur la route principale."
     },
     "accommodations": [
@@ -218,11 +223,11 @@
       "lng": -1.580250
     },
     "description": {
-      "en": "Tourist office, campground and many small shops. There a bus service from Sare to St-Jean-de-Luz.",
+      "en": "Tourist office, campground and many small shops. There is a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
     "accommodationDescription": {
-      "en": "Tourist office, campground and many small shops. There a bus service from Sare to St-Jean-de-Luz.",
+      "en": "Tourist office, campground and many small shops. There is a bus service from Sare to St-Jean-de-Luz.",
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz."
     },
     "accommodations": [
@@ -296,6 +301,10 @@
       "en": "Hego Alde Gîte et Chambres d'hôtes à Sare",
       "fr": "Hego Alde Gîte et Chambres d'hôtes à Sare"
     },
+    "accommodationDescription": {
+      "en": "The GR10 passes right in front of the house. This gite can be found approximately 3km from Sare and 9km before Ainhoa.",
+      "fr": "Le GR10 passe juste devant la maison. Ce gîte se trouve à environ 3 km de Sare et 9 km avant Ainhoa."
+    },
     "accommodations": [
       {
         "name": "Chambres d'hôtes/Gite Hego Alde",
@@ -318,29 +327,6 @@
     },
 
     "restaurant": true
-  },
-  {
-    "name": "Appartement Larraburuko-Borda",
-    "point": {
-      "lat": 43.295972,
-      "lng": -1.536369
-    },
-    "description": {
-      "en": "Turn left for Appartement Larraburuko-Borda",
-      "fr": "Turn left for Appartement Larraburuko-Borda"
-    },
-    "accommodationDescription": {
-      "en": "Appartement Larraburuko-Borda is a self-catering accommodation with a terrace viewing the mountains.",
-      "fr": "Appartement Larraburuko-Borda is a self-catering accommodation with a terrace viewing the mountains."
-    },
-    "accommodations": [
-      {
-        "name": "Appartement Larraburuko-Borda",
-        "tel": "",
-        "url": "http://www.booking.com/hotel/fr/larraburuko-borda.html?aid=1522736&no_rooms=1&group_adults=1"
-      }
-    ],
-    "hotel": true
   },
   {
     "name": "Ainhoa",
@@ -448,11 +434,19 @@
       "en": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
       "fr": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer."
     },
+    "accommodationDescription": {
+      "en": "Venta Burkaitz is a bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
+      "fr": "Venta Burkaitz est un bar-restaurant avec hébergement disponible. Vérifiez les heures d'ouverture, car il ne peut être ouvert en été."
+    },
     "accommodations": [
       {
         "name": "Venata Burkaitz",
         "tel": "+33 5 59 29 82 55",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 43.264488,
+          "lng": -1.434810
+        }
       }
     ],
     "hotel": true,
@@ -471,11 +465,19 @@
       "lat": 43.263718,
       "lng": -1.356774
     },
+    "accommodationDescription": {
+      "en": "The Gite Urrizate is situated next to the GR10 path just before reaching Bidarray.",
+      "fr": "Le Gite Urrizate est situé à côté du GR10 juste avant Bidarray."
+    },
     "accommodations": [
       {
         "name": "Gîte Urrizate",
         "tel": "+33 5 59 37 74 76",
-        "url": "http//www.giteurrizate.fr/"
+        "url": "http//www.giteurrizate.fr/",
+        "point": {
+          "lat": 43.263613,
+          "lng": -1.356715
+        }
       }
     ],
     "gite": true
@@ -491,7 +493,7 @@
       "fr": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray"
     },
     "accommodationDescription": {
-      "en": "There is a train station that connects to Bayonne and Saint-Jean-Pied-de-Port. Some accommodation can be foud on the other side of the river Nive, such as the Le Chalet d'Iparla (1.4km from the GR10). Call ahead and they might come to pick you up.\n\nIf you have the time, then visit Noblia bridge which spans the Nive. The legend tells it was built by witches, which is why it's locally referred to as the \"the Bridge of Hell\"",
+      "en": "There is a train station that connects to Bayonne and Saint-Jean-Pied-de-Port. Some accommodation can be found on the other side of the river Nive, such as the Le Chalet d'Iparla (1.4km from the GR10). Call ahead and they might come to pick you up.\n\nIf you have the time, then visit Noblia bridge which spans the Nive. The legend tells it was built by witches, which is why it's locally referred to as the \"the Bridge of Hell\"",
       "fr": "Il y a une gare qui relie Bayonne et Saint-Jean-Pied-de-Port. Certains hébergements peuvent être fiers de l'autre côté de la Nive, comme le Chalet d'Iparla (à 1,4km du GR10). Appelez à l'avance et ils pourraient venir vous chercher. \n\nSi vous avez le temps, alors visitez le pont Noblia qui enjambe la Nive. La légende raconte qu'il a été construit par les sorcières, ce qui explique pourquoi il est appelé localement le «pont de l'enfer»"
     },
     "accommodations": [
@@ -560,7 +562,7 @@
       "fr": "Tourist office. Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan"
     },
     "accommodationDescription": {
-      "en": "Tourist information center. Bakery Irastorza (closed on weekends). The Intermarche supermarket and campground are situated north of the tourist office. For the hotels and gites continue over the bridge that crosses La Nive des Aldudes. ",
+      "en": "Tourist information center. Bakery Irastorza (closed on weekends). The Intermarche supermarket and campground are situated north of the tourist office. For the hotels and gites continue over the bridge that crosses the Nive des Aldudes. ",
       "fr": "Centre d'information touristique. Boulangerie Irastorza (fermé le week-end). Le supermarché Intermarché et le camping sont situés au nord de l'office de tourisme. Pour les hôtels et les gîtes, continuez sur le pont qui traverse La Nive des Aldudes."
     },
     "accommodations": [
@@ -628,6 +630,10 @@
       "en": "You will pass restaurant Lespade shortly before arriving in Lasse. Turn right at the crossroads for Gîte de groupe de la Cidrerie Aldakurria",
       "fr": "You will pass restaurant Lespade shortly before arriving in Lasse. Turn right at the crossroads for Gîte de groupe de la Cidrerie Aldakurria"
     },
+    "accommodationDescription": {
+      "en": "Lasse is a small hamlet centered around a crossroad. It is located 2.5 kms before reaching the large town of Saint-Jean-Pied-de-Port. If you want a quieter night then Lasse is the better option.",
+      "fr": "Lasse est un petit hameau centré autour d'un carrefour. Il est situé à 2,5 km avant d'atteindre la grande ville de Saint-Jean-Pied-de-Port. Si vous voulez passer une nuit tranquille, Lasse est la meilleure option."
+    },
     "accommodations": [
       {
         "name": "Auberge Etchoinia",
@@ -668,11 +674,11 @@
       "lng": -1.237679
     },
     "description": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for the for travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as, The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
       "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "accommodationDescription": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for the for travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents. \n\nMonday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\nThere are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as, The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shells represent and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\nThere are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
       "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "accommodations": [
@@ -732,16 +738,19 @@
       "lat": 43.147544,
       "lng": -1.217830
     },
+    "accommodationDescription": {
+      "en": "The small village of Caro is on the GR10, approximately 3km after leaving Saint-Jean-Pied-de-Port. The Maison Florenia is the closest accommodation to the GR10 trail. ",
+      "fr": "Le petit village de Caro est sur le GR10, environ 3 km après avoir quitté Saint-Jean-Pied-de-Port. La Maison Florenia est l'hébergement le plus proche du sentier GR10."
+    },
     "accommodations": [
-      {
-        "name": "Gite Iparza",
-        "tel": "+33 6 80 37 39 94",
-        "url": ""
-      },
       {
         "name": "Maison Florenia",
         "tel": "+33 6 37 71 49 00",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/maison-florenia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.148613,
+          "lng": -1.216253
+        }
       }
     ],
     "hotel": true,
@@ -757,21 +766,28 @@
       "en": "Water opposite the Auberge Carricaburu.",
       "fr": "Water opposite the Auberge Carricaburu."
     },
+    "accommodationDescription": {
+      "en": "Estérençuby has a couple of hotel-restaurants. The hotel Andreinia Logis can be reached by crossing the bridge over the Nive de Béhérobie.",
+      "fr": "Estérençuby a quelques hôtels-restaurants. L'Hôtel Andreinia Logis peut être atteint en traversant le pont sur la Nive de Béhérobie."
+    },
     "accommodations": [
       {
         "name": "Hôtel Andreinia Logis",
         "tel": "",
-        "url": ""
-      },
-      {
-        "name": "Hôtel/Gîte d'étape Andreinia",
-        "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/logis-andreinia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 43.103611,
+          "lng": -1.196619
+        }
       },
       {
         "name": "Auberge Carricaburu",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 59 37 09 77",
+        "url": "",
+        "point": {
+          "lat": 43.104336,
+          "lng": -1.195836
+        }
       }
     ],
     "hotel": true,
@@ -788,11 +804,19 @@
       "en": "Camping is possible",
       "fr": "Le bivouac y est possible - Location de tentes à la demande. "
     },
+    "accommodationDescription": {
+      "en": "The gîte Kaskoleta is located on the plateau Phalgacette next to the GR10. Ask permission if you want to camp here.",
+      "fr": "Le gîte d´étape Kaskoleta situé sur le plateau de Phalgacette jouit d´une situation privilégiée sur l´étape du GR10 menant de St jean Pied de Port aux chalets d´Iraty."
+    },
     "accommodations": [
       {
         "name": "Gîte d'étape Kaskoleta",
         "tel": "",
-        "url": ""
+        "url": "http://kaskoleta.free.fr/",
+        "point": {
+          "lat": 43.092056,
+          "lng": -1.164438
+        }
       }
     ],
     "gite": true,
@@ -878,11 +902,19 @@
       "en": "A bar-restaurant",
       "fr": "A bar-restaurant"
     },
+    "accommodationDescription": {
+      "en": "There is only one option of accommodation at Logibar, the Auberge Logibar. However, it is located next to the D26 road so it may be possible to hitch to Larrau, 2.5km west of Logibar. In Larrau there is a gite, campground and a couple of hotels.",
+      "fr": "Il n'y a qu'une seule option d'hébergement au Logibar, l'Auberge Logibar. Cependant, il est situé à côté de la route D26, il est donc possible de se rendre à Larrau, à 2,5 km à l'ouest de Logibar. À Larrau, il y a un gîte, un terrain de camping et quelques hôtels."
+    },
     "accommodations": [
       {
-        "name": "Chambre d'hôtes/Gîte Auberge Logibar",
-        "tel": "",
-        "url": ""
+        "name": "Auberge Logibar",
+        "tel": "+33 5 59 28 61 14",
+        "url": "http://www.auberge-logibar.com/",
+        "point": {
+          "lat": 43.018178,
+          "lng": -0.927744
+        }
       }
     ],
     "gite": true,
@@ -2884,12 +2916,12 @@
       "lng": 1.565353
     },
     "description": {
-      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station.",
-      "fr": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station."
+      "en": "The town of Tarascon-sur-Ariège is located 10.5 km north of Siguer. If you find a ride there are two supermarkets, hotels and a train station.",
+      "fr": "La ville de Tarascon-sur-Ariège est située à 10,5 km au nord de Siguer. Si vous trouvez un tour, il y a deux supermarchés, des hôtels et une gare."
     },
     "accommodationDescription": {
-      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. There appears to be no bus service but hitch-hiking should be possible.",
-      "fr": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer. There appears to be no bus service but hitch-hiking should be possible."
+      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer where you will find two supermarkets, hotels and a train station. There appears to be no bus service but hitch-hiking should be possible.",
+      "fr": "La ville de Tarascon-sur-Ariège est située à 10,5 km au nord de Siguer où vous trouverez deux supermarchés, des hôtels et une gare. Il semble qu'il n'y ait pas de service d'autobus, mais l'auto-stop devrait être possible."
     },
     "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1472088&aid=1522735&no_rooms=1&group_adults=1",
     "accommodations": [
@@ -3076,12 +3108,12 @@
       "lng": 1.835747
     },
     "description": {
-      "en": "Post office, train station. The municipal campsite is 1.5km to the south. ",
-      "fr": "Post office, train station. The municipal campsite is 1.5km to the south."
+      "en": "Post office, train station. The municipal campsite is 1.5km to the south.",
+      "fr": "Bureau de poste, gare. Le camping municipal est à 1,5 km au sud."
     },
     "accommodationDescription": {
-      "en": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train, or approximately 9km by road.",
-      "fr": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train, or approximately 9km by road."
+      "en": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train.",
+      "fr": "Mérens-les-Vals possède une gare sur la ligne Latour-de-Carol et Toulouse. La grande ville d'Ax-les-Thermes se trouve à 9 km au nord, accessible en train."
     },
     "accommodations": [
       {
@@ -3181,17 +3213,29 @@
       {
         "name": "Les Bones Hores",
         "tel": "+33 4 68 04 24 22",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 42.560428,
+          "lng": 1.996779
+        }
       },
       {
         "name": "Auberge du Carlit",
         "tel": "+33 4 68 04 22 23",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 42.559995,
+          "lng": 2.003967
+        }
       },
       {
         "name": "Refuge CAF Bouillouses",
         "tel": "+33 4 68 04 93 88",
-        "url": "http://refugedesbouillouses.ffcam.fr/"
+        "url": "http://refugedesbouillouses.ffcam.fr/",
+        "point": {
+          "lat": 42.558972,
+          "lng": 2.003358
+        }
       }
     ],
     "hotel": true,
@@ -3199,7 +3243,163 @@
     "camping": true,
     "restaurant": true
   },
+  {
+    "name": "Estany De La Pradella",
+    "point": {
+      "lat": 42.545251,
+      "lng": 2.007403
+    },
+    "description": {
+      "en": "There is a small cabane next to this small lake.",
+      "fr": "There is a small cabane next to this small lake."
+    },
+    "cabane": true
+  },
+  {
+    "name": "Col del Pam",
+    "point": {
+      "lat": 42.538003,
+      "lng": 2.050377
+    }
+  },
 
+  {
+    "name": "Crossing of road D618",
+    "point": {
+      "lat": 42.535437,
+      "lng": 2.055237
+    }
+  },
+
+  {
+    "name": "Bolquère",
+    "point": {
+      "lat": 42.501952,
+      "lng": 2.077494
+    },
+    "description": {
+      "en": "Post office, hotels, restaurant in Hotel Lassus",
+      "fr": "Post office, hotels, restaurant in Hotel Lassus"
+    },
+    "accommodations": [
+      {
+        "name": "Hotel La Pradella",
+        "tel": "",
+        "url": "",
+        "point": {
+          "lat": 42.503807,
+          "lng": 2.072892
+        }
+      },
+      {
+        "name": "Logis Hôtel l'Ancienne Auberge",
+        "tel": "",
+        "url": "",
+        "point": {
+          "lat": 42.501927,
+          "lng": 2.077481
+        }
+      },
+      {
+        "name": "Hotel La Pradella",
+        "tel": "",
+        "url": "",
+        "point": {
+          "lat": 42.503807,
+          "lng": 2.072892
+        }
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Crossing of road N116",
+    "point": {
+      "lat": 42.496545,
+      "lng": 2.092579
+    }
+  },
+  {
+    "name": "La Cabanasse",
+    "point": {
+      "lat": 42.500382,
+      "lng": 2.113248
+    },
+    "description": {
+      "en": "Post office, bakery, pizzeria. The narrow gauge railway connects to the main line at Latour-de-Carol and Villefranche",
+      "fr": "Post office, bakery, pizzeria. The narrow gauge railway connects to the main line at Latour-de-Carol and Villefranche"
+    },
+    "hotel": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": "Planès",
+    "point": {
+      "lat": 42.492273,
+      "lng": 2.138418
+    },
+    "accommodations": [
+      {
+        "name": "L'Orri de Planès",
+        "tel": "+33 4 68 04 29 47",
+        "url": "http://www.orrideplanes.com/fra",
+        "point": {
+          "lat": 42.490970,
+          "lng": 2.138289
+        }
+      },
+      {
+        "name": "Gites de la Ferme Basso",
+        "tel": "+33 4 68 04 23 52",
+        "url": "https://www.gite-ferme-pyrenees.com/",
+        "point": {
+          "lat": 42.493907,
+          "lng": 2.141562
+        }
+      }
+    ],
+    "hotel": true,
+    "gite": true
+  },
+  {
+    "name": " L’église Notre-Dame de la Merci de Planès",
+    "point": {
+      "lat": 42.491698,
+      "lng": 2.141033
+    }
+  },
+  {
+    "name": " Refuge de l'Orri",
+    "point": {
+      "lat": 42.461603,
+      "lng": 2.176838
+    },
+    "cabane": true
+  },
+  {
+    "name": "Col Mitja",
+    "point": {
+      "lat": 42.471796,
+      "lng": 2.212549
+    }
+  },
+
+  {
+    "name": "Refugi de Ras de la Carançà",
+    "point": {
+      "lat": 42.464468,
+      "lng": 2.223696
+    },
+    "description": {
+      "en": "Full refuge facilities with a camping area. Packed lunches are often available.",
+      "fr": "Full refuge facilities with a camping area. Packed lunches are often available."
+    },
+    "gite": true,
+    "camping": true
+  },
 
   {
     "name": "Col de L'Estaca",
