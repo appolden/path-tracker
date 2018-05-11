@@ -983,6 +983,10 @@
       "en": "Open all year round. Camping is possible",
       "fr": "Open all year round. Camping is possible"
     },
+    "accommodationDescription": {
+      "en": "The Refuge Jeandel is located near to the Arette la Pierre Saint Martin ski station. It has full refuge facilities and sometimes stocks basic provisions.\n\nAs with all ski resorts there is no guarantee that all the facilities will be open in summer. If you arrive in high summer you should find that the tourist information centre and the bar-restaurant are open.\n\nThere is a bus service to Oloron-Saint-Marie (journey time approximately 1 hour). Oloron-Saint-Marie has a train station which connects to the main rail network.",
+      "fr": "Le Refuge Jeandel est situé près de la station de ski Arette la Pierre Saint Martin. Il dispose d'installations complètes et parfois de provisions de base. \n\nComme avec toutes les stations de ski, il n'y a aucune garantie que toutes les installations seront ouvertes en été. Si vous arrivez en plein été, vous trouverez que le centre d'information touristique et le bar-restaurant sont ouverts. \n\nIl y a un service de bus pour Oloron-Saint-Marie (durée du trajet environ 1 heure). Oloron-Saint-Marie dispose d'une gare qui se connecte au réseau ferroviaire principal."
+    },
     "accommodations": [
       {
         "name": "Refugee Jeandel",
@@ -1024,25 +1028,6 @@
     "cabane": true
   },
   {
-    "name": "Refuge de L'Abérouat",
-    "point": {
-      "lat": 42.950286,
-      "lng": -0.666545
-    },
-    "description": {
-      "en": "Will take GR10 hikers with reservations. Water present",
-      "fr": "Will take GR10 hikers with reservations. Water present"
-    },
-    "accommodations": [
-      {
-        "name": "Refuge de L'Abérouat",
-        "tel": "+33 5 59 34 71 67",
-        "url": "http://aberouat.fr/contact/gites"
-      }
-    ],
-    "gite": true
-  },
-  {
     "name": "Lescun",
     "point": {
       "lat": 42.933671,
@@ -1052,26 +1037,37 @@
       "en": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00",
       "fr": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00"
     },
+    "accommodationDescription": {
+      "en": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. \n\n11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lsecun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.",
+      "fr": "Avec ses vieux bâtiments et ses rues étroites, Lescun dégage un agréable charme de village ancien. Le magasin est ouvert de 8h00 à minuit, de 13h30 à 19h00. \n\n11 km au nord de Lescun il y a une plus grande ville appelée Bedous. À Bedous, vous trouverez des guichets automatiques, une pharmacie, un centre d'information touristique et une gare. Il ne semble pas y avoir de transport public disponible entre Lsecun et Bedous, il est donc temps de sortir le pouce et d'attelage si vous avez besoin de l'une de ses installations."
+    },
     "accommodations": [
       {
         "name": "Hébergement du Pic d'Anie",
-        "tel": "",
-        "url": ""
-      },
-      {
-        "name": "Gîte Paouline",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 59 34 71 54",
+        "url": "https://hebergement-picdanie.fr/",
+        "point": {
+          "lat": 42.933847,
+          "lng": -0.634997
+        }
       },
       {
         "name": "Gîte Dubois",
-        "tel": "",
-        "url": ""
+        "tel": "+33 6 83 04 22 79",
+        "url": "http://regisdubois30.wixsite.com/gite-dubois-lescun",
+        "point": {
+          "lat": 42.933671,
+          "lng": -0.637550
+        }
       },
       {
-        "name": "Gîte d' étape la Maison de la Montagne",
-        "tel": "",
-        "url": ""
+        "name": "Refuge de L'Abérouat",
+        "tel": "+33 5 59 34 71 67",
+        "url": "http://aberouat.fr/contact/gites",
+        "point": {
+          "lat": 42.933722,
+          "lng": -0.634851
+        }
       }
     ],
     "hotel": true,
@@ -1108,6 +1104,10 @@
       "en": "The Gîte is to the right where camping may be possible.",
       "fr": "The Gîte is to the right where camping may be possible."
     },
+    "accommodationDescription": {
+      "en": "The gite de Lhers is located is pasture land 6km after Lescun.  There is also a campground if you prefer a night under canvas. On occasion bread, pastries, drinks and will be on sale.",
+      "fr": "Le gîte de Lhers est situé à 6km de Lescun. Il y a aussi un camping si vous préférez une nuit sous la toile. À l'occasion du pain, des pâtisseries, des boissons et sera en vente."
+    },
     "accommodations": [
       {
         "name": "Gîte d'étape de Lhers",
@@ -1139,6 +1139,10 @@
       "en": "Turn right for le Communal (bar-restaurant,gît) and Maison Bergoun.",
       "fr": "Turn right for le Communal (bar-restaurant,gît) and Maison Bergoun."
     },
+    "accommodationDescription": {
+      "en": "Borce and Estaut are located on either side of RN134. Borce will be reached first if you are walking from the west. In Borce you can quench your thirst in the Le Communal bar, which has an attached gite. If you want a change of scenery then visit the wildlife park (Parc'Ours). It's your best chance of seeing a bear in the Pyrenees. \n\nSome guides suggest that there is a bus service that connects to Pau but I haven't been able to find any evidence of this during my research.",
+      "fr": "Borce et Estaut sont situés de chaque côté de la RN134. Borce sera atteint en premier si vous marchez de l'ouest. À Borce, vous pouvez étancher votre soif dans le bar Le Communal, qui a un gîte ci-joint. Si vous voulez changer de décor, rendez-vous au parc animalier (Parc'Ours). C'est votre meilleure chance de voir l'ours dans les Pyrénées."
+    },
     "accommodations": [
       {
         "name": "Gîte Le Communal",
@@ -1164,6 +1168,10 @@
     "description": {
       "en": "Turn left for Etsaut. La Randonneur bar-restaurant where there is a small shop selling basic supplies.",
       "fr": "Turn left for Etsaut. La Randonneur bar-restaurant where there is a small shop selling basic supplies."
+    },
+    "accommodationDescription": {
+      "en": "Cross the bridge over the RN134 to enter Etsaut and remember the feeling of being in a car. Head straight to le Randonneur bar in the main square for a much needed refreshment. Analysis of google Streetview, suggests that there appears to be a bus stop next this bar. ",
+      "fr": "Traversez le pont sur la RN134 pour entrer dans Etsaut et rappelez-vous le sentiment d'être dans une voiture. Allez directement au bar Randonneur sur la place principale pour un rafraîchissement bien nécessaire. Selon google Streetview, il semble y avoir un arrêt de bus à côté de cette barre. Certains guides suggèrent qu'il y a un service de bus qui se connecte à Pau mais je n'ai pas été en mesure de trouver des preuves de cela au cours de mes recherches."
     },
     "accommodations": [
       {
@@ -1250,17 +1258,31 @@
       "en": "Turn left for Gabas. ",
       "fr": "Turn left for Gabas. "
     },
+    "accommodationDescription": {
+      "en": "Located in the Ossau valley, Gabas is just a few buildings next to the D934 road that connects to Laruns (14kms north). Google maps shows that there is a bus stop here but I can't find any details regarding the timetables.",
+      "fr": "Situé dans la vallée d'Ossau, Gabas est juste quelques bâtiments à côté de la route D934 qui relie à Laruns (14 km au nord). Google Maps montre qu'il y a un arrêt de bus ici mais je ne trouve pas de détails concernant les horaires."
+    },
+
     "accommodations": [
       {
         "name": "Hôtel-restaurant Le Biscaü",
         "tel": "+33 5 59 05 31 37",
-        "url": "http://www.hotel-vallee-ossau-biscau.fr/"
+        "url": "http://www.hotel-vallee-ossau-biscau.fr/",
+        "point": {
+          "lat": 42.890512,
+          "lng": -0.428048
+        }
       },
       {
         "name": "Hôtel-restaurant Vignau",
         "tel": "+33 5 59 05 34 06",
-        "url": "https://www.hotelvignau.fr/"
+        "url": "https://www.hotelvignau.fr/",
+        "point": {
+          "lat": 42.890659,
+          "lng": -0.428445
+        }
       }
+
     ],
     "hotel": true,
     "restaurant": true
@@ -3365,14 +3387,14 @@
     "gite": true
   },
   {
-    "name": " L’église Notre-Dame de la Merci de Planès",
+    "name": "L’église Notre-Dame de la Merci de Planès",
     "point": {
       "lat": 42.491698,
       "lng": 2.141033
     }
   },
   {
-    "name": " Refuge de l'Orri",
+    "name": "Refuge de l'Orri",
     "point": {
       "lat": 42.461603,
       "lng": 2.176838
@@ -3399,6 +3421,166 @@
     },
     "gite": true,
     "camping": true
+  },
+  {
+    "name": "Coll de Pal",
+    "point": {
+      "lat": 42.465825,
+      "lng": 2.258688
+    },
+    "description": {
+      "en": "Turn right for the GR10",
+      "fr": "Turn right for the GR10"
+    }
+  },
+
+  {
+    "name": "Path for Refugi de l'Alemany",
+    "point": {
+      "lat": 42.458250,
+      "lng": 2.282040
+    },
+    "description": {
+      "en": "The Refugi de l'Alemany is a few minutes walk to the right.",
+      "fr": "The Refugi de l'Alemany is a few minutes walk to the right."
+    },
+    "cabane": true
+  },
+  {
+    "name": "Mantet",
+    "point": {
+      "lat": 42.477324,
+      "lng": 2.307065
+    },
+    "description": {
+      "en": "The village of Mantet is at an altitude of 1500m, directly on the GR 10 footpath.",
+      "fr": "The village of Mantet is at an altitude of 1500m, directly on the GR 10 footpath."
+    },
+    "accommodations": [
+      {
+        "name": "Gîte à la ferme Cazenove",
+        "tel": "+33 4 68 05 60 99",
+        "url": "http://www.gitecazenovemantet.fr/"
+      },
+      {
+        "name": "Gîte rural La Girada",
+        "tel": "+33 4 68 05 68 69",
+        "url": "http://www.lagirada.com/"
+      },
+      {
+        "name": "Auberge La Bouf'tic",
+        "tel": "+33 4 68 05 51 76",
+        "url": "http://aubergelabouftic.wixsite.com/auberge-mantet"
+      },
+      {
+        "name": "La Cavale",
+        "tel": "+33 4 68 05 57 59",
+        "url": "http://la-cavale.fr/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Col de Mantet",
+    "point": {
+      "lat": 42.481268,
+      "lng": 2.314081
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Py",
+    "point": {
+      "lat": 42.496071,
+      "lng": 2.352292
+    },
+    "accommodations": [
+      {
+        "name": "Auberge de Py",
+        "tel": "+33 4 34 52 02 84",
+        "url": "http://www.auberge-de-py.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Col de Jou",
+    "point": {
+      "lat": 42.514990,
+      "lng": 2.381024
+    }
+  },
+  {
+    "name": "Refuge Mariailles",
+    "point": {
+      "lat": 42.500283,
+      "lng": 2.406746
+    },
+    "description": {
+      "en": " Refuge Mariaille has full facilities and if you ask nicely this will include a packed lunch.",
+      "fr": " Refuge Mariaille has full facilities and if you ask nicely this will include a packed lunch."
+    },
+    "accommodations": [
+      {
+        "name": "Refuge Mariailles",
+        "tel": "+33 4 68 05 57 99",
+        "url": "http://www.refugedemariailles.fr/"
+      }
+    ],
+    "gite": true
+  },
+  {
+    "name": "Alternative path via the Pic du Canigou",
+    "point": {
+      "lat": 42.503364,
+      "lng": 2.434984
+    }
+  },
+  {
+    "name": "Col de Segales",
+    "point": {
+      "lat": 42.507208,
+      "lng": 2.420189
+    }
+  },
+  {
+    "name": "Refuge de Bonne Aiguë",
+    "point": {
+      "lat": 42.536773,
+      "lng": 2.433552
+    },
+    "description": {
+      "en": "No waterpoint near this cabane. Camping is possible but look out for the cows.",
+      "fr": "No waterpoint near this cabane. Camping is possible but look out for the cows."
+    },
+    "cabane": true
+  },
+  {
+    "name": "Refuge des Cortalets",
+    "point": {
+      "lat": 42.534422,
+      "lng": 2.465073
+    },
+    "description": {
+      "en": "A CAF refuge. Camp between the refuge and the lake.",
+      "fr": "A CAF refuge. Camp between the refuge and the lake."
+    },
+    "accommodations": [
+      {
+        "name": "Refuge des Cortalets",
+        "tel": "+33 4 68 96 36 19",
+        "url": "http://refugedescortalets.ffcam.fr/",
+        "point": {
+          "lat": 42.534425,
+          "lng": 2.465106
+        }
+      }
+    ],
+    "gite": true
   },
 
   {

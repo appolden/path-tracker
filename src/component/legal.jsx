@@ -16,32 +16,37 @@ class Legal extends Component {
 
   render() {
     const pageTitle =
-        this.state.language === 'en' ? 'GR10 Trail Tracker - Legal Notice' : 'Mention légale';
+      this.state.language === 'en'
+        ? 'GR10 Trail Tracker - Legal Notice'
+        : 'Mention légale';
     const title =
-          this.state.language === 'en' ? 'Legal Notice' : 'Mention légale';
+      this.state.language === 'en' ? 'Legal Notice' : 'Mention légale';
 
-      const metaDescription = this.state.language === 'en' ? 'GR10 Trail Tracker - Legal Notice' : 'GR10 Trail Tracker - Mention légale';
+    const metaDescription =
+      this.state.language === 'en'
+        ? 'GR10 Trail Tracker - Legal Notice'
+        : 'GR10 Trail Tracker - Mention légale';
 
     return (
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.state.language }}>
-                <title>{pageTitle}</title>
-                <meta name="description" content={metaDescription} />
-                <link
-                    rel="alternative"
-                    href="https://www.gr-trail-tracker.com/en/legal"
-                    hreflang="en"
-                />
-                <link
-                    rel="alternative"
-                    href="https://www.gr-trail-tracker.com/fr/legal"
-                    hreflang="fr"
-                />
-                <link
-                    rel="alternative"
-                    href="https://www.gr-trail-tracker.com/en/legal"
-                    hreflang="x-default"
-                />
+          <title>{pageTitle}</title>
+          <meta name="description" content={metaDescription} />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com/en/legal"
+            hreflang="en"
+          />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com/fr/legal"
+            hreflang="fr"
+          />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com/en/legal"
+            hreflang="x-default"
+          />
         </Helmet>
 
         <header className="App-header">

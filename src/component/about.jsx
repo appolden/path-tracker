@@ -43,7 +43,7 @@ class About extends Component {
       <React.Fragment>
         <Helmet htmlAttributes={{ lang: this.state.language }}>
           <title>{pageTitle}</title>
-                <meta name="description" content={metaDescription} />
+          <meta name="description" content={metaDescription} />
 
           <link
             rel="alternative"
@@ -54,12 +54,12 @@ class About extends Component {
             rel="alternative"
             href="https://www.gr-trail-tracker.com/fr/about"
             hreflang="fr"
-                />
-                <link
-                    rel="alternative"
-                    href="https://www.gr-trail-tracker.com"
-                    hreflang="x-default"
-                />
+          />
+          <link
+            rel="alternative"
+            href="https://www.gr-trail-tracker.com"
+            hreflang="x-default"
+          />
         </Helmet>
 
         <header className="App-header">

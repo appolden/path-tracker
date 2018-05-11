@@ -672,7 +672,7 @@
     "cumulativeAscent": 5318,
     "cumulativeDescent": 5149,
     "description": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as the way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as, The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shell represents and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town.. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\n There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
       "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "accommodations": [
@@ -719,7 +719,7 @@
       }
     ],
     "accommodationDescription": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shells represent and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\nThere are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
+      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as, The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shells represent and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\nThere are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
       "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "hotel": true,
@@ -986,6 +986,10 @@
         "url": "http://refugejeandel.cicm.fr/"
       }
     ],
+    "accommodationDescription": {
+      "en": "The Refuge Jeandel is located near to the Arette la Pierre Saint Martin ski station. It has full refuge facilities and sometimes stocks basic provisions.\n\nAs with all ski resorts there is no guarantee that all the facilities will be open in summer. If you arrive in high summer you should find that the tourist information centre and the bar-restaurant are open.\n\nThere is a bus service to Oloron-Saint-Marie (journey time approximately 1 hour). Oloron-Saint-Marie has a train station which connects to the main rail network.",
+      "fr": "Le Refuge Jeandel est situé près de la station de ski Arette la Pierre Saint Martin. Il dispose d'installations complètes et parfois de provisions de base. \n\nComme avec toutes les stations de ski, il n'y a aucune garantie que toutes les installations seront ouvertes en été. Si vous arrivez en plein été, vous trouverez que le centre d'information touristique et le bar-restaurant sont ouverts. \n\nIl y a un service de bus pour Oloron-Saint-Marie (durée du trajet environ 1 heure). Oloron-Saint-Marie dispose d'une gare qui se connecte au réseau ferroviaire principal."
+    },
     "gite": true,
     "camping": true,
     "restaurant": true
@@ -1020,25 +1024,6 @@
     "camping": true
   },
   {
-    "name": "Refuge de L'Abérouat",
-    "nearestMetreOfPath": 197401,
-    "elevation": 1432,
-    "cumulativeAscent": 12609,
-    "cumulativeDescent": 11182,
-    "description": {
-      "en": "Will take GR10 hikers with reservations. Water present",
-      "fr": "Will take GR10 hikers with reservations. Water present"
-    },
-    "accommodations": [
-      {
-        "name": "Refuge de L'Abérouat",
-        "tel": "+33 5 59 34 71 67",
-        "url": "http://aberouat.fr/contact/gites"
-      }
-    ],
-    "gite": true
-  },
-  {
     "name": "Lescun",
     "nearestMetreOfPath": 201300,
     "elevation": 948,
@@ -1051,25 +1036,36 @@
     "accommodations": [
       {
         "name": "Hébergement du Pic d'Anie",
-        "tel": "",
-        "url": ""
-      },
-      {
-        "name": "Gîte Paouline",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 59 34 71 54",
+        "url": "https://hebergement-picdanie.fr/",
+        "point": {
+          "lat": 42.933847,
+          "lng": -0.634997
+        }
       },
       {
         "name": "Gîte Dubois",
-        "tel": "",
-        "url": ""
+        "tel": "+33 6 83 04 22 79",
+        "url": "http://regisdubois30.wixsite.com/gite-dubois-lescun",
+        "point": {
+          "lat": 42.933671,
+          "lng": -0.63755
+        }
       },
       {
-        "name": "Gîte d' étape la Maison de la Montagne",
-        "tel": "",
-        "url": ""
+        "name": "Refuge de L'Abérouat",
+        "tel": "+33 5 59 34 71 67",
+        "url": "http://aberouat.fr/contact/gites",
+        "point": {
+          "lat": 42.933722,
+          "lng": -0.634851
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. \n\n11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lsecun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.",
+      "fr": "Avec ses vieux bâtiments et ses rues étroites, Lescun dégage un agréable charme de village ancien. Le magasin est ouvert de 8h00 à minuit, de 13h30 à 19h00. \n\n11 km au nord de Lescun il y a une plus grande ville appelée Bedous. À Bedous, vous trouverez des guichets automatiques, une pharmacie, un centre d'information touristique et une gare. Il ne semble pas y avoir de transport public disponible entre Lsecun et Bedous, il est donc temps de sortir le pouce et d'attelage si vous avez besoin de l'une de ses installations."
+    },
     "hotel": true,
     "gite": true,
     "foodshop": true
@@ -1111,6 +1107,10 @@
         "url": "http://www.gite-camping-lhers.com/"
       }
     ],
+    "accommodationDescription": {
+      "en": "The gite de Lhers is located is pasture land 6km after Lescun.  There is also a campground if you prefer a night under canvas. On occasion bread, pastries, drinks and will be on sale.",
+      "fr": "Le gîte de Lhers est situé à 6km de Lescun. Il y a aussi un camping si vous préférez une nuit sous la toile. À l'occasion du pain, des pâtisseries, des boissons et sera en vente."
+    },
     "gite": true,
     "camping": true
   },
@@ -1147,6 +1147,10 @@
         "url": "http://www.bergoun.com/"
       }
     ],
+    "accommodationDescription": {
+      "en": "Borce and Estaut are located on either side of RN134. Borce will be reached first if you are walking from the west. In Borce you can quench your thirst in the Le Communal bar, which has an attached gite. If you want a change of scenery then visit the wildlife park (Parc'Ours). It's your best chance of seeing a bear in the Pyrenees. \n\nSome guides suggest that there is a bus service that connects to Pau but I haven't been able to find any evidence of this during my research.",
+      "fr": "Borce et Estaut sont situés de chaque côté de la RN134. Borce sera atteint en premier si vous marchez de l'ouest. À Borce, vous pouvez étancher votre soif dans le bar Le Communal, qui a un gîte ci-joint. Si vous voulez changer de décor, rendez-vous au parc animalier (Parc'Ours). C'est votre meilleure chance de voir l'ours dans les Pyrénées."
+    },
     "hotel": true,
     "gite": true,
     "restaurant": true
@@ -1173,6 +1177,10 @@
         "url": "http://www.garbure.net/"
       }
     ],
+    "accommodationDescription": {
+      "en": "Cross the bridge over the RN134 to enter Etsaut and remember the feeling of being in a car. Head straight to le Randonneur bar in the main square for a much needed refreshment. Analysis of google Streetview, suggests that there appears to be a bus stop next this bar. ",
+      "fr": "Traversez le pont sur la RN134 pour entrer dans Etsaut et rappelez-vous le sentiment d'être dans une voiture. Allez directement au bar Randonneur sur la place principale pour un rafraîchissement bien nécessaire. Selon google Streetview, il semble y avoir un arrêt de bus à côté de cette barre. Certains guides suggèrent qu'il y a un service de bus qui se connecte à Pau mais je n'ai pas été en mesure de trouver des preuves de cela au cours de mes recherches."
+    },
     "hotel": true,
     "gite": true,
     "foodshop": true,
@@ -1250,14 +1258,26 @@
       {
         "name": "Hôtel-restaurant Le Biscaü",
         "tel": "+33 5 59 05 31 37",
-        "url": "http://www.hotel-vallee-ossau-biscau.fr/"
+        "url": "http://www.hotel-vallee-ossau-biscau.fr/",
+        "point": {
+          "lat": 42.890512,
+          "lng": -0.428048
+        }
       },
       {
         "name": "Hôtel-restaurant Vignau",
         "tel": "+33 5 59 05 34 06",
-        "url": "https://www.hotelvignau.fr/"
+        "url": "https://www.hotelvignau.fr/",
+        "point": {
+          "lat": 42.890659,
+          "lng": -0.428445
+        }
       }
     ],
+    "accommodationDescription": {
+      "en": "Located in the Ossau valley, Gabas is just a few buildings next to the D934 road that connects to Laruns (14kms north). Google maps shows that there is a bus stop here but I can't find any details regarding the timetables.",
+      "fr": "Situé dans la vallée d'Ossau, Gabas est juste quelques bâtiments à côté de la route D934 qui relie à Laruns (14 km au nord). Google Maps montre qu'il y a un arrêt de bus ici mais je ne trouve pas de détails concernant les horaires."
+    },
     "hotel": true,
     "restaurant": true
   },
@@ -1460,23 +1480,6 @@
     "cumulativeDescent": 18036
   },
   {
-    "name": "Cauterets",
-    "nearestMetreOfPath": 288968,
-    "elevation": 1882,
-    "cumulativeAscent": 20107,
-    "cumulativeDescent": 18230,
-    "description": {
-      "en": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie",
-      "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
-    },
-    "hotel": true,
-    "gite": true,
-    "camping": true,
-    "foodshop": true,
-    "restaurant": true,
-    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1"
-  },
-  {
     "name": "Refuge d'Ilhéou",
     "nearestMetreOfPath": 288968,
     "elevation": 1882,
@@ -1496,6 +1499,23 @@
     "gite": true,
     "camping": true,
     "restaurant": true
+  },
+  {
+    "name": "Cauterets",
+    "nearestMetreOfPath": 288968,
+    "elevation": 1882,
+    "cumulativeAscent": 20107,
+    "cumulativeDescent": 18230,
+    "description": {
+      "en": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie",
+      "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
+    },
+    "hotel": true,
+    "gite": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1"
   },
   {
     "name": "Path for Refuge d'Ilhéou",
@@ -2592,14 +2612,14 @@
     "cumulativeDescent": 43236
   },
   {
-    "name": " La Cascade d'Ars",
+    "name": "D8 Road Crossing",
     "nearestMetreOfPath": 599436,
     "elevation": 1308,
     "cumulativeAscent": 45086,
     "cumulativeDescent": 43783
   },
   {
-    "name": "D8 Road Crossing",
+    "name": " La Cascade d'Ars",
     "nearestMetreOfPath": 599436,
     "elevation": 1308,
     "cumulativeAscent": 45086,
@@ -2628,6 +2648,13 @@
     "cumulativeDescent": 44335
   },
   {
+    "name": "Port de Saleix",
+    "nearestMetreOfPath": 607148,
+    "elevation": 1447,
+    "cumulativeAscent": 45777,
+    "cumulativeDescent": 44335
+  },
+  {
     "name": "Trail junction",
     "nearestMetreOfPath": 607148,
     "elevation": 1447,
@@ -2637,13 +2664,6 @@
       "en": "Turn left for the GR10",
       "fr": "Turn left for the GR10"
     }
-  },
-  {
-    "name": "Port de Saleix",
-    "nearestMetreOfPath": 607148,
-    "elevation": 1447,
-    "cumulativeAscent": 45777,
-    "cumulativeDescent": 44335
   },
   {
     "name": "Etaing d'Alate",
@@ -3353,14 +3373,14 @@
     "gite": true
   },
   {
-    "name": " L’église Notre-Dame de la Merci de Planès",
+    "name": "L’église Notre-Dame de la Merci de Planès",
     "nearestMetreOfPath": 742419,
     "elevation": 1532,
     "cumulativeAscent": 55741,
     "cumulativeDescent": 54214
   },
   {
-    "name": " Refuge de l'Orri",
+    "name": "Refuge de l'Orri",
     "nearestMetreOfPath": 748731,
     "elevation": 1809,
     "cumulativeAscent": 56245,
@@ -3386,6 +3406,165 @@
     },
     "gite": true,
     "camping": true
+  },
+  {
+    "name": "Coll de Pal",
+    "nearestMetreOfPath": 759587,
+    "elevation": 2296,
+    "cumulativeAscent": 57490,
+    "cumulativeDescent": 55199,
+    "description": {
+      "en": "Turn right for the GR10",
+      "fr": "Turn right for the GR10"
+    }
+  },
+  {
+    "name": "Path for Refugi de l'Alemany",
+    "nearestMetreOfPath": 762236,
+    "elevation": 1953,
+    "cumulativeAscent": 57544,
+    "cumulativeDescent": 55596,
+    "description": {
+      "en": "The Refugi de l'Alemany is a few minutes walk to the right.",
+      "fr": "The Refugi de l'Alemany is a few minutes walk to the right."
+    },
+    "cabane": true
+  },
+  {
+    "name": "Mantet",
+    "nearestMetreOfPath": 765526,
+    "elevation": 1554,
+    "cumulativeAscent": 57628,
+    "cumulativeDescent": 56079,
+    "description": {
+      "en": "The village of Mantet is at an altitude of 1500m, directly on the GR 10 footpath.",
+      "fr": "The village of Mantet is at an altitude of 1500m, directly on the GR 10 footpath."
+    },
+    "accommodations": [
+      {
+        "name": "Gîte à la ferme Cazenove",
+        "tel": "+33 4 68 05 60 99",
+        "url": "http://www.gitecazenovemantet.fr/"
+      },
+      {
+        "name": "Gîte rural La Girada",
+        "tel": "+33 4 68 05 68 69",
+        "url": "http://www.lagirada.com/"
+      },
+      {
+        "name": "Auberge La Bouf'tic",
+        "tel": "+33 4 68 05 51 76",
+        "url": "http://aubergelabouftic.wixsite.com/auberge-mantet"
+      },
+      {
+        "name": "La Cavale",
+        "tel": "+33 4 68 05 57 59",
+        "url": "http://la-cavale.fr/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Col de Mantet",
+    "nearestMetreOfPath": 766589,
+    "elevation": 1764,
+    "cumulativeAscent": 57838,
+    "cumulativeDescent": 56079,
+    "restaurant": true
+  },
+  {
+    "name": "Py",
+    "nearestMetreOfPath": 771053,
+    "elevation": 1010,
+    "cumulativeAscent": 57871,
+    "cumulativeDescent": 56866,
+    "accommodations": [
+      {
+        "name": "Auberge de Py",
+        "tel": "+33 4 34 52 02 84",
+        "url": "http://www.auberge-de-py.com/"
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Col de Jou",
+    "nearestMetreOfPath": 775608,
+    "elevation": 1123,
+    "cumulativeAscent": 58286,
+    "cumulativeDescent": 57168
+  },
+  {
+    "name": "Refuge Mariailles",
+    "nearestMetreOfPath": 779562,
+    "elevation": 1687,
+    "cumulativeAscent": 58925,
+    "cumulativeDescent": 57243,
+    "description": {
+      "en": " Refuge Mariaille has full facilities and if you ask nicely this will include a packed lunch.",
+      "fr": " Refuge Mariaille has full facilities and if you ask nicely this will include a packed lunch."
+    },
+    "accommodations": [
+      {
+        "name": "Refuge Mariailles",
+        "tel": "+33 4 68 05 57 99",
+        "url": "http://www.refugedemariailles.fr/"
+      }
+    ],
+    "gite": true
+  },
+  {
+    "name": "Alternative path via the Pic du Canigou",
+    "nearestMetreOfPath": 784035,
+    "elevation": 2017,
+    "cumulativeAscent": 59377,
+    "cumulativeDescent": 57365
+  },
+  {
+    "name": "Col de Segales",
+    "nearestMetreOfPath": 785948,
+    "elevation": 2029,
+    "cumulativeAscent": 59452,
+    "cumulativeDescent": 57428
+  },
+  {
+    "name": "Refuge de Bonne Aiguë",
+    "nearestMetreOfPath": 791965,
+    "elevation": 1723,
+    "cumulativeAscent": 59825,
+    "cumulativeDescent": 58107,
+    "description": {
+      "en": "No waterpoint near this cabane. Camping is possible but look out for the cows.",
+      "fr": "No waterpoint near this cabane. Camping is possible but look out for the cows."
+    },
+    "cabane": true
+  },
+  {
+    "name": "Refuge des Cortalets",
+    "nearestMetreOfPath": 795688,
+    "elevation": 2149,
+    "cumulativeAscent": 60415,
+    "cumulativeDescent": 58271,
+    "description": {
+      "en": "A CAF refuge. Camp between the refuge and the lake.",
+      "fr": "A CAF refuge. Camp between the refuge and the lake."
+    },
+    "accommodations": [
+      {
+        "name": "Refuge des Cortalets",
+        "tel": "+33 4 68 96 36 19",
+        "url": "http://refugedescortalets.ffcam.fr/",
+        "point": {
+          "lat": 42.534425,
+          "lng": 2.465106
+        }
+      }
+    ],
+    "gite": true
   },
   {
     "name": "Col de L'Estaca",
