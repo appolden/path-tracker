@@ -7,7 +7,7 @@
     },
     "description": {
       "en": "Large town with all the facilities you might need. The tourist office can be found east of the old casino.",
-      "fr": "Large town with all the facilities you might need. The tourist office can be found east of the old casino."
+      "fr": "Grande ville avec toutes les installations dont vous pourriez avoir besoin. L'office de tourisme se trouve à l'est du vieux casino."
     },
     "accommodationDescription": {
       "en": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There a couple of options close to the railway station.",
@@ -46,7 +46,7 @@
     },
     "description": {
       "en": "Turn right for Biriatou. There is a waterpoint at the public toilets.",
-      "fr": "Turn right for Biriatou."
+      "fr": "Tournez à droite pour Biriatou."
     },
     "accommodationDescription": {
       "en": "The Basque village of Biriatou is situated on the side of Xoldokogaina (486m). Look out for events held on the pelota pitch.",
@@ -111,8 +111,8 @@
       "lng": -1.773863
     },
     "description": {
-      "en": "Turn right onto the Boulevard de l'Emperor for the Intermarché Supermarket (15 minutes) which sells original and easy-clic camping gas",
-      "fr": "Turn right onto the Boulevard de l'Emperor for the Intermarché Supermarket (15 minutes) which sells original and easy-clic camping gas"
+      "en": "Turn right onto the Boulevard de l'Emperor for the Intermarché Supermarket (15 minutes) which sells original and easy-clic camping gas.",
+      "fr": "Tournez à droite sur le boulevard de l'Empereur pour le supermarché Intermarché (15 minutes) qui vend le campingaz original et facile-clic."
     },
     "foodshop": true
   },
@@ -336,7 +336,7 @@
     },
     "description": {
       "en": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets.",
-      "fr": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce. There is a waterpoint at the public toilets."
+      "fr": "Un village touristique. Il n'y a pas de grands supermarchés mais vous pourrez acheter des produits basques locaux. Il y a un point d'eau dans les toilettes publiques"
     },
     "accommodationDescription": {
       "en": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce.",
@@ -432,7 +432,7 @@
     },
     "description": {
       "en": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
-      "fr": "Follow the sign to Venta Burkaitz. A bar-restaurant with accommodation available. Check opening times because it may only be open in summer."
+      "fr": "Suivez le panneau pour Venta Burkaitz. Un bar-restaurant avec hébergement disponible. Vérifiez les heures d'ouverture, car il ne peut être ouvert en été."
     },
     "accommodationDescription": {
       "en": "Venta Burkaitz is a bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
@@ -1038,7 +1038,7 @@
       "fr": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00"
     },
     "accommodationDescription": {
-      "en": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. \n\n11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lsecun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.",
+      "en": "Located in the Pyrénées National Park Lescun's old buildings and narrow streets, exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. \n\n11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lsecun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.",
       "fr": "Avec ses vieux bâtiments et ses rues étroites, Lescun dégage un agréable charme de village ancien. Le magasin est ouvert de 8h00 à minuit, de 13h30 à 19h00. \n\n11 km au nord de Lescun il y a une plus grande ville appelée Bedous. À Bedous, vous trouverez des guichets automatiques, une pharmacie, un centre d'information touristique et une gare. Il ne semble pas y avoir de transport public disponible entre Lsecun et Bedous, il est donc temps de sortir le pouce et d'attelage si vous avez besoin de l'une de ses installations."
     },
     "accommodations": [
@@ -1170,8 +1170,8 @@
       "fr": "Turn left for Etsaut. La Randonneur bar-restaurant where there is a small shop selling basic supplies."
     },
     "accommodationDescription": {
-      "en": "Cross the bridge over the RN134 to enter Etsaut and remember the feeling of being in a car. Head straight to le Randonneur bar in the main square for a much needed refreshment. Analysis of google Streetview, suggests that there appears to be a bus stop next this bar. ",
-      "fr": "Traversez le pont sur la RN134 pour entrer dans Etsaut et rappelez-vous le sentiment d'être dans une voiture. Allez directement au bar Randonneur sur la place principale pour un rafraîchissement bien nécessaire. Selon google Streetview, il semble y avoir un arrêt de bus à côté de cette barre. Certains guides suggèrent qu'il y a un service de bus qui se connecte à Pau mais je n'ai pas été en mesure de trouver des preuves de cela au cours de mes recherches."
+      "en": "Cross the bridge over the RN134 (while remember the feeling of being in a car) to enter Etsaut. Head straight to le Randonneur bar in the main square for a much needed refreshment. Analysis of google Streetview, suggests that there is a bus stop next to this bar. ",
+      "fr": "Traversez le pont sur la RN134 pour entrer dans Etsaut et rappelez-vous le sentiment d'être dans une voiture. Allez directement au bar Randonneur sur la place principale pour un rafraîchissement bien nécessaire. Selon google Streetview, il y avoir un arrêt de bus à côté de cette barre. Certains guides suggèrent qu'il y a un service de bus qui se connecte à Pau mais je n'ai pas été en mesure de trouver des preuves de cela au cours de mes recherches."
     },
     "accommodations": [
       {
@@ -1325,16 +1325,28 @@
       "en": "Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. Check opening times. ",
       "fr": "Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. Check opening times. "
     },
+    "accommodationDescription": {
+      "en": "Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. I recommend that you check opening times before you start the day's stage.",
+      "fr": "La plupart des installations seront fermées en été car Gourette est principalement une station de ski. Je vous recommande de vérifier les heures d'ouverture avant de commencer l'étape du jour."
+    },
     "accommodations": [
       {
         "name": "Hôtel Le Glacier",
         "tel": "+33 5 59 05 10 18",
-        "url": "http://hotel-leglacier-gourette.com/"
+        "url": "http://www.booking.com/hotel/fr/le-glacier-gourette.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.959190,
+          "lng": -0.333176
+        }
       },
       {
         "name": "Hôtel Restaurant de l'Amoulat",
         "tel": "+33 5 59 05 12 06",
-        "url": "http://www.gourette.com/minisites/Amoulat/"
+        "url": "http://www.booking.com/hotel/fr/amoulat.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.959913,
+          "lng": -0.331784
+        }
       }
     ],
     "hotel": true,
@@ -1368,28 +1380,30 @@
     },
     "description": {
       "en": "Turn left for Arrens-Marsous. There is a waterpoint near the church, limited accommodation options and small shops. The Proxi supermarket is open everyday, SunWed 8:00-12:00, MonTuesThuFriSat 08:00-12:30, 16:00-19:00",
-      "fr": "Turn left for Arrens-Marsous. There is a waterpoint near the church, limited accommodation options and small shops. The Proxi supermarket is open everyday, SunWed 8:00-12:00, MonTuesThuFriSat 08:00-12:30, 16:00-19:00"
+      "fr": "Tournez à gauche pour Arrens-Marsous. Il y a un point d'eau près de l'église, des options d'hébergement limitées et de petites boutiques. Le supermarché Proxi est ouvert tous les jours, de 8h00 à midi, de 8h00 à midi et de 8h00 à midi et de 16h00 à 19h00."
+    },
+    "accommodationDescription": {
+      "en": "Arrens-Marsous is located in the Pyrénées National Park. The GR10 path passes to the south of Arrens-Marsous. Shortly after passing the Catholic church turn left to walk towards the town centre. In the town centre you will find the tourist information centre in the Maison du Val d'Azun.\n\nThere are two campground which can be found to the north of the town near to the Proxi supermarket.",
+      "fr": "Arrens-Marsous est situé dans le parc national des Pyrénées. Le sentier GR10 passe au sud d'Arrens-Marsous. Peu après avoir passé l'église catholique, tournez à gauche pour marcher vers le centre-ville. Dans le centre-ville, vous trouverez le centre d'information touristique de la Maison du Val d'Azun.\n\nIl y a deux terrains de camping qui peuvent être trouvés au nord de la ville près du supermarché Proxi."
     },
     "accommodations": [
       {
-        "name": "Gîte du Hôo Arrens Marsous",
-        "tel": "",
-        "url": ""
-      },
-      {
         "name": "Gîtes Estives d'Arrens",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/gites-estives-arrens.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.957755,
+          "lng": -0.210156
+        }
       },
       {
         "name": "Camping Mialanne",
-        "tel": "",
-        "url": ""
-      },
-      {
-        "name": "Camping G.C.U.",
-        "tel": "",
-        "url": ""
+        "tel": "+33 5 62 92 67 14",
+        "url": "http://campingmialanne.fr/",
+        "point": {
+          "lat": 42.960101,
+          "lng": -0.206782
+        }
       }
     ],
     "hotel": true,
@@ -1523,6 +1537,10 @@
     "description": {
       "en": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie",
       "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
+    },
+    "accommodationDescription": {
+      "en": "Cauterets is one of the largest towns along the GR10 trail. It is famous for being a spa town. It's an ideal place to spend a rest day if you legs are sore.\n\nThe historic market town of Lourdes is located 20km to the north. Lourdes is a major Catholic pilgrimage site. It is estimated that up to a million visitors, visit the the Grotto of Massabielle. If your looking to go off-piste and hit up some culture then Lourdes is an ideal option. But after spending weeks in the mountains the hordes of people will come as a shock.",
+      "fr": "Cauterets est l'une des plus grandes villes le long du sentier GR10. Il est célèbre pour être une ville thermale. C'est un endroit idéal pour passer une journée de repos si vous avez mal aux pattes.\n\nLe bourg historique de Lourdes est situé à 20 km au nord. Lourdes est un important site de pèlerinage catholique. On estime que jusqu'à un million de visiteurs, visitez la Grotte de Massabielle. Si vous cherchez à faire du hors-piste et à faire de la culture, alors Lourdes est une option idéale, mais après des semaines passées dans les montagnes, les hordes seront un choc."
     },
     "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1",
     "hotel": true,
@@ -3582,7 +3600,264 @@
     ],
     "gite": true
   },
+  {
+    "name": "Ras del Prat Cabréra",
+    "point": {
+      "lat": 42.529553,
+      "lng": 2.495887
+    }
+  },
+  {
+    "name": "Abri du Pinatell",
+    "point": {
+      "lat": 42.518887,
+      "lng": 2.509000
+    },
+    "cabane": true
+  },
+  {
+    "name": "Refuge de l'Estanyol",
+    "point": {
+      "lat": 42.518021,
+      "lng": 2.524436
+    },
+    "cabane": true
+  },
+  {
+    "name": "Refuge de Batère",
+    "point": {
+      "lat": 42.501671,
+      "lng": 2.548418
+    },
+    "description": {
+      "en": "Meals and a hot-tub!!",
+      "fr": "Meals and a hot-tub!!"
+    },
+    "gite": true
+  },
+  {
+    "name": "Coll de la Descarga",
+    "point": {
+      "lat": 42.501734,
+      "lng": 2.556132
+    },
+    "description": {
+      "en": "Leave the road at Coll de la Descarga",
+      "fr": "Leave the road at Coll de la Descarga"
+    }
+  },
+  {
+    "name": "Arles-sur-Tech",
+    "point": {
+      "lat": 42.457588,
+      "lng": 2.634771
+    },
+    "description": {
+      "en": "As you can probably guess from the name, this Catalan town lies next the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between.",
+      "fr": "As you can probably guess from the name, this Catalan town lies next the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between."
+    },
+    "accommodationDescription": {
+      "en": "As you can probably guess from the name, this Catalan town lies next the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between. For all other enquires there is a tourist office.\n\nIf your legs are feeling weary at the point you can think about visiting the spas in the nearby town of Amélie-les-Bains-Palalda (4.5km north on the D115 road). In you Amélie-les-Bains-Palaldam there is a wider selection of accommodation, and several thermal baths to rejuvenate those tired legs. ",
+      "fr": "Comme vous pouvez probablement deviner à partir du nom, cette ville catalane se trouve à côté de la rivière Tech. Il y a des guichets automatiques, un supermarché, des boulangeries et quelques bars-restaurants à choisir. Pour toutes les autres demandes, il y a un office du tourisme.\n\nSi vous vous sentez fatigué au point de visiter les thermes de la ville voisine d'Amélie-les-Bains-Palalda (4,5 km au nord sur la route D115) . En vous Amélie-les-Bains-Palaldam, il y a une plus grande sélection de logements, et plusieurs bains thermaux pour rajeunir ces jambes fatiguées."
+    },
+    "accommodations": [
+      {
+        "name": "Logis Hôtel les Glycines",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/les-glycines-arles-sur-tech.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.457253,
+          "lng": 2.635485
+        }
+      }
+    ],
+    "hotel": true,
+    "gite": true,
+    "foodshop": true,
+    "restaurant": true
+  },
+  {
+    "name": "Bridge",
+    "point": {
+      "lat": 42.458749,
+      "lng": 2.638886
+    },
+    "description": {
+      "en": "Bridge over the river Tech",
+      "fr": "Bridge over the river Tech"
+    }
+  },
+  {
+    "name": "Coll de Paracolls",
+    "point": {
+      "lat": 42.441923,
+      "lng": 2.657125
+    }
+  },
+  {
+    "name": "Gîte du moulin de la Palette",
+    "point": {
+      "lat": 42.430556,
+      "lng": 2.676936
+    },
+    "description": {
+      "en": "Full meals, packed lunch and aire de bivouac",
+      "fr": "Full meals, packed lunch and aire de bivouac"
+    },
+    "gite": true,
+    "camping": true
+  },
 
+  {
+    "name": "Coll Cerdà",
+    "point": {
+      "lat": 42.425812,
+      "lng": 2.702394
+    }
+  },
+  {
+    "name": "Coll de Sant Marti",
+    "point": {
+      "lat": 42.422233,
+      "lng": 2.720637
+    }
+  },
+  {
+    "name": "Coll del Pou de la Neu",
+    "point": {
+      "lat": 42.424344,
+      "lng": 2.739646
+    }
+  },
+  {
+    "name": "Coll del Cirerers",
+    "point": {
+      "lat": 42.439567,
+      "lng": 2.760358
+    }
+  },
+  {
+    "name": "Las Illas",
+    "point": {
+      "lat": 42.426735,
+      "lng": 2.786064
+    },
+    "description": {
+      "en": "Hostal dels Trabucayres and Catalonian Restaurant",
+      "fr": "Hostal dels Trabucayres and Catalonian Restaurant"
+    },
+    "accommodations": [
+      {
+        "name": "Hostal dels Trabucayres",
+        "tel": "+33 4 68 83 07 56",
+        "url": "https://www.hostal-dels-trabucayres.fr/",
+        "point": {
+          "lat": 42.424627,
+          "lng": 2.784302
+        }
+      },
+      {
+        "name": "Gite d'etape las Illas",
+        "tel": "",
+        "url": "http://www.gitelasillas.fr.sitew.com"
+      }
+    ],
+    "gite": true,
+    "restaurant": true
+  },
+  {
+    "name": "Coll de Priorat",
+    "point": {
+      "lat": 42.458219,
+      "lng": 2.837874
+    }
+  },
+  {
+    "name": "Panissas Roman Fort",
+    "point": {
+      "lat": 42.455318,
+      "lng": 2.854289
+    }
+  },
+  {
+    "name": "Fort de Bellegarde",
+    "point": {
+      "lat": 42.459746,
+      "lng": 2.857620
+    }
+  },
+  {
+    "name": "Le Perthus",
+    "point": {
+      "lat": 42.465227,
+      "lng": 2.863183
+    },
+    "description": {
+      "en": "Le Perthus has limited accommodation. Tourist office, post office, pharmacy, supermarket on the Spanish side.",
+      "fr": "Le Perthus has limited accommodation. Tourist office, post office, pharmacy, supermarket on the Spanish side."
+    },
+    "foodshop": true,
+    "restaurant": true
+  },
+
+  {
+    "name": "Motorway",
+    "point": {
+      "lat": 42.466753,
+      "lng": 2.864908
+    }
+  },
+  {
+    "name": "Sant Martí de l'Albera",
+    "point": {
+      "lat": 42.464875,
+      "lng": 2.910524
+    },
+    "description": {
+      "en": "Church",
+      "fr": "Church"
+    }
+  },
+  {
+    "name": "Col de l'Ouillat",
+    "point": {
+      "lat": 42.479248,
+      "lng": 2.922682
+    },
+    "description": {
+      "en": "Chalet de l'Albère bar-restaurant, packed lunch, aire de bivouac",
+      "fr": "Chalet de l'Albère bar-restaurant, packed lunch, aire de bivouac"
+    },
+    "accommodations": [
+      {
+        "name": "Gite Chalet de l'Albère",
+        "tel": "",
+        "url": ""
+      }
+    ],
+    "gite": true,
+    "camping": true,
+    "restaurant": true
+  },
+  {
+    "name": "Puigneulós",
+    "point": {
+      "lat": 42.482160,
+      "lng": 2.947174
+    },
+    "description": {
+      "en": "Summit cairn",
+      "fr": "Summit cairn"
+    }
+  },
+  {
+    "name": "Refuge de la Tanyarede",
+    "point": {
+      "lat": 42.475802,
+      "lng": 2.956921
+    },
+    "cabane": true
+  },
   {
     "name": "Col de L'Estaca",
     "point": {
@@ -3591,10 +3866,57 @@
     }
   },
   {
+    "name": "Coll del Pal",
+    "point": {
+      "lat": 42.474977,
+      "lng": 3.031889
+    }
+  },
+  {
+    "name": "Col de Baillaury",
+    "point": {
+      "lat": 42.483286,
+      "lng": 3.069558
+    }
+  },
+  {
+    "name": "Coll Dels Gascons",
+    "point": {
+      "lat": 42.483547,
+      "lng": 3.085495
+    }
+  },
+
+
+  {
     "name": "Col de Llagastera",
     "point": {
       "lat": 42.482526,
       "lng": 3.095055
     }
+  },
+  {
+    "name": "Go under railway",
+    "point": {
+      "lat": 42.479602,
+      "lng": 3.123489
+    }
+  },
+  {
+    "name": "Banyuls-sur-Mer",
+    "point": {
+      "lat": 42.482058,
+      "lng": 3.129124
+    },
+    "description": {
+      "en": "Tourist information center, hotels, restaurant, beach, train station",
+      "fr": "Tourist information center, hotels, restaurant, beach, train station"
+    },
+    "hotel": true,
+    "camping": true,
+    "foodshop": true,
+    "restaurant": true,
+    "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1431845&aid=1522735&no_rooms=1&group_adults=1"
   }
+
 ]

@@ -56,7 +56,22 @@ class PointOfInterest extends Component {
   }
 
   accommodationSearch(props) {
-    if (props.pointOfInterest.accommodationSearchUrl) {
+      if (props.pointOfInterest.accommodationSearchUrl) {
+
+          if (props.language === 'fr') {
+              return (
+                  <p>
+                      <a
+                          href={props.pointOfInterest.accommodationSearchUrl}
+                          target="_blank"
+                          rel="nofollow"
+                      >
+                          Rechercher un logement à {props.pointOfInterest.name}
+                      </a>
+                  </p>
+              );
+          }
+
       return (
         <p>
           <a
@@ -64,7 +79,7 @@ class PointOfInterest extends Component {
             target="_blank"
             rel="nofollow"
           >
-            Search for accommodation
+                  Search for accommodation in {props.pointOfInterest.name}
           </a>
         </p>
       );
