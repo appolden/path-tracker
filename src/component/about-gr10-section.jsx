@@ -22,12 +22,17 @@ class AboutGr10Section extends Component {
         </p>
         <p>
           I'm grateful to{' '}
-          <a href="http://www.gr10.fr/" title="gr 10" alt="gr 10">
+          <a
+            href="http://www.gr10.fr/"
+            title="gr 10"
+            alt="gr 10"
+            rel="nofollow"
+          >
             www.gr10.fr
           </a>{' '}
           for providing the information about camping sites. The gpx data that I
           used for the trail coordinates was downloaded from{' '}
-          <a href="http://www.gr-infos.com/" title="gpx source">
+          <a href="http://www.gr-infos.com/" title="gpx source" rel="nofollow">
             www.gr-infos.com
           </a>. I have made admendments to the gpx to follow the variant options
           that are more appealing to me.
@@ -58,13 +63,22 @@ class AboutGr10Section extends Component {
             </p>
             <p>
               Je suis reconnaissant à{' '}
-              <a href="http://www.gr10.fr/" title="gr 10" alt="gr 10">
+              <a
+                href="http://www.gr10.fr/"
+                title="gr 10"
+                alt="gr 10"
+                rel="nofollow"
+              >
                 www.gr10.fr
               </a>{' '}
               pour avoir fourni des informations sur les campings. Les données
               gpx que j'ai utilisées pour les coordonnées du sentier ont été
               téléchargées sur{' '}
-              <a href="http://www.gr-infos.com/" title="gpx source">
+              <a
+                href="http://www.gr-infos.com/"
+                title="gpx source"
+                rel="nofollow"
+              >
                 www.gr-infos.com
               </a>. J'ai fait des aveux à la gpx pour suivre les variantes qui
               me plaisent.

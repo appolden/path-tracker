@@ -10,7 +10,7 @@
       "fr": "Grande ville avec toutes les installations dont vous pourriez avoir besoin. L'office de tourisme se trouve à l'est du vieux casino."
     },
     "accommodationDescription": {
-      "en": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There a couple of options close to the railway station.",
+      "en": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There are couple of hotel options close to the railway station.",
       "fr": "La plupart des hôtels de Hendaye se trouvent près de la plage. Il y a beaucoup de terrains de camping à l'est. Il y a quelques options près de la gare."
     },
     "accommodations": [
@@ -1038,8 +1038,8 @@
       "fr": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00"
     },
     "accommodationDescription": {
-      "en": "Located in the Pyrénées National Park Lescun's old buildings and narrow streets, exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. \n\n11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lsecun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.",
-      "fr": "Avec ses vieux bâtiments et ses rues étroites, Lescun dégage un agréable charme de village ancien. Le magasin est ouvert de 8h00 à minuit, de 13h30 à 19h00. \n\n11 km au nord de Lescun il y a une plus grande ville appelée Bedous. À Bedous, vous trouverez des guichets automatiques, une pharmacie, un centre d'information touristique et une gare. Il ne semble pas y avoir de transport public disponible entre Lsecun et Bedous, il est donc temps de sortir le pouce et d'attelage si vous avez besoin de l'une de ses installations."
+      "en": "Located in the Pyrénées National Park Lescun's old buildings and narrow streets, exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. \n\n11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lescun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.",
+      "fr": "Avec ses vieux bâtiments et ses rues étroites, Lescun dégage un agréable charme de village ancien. Le magasin est ouvert de 8h00 à minuit, de 13h30 à 19h00. \n\n11 km au nord de Lescun il y a une plus grande ville appelée Bedous. À Bedous, vous trouverez des guichets automatiques, une pharmacie, un centre d'information touristique et une gare. Il ne semble pas y avoir de transport public disponible entre Lescun et Bedous, il est donc temps de sortir le pouce et d'attelage si vous avez besoin de l'une de ses installations."
     },
     "accommodations": [
       {
@@ -1105,7 +1105,7 @@
       "fr": "The Gîte is to the right where camping may be possible."
     },
     "accommodationDescription": {
-      "en": "The gite de Lhers is located is pasture land 6km after Lescun.  There is also a campground if you prefer a night under canvas. On occasion bread, pastries, drinks and will be on sale.",
+      "en": "The gite de Lhers is located is pasture land 6km after Lescun. There is also a campground if you prefer a night under canvas. On occasion bread, pastries, drinks and will be on sale.",
       "fr": "Le gîte de Lhers est situé à 6km de Lescun. Il y a aussi un camping si vous préférez une nuit sous la toile. À l'occasion du pain, des pâtisseries, des boissons et sera en vente."
     },
     "accommodations": [
@@ -1383,7 +1383,7 @@
       "fr": "Tournez à gauche pour Arrens-Marsous. Il y a un point d'eau près de l'église, des options d'hébergement limitées et de petites boutiques. Le supermarché Proxi est ouvert tous les jours, de 8h00 à midi, de 8h00 à midi et de 8h00 à midi et de 16h00 à 19h00."
     },
     "accommodationDescription": {
-      "en": "Arrens-Marsous is located in the Pyrénées National Park. The GR10 path passes to the south of Arrens-Marsous. Shortly after passing the Catholic church turn left to walk towards the town centre. In the town centre you will find the tourist information centre in the Maison du Val d'Azun.\n\nThere are two campground which can be found to the north of the town near to the Proxi supermarket.",
+      "en": "Arrens-Marsous is located in the Pyrénées National Park. The GR10 path passes to the south of Arrens-Marsous. Shortly after passing the Catholic church turn left to walk towards the town centre. In the town centre you will find the tourist information centre in the Maison du Val d'Azun.\n\nThere are two campgrounds which can be found to the north of the town near to the Proxi supermarket.",
       "fr": "Arrens-Marsous est situé dans le parc national des Pyrénées. Le sentier GR10 passe au sud d'Arrens-Marsous. Peu après avoir passé l'église catholique, tournez à gauche pour marcher vers le centre-ville. Dans le centre-ville, vous trouverez le centre d'information touristique de la Maison du Val d'Azun.\n\nIl y a deux terrains de camping qui peuvent être trouvés au nord de la ville près du supermarché Proxi."
     },
     "accommodations": [
@@ -1510,6 +1510,10 @@
       "en": "Open from June to Septmember. Demi-pension Adultes (à partir de 13 ans) : 40 €/pers. Nuitée: 15 €/pers. Repas: 17 €/pers. Petit-déjeuner: 8€/pers.",
       "fr": "Open from June to Septmember. Demi-pension Adultes (à partir de 13 ans) : 40 €/pers. Nuitée: 15 €/pers. Repas: 17 €/pers. Petit-déjeuner: 8€/pers."
     },
+    "accommodationDescription": {
+      "en": "The Refuge d'Ilhéou is on the shore of the Lac Bleu d'Ilhéou (blue lake) in the heart of the Pyrénées National Park. Open from the beginning of June until October. Meals, snacks, breakfast available.",
+      "fr": "Le Refuge d'Ilhéou se trouve sur la rive du lac Bleu d'Ilhéou (lac bleu) au cœur du parc national des Pyrénées. Ouvert du début juin à octobre. Repas, collations, petit-déjeuner disponible."
+    },
     "accommodations": [
       {
         "name": "Refuge d'Ilhéou",
@@ -1539,7 +1543,7 @@
       "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
     },
     "accommodationDescription": {
-      "en": "Cauterets is one of the largest towns along the GR10 trail. It is famous for being a spa town. It's an ideal place to spend a rest day if you legs are sore.\n\nThe historic market town of Lourdes is located 20km to the north. Lourdes is a major Catholic pilgrimage site. It is estimated that up to a million visitors, visit the the Grotto of Massabielle. If your looking to go off-piste and hit up some culture then Lourdes is an ideal option. But after spending weeks in the mountains the hordes of people will come as a shock.",
+      "en": "Cauterets is one of the largest towns along the GR10 trail. It is famous for being a spa town. It's an ideal place to spend a rest day if you legs are sore.\n\nThe historic market town of Lourdes is located 20km to the north. Lourdes is a major Catholic pilgrimage site. It is estimated that up to a million people visit the the Grotto of Massabielle. If your looking to go off-piste and hit up some culture then Lourdes is an ideal option. But after spending weeks in the mountains the hordes of people will come as a shock.",
       "fr": "Cauterets est l'une des plus grandes villes le long du sentier GR10. Il est célèbre pour être une ville thermale. C'est un endroit idéal pour passer une journée de repos si vous avez mal aux pattes.\n\nLe bourg historique de Lourdes est situé à 20 km au nord. Lourdes est un important site de pèlerinage catholique. On estime que jusqu'à un million de visiteurs, visitez la Grotte de Massabielle. Si vous cherchez à faire du hors-piste et à faire de la culture, alors Lourdes est une option idéale, mais après des semaines passées dans les montagnes, les hordes seront un choc."
     },
     "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1",
@@ -1649,13 +1653,22 @@
     },
     "description": {
       "en": "Basic, woodsy dorms with mountain views, plus a cozy dining room, a terrace & a lounge. Camping might be possible",
-      "fr": "Basic, woodsy dorms with mountain views, plus a cozy dining room, a terrace & a lounge. Camping might be possible"
+      "fr": "Un refuge de base CAF avec vue sur la montagne, avec une salle à manger confortable, une terrasse et un salon. Si vous ne trouvez pas de logement ici, suivez la route qui descend vers Gavarnie (1,5 km)."
     },
+    "accommodationDescription": {
+      "en": "A basic CAF refuge with mountain views, with a cozy dining room, terrace and a lounge. If you are unable to find accommodation here then follow the road down the hill to Gavarnie (1.5kms).",
+      "fr": "Un refuge de base CAF avec vue sur la montagne, avec une salle à manger confortable, une terrasse et un salon. Si vous ne trouvez pas de logement ici, suivez la route qui descend vers Gavarnie (1,5 km)."
+    },
+
     "accommodations": [
       {
         "name": "Chalet la Grange de Holle",
         "tel": "+33 5 62 92 48 77",
-        "url": "http://chaletlagrangedeholle.ffcam.fr/"
+        "url": "http://chaletlagrangedeholle.ffcam.fr/",
+        "point": {
+          "lat": 42.739444,
+          "lng": -0.022611
+        }
       }
     ],
     "gite": true,
@@ -1668,29 +1681,50 @@
       "lng": -0.009677
     },
     "description": {
-      "en": "If you want to visit Gavarnie take the road leading down from Chalet la Grange de Holle.  Tourist office hotels, gites, a campground and small shops. There is a bus service to Luz-Saint-Sauveur",
-      "fr": "If you want to visit Gavarnie take the road leading down from Chalet la Grange de Holle.  Tourist office hotels, gites, a campground and small shops. There is a bus service to Luz-Saint-Sauveur"
+      "en": "If you want to visit Gavarnie take the road leading down from Chalet la Grange de Holle. Tourist office hotels, gites, a campground and small shops. There is a bus service to Luz-Saint-Sauveur.",
+      "fr": "Si vous voulez visiter Gavarnie, prenez la route qui descend du Chalet la Grange de Holle. Office de tourisme, gîtes, camping et petites boutiques. Il y a un service de bus pour Luz-Saint-Sauveur."
     },
+    "accommodationDescription": {
+      "en": "The GR10 doesn't visit Gavarnie but if you want to visit then the take road down the hill from the Chalet-refuge la Grange de Holle (1.5kms).\n\nGavarnie is known for the Cirque de Gavarnie which is well worth a visit. Here you will find the Gavarnie Falls, which some claim to be the highest in Europe at 427 metres. The Cirque de Gavarnie and Gavarnie Falls are part of the UNESCO World Heritage Site Pyrénées – Mont Perdu.\n\nAs for most UNESCO sites, Gavarnie attracts many visitors. And when the GR10 crosses a popular destination you will find the all the facilities you might need. Gites, campgrounds, shops, restuarant and a tourist office.\n\nThere is a bus connection tow Luz-Saint-Sauveur",
+      "fr": "Le GR10 ne visite pas Gavarnie mais si vous voulez visiter, prenez la route en descendant la colline du Chalet-refuge la Grange de Holle (1.5km).\n\nGavarnie est connue pour le Cirque de Gavarnie qui vaut le détour. Vous trouverez ici les chutes de Gavarnie, que certains prétendent être les plus hautes d'Europe à 427 mètres. Le Cirque de Gavarnie et les chutes de Gavarnie font partie du site classé au patrimoine mondial de l'UNESCO Pyrénées - Mont Perdu.\n\nComme pour la plupart des sites de l'UNESCO, Gavarnie attire de nombreux visiteurs. Et quand le GR10 traverse une destination populaire, vous trouverez toutes les installations dont vous pourriez avoir besoin. Gîtes, campings, boutiques, restaurants et office de tourisme."
+    },
+
     "accommodations": [
-      {
-        "name": "Chambres d'hôtes chez Sanyou - Jean-Michel et Bernadette Tajan",
-        "tel": "+33 5 62 45 37 75",
-        "url": "http://www.location-gavarnie.com/"
-      },
       {
         "name": "Hôtel Restaurant Le Marboré",
         "tel": "+33 5 62 92 40 40",
-        "url": "http://www.lemarbore.com/"
+        "url": "http://www.booking.com/hotel/fr/le-marbore.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.734237,
+          "lng": -0.009613
+        }
       },
       {
         "name": "Gite d'étape Oxygène",
         "tel": "+33 5 62 92 48 23",
-        "url": "https://gite-gavarnie.com/"
+        "url": "https://gite-gavarnie.com/",
+        "point": {
+          "lat": 42.732181,
+          "lng": -0.009938
+        }
       },
       {
-        "name": "Hôtel Club Vignemale",
+        "name": "Hôtel Vignemale",
         "tel": "+33 5 62 92 40 00",
-        "url": "http://www.hotel-vignemale.com/"
+        "url": "http://www.booking.com/hotel/fr/vignemale.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.731501,
+          "lng": -0.008106
+        }
+      },
+      {
+        "name": "Hôtel des Cimes ",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/vignemale.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.730961,
+          "lng": -0.009095
+        }
       }
     ],
     "hotel": true,
@@ -1707,7 +1741,7 @@
     },
     "description": {
       "en": "Bivouac next to the water.",
-      "fr": "Bivouac next to the water."
+      "fr": "Bivouac au bord de l'eau."
     },
     "camping": true
   },
@@ -1733,13 +1767,13 @@
       "lng": 0.001481
     },
     "description": {
-      "en": "Basic campground with bar",
-      "fr": "Basic campground with bar"
+      "en": "Basic campground with bar.",
+      "fr": "Un camping de base avec bar."
     },
     "camping": true
   },
   {
-    "name": "Saint-Sauver",
+    "name": "Saint-Sauveur",
     "point": {
       "lat": 42.865892,
       "lng": -0.012542
@@ -1748,21 +1782,33 @@
       "en": "Turn left here if require the Hôtel Panoramic et des Bains, Hôtel Ardiden or Les Gîtes du Pla de Moura. The GR10 continues to the right.",
       "fr": "Turn left here if require the Hôtel Panoramic et des Bains, Hôtel Ardiden or Les Gîtes du Pla de Moura. The GR10 continues to the right."
     },
+    "accommodationDescription": {
+      "en": "Saint-Sauveur is found on the west side of the Gavarnie river. This side of the rive you will find thermal baths, hotels and gites but if your are looking for shops and restaurants then continue on to Luz-Saint-Sauveur.",
+      "fr": "Saint-Sauveur se trouve du côté ouest de la Gave de Gavarnie. De ce côté de la rivière, vous trouverez des thermes, des hôtels et des gîtes, mais si vous cherchez des boutiques et des restaurants, continuez jusqu'à Luz-Saint-Sauveur."
+    },
     "accommodations": [
       {
         "name": "Hôtel Panoramic et des Bains",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/panoramic-et-des-bains.html?aid=1522736&no_rooms=1&group_adults=1"
       },
       {
         "name": "Hôtel Ardiden",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/logis-de-france-ardiden.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.865300,
+          "lng": -0.012057
+        }
       },
       {
         "name": "Les Gîtes du Pla de Moura",
         "tel": "",
-        "url": ""
+        "url": "http://www.booking.com/hotel/fr/les-gites-du-pla-de-moura.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.865730,
+          "lng": -0.012660
+        }
       }
     ],
     "hotel": true,
@@ -1796,11 +1842,37 @@
       "en": "Cross the bridge to enter Luz Saint Sauveur. Gites, hotels, two Carrefour supermarkets. Bus services to Lourdes, Gavarnie and Cauterets",
       "fr": "Cross the bridge to enter Luz Saint Sauveur. Gites, hotels, two Carrefour supermarkets. Bus services to Lourdes, Gavarnie and Cauterets"
     },
+    "accommodationDescription": {
+      "en": "At an altitude of 711 m altitude, Luz-Saint-Sauveur is inside one of the most beautiful valleys of the Hautes-Pyrenees. In Luz-Saint-Sauveur, there are all the facilities you need. Supermarkets, hotels, campgrounds, food, drink and a tourist information centre.\n\nThere is a bus connection to Lourdes but I'm unable to determine the exact details of when and where the bus departs from. The bus operator is called, Keolis Pyrenees and there are two departures Monday to Friday.",
+      "fr": "À 711 m d'altitude, Luz-Saint-Sauveur est l'une des plus belles vallées des Hautes-Pyrénées. À Luz-Saint-Sauveur, il y a toutes les commodités dont vous avez besoin. Supermarchés, hôtels, terrains de camping, nourriture, boisson et centre d'information touristique.\n\nIl y a une ligne de bus vers Lourdes mais je ne peux pas déterminer les détails exacts du moment et de l'endroit où le bus part. L'opérateur d'autobus est appelé, Keolis Pyrénées et il y a deux départs du lundi au vendredi."
+    },
     "accommodations": [
       {
-        "name": "Camping Les Cascades",
-        "tel": "+33 5 62 92 85 85",
-        "url": "http://www.camping-luz.fr/"
+        "name": "Gîte Ste Barbe",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/gite-ste-barbe.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.870337,
+          "lng": -0.002895
+        }
+      },
+      {
+        "name": "Hôtel des Cimes",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/des-cimes-lus-saint-sauveur.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.872142,
+          "lng": -0.003335
+        }
+      },
+      {
+        "name": "Gite d'etape le Regain",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/gite-d-39-etape-le-regain.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.871558,
+          "lng": -0.002853
+        }
       }
     ],
     "hotel": true,
@@ -3653,12 +3725,12 @@
       "lng": 2.634771
     },
     "description": {
-      "en": "As you can probably guess from the name, this Catalan town lies next the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between.",
-      "fr": "As you can probably guess from the name, this Catalan town lies next the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between."
+      "en": "As you can probably guess from the name, this Catalan town lies next to the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between.",
+      "fr": "As you can probably guess from the name, this Catalan town lies next to the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between."
     },
     "accommodationDescription": {
-      "en": "As you can probably guess from the name, this Catalan town lies next the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between. For all other enquires there is a tourist office.\n\nIf your legs are feeling weary at the point you can think about visiting the spas in the nearby town of Amélie-les-Bains-Palalda (4.5km north on the D115 road). In you Amélie-les-Bains-Palaldam there is a wider selection of accommodation, and several thermal baths to rejuvenate those tired legs. ",
-      "fr": "Comme vous pouvez probablement deviner à partir du nom, cette ville catalane se trouve à côté de la rivière Tech. Il y a des guichets automatiques, un supermarché, des boulangeries et quelques bars-restaurants à choisir. Pour toutes les autres demandes, il y a un office du tourisme.\n\nSi vous vous sentez fatigué au point de visiter les thermes de la ville voisine d'Amélie-les-Bains-Palalda (4,5 km au nord sur la route D115) . En vous Amélie-les-Bains-Palaldam, il y a une plus grande sélection de logements, et plusieurs bains thermaux pour rajeunir ces jambes fatiguées."
+      "en": "As you can probably guess from the name, this Catalan town lies next to the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between. For all other enquires there is a tourist office.\n\nIf your legs are feeling weary at the point you can think about visiting the spas in the nearby town of Amélie-les-Bains-Palalda (4.5km north on the D115 road). In Amélie-les-Bains-Palaldam there is a wider selection of accommodation available, and several thermal baths to rejuvenate those tired legs. ",
+      "fr": "Comme vous pouvez probablement deviner à partir du nom, cette ville catalane se trouve à côté de la rivière Tech. Il y a des guichets automatiques, un supermarché, des boulangeries et quelques bars-restaurants à choisir. Pour toutes les autres demandes, il y a un office du tourisme.\n\nSi vous vous sentez fatigué au point de visiter les thermes de la ville voisine d'Amélie-les-Bains-Palalda (4,5 km au nord sur la route D115) . En Amélie-les-Bains-Palaldam, il y a une plus grande sélection de logements, et plusieurs bains thermaux pour rajeunir ces jambes fatiguées."
     },
     "accommodations": [
       {

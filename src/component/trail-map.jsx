@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { Map } from 'google-maps-react';
 import Menu from '../component/menu.jsx';
@@ -62,7 +63,7 @@ export class TrailMap extends Component {
       case 'gr10':
       default:
         this.polylineUrl = '/data/gr10-route.json';
-        this.campingUrl = '/data/gr10-points-of-interest-to-locate.json'; //C:\Code\path-tracker\public\data\gr10-points-of-interest-to-locate.json
+        this.campingUrl = '/data/gr10-points-of-interest-to-locate.json';
         this.poisUrl = '/data/gr10-points-of-interest.json';
         this.initialCenter = { lat: 42.823647, lng: 0.795077 };
         this.initialZoom = 6;
@@ -175,7 +176,10 @@ export class TrailMap extends Component {
           lng: hotel.point.lng
         },
         title: hotel.name,
-        icon: '/images/bed.png'
+        icon:
+          hotel.name.toLowerCase().indexOf('camping') > -1
+            ? '/images/tent.png'
+            : '/images/bed.png'
       });
 
       marker.addListener('click', () => {
@@ -209,52 +213,48 @@ export class TrailMap extends Component {
     }
   }
 
-  addCampingLocation(google, map, campingLocation) {
-    if (this.infoWindow === undefined) {
-      this.infoWindow = new google.maps.InfoWindow({
-        content: ''
-      });
+  content(props) {
+    const language = LanguageHelper.getLanguage(this.props.language);
+    if (language === 'fr') {
+      return <p>Carte du GR10 (Les Pyrénées) et des hébergements</p>;
     }
 
-    const marker = new google.maps.Marker({
-      map: map,
-      position: {
-        lat: campingLocation.point.lat,
-        lng: campingLocation.point.lng
-      },
-      title: campingLocation.name
-    });
-
-    marker.addListener('click', () => {
-      this.onMarkerClick(marker, campingLocation);
-    });
-  }
-
-  onMarkerClick(marker, campingLocation) {
-    let description =
-      campingLocation.description !== undefined
-        ? campingLocation.description.en || campingLocation.description.fr
-        : '';
-
-    switch (LanguageHelper.getLanguage(this.props.language)) {
-      case 'fr':
-        description = campingLocation.description.fr;
-        break;
-      case 'en':
-      default:
-    }
-
-    const content = `<h3>${
-      campingLocation.name
-    }</h3><div><p>${description}</p></div>`;
-    this.infoWindow.setContent(content);
-    this.infoWindow.open(this.map, marker);
+    return (
+      <React.Fragment>
+        <p>
+          Map of the GR10 trail (The pyrenees) with hotels, gites and camping
+          locations. This is not an exhaustive list but gives you a general idea
+          of where the accommodation is in relation to the GR10 path.
+        </p>
+        <p>
+          Double click on an icon to zoom in. Single click on an icon to view
+          more information.
+        </p>
+        <p>
+          For a list of the towns and a short description refer to the{' '}
+          <Link
+            to={'/' + language + '/' + this.props.trailName + '/town-guide'}
+            title={this.props.trailName + ' town guide'}
+          >
+            town guide
+          </Link>. This guide will be updated in summer 2018.
+        </p>
+        <h2>Coming soon</h2>
+        <ul>
+          <li>Campgrounds</li>
+          <li>Wild camping spots (aire de bivouac)</li>
+          <li>Transport links</li>
+          <li>Alternative routes</li>
+          <li>Costs</li>
+        </ul>
+      </React.Fragment>
+    );
   }
 
   render() {
     let title = 'GR10 Map';
     let metaDescription =
-      'Map of the GR10 trail (The pyrenees) and hotel locations';
+      'Map of the GR10 trail (The pyrenees) with hotels, gites and camping locations.';
 
     const language = LanguageHelper.getLanguage(this.props.language);
 
@@ -265,7 +265,7 @@ export class TrailMap extends Component {
           case 'fr':
             title = 'GR10 Carte';
             metaDescription =
-              'Carte du GR10 (Les Pyrénées) et des hébergements';
+              'Carte du GR10 (Les Pyrénées) avec des hôtels, des gîtes et des campings';
             break;
           case 'en':
           default:
@@ -331,7 +331,8 @@ export class TrailMap extends Component {
               className="map"
             />
           </div>
-          <p>{metaDescription}</p>
+          {this.content(this.props)}
+
           <p>
             Icons made by{' '}
             <a
@@ -360,6 +361,7 @@ export class TrailMap extends Component {
             </a>
           </p>
         </div>
+        <footer className="App-content">Last updated 15/05/2018</footer>
       </React.Fragment>
     );
   }

@@ -74,7 +74,9 @@ class AccommodationList extends Component {
     const pointsOfInterest = data
       .filter(
         x =>
-            (x.accommodations || x.accommodationSearchUrl) && (x.hotel || x.gite) && x.accommodationDescription
+          (x.accommodations || x.accommodationSearchUrl) &&
+          (x.hotel || x.gite) &&
+          x.accommodationDescription
       )
       .sort(function compare(a, b) {
         if (a.nearestMetreOfPath < b.nearestMetreOfPath) return -1;
@@ -262,6 +264,7 @@ class AccommodationList extends Component {
           )}
           {rows}
         </div>
+        <footer className="App-content">Last updated 15/05/2018</footer>
       </React.Fragment>
     );
   }

@@ -56,21 +56,20 @@ class PointOfInterest extends Component {
   }
 
   accommodationSearch(props) {
-      if (props.pointOfInterest.accommodationSearchUrl) {
-
-          if (props.language === 'fr') {
-              return (
-                  <p>
-                      <a
-                          href={props.pointOfInterest.accommodationSearchUrl}
-                          target="_blank"
-                          rel="nofollow"
-                      >
-                          Rechercher un logement à {props.pointOfInterest.name}
-                      </a>
-                  </p>
-              );
-          }
+    if (props.pointOfInterest.accommodationSearchUrl) {
+      if (props.language === 'fr') {
+        return (
+          <p>
+            <a
+              href={props.pointOfInterest.accommodationSearchUrl}
+              target="_blank"
+              rel="nofollow"
+            >
+              Rechercher un logement à {props.pointOfInterest.name}
+            </a>
+          </p>
+        );
+      }
 
       return (
         <p>
@@ -79,7 +78,7 @@ class PointOfInterest extends Component {
             target="_blank"
             rel="nofollow"
           >
-                  Search for accommodation in {props.pointOfInterest.name}
+            Search for accommodation in {props.pointOfInterest.name}
           </a>
         </p>
       );
