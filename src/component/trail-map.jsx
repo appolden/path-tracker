@@ -95,6 +95,22 @@ export class TrailMap extends Component {
         });
 
         trail.setMap(map);
+
+        if (data.alternates) {
+          data.alternates.forEach(function(alternate, index) {
+            const decodedAlternatePath = mapProps.google.maps.geometry.encoding.decodePath(
+              alternate.polyline
+            );
+            const alternatePolyline = new mapProps.google.maps.Polyline({
+              path: decodedAlternatePath,
+              strokeColor: '#4b1a7e',
+              strokeOpacity: 0.9,
+              strokeWeight: 3
+            });
+
+            alternatePolyline.setMap(map);
+          });
+        }
       });
 
     this.loadPointsOfInterest();
@@ -254,7 +270,7 @@ export class TrailMap extends Component {
   render() {
     let title = 'GR10 Map';
     let metaDescription =
-      'Map of the GR10 trail (The pyrenees) with hotels, gites and camping locations.';
+      'Google map version of the GR10 trail (The pyrenees) with hotels, gites and camping locations.';
 
     const language = LanguageHelper.getLanguage(this.props.language);
 

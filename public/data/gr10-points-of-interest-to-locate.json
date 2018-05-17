@@ -10,8 +10,8 @@
       "fr": "Grande ville avec toutes les installations dont vous pourriez avoir besoin. L'office de tourisme se trouve à l'est du vieux casino."
     },
     "accommodationDescription": {
-      "en": "Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There are couple of hotel options close to the railway station.",
-      "fr": "La plupart des hôtels de Hendaye se trouvent près de la plage. Il y a beaucoup de terrains de camping à l'est. Il y a quelques options près de la gare."
+      "en": "<p>Most hotels in Hendaye can be found close to the beach. There are many campgrounds to the east. There are couple of hotel options close to the railway station.</p>",
+      "fr": "<p>La plupart des hôtels de Hendaye se trouvent près de la plage. Il y a beaucoup de terrains de camping à l'est. Il y a quelques options près de la gare.</p>"
     },
     "accommodations": [
       {
@@ -49,8 +49,8 @@
       "fr": "Tournez à droite pour Biriatou."
     },
     "accommodationDescription": {
-      "en": "The Basque village of Biriatou is situated on the side of Xoldokogaina (486m). Look out for events held on the pelota pitch.",
-      "fr": "Le village basque de Biriatou est situé du côté de Xoldokogaina (486m). Surveillez les événements organisés sur le terrain de la pelote."
+      "en": "<p>The Basque village of Biriatou is situated on the side of Xoldokogaina (486m). Look out for events held on the pelota pitch.</p>",
+      "fr": "<p>Le village basque de Biriatou est situé du côté de Xoldokogaina (486m). Surveillez les événements organisés sur le terrain de la pelote.</p>"
     },
     "accommodations": [
       {
@@ -134,8 +134,8 @@
       "fr": "La frontière entre la France et l'Espagne traverse le Col d'Ibardin. Vous trouverez de nombreux restaurants et supermarchés aux prix espagnols."
     },
     "accommodationDescription": {
-      "en": "The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.",
-      "fr": "La frontière entre la France et l'Espagne traverse le Col d'Ibardin. Vous trouverez de nombreux restaurants et supermarchés aux prix espagnols."
+      "en": "<p>The border between France and Spain runs through Col d'Ibardin. You will find many restaurants and supermarkets at Spanish prices.</p>",
+      "fr": "<p>La frontière entre la France et l'Espagne traverse le Col d'Ibardin. Vous trouverez de nombreux restaurants et supermarchés aux prix espagnols.</p>"
     },
     "accommodations": [
       {
@@ -163,8 +163,8 @@
       "fr": "Il y a deux gîte d'etapes et un hôtel"
     },
     "accommodationDescription": {
-      "en": "There are two gites and one hotel. The Gîte Manttu-Baita is located next to the GR10 path. The hotel restaurant Trabenia can be found further down the road next to the main road.",
-      "fr": "Il y a deux gîte d'etapes et un hôtel. Le Gîte Manttu-Baita est situé à côté du sentier GR10. Le restaurant de l'hôtel Trabenia se trouve plus loin sur la route principale."
+      "en": "<p>There are two gites and one hotel. The Gîte Manttu-Baita is located next to the GR10 path. The hotel restaurant Trabenia can be found further down the road next to the main road.</p>",
+      "fr": "<p>Il y a deux gîte d'etapes et un hôtel. Le Gîte Manttu-Baita est situé à côté du sentier GR10. Le restaurant de l'hôtel Trabenia se trouve plus loin sur la route principale.</p>"
     },
     "accommodations": [
       {
@@ -227,8 +227,8 @@
       "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz"
     },
     "accommodationDescription": {
-      "en": "Tourist office, campground and many small shops. There is a bus service from Sare to St-Jean-de-Luz.",
-      "fr": "Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers St-Jean-de-Luz."
+      "en": "<p>Tourist office, campground and many small shops. There is a bus service from Sare to Saint-Jean-de-Luz. Saint-Jean-de-Luz is located 12kms north of Hendaye and has a train station</p><p><a href=\"http://hegobus.fr/files/files_lignes/HEGOBUS-L21-Printemps2018.pdf\" title=\"Sare to Saint-Jean-de-Luz bus timetable\" rel=\"nofollow\">Sare to Saint-Jean-de-Luz bus timetable</a></p>",
+      "fr": "<p>Ravitaillement, camping, distributeur d'argent, pharmacie, route et bus vers Saint-Jean-de-Luz.</p><p><a href=\"http://hegobus.fr/files/files_lignes/HEGOBUS-L21-Printemps2018.pdf\" title=\"Sare to Saint-Jean-de-Luz bus timetable\" rel=\"nofollow\">Sare - Saint-Jean-de-Luz horaire de bus</a></p>"
     },
     "accommodations": [
       {
@@ -302,8 +302,8 @@
       "fr": "Hego Alde Gîte et Chambres d'hôtes à Sare"
     },
     "accommodationDescription": {
-      "en": "The GR10 passes right in front of the house. This gite can be found approximately 3km from Sare and 9km before Ainhoa.",
-      "fr": "Le GR10 passe juste devant la maison. Ce gîte se trouve à environ 3 km de Sare et 9 km avant Ainhoa."
+      "en": "<p>The GR10 passes right in front of the house. This gite can be found approximately 3km from Sare and 9km before Ainhoa.</p>",
+      "fr": "<p>Le GR10 passe juste devant la maison. Ce gîte se trouve à environ 3 km de Sare et 9 km avant Ainhoa.</p>"
     },
     "accommodations": [
       {
@@ -339,8 +339,8 @@
       "fr": "Un village touristique. Il n'y a pas de grands supermarchés mais vous pourrez acheter des produits basques locaux. Il y a un point d'eau dans les toilettes publiques"
     },
     "accommodationDescription": {
-      "en": "Tourist village. There are no large supermarkets but you will be able to buy local Basque produce.",
-      "fr": "Un village touristique. Il n'y a pas de grands supermarchés mais vous pourrez acheter des produits basques locaux."
+      "en": "<p>Tourist village. There are no large supermarkets but you will be able to buy local Basque produce.</p>",
+      "fr": "<p>Un village touristique. Il n'y a pas de grands supermarchés mais vous pourrez acheter des produits basques locaux.</p>"
     },
     "accommodations": [
       {
@@ -435,8 +435,8 @@
       "fr": "Suivez le panneau pour Venta Burkaitz. Un bar-restaurant avec hébergement disponible. Vérifiez les heures d'ouverture, car il ne peut être ouvert en été."
     },
     "accommodationDescription": {
-      "en": "Venta Burkaitz is a bar-restaurant with accommodation available. Check opening times because it may only be open in summer.",
-      "fr": "Venta Burkaitz est un bar-restaurant avec hébergement disponible. Vérifiez les heures d'ouverture, car il ne peut être ouvert en été."
+      "en": "<p>Venta Burkaitz is a bar-restaurant with accommodation available. Check opening times because it may only be open in summer.</p>",
+      "fr": "<p>Venta Burkaitz est un bar-restaurant avec hébergement disponible. Vérifiez les heures d'ouverture, car il ne peut être ouvert en été.</p>"
     },
     "accommodations": [
       {
@@ -466,8 +466,8 @@
       "lng": -1.356774
     },
     "accommodationDescription": {
-      "en": "The Gite Urrizate is situated next to the GR10 path just before reaching Bidarray.",
-      "fr": "Le Gite Urrizate est situé à côté du GR10 juste avant Bidarray."
+      "en": "<p>The Gite Urrizate is situated next to the GR10 path just before reaching Bidarray.</p>",
+      "fr": "<p>Le Gite Urrizate est situé à côté du GR10 juste avant Bidarray.</p>"
     },
     "accommodations": [
       {
@@ -493,8 +493,8 @@
       "fr": "There is a waterpoint outside the church. The train station can be found down by the river. Camping Amestoya is 2km north of Bidarray"
     },
     "accommodationDescription": {
-      "en": "There is a train station that connects to Bayonne and Saint-Jean-Pied-de-Port. Some accommodation can be found on the other side of the river Nive, such as the Le Chalet d'Iparla (1.4km from the GR10). Call ahead and they might come to pick you up.\n\nIf you have the time, then visit Noblia bridge which spans the Nive. The legend tells it was built by witches, which is why it's locally referred to as the \"the Bridge of Hell\"",
-      "fr": "Il y a une gare qui relie Bayonne et Saint-Jean-Pied-de-Port. Certains hébergements peuvent être fiers de l'autre côté de la Nive, comme le Chalet d'Iparla (à 1,4km du GR10). Appelez à l'avance et ils pourraient venir vous chercher. \n\nSi vous avez le temps, alors visitez le pont Noblia qui enjambe la Nive. La légende raconte qu'il a été construit par les sorcières, ce qui explique pourquoi il est appelé localement le «pont de l'enfer»"
+      "en": "<p>There is a train station that connects to Bayonne and Saint-Jean-Pied-de-Port. Some accommodation can be found on the other side of the river Nive, such as the Le Chalet d'Iparla (1.4km from the GR10). Call ahead and they might come to pick you up.</p><p>If you have the time, then visit Noblia bridge which spans the Nive. The legend tells it was built by witches, which is why it's locally referred to as the \"the Bridge of Hell\"</p>",
+      "fr": "<p>Il y a une gare qui relie Bayonne et Saint-Jean-Pied-de-Port. Certains hébergements peuvent être fiers de l'autre côté de la Nive, comme le Chalet d'Iparla (à 1,4km du GR10). Appelez à l'avance et ils pourraient venir vous chercher. </p><p>Si vous avez le temps, alors visitez le pont Noblia qui enjambe la Nive. La légende raconte qu'il a été construit par les sorcières, ce qui explique pourquoi il est appelé localement le «pont de l'enfer»</p>"
     },
     "accommodations": [
       {
@@ -562,8 +562,8 @@
       "fr": "Tourist office. Turn left up Behereko Karrika for the Intermarché supermarket and campground. Continue west along the river for hôtel Arcé, hôtel Juantorena and Gite Gaineko Karrikan"
     },
     "accommodationDescription": {
-      "en": "Tourist information center. Bakery Irastorza (closed on weekends). The Intermarche supermarket and campground are situated north of the tourist office. For the hotels and gites continue over the bridge that crosses the Nive des Aldudes. ",
-      "fr": "Centre d'information touristique. Boulangerie Irastorza (fermé le week-end). Le supermarché Intermarché et le camping sont situés au nord de l'office de tourisme. Pour les hôtels et les gîtes, continuez sur le pont qui traverse La Nive des Aldudes."
+      "en": "<p>Tourist information center. Bakery Irastorza (closed on weekends). The Intermarche supermarket and campground are situated north of the tourist office. For the hotels and gites continue over the bridge that crosses the Nive des Aldudes.</p>",
+      "fr": "<p>Centre d'information touristique. Boulangerie Irastorza (fermé le week-end). Le supermarché Intermarché et le camping sont situés au nord de l'office de tourisme. Pour les hôtels et les gîtes, continuez sur le pont qui traverse La Nive des Aldudes.</p>"
     },
     "accommodations": [
       {
@@ -631,8 +631,8 @@
       "fr": "You will pass restaurant Lespade shortly before arriving in Lasse. Turn right at the crossroads for Gîte de groupe de la Cidrerie Aldakurria"
     },
     "accommodationDescription": {
-      "en": "Lasse is a small hamlet centered around a crossroad. It is located 2.5 kms before reaching the large town of Saint-Jean-Pied-de-Port. If you want a quieter night then Lasse is the better option.",
-      "fr": "Lasse est un petit hameau centré autour d'un carrefour. Il est situé à 2,5 km avant d'atteindre la grande ville de Saint-Jean-Pied-de-Port. Si vous voulez passer une nuit tranquille, Lasse est la meilleure option."
+      "en": "<p>Lasse is a small hamlet centered around a crossroad. It is located 2.5 kms before reaching the large town of Saint-Jean-Pied-de-Port. If you want a quieter night then Lasse is the better option.</p>",
+      "fr": "<p>Lasse est un petit hameau centré autour d'un carrefour. Il est situé à 2,5 km avant d'atteindre la grande ville de Saint-Jean-Pied-de-Port. Si vous voulez passer une nuit tranquille, Lasse est la meilleure option.</p>"
     },
     "accommodations": [
       {
@@ -678,8 +678,8 @@
       "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
     },
     "accommodationDescription": {
-      "en": "Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as, The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shells represent and gloat about how much tougher the GR10 is to walk than the Camino. \n\nMonday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.\n\nThere are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. ",
-      "fr": "Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.\n\nLundi est le jour du marché avec des moutons et du bétail conduit dans la ville."
+      "en": "<p>Saint-Jean-Pied-de-Port is also a starting point for pilgrims travelling the Camino de Santiago. Also know as, The Way of St James. Look out for the scallop shells that are used as way markers for the Camino. Spend an evening with some of the pilgrims discussing what the shells represent and gloat about how much tougher the GR10 is to walk than the Camino. </p><p>Monday is market day with sheep and cattle driven into the town. At 5pm, there is a communal game of bare-handed pelote at the fronton.</p><p>There are many accommodation options, tourist office and two supermarkets. The train station connects with Bayonne. </p>",
+      "fr": "<p>Saint-Jean-Pied-de-Port est aussi un point de départ pour la traversée du Camino de Santiago. Aussi connu comme le chemin de St James. Faites attention aux coquilles de pétoncles qui servent de marqueurs au Camino. Passez une soirée avec quelques pèlerins discutant de ce que représente la coquille.</p><p>Lundi est le jour du marché avec des moutons et du bétail conduit dans la ville.</p>"
     },
     "accommodations": [
       {
@@ -739,8 +739,8 @@
       "lng": -1.217830
     },
     "accommodationDescription": {
-      "en": "The small village of Caro is on the GR10, approximately 3km after leaving Saint-Jean-Pied-de-Port. The Maison Florenia is the closest accommodation to the GR10 trail. ",
-      "fr": "Le petit village de Caro est sur le GR10, environ 3 km après avoir quitté Saint-Jean-Pied-de-Port. La Maison Florenia est l'hébergement le plus proche du sentier GR10."
+      "en": "<p>The small village of Caro is on the GR10, approximately 3km after leaving Saint-Jean-Pied-de-Port. The Maison Florenia is the closest accommodation to the GR10 trail.</p>",
+      "fr": "<p>Le petit village de Caro est sur le GR10, environ 3 km après avoir quitté Saint-Jean-Pied-de-Port. La Maison Florenia est l'hébergement le plus proche du sentier GR10.</p>"
     },
     "accommodations": [
       {
@@ -767,8 +767,8 @@
       "fr": "Water opposite the Auberge Carricaburu."
     },
     "accommodationDescription": {
-      "en": "Estérençuby has a couple of hotel-restaurants. The hotel Andreinia Logis can be reached by crossing the bridge over the Nive de Béhérobie.",
-      "fr": "Estérençuby a quelques hôtels-restaurants. L'Hôtel Andreinia Logis peut être atteint en traversant le pont sur la Nive de Béhérobie."
+      "en": "<p>Estérençuby has a couple of hotel-restaurants. The hotel Andreinia Logis can be reached by crossing the bridge over the Nive de Béhérobie.</p>",
+      "fr": "<p>Estérençuby a quelques hôtels-restaurants. L'Hôtel Andreinia Logis peut être atteint en traversant le pont sur la Nive de Béhérobie.</p>"
     },
     "accommodations": [
       {
@@ -805,8 +805,8 @@
       "fr": "Le bivouac y est possible - Location de tentes à la demande. "
     },
     "accommodationDescription": {
-      "en": "The gîte Kaskoleta is located on the plateau Phalgacette next to the GR10. Ask permission if you want to camp here.",
-      "fr": "Le gîte d´étape Kaskoleta situé sur le plateau de Phalgacette jouit d´une situation privilégiée sur l´étape du GR10 menant de St jean Pied de Port aux chalets d´Iraty."
+      "en": "<p>The gîte Kaskoleta is located on the plateau Phalgacette next to the GR10. Ask permission if you want to camp here.</p>",
+      "fr": "<p>Le gîte d´étape Kaskoleta situé sur le plateau de Phalgacette jouit d´une situation privilégiée sur l´étape du GR10 menant de St jean Pied de Port aux chalets d´Iraty.</p>"
     },
     "accommodations": [
       {
@@ -903,8 +903,8 @@
       "fr": "A bar-restaurant"
     },
     "accommodationDescription": {
-      "en": "There is only one option of accommodation at Logibar, the Auberge Logibar. However, it is located next to the D26 road so it may be possible to hitch to Larrau, 2.5km west of Logibar. In Larrau there is a gite, campground and a couple of hotels.",
-      "fr": "Il n'y a qu'une seule option d'hébergement au Logibar, l'Auberge Logibar. Cependant, il est situé à côté de la route D26, il est donc possible de se rendre à Larrau, à 2,5 km à l'ouest de Logibar. À Larrau, il y a un gîte, un terrain de camping et quelques hôtels."
+      "en": "<p>There is only one option of accommodation at Logibar, the Auberge Logibar. However, it is located next to the D26 road so it may be possible to hitch to Larrau, 2.5km west of Logibar. In Larrau there is a gite, campground and a couple of hotels.</p>",
+      "fr": "<p>Il n'y a qu'une seule option d'hébergement au Logibar, l'Auberge Logibar. Cependant, il est situé à côté de la route D26, il est donc possible de se rendre à Larrau, à 2,5 km à l'ouest de Logibar. À Larrau, il y a un gîte, un terrain de camping et quelques hôtels.</p>"
     },
     "accommodations": [
       {
@@ -984,8 +984,8 @@
       "fr": "Open all year round. Camping is possible"
     },
     "accommodationDescription": {
-      "en": "The Refuge Jeandel is located near to the Arette la Pierre Saint Martin ski station. It has full refuge facilities and sometimes stocks basic provisions.\n\nAs with all ski resorts there is no guarantee that all the facilities will be open in summer. If you arrive in high summer you should find that the tourist information centre and the bar-restaurant are open.\n\nThere is a bus service to Oloron-Saint-Marie (journey time approximately 1 hour). Oloron-Saint-Marie has a train station which connects to the main rail network.",
-      "fr": "Le Refuge Jeandel est situé près de la station de ski Arette la Pierre Saint Martin. Il dispose d'installations complètes et parfois de provisions de base. \n\nComme avec toutes les stations de ski, il n'y a aucune garantie que toutes les installations seront ouvertes en été. Si vous arrivez en plein été, vous trouverez que le centre d'information touristique et le bar-restaurant sont ouverts. \n\nIl y a un service de bus pour Oloron-Saint-Marie (durée du trajet environ 1 heure). Oloron-Saint-Marie dispose d'une gare qui se connecte au réseau ferroviaire principal."
+      "en": "<p>The Refuge Jeandel is located near to the Arette la Pierre Saint Martin ski station. It has full refuge facilities and sometimes stocks basic provisions.</p><p>As with all ski resorts there is no guarantee that all the facilities will be open in summer. If you arrive in high summer you should find that the tourist information centre and the bar-restaurant are open.</p><p>There is a bus service to Oloron-Saint-Marie (journey time approximately 1 hour). Oloron-Saint-Marie has a train station which connects to the main rail network.</p>",
+      "fr": "<p>Le Refuge Jeandel est situé près de la station de ski Arette la Pierre Saint Martin. Il dispose d'installations complètes et parfois de provisions de base. </p><p>Comme avec toutes les stations de ski, il n'y a aucune garantie que toutes les installations seront ouvertes en été. Si vous arrivez en plein été, vous trouverez que le centre d'information touristique et le bar-restaurant sont ouverts. </p><p>Il y a un service de bus pour Oloron-Saint-Marie (durée du trajet environ 1 heure). Oloron-Saint-Marie dispose d'une gare qui se connecte au réseau ferroviaire principal.</p>"
     },
     "accommodations": [
       {
@@ -1038,8 +1038,8 @@
       "fr": "With its old buildings and narrow streets, Lescun exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00"
     },
     "accommodationDescription": {
-      "en": "Located in the Pyrénées National Park Lescun's old buildings and narrow streets, exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. \n\n11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lescun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.",
-      "fr": "Avec ses vieux bâtiments et ses rues étroites, Lescun dégage un agréable charme de village ancien. Le magasin est ouvert de 8h00 à minuit, de 13h30 à 19h00. \n\n11 km au nord de Lescun il y a une plus grande ville appelée Bedous. À Bedous, vous trouverez des guichets automatiques, une pharmacie, un centre d'information touristique et une gare. Il ne semble pas y avoir de transport public disponible entre Lescun et Bedous, il est donc temps de sortir le pouce et d'attelage si vous avez besoin de l'une de ses installations."
+      "en": "<p>Located in the Pyrénées National Park Lescun's old buildings and narrow streets, exudes a pleasant old village charm. The shop is open M-S 08:30–13:00 16:30–19:00. </p><p>11km north of Lescun there is a larger town called Bedous. In Bedous you will find ATMs, a pharmacy, tourist information centre and a train station. There doesn't appear to be any public transport available between Lescun and Bedous, so its time to get the thumb out and hitch if you need any of its facilities.</p>",
+      "fr": "<p>Avec ses vieux bâtiments et ses rues étroites, Lescun dégage un agréable charme de village ancien. Le magasin est ouvert de 8h00 à minuit, de 13h30 à 19h00. </p><p>11 km au nord de Lescun il y a une plus grande ville appelée Bedous. À Bedous, vous trouverez des guichets automatiques, une pharmacie, un centre d'information touristique et une gare. Il ne semble pas y avoir de transport public disponible entre Lescun et Bedous, il est donc temps de sortir le pouce et d'attelage si vous avez besoin de l'une de ses installations.</p>"
     },
     "accommodations": [
       {
@@ -1105,8 +1105,8 @@
       "fr": "The Gîte is to the right where camping may be possible."
     },
     "accommodationDescription": {
-      "en": "The gite de Lhers is located is pasture land 6km after Lescun. There is also a campground if you prefer a night under canvas. On occasion bread, pastries, drinks and will be on sale.",
-      "fr": "Le gîte de Lhers est situé à 6km de Lescun. Il y a aussi un camping si vous préférez une nuit sous la toile. À l'occasion du pain, des pâtisseries, des boissons et sera en vente."
+      "en": "<p>The gite de Lhers is located is pasture land 6km after Lescun. There is also a campground if you prefer a night under canvas. On occasion bread, pastries, drinks and will be on sale.</p>",
+      "fr": "<p>Le gîte de Lhers est situé à 6km de Lescun. Il y a aussi un camping si vous préférez une nuit sous la toile. À l'occasion du pain, des pâtisseries, des boissons et sera en vente.</p>"
     },
     "accommodations": [
       {
@@ -1140,8 +1140,8 @@
       "fr": "Turn right for le Communal (bar-restaurant,gît) and Maison Bergoun."
     },
     "accommodationDescription": {
-      "en": "Borce and Estaut are located on either side of RN134. Borce will be reached first if you are walking from the west. In Borce you can quench your thirst in the Le Communal bar, which has an attached gite. If you want a change of scenery then visit the wildlife park (Parc'Ours). It's your best chance of seeing a bear in the Pyrenees. \n\nSome guides suggest that there is a bus service that connects to Pau but I haven't been able to find any evidence of this during my research.",
-      "fr": "Borce et Estaut sont situés de chaque côté de la RN134. Borce sera atteint en premier si vous marchez de l'ouest. À Borce, vous pouvez étancher votre soif dans le bar Le Communal, qui a un gîte ci-joint. Si vous voulez changer de décor, rendez-vous au parc animalier (Parc'Ours). C'est votre meilleure chance de voir l'ours dans les Pyrénées."
+      "en": "<p>Borce and Estaut are located on either side of RN134. Borce will be reached first if you are walking from the west. In Borce you can quench your thirst in the Le Communal bar, which has an attached gite. If you want a change of scenery then visit the wildlife park (Parc'Ours). It's your best chance of seeing a bear in the Pyrenees. </p><p>Some guides suggest that there is a bus service that connects to Pau but I haven't been able to find any evidence of this during my research.</p>",
+      "fr": "<p>Borce et Estaut sont situés de chaque côté de la RN134. Borce sera atteint en premier si vous marchez de l'ouest. À Borce, vous pouvez étancher votre soif dans le bar Le Communal, qui a un gîte ci-joint. Si vous voulez changer de décor, rendez-vous au parc animalier (Parc'Ours). C'est votre meilleure chance de voir l'ours dans les Pyrénées.</p>"
     },
     "accommodations": [
       {
@@ -1170,8 +1170,8 @@
       "fr": "Turn left for Etsaut. La Randonneur bar-restaurant where there is a small shop selling basic supplies."
     },
     "accommodationDescription": {
-      "en": "Cross the bridge over the RN134 (while remember the feeling of being in a car) to enter Etsaut. Head straight to le Randonneur bar in the main square for a much needed refreshment. Analysis of google Streetview, suggests that there is a bus stop next to this bar. ",
-      "fr": "Traversez le pont sur la RN134 pour entrer dans Etsaut et rappelez-vous le sentiment d'être dans une voiture. Allez directement au bar Randonneur sur la place principale pour un rafraîchissement bien nécessaire. Selon google Streetview, il y avoir un arrêt de bus à côté de cette barre. Certains guides suggèrent qu'il y a un service de bus qui se connecte à Pau mais je n'ai pas été en mesure de trouver des preuves de cela au cours de mes recherches."
+      "en": "<p>Cross the bridge over the RN134 (while remember the feeling of being in a car) to enter Etsaut. Head straight to le Randonneur bar in the main square for a much needed refreshment. Analysis of google Streetview, suggests that there is a bus stop next to this bar.</p>",
+      "fr": "<p>Traversez le pont sur la RN134 pour entrer dans Etsaut et rappelez-vous le sentiment d'être dans une voiture. Allez directement au bar Randonneur sur la place principale pour un rafraîchissement bien nécessaire. Selon google Streetview, il y avoir un arrêt de bus à côté de cette barre. Certains guides suggèrent qu'il y a un service de bus qui se connecte à Pau mais je n'ai pas été en mesure de trouver des preuves de cela au cours de mes recherches.</p>"
     },
     "accommodations": [
       {
@@ -1259,8 +1259,8 @@
       "fr": "Turn left for Gabas. "
     },
     "accommodationDescription": {
-      "en": "Located in the Ossau valley, Gabas is just a few buildings next to the D934 road that connects to Laruns (14kms north). Google maps shows that there is a bus stop here but I can't find any details regarding the timetables.",
-      "fr": "Situé dans la vallée d'Ossau, Gabas est juste quelques bâtiments à côté de la route D934 qui relie à Laruns (14 km au nord). Google Maps montre qu'il y a un arrêt de bus ici mais je ne trouve pas de détails concernant les horaires."
+      "en": "<p>Located in the Ossau valley, Gabas is just a few buildings next to the D934 road that connects to Laruns (14kms north). Google maps shows that there is a bus stop here but I can't find any details regarding the timetables.</p>",
+      "fr": "<p>Situé dans la vallée d'Ossau, Gabas est juste quelques bâtiments à côté de la route D934 qui relie à Laruns (14 km au nord). Google Maps montre qu'il y a un arrêt de bus ici mais je ne trouve pas de détails concernant les horaires.</p>"
     },
 
     "accommodations": [
@@ -1326,8 +1326,8 @@
       "fr": "Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. Check opening times. "
     },
     "accommodationDescription": {
-      "en": "Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. I recommend that you check opening times before you start the day's stage.",
-      "fr": "La plupart des installations seront fermées en été car Gourette est principalement une station de ski. Je vous recommande de vérifier les heures d'ouverture avant de commencer l'étape du jour."
+      "en": "<p>Most of the facilities will be closed in the summer because Gourette is primarily a ski resort. I recommend that you check opening times before you start the day's stage.</p>",
+      "fr": "<p>La plupart des installations seront fermées en été car Gourette est principalement une station de ski. Je vous recommande de vérifier les heures d'ouverture avant de commencer l'étape du jour.</p>"
     },
     "accommodations": [
       {
@@ -1383,8 +1383,8 @@
       "fr": "Tournez à gauche pour Arrens-Marsous. Il y a un point d'eau près de l'église, des options d'hébergement limitées et de petites boutiques. Le supermarché Proxi est ouvert tous les jours, de 8h00 à midi, de 8h00 à midi et de 8h00 à midi et de 16h00 à 19h00."
     },
     "accommodationDescription": {
-      "en": "Arrens-Marsous is located in the Pyrénées National Park. The GR10 path passes to the south of Arrens-Marsous. Shortly after passing the Catholic church turn left to walk towards the town centre. In the town centre you will find the tourist information centre in the Maison du Val d'Azun.\n\nThere are two campgrounds which can be found to the north of the town near to the Proxi supermarket.",
-      "fr": "Arrens-Marsous est situé dans le parc national des Pyrénées. Le sentier GR10 passe au sud d'Arrens-Marsous. Peu après avoir passé l'église catholique, tournez à gauche pour marcher vers le centre-ville. Dans le centre-ville, vous trouverez le centre d'information touristique de la Maison du Val d'Azun.\n\nIl y a deux terrains de camping qui peuvent être trouvés au nord de la ville près du supermarché Proxi."
+      "en": "<p>Arrens-Marsous is located in the Pyrénées National Park. The GR10 path passes to the south of Arrens-Marsous. Shortly after passing the Catholic church turn left to walk towards the town centre. In the town centre you will find the tourist information centre in the Maison du Val d'Azun.</p><p>There are two campgrounds which can be found to the north of the town near to the Proxi supermarket.</p>",
+      "fr": "<p>Arrens-Marsous est situé dans le parc national des Pyrénées. Le sentier GR10 passe au sud d'Arrens-Marsous. Peu après avoir passé l'église catholique, tournez à gauche pour marcher vers le centre-ville. Dans le centre-ville, vous trouverez le centre d'information touristique de la Maison du Val d'Azun.</p><p>Il y a deux terrains de camping qui peuvent être trouvés au nord de la ville près du supermarché Proxi.</p>"
     },
     "accommodations": [
       {
@@ -1511,8 +1511,8 @@
       "fr": "Open from June to Septmember. Demi-pension Adultes (à partir de 13 ans) : 40 €/pers. Nuitée: 15 €/pers. Repas: 17 €/pers. Petit-déjeuner: 8€/pers."
     },
     "accommodationDescription": {
-      "en": "The Refuge d'Ilhéou is on the shore of the Lac Bleu d'Ilhéou (blue lake) in the heart of the Pyrénées National Park. Open from the beginning of June until October. Meals, snacks, breakfast available.",
-      "fr": "Le Refuge d'Ilhéou se trouve sur la rive du lac Bleu d'Ilhéou (lac bleu) au cœur du parc national des Pyrénées. Ouvert du début juin à octobre. Repas, collations, petit-déjeuner disponible."
+      "en": "<p>The Refuge d'Ilhéou is on the shore of the Lac Bleu d'Ilhéou (blue lake) in the heart of the Pyrénées National Park. Open from the beginning of June until October. Meals, snacks, breakfast available.</p>",
+      "fr": "<p>Le Refuge d'Ilhéou se trouve sur la rive du lac Bleu d'Ilhéou (lac bleu) au cœur du parc national des Pyrénées. Ouvert du début juin à octobre. Repas, collations, petit-déjeuner disponible.</p>"
     },
     "accommodations": [
       {
@@ -1543,8 +1543,8 @@
       "fr": "Cauterets is a spa town and a major tourist resort. You should be able to find all the facilities that you require. Numerous gites. Several campsites located north os the town. There are bus connections to Lourdes, luz-Saint-Sauveur and Gavarnie"
     },
     "accommodationDescription": {
-      "en": "Cauterets is one of the largest towns along the GR10 trail. It is famous for being a spa town. It's an ideal place to spend a rest day if you legs are sore.\n\nThe historic market town of Lourdes is located 20km to the north. Lourdes is a major Catholic pilgrimage site. It is estimated that up to a million people visit the the Grotto of Massabielle. If your looking to go off-piste and hit up some culture then Lourdes is an ideal option. But after spending weeks in the mountains the hordes of people will come as a shock.",
-      "fr": "Cauterets est l'une des plus grandes villes le long du sentier GR10. Il est célèbre pour être une ville thermale. C'est un endroit idéal pour passer une journée de repos si vous avez mal aux pattes.\n\nLe bourg historique de Lourdes est situé à 20 km au nord. Lourdes est un important site de pèlerinage catholique. On estime que jusqu'à un million de visiteurs, visitez la Grotte de Massabielle. Si vous cherchez à faire du hors-piste et à faire de la culture, alors Lourdes est une option idéale, mais après des semaines passées dans les montagnes, les hordes seront un choc."
+      "en": "<p>Cauterets is one of the largest towns along the GR10 trail. It is famous for being a spa town. It's an ideal place to spend a rest day if you legs are sore.</p><p>The historic market town of Lourdes is located 20km to the north. Lourdes is a major Catholic pilgrimage site. It is estimated that up to a million people visit the the Grotto of Massabielle. If your looking to go off-piste and hit up some culture then Lourdes is an ideal option. But after spending weeks in the mountains the hordes of people will come as a shock.</p>",
+      "fr": "<p>Cauterets est l'une des plus grandes villes le long du sentier GR10. Il est célèbre pour être une ville thermale. C'est un endroit idéal pour passer une journée de repos si vous avez mal aux pattes.</p><p>Le bourg historique de Lourdes est situé à 20 km au nord. Lourdes est un important site de pèlerinage catholique. On estime que jusqu'à un million de visiteurs, visitez la Grotte de Massabielle. Si vous cherchez à faire du hors-piste et à faire de la culture, alors Lourdes est une option idéale, mais après des semaines passées dans les montagnes, les hordes seront un choc.</p>"
     },
     "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1417192&aid=1522735&no_rooms=1&group_adults=1",
     "hotel": true,
@@ -1656,8 +1656,8 @@
       "fr": "Un refuge de base CAF avec vue sur la montagne, avec une salle à manger confortable, une terrasse et un salon. Si vous ne trouvez pas de logement ici, suivez la route qui descend vers Gavarnie (1,5 km)."
     },
     "accommodationDescription": {
-      "en": "A basic CAF refuge with mountain views, with a cozy dining room, terrace and a lounge. If you are unable to find accommodation here then follow the road down the hill to Gavarnie (1.5kms).",
-      "fr": "Un refuge de base CAF avec vue sur la montagne, avec une salle à manger confortable, une terrasse et un salon. Si vous ne trouvez pas de logement ici, suivez la route qui descend vers Gavarnie (1,5 km)."
+      "en": "<p>A basic CAF refuge with mountain views, with a cozy dining room, terrace and a lounge. If you are unable to find accommodation here then follow the road down the hill to Gavarnie (1.5kms).</p>",
+      "fr": "<p>Un refuge de base CAF avec vue sur la montagne, avec une salle à manger confortable, une terrasse et un salon. Si vous ne trouvez pas de logement ici, suivez la route qui descend vers Gavarnie (1,5 km).</p>"
     },
 
     "accommodations": [
@@ -1685,8 +1685,8 @@
       "fr": "Si vous voulez visiter Gavarnie, prenez la route qui descend du Chalet la Grange de Holle. Office de tourisme, gîtes, camping et petites boutiques. Il y a un service de bus pour Luz-Saint-Sauveur."
     },
     "accommodationDescription": {
-      "en": "The GR10 doesn't visit Gavarnie but if you want to visit then the take road down the hill from the Chalet-refuge la Grange de Holle (1.5kms).\n\nGavarnie is known for the Cirque de Gavarnie which is well worth a visit. Here you will find the Gavarnie Falls, which some claim to be the highest in Europe at 427 metres. The Cirque de Gavarnie and Gavarnie Falls are part of the UNESCO World Heritage Site Pyrénées – Mont Perdu.\n\nAs for most UNESCO sites, Gavarnie attracts many visitors. And when the GR10 crosses a popular destination you will find the all the facilities you might need. Gites, campgrounds, shops, restuarant and a tourist office.\n\nThere is a bus connection tow Luz-Saint-Sauveur",
-      "fr": "Le GR10 ne visite pas Gavarnie mais si vous voulez visiter, prenez la route en descendant la colline du Chalet-refuge la Grange de Holle (1.5km).\n\nGavarnie est connue pour le Cirque de Gavarnie qui vaut le détour. Vous trouverez ici les chutes de Gavarnie, que certains prétendent être les plus hautes d'Europe à 427 mètres. Le Cirque de Gavarnie et les chutes de Gavarnie font partie du site classé au patrimoine mondial de l'UNESCO Pyrénées - Mont Perdu.\n\nComme pour la plupart des sites de l'UNESCO, Gavarnie attire de nombreux visiteurs. Et quand le GR10 traverse une destination populaire, vous trouverez toutes les installations dont vous pourriez avoir besoin. Gîtes, campings, boutiques, restaurants et office de tourisme."
+      "en": "<p>The GR10 doesn't visit Gavarnie but if you want to visit then the take road down the hill from the Chalet-refuge la Grange de Holle (1.5kms).</p><p>Gavarnie is known for the Cirque de Gavarnie which is well worth a visit. Here you will find the Gavarnie Falls, which some claim to be the highest in Europe at 427 metres. The Cirque de Gavarnie and Gavarnie Falls are part of the UNESCO World Heritage Site Pyrénées – Mont Perdu.</p><p>As for most UNESCO sites, Gavarnie attracts many visitors. And when the GR10 crosses a popular destination you will find the all the facilities you might need. Gites, campgrounds, shops, restuarant and a tourist office.</p><p>There is a bus connection to Luz-Saint-Sauveur.</p>",
+      "fr": "<p>Le GR10 ne visite pas Gavarnie mais si vous voulez visiter, prenez la route en descendant la colline du Chalet-refuge la Grange de Holle (1.5km).</p><p>Gavarnie est connue pour le Cirque de Gavarnie qui vaut le détour. Vous trouverez ici les chutes de Gavarnie, que certains prétendent être les plus hautes d'Europe à 427 mètres. Le Cirque de Gavarnie et les chutes de Gavarnie font partie du site classé au patrimoine mondial de l'UNESCO Pyrénées - Mont Perdu.</p><p>Comme pour la plupart des sites de l'UNESCO, Gavarnie attire de nombreux visiteurs. Et quand le GR10 traverse une destination populaire, vous trouverez toutes les installations dont vous pourriez avoir besoin. Gîtes, campings, boutiques, restaurants et office de tourisme.</p>"
     },
 
     "accommodations": [
@@ -1783,8 +1783,8 @@
       "fr": "Turn left here if require the Hôtel Panoramic et des Bains, Hôtel Ardiden or Les Gîtes du Pla de Moura. The GR10 continues to the right."
     },
     "accommodationDescription": {
-      "en": "Saint-Sauveur is found on the west side of the Gavarnie river. This side of the rive you will find thermal baths, hotels and gites but if your are looking for shops and restaurants then continue on to Luz-Saint-Sauveur.",
-      "fr": "Saint-Sauveur se trouve du côté ouest de la Gave de Gavarnie. De ce côté de la rivière, vous trouverez des thermes, des hôtels et des gîtes, mais si vous cherchez des boutiques et des restaurants, continuez jusqu'à Luz-Saint-Sauveur."
+      "en": "<p>Saint-Sauveur is found on the west side of the Gavarnie river. This side of the rive you will find thermal baths, hotels and gites but if your are looking for shops and restaurants then continue on to Luz-Saint-Sauveur.</p>",
+      "fr": "<p>Saint-Sauveur se trouve du côté ouest de la Gave de Gavarnie. De ce côté de la rivière, vous trouverez des thermes, des hôtels et des gîtes, mais si vous cherchez des boutiques et des restaurants, continuez jusqu'à Luz-Saint-Sauveur.</p>"
     },
     "accommodations": [
       {
@@ -1843,8 +1843,8 @@
       "fr": "Cross the bridge to enter Luz Saint Sauveur. Gites, hotels, two Carrefour supermarkets. Bus services to Lourdes, Gavarnie and Cauterets"
     },
     "accommodationDescription": {
-      "en": "At an altitude of 711 m altitude, Luz-Saint-Sauveur is inside one of the most beautiful valleys of the Hautes-Pyrenees. In Luz-Saint-Sauveur, there are all the facilities you need. Supermarkets, hotels, campgrounds, food, drink and a tourist information centre.\n\nThere is a bus connection to Lourdes but I'm unable to determine the exact details of when and where the bus departs from. The bus operator is called, Keolis Pyrenees and there are two departures Monday to Friday.",
-      "fr": "À 711 m d'altitude, Luz-Saint-Sauveur est l'une des plus belles vallées des Hautes-Pyrénées. À Luz-Saint-Sauveur, il y a toutes les commodités dont vous avez besoin. Supermarchés, hôtels, terrains de camping, nourriture, boisson et centre d'information touristique.\n\nIl y a une ligne de bus vers Lourdes mais je ne peux pas déterminer les détails exacts du moment et de l'endroit où le bus part. L'opérateur d'autobus est appelé, Keolis Pyrénées et il y a deux départs du lundi au vendredi."
+      "en": "<p>At an altitude of 711 m altitude, Luz-Saint-Sauveur is inside one of the most beautiful valleys of the Hautes-Pyrenees. In Luz-Saint-Sauveur, there are all the facilities you need. Supermarkets, hotels, campgrounds, food, drink and a tourist information centre.</p><p>There is a bus connection to Lourdes but I'm unable to determine the exact details of when and where the bus departs from. The bus operator is called, Keolis Pyrenees and there are two departures Monday to Friday.</p>",
+      "fr": "<p>À 711 m d'altitude, Luz-Saint-Sauveur est l'une des plus belles vallées des Hautes-Pyrénées. À Luz-Saint-Sauveur, il y a toutes les commodités dont vous avez besoin. Supermarchés, hôtels, terrains de camping, nourriture, boisson et centre d'information touristique.</p><p>Il y a une ligne de bus vers Lourdes mais je ne peux pas déterminer les détails exacts du moment et de l'endroit où le bus part. L'opérateur d'autobus est appelé, Keolis Pyrénées et il y a deux départs du lundi au vendredi.</p>"
     },
     "accommodations": [
       {
@@ -1905,21 +1905,46 @@
       "en": "Turn left for the centre of Barèges.",
       "fr": "Turn left for the centre of Barèges."
     },
+    "accommodationDescription": {
+      "en": "<p>Barèges is yet another Pyrenees spa town. Good selection of shops, restuarants and hotels included a outdoor gear shop and a cinema.</p><p>It is 8km by road to Luz-Saint-Sauveur. A possible option is to book two nights in Luz-Saint-Sauveur, slack pack the day's stage and hitch hike back.</p> ",
+      "fr": "<p>Barèges est une autre ville thermale des Pyrénées. Bon choix de boutiques, restaurants et hôtels inclus un magasin de sport.</p><p>Il est à 8km de route de Luz-Saint-Sauveur. Une option possible est de réserver deux nuits à Luz-Saint-Sauveur, de laisser la place à l'étape du jour et de faire de l'auto-stop.</p>"
+    },
     "accommodations": [
       {
         "name": "Camping La ribere",
         "tel": "+33 5 62 92 69 01",
-        "url": "http://www.laribere.com/"
+        "url": "http://www.laribere.com/",
+        "point": {
+          "lat": 42.894591,
+          "lng": 0.057319
+        }
       },
       {
         "name": "Gîte l'Oasis",
         "tel": "+33 5 62 92 69 47",
-        "url": "http://www.gite-oasis.fr/"
+        "url": "http://www.booking.com/hotel/fr/gite-l-39-oasis.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.897448,
+          "lng": 0.067334
+        }
       },
       {
-        "name": "Hôtel Le Grand Bivouac",
-        "tel": "+33 5 62 92 68 20",
-        "url": "http://www.hotel-grand-bivouac.com/"
+        "name": "Logis Hôtel le Central",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/logis-le-central.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.896550,
+          "lng": 0.064075
+        }
+      },
+      {
+        "name": "Chambres d'hotes lassalle cazaux **",
+        "tel": "",
+        "url": "http://www.hotel-grand-bivouac.com/",
+        "point": {
+          "lat": 42.897280,
+          "lng": 0.067163
+        }
       }
     ],
     "hotel": true,
@@ -1999,7 +2024,7 @@
     }
   },
   {
-    "name": "Vielle-Aure",
+    "name": "Vielle-Aure/Saint-Lary-Soulan",
     "point": {
       "lat": 42.829814,
       "lng": 0.327176
@@ -2008,11 +2033,46 @@
       "en": "Carrefour supermarket. Saint-Lary-Soulan is a larger town with a wider selection of hotels",
       "fr": "Carrefour supermarket"
     },
+    "accommodationDescription": {
+      "en": "<p>The GR10 passes through the centre of Vielle-Aure. Its larger neighbour Saint-Lary-Soulan is located approximately 2km south of where the GR10 passes through this small village. In Vielle-Aure, there is a tourist office, gite a cafe and a restaurant. The large Carrefour supermarket is located a further 0.5km along the GR10.</p><p>Saint-Lary-Soulan has a wider selection of hotels and restaurants. Its also worth noting that there are couple of sporting goods stores. But expect to pay tourist prices. Maybe, ask for a GR10 hiker discount, you might get lucky.</p>",
+      "fr": "<p>Le GR10 traverse le centre de Vielle-Aure. Sa plus grande voisine, Saint-Lary-Soulan, est située à environ 2 km au sud de l'endroit où le GR10 traverse ce petit village. A Vielle-Aure, il y a un office de tourisme, un café et un restaurant. Le grand supermarché Carrefour est situé à 0,5 km plus loin le long du GR10.</p></p>Saint-Lary-Soulan a une plus grande sélection d'hôtels et de restaurants. Il est également intéressant de noter qu'il existe deux magasins de sport. Mais attendez-vous à payer les prix touristiques. Peut-être, demander un rabais GR10 randonneur, vous pourriez avoir de la chance. </p>"
+    },
     "accommodations": [
       {
         "name": "Gîte Orédon",
         "tel": "+33 6 89 96 50 60",
-        "url": ""
+        "url": "",
+        "point": {
+          "lat": 42.830619,
+          "lng": 0.325518
+        }
+      },
+      {
+        "name": "Hôtel Aurélia **",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/aurelia.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.825896,
+          "lng": 0.327648
+        }
+      },
+      {
+        "name": "Hôtel Mir ***",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/la-pergola-saint-lary-soulan.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.817003,
+          "lng": 0.323976
+        }
+      },
+      {
+        "name": "Gite Maison des Marmites ***",
+        "tel": "",
+        "url": "http://www.booking.com/hotel/fr/gites-au-chant-des-marmites.html?aid=1522736&no_rooms=1&group_adults=1",
+        "point": {
+          "lat": 42.815205,
+          "lng": 0.319819
+        }
       }
     ],
     "hotel": true,
@@ -2215,7 +2275,7 @@
     "foodshop": true
   },
   {
-    "name": " Église Martyre de Saint Jean-Baptiste, Artigue",
+    "name": "Église Martyre de Saint Jean-Baptiste, Artigue",
     "point": {
       "lat": 42.833174,
       "lng": 0.619121
@@ -2306,7 +2366,7 @@
     "restaurant": true
   },
   {
-    "name": " Cabane d'Uls",
+    "name": "Cabane d'Uls",
     "point": {
       "lat": 42.854441,
       "lng": 0.837353
@@ -3032,8 +3092,8 @@
       "fr": "La ville de Tarascon-sur-Ariège est située à 10,5 km au nord de Siguer. Si vous trouvez un tour, il y a deux supermarchés, des hôtels et une gare."
     },
     "accommodationDescription": {
-      "en": "The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer where you will find two supermarkets, hotels and a train station. There appears to be no bus service but hitch-hiking should be possible.",
-      "fr": "La ville de Tarascon-sur-Ariège est située à 10,5 km au nord de Siguer où vous trouverez deux supermarchés, des hôtels et une gare. Il semble qu'il n'y ait pas de service d'autobus, mais l'auto-stop devrait être possible."
+      "en": "<p>The town of Tarascon-sur-Ariège is location 10.5 km north of Siguer where you will find two supermarkets, hotels and a train station. There appears to be no bus service but hitch-hiking should be possible.",
+      "fr": "<p>La ville de Tarascon-sur-Ariège est située à 10,5 km au nord de Siguer où vous trouverez deux supermarchés, des hôtels et une gare. Il semble qu'il n'y ait pas de service d'autobus, mais l'auto-stop devrait être possible."
     },
     "accommodationSearchUrl": "http://www.booking.com/searchresults.html?city=-1472088&aid=1522735&no_rooms=1&group_adults=1",
     "accommodations": [
@@ -3224,8 +3284,8 @@
       "fr": "Bureau de poste, gare. Le camping municipal est à 1,5 km au sud."
     },
     "accommodationDescription": {
-      "en": "Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train.",
-      "fr": "Mérens-les-Vals possède une gare sur la ligne Latour-de-Carol et Toulouse. La grande ville d'Ax-les-Thermes se trouve à 9 km au nord, accessible en train."
+      "en": "<p>Mérens-les-Vals has a train station on the Latour-de-Carol and Toulouse line. The large town of Ax-les-Thermes is 9km to the north which can be reached by train.</p>",
+      "fr": "<p>Mérens-les-Vals possède une gare sur la ligne Latour-de-Carol et Toulouse. La grande ville d'Ax-les-Thermes se trouve à 9 km au nord, accessible en train.</p>"
     },
     "accommodations": [
       {
@@ -3729,8 +3789,8 @@
       "fr": "As you can probably guess from the name, this Catalan town lies next to the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between."
     },
     "accommodationDescription": {
-      "en": "As you can probably guess from the name, this Catalan town lies next to the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between. For all other enquires there is a tourist office.\n\nIf your legs are feeling weary at the point you can think about visiting the spas in the nearby town of Amélie-les-Bains-Palalda (4.5km north on the D115 road). In Amélie-les-Bains-Palaldam there is a wider selection of accommodation available, and several thermal baths to rejuvenate those tired legs. ",
-      "fr": "Comme vous pouvez probablement deviner à partir du nom, cette ville catalane se trouve à côté de la rivière Tech. Il y a des guichets automatiques, un supermarché, des boulangeries et quelques bars-restaurants à choisir. Pour toutes les autres demandes, il y a un office du tourisme.\n\nSi vous vous sentez fatigué au point de visiter les thermes de la ville voisine d'Amélie-les-Bains-Palalda (4,5 km au nord sur la route D115) . En Amélie-les-Bains-Palaldam, il y a une plus grande sélection de logements, et plusieurs bains thermaux pour rajeunir ces jambes fatiguées."
+      "en": "<p>As you can probably guess from the name, this Catalan town lies next to the river Tech. There are ATMs, a supermarket, bakeries, and a few bar-restaurants to choose between. For all other enquires there is a tourist office.</p><p>If your legs are feeling weary at the point you can think about visiting the spas in the nearby town of Amélie-les-Bains-Palalda (4.5km north on the D115 road). In Amélie-les-Bains-Palaldam there is a wider selection of accommodation available, and several thermal baths to rejuvenate those tired legs.</p>",
+      "fr": "<p>Comme vous pouvez probablement deviner à partir du nom, cette ville catalane se trouve à côté de la rivière Tech. Il y a des guichets automatiques, un supermarché, des boulangeries et quelques bars-restaurants à choisir. Pour toutes les autres demandes, il y a un office du tourisme.</p><p>Si vous vous sentez fatigué au point de visiter les thermes de la ville voisine d'Amélie-les-Bains-Palalda (4,5 km au nord sur la route D115) . En Amélie-les-Bains-Palaldam, il y a une plus grande sélection de logements, et plusieurs bains thermaux pour rajeunir ces jambes fatiguées.</p>"
     },
     "accommodations": [
       {

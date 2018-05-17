@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
 import PropTypes from 'prop-types';
+import Parser from 'html-react-parser';
 
 class AccommodationList extends Component {
   constructor(props) {
@@ -161,18 +162,16 @@ class AccommodationList extends Component {
       return (
         <React.Fragment key={x.name}>
           <h3>{x.name}</h3>
-          <p>
-            {LanguageHelper.getLanguage(this.props.language) === 'en' &&
-            x.accommodationDescription &&
-            x.accommodationDescription.en
-              ? x.accommodationDescription.en
-              : ''}
-            {LanguageHelper.getLanguage(this.props.language) === 'fr' &&
-            x.accommodationDescription &&
-            x.accommodationDescription.fr
-              ? x.accommodationDescription.fr
-              : ''}
-          </p>
+          {LanguageHelper.getLanguage(this.props.language) === 'en' &&
+          x.accommodationDescription &&
+          x.accommodationDescription.en
+            ? Parser(x.accommodationDescription.en)
+            : ''}
+          {LanguageHelper.getLanguage(this.props.language) === 'fr' &&
+          x.accommodationDescription &&
+          x.accommodationDescription.fr
+            ? x.accommodationDescription.fr
+            : ''}
           {this.accommodationList(x.accommodations)}
           {this.accommodationSearch(x)}
         </React.Fragment>
@@ -251,8 +250,8 @@ class AccommodationList extends Component {
               <p>
                 The information in this guide has been collated from guide
                 books, internet research and google maps. I will be walking the
-                GR10 in the June - August 2018. On completion and my return to
-                real life, I will update this guide with my personal
+                GR10 between June and August 2018. On completion and my return
+                to real life, I will update this guide with my personal
                 experiences.
               </p>
               <p>
@@ -264,7 +263,7 @@ class AccommodationList extends Component {
           )}
           {rows}
         </div>
-        <footer className="App-content">Last updated 15/05/2018</footer>
+        <footer className="App-content">Last updated 17/05/2018</footer>
       </React.Fragment>
     );
   }
