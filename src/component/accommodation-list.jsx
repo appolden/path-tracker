@@ -170,7 +170,7 @@ class AccommodationList extends Component {
           {LanguageHelper.getLanguage(this.props.language) === 'fr' &&
           x.accommodationDescription &&
           x.accommodationDescription.fr
-            ? x.accommodationDescription.fr
+            ? Parser(x.accommodationDescription.fr)
             : ''}
           {this.accommodationList(x.accommodations)}
           {this.accommodationSearch(x)}
@@ -234,6 +234,13 @@ class AccommodationList extends Component {
                 Un guide de la ville pour les étapes du sentier du GR10. Y
                 compris les détails de l'hébergement, les supermarchés et les
                 transports publics.
+              </p>
+              <p>
+                Les informations contenues dans ce guide ont été rassemblées à
+                partir du guide livres, recherches sur internet et google maps.
+                Je vais marcher le GR10 entre juin et août 2018. A la fin et mon
+                retour à la vie réelle, je vais mettre à jour ce guide avec mon
+                personnel expériences.
               </p>
               <p>
                 Les villes sont énumérées dans une direction d'ouest en est.
