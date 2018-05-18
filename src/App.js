@@ -13,6 +13,7 @@ import Legal from './component/legal.jsx';
 import TechnicalPage from './component/technical-page';
 import ReactGA from 'react-ga';
 import AccommodationList from './component/accommodation-list.jsx';
+import { Helmet } from 'react-helmet';
 ReactGA.initialize('UA-76203188-2');
 
 class App extends Component {
@@ -35,6 +36,16 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Helmet>
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.gr-trail-tracker.com/" />
+          <meta property="og:title" content="GR10 Trail tracker" />
+          <meta property="og:site_name" content="GR10 Trail tracker" />
+          <meta
+            property="og:image"
+            content="https://www.gr-trail-tracker.com/assets/icons/hiker512x512.png"
+          />
+        </Helmet>
         <Router>
           <React.Fragment>
             <Route

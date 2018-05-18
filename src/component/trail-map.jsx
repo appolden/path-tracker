@@ -13,55 +13,12 @@ export class TrailMap extends Component {
     this.map = undefined;
     this.infoWindow = undefined;
 
-    this.hotels = [
-      {
-        name: 'Appts maison Onbor Zilo',
-        tel: '',
-        url:
-          'http://www.booking.com/hotel/fr/appts-maison-onbor-zilo.html?aid=1522736&no_rooms=1&group_adults=1',
-        point: {
-          lat: 43.33409,
-          lng: -1.744643
-        }
-      },
-      {
-        name: 'Les Jardins de Bakea',
-        tel: '',
-        url:
-          'http://www.booking.com/hotel/fr/les-jardins-de-bakea.html?aid=1522736&no_rooms=1&group_adults=1',
-        point: {
-          lat: 43.33345,
-          lng: -1.744482
-        }
-      },
-      {
-        name: 'Xagardixar',
-        tel: '',
-        url:
-          'http://www.booking.com/hotel/fr/xagardixar.html?aid=1522736&no_rooms=1&group_adults=1'
-      },
-      {
-        name: 'Istokita Berri',
-        tel: '',
-        url:
-          'http://www.booking.com/hotel/fr/istokita-berri.html?aid=1522736&no_rooms=1&group_adults=1'
-      },
-      {
-        name: "Chambre d'h�tes Maison Kabia",
-        tel: '+33 5 59 26 03 16',
-        url:
-          'http://resa.terreetcotebasques.com/fr/hebergements/a358610/chambre-dh%C3%B4te-maison-kabia/details'
-      },
-      {
-        name: 'Auberge Hiribarren',
-        tel: '+33 5 59 20 61 83',
-        url: 'http://www.auberge-hiribarren.com/'
-      }
-    ];
+    this.hotels = [];
 
     switch (this.props.trailName) {
       case 'gr10':
       default:
+        this.longTrailName = 'GR10 Hendaye - Banyuls-sur-Mer';
         this.polylineUrl = '/data/gr10-route.json';
         this.campingUrl = '/data/gr10-points-of-interest-to-locate.json';
         this.poisUrl = '/data/gr10-points-of-interest.json';
@@ -69,6 +26,7 @@ export class TrailMap extends Component {
         this.initialZoom = 6;
         break;
       case 'gr20':
+        this.longTrailName = 'GR20';
         this.polylineUrl = '/data/gr20/gr20-route.json';
         this.poisUrl = undefined;
         this.campingUrl = undefined;
@@ -94,10 +52,17 @@ export class TrailMap extends Component {
           strokeWeight: 4
         });
 
+        trail.addListener('click', event => {
+          const distance = mapProps.google.maps.geometry.spherical.computeLength(
+            decodedPath
+          );
+          this.openTrailInfoWindow(this.longTrailName, distance, event.latLng);
+        });
+
         trail.setMap(map);
 
         if (data.alternates) {
-          data.alternates.forEach(function(alternate, index) {
+          data.alternates.forEach((alternate, index) => {
             const decodedAlternatePath = mapProps.google.maps.geometry.encoding.decodePath(
               alternate.polyline
             );
@@ -109,7 +74,28 @@ export class TrailMap extends Component {
             });
 
             alternatePolyline.setMap(map);
+
+            alternatePolyline.addListener('click', event => {
+              const distance = mapProps.google.maps.geometry.spherical.computeLength(
+                decodedAlternatePath
+              );
+              this.openTrailInfoWindow(alternate.name, distance, event.latLng);
+            });
           });
+
+          //TO COMBINE POLYLINES
+          //let combined = [];
+          //data.alternates.forEach((alternate, index) => {
+          //    if (alternate.name === 'Bonac') {
+          //        const decodedAlternatePath = mapProps.google.maps.geometry.encoding.decodePath(
+          //            alternate.polyline
+          //        );
+          //        combined = combined.concat(
+          //            decodedAlternatePath
+          //        );
+          //    }
+          //});
+          //console.log(mapProps.google.maps.geometry.encoding.encodePath(combined));
         }
       });
 
@@ -208,6 +194,17 @@ export class TrailMap extends Component {
     }
   }
 
+  openTrailInfoWindow(name, distanceMetres, position) {
+    const distanceKms = (distanceMetres * 0.001).toFixed(1);
+    const distanceMiles = (distanceMetres * 0.000621371).toFixed(1);
+
+    const content = `<h3>${name}</h3><div><p>${distanceKms} kms, ${distanceMiles} miles</p></div>`;
+
+    this.infoWindow.setContent(content);
+    this.infoWindow.setPosition(position);
+    this.infoWindow.open(this.map);
+  }
+
   onHotelClick(marker, hotel) {
     let description = hotel.description !== undefined ? hotel.description : '';
     let bookingUrl = `<a href=${hotel.url} title=${hotel.name} target="_blank"
@@ -220,6 +217,7 @@ export class TrailMap extends Component {
     this.infoWindow.setContent(content);
     this.infoWindow.open(this.map, marker);
   }
+
   onHotelDoubleClick(marker) {
     const zoomLevel = 16;
     this.map.setCenter(marker.getPosition());
@@ -270,7 +268,9 @@ export class TrailMap extends Component {
   render() {
     let title = 'GR10 Map';
     let metaDescription =
-      'Google map version of the GR10 trail (The pyrenees) with hotels, gites and camping locations.';
+      'GR10 trail map (The pyrenees) with hotels, gites and camping locations.';
+    let locale = '';
+    let localeAlternate = '';
 
     const language = LanguageHelper.getLanguage(this.props.language);
 
@@ -282,10 +282,16 @@ export class TrailMap extends Component {
             title = 'GR10 Carte';
             metaDescription =
               'Carte du GR10 (Les Pyrénées) avec des hôtels, des gîtes et des campings';
+            locale = 'fr_FR';
+            localeAlternate = 'en_GB';
             break;
           case 'en':
           default:
             title = 'GR10 Map';
+            metaDescription =
+              'GR10 trail map (The pyrenees) with hotels, gites and camping locations.';
+            locale = 'en_GB';
+            localeAlternate = 'fr_FR';
         }
         break;
       case 'gr20':
@@ -316,7 +322,6 @@ export class TrailMap extends Component {
             }
             hreflang="en"
           />
-
           <link
             rel="alternative"
             href={
@@ -325,6 +330,26 @@ export class TrailMap extends Component {
               '/map'
             }
             hreflang="fr"
+          />
+          <link
+            rel="alternative"
+            href={
+              'https://www.gr-trail-tracker.com/en/' +
+              this.props.trailName +
+              '/map'
+            }
+            hreflang="x-default"
+          />
+
+          <meta property="og:title" content={title} />
+          <meta property="og:description" content={metaDescription} />
+          <meta property="og:locale" content={locale} />
+          <meta property="og:locale:alternate" content={localeAlternate} />
+          <meta
+            property="og:url"
+            content={
+              'https://www.gr-trail-tracker.com' + window.location.pathname
+            }
           />
         </Helmet>
 

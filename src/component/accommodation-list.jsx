@@ -183,7 +183,8 @@ class AccommodationList extends Component {
     let shortTitle = 'Town guide';
     let metaDescription =
       'A town guide for the stages of the GR10 trail. Including details of accommodation, supermarkets and public transport.';
-
+    let locale = '';
+    let localeAlternate = '';
     switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         pageTitle = 'GR10 Guide de la ville';
@@ -191,9 +192,13 @@ class AccommodationList extends Component {
         shortTitle = 'Guide de la ville';
         metaDescription =
           "Un guide de la ville pour les étapes du sentier du GR10. Y compris les détails de l'hébergement, les supermarchés et les transports publics.";
+        locale = 'fr_FR';
+        localeAlternate = 'en_GB';
         break;
       case 'en':
       default:
+        locale = 'en_GB';
+        localeAlternate = 'fr_FR';
     }
 
     return (
@@ -216,6 +221,9 @@ class AccommodationList extends Component {
             href="https://www.gr-trail-tracker.com/en/gr10/town-guide"
             hreflang="x-default"
           />
+          <meta property="og:description" content={metaDescription} />
+          <meta property="og:locale" content={locale} />
+          <meta property="og:locale:alternate" content={localeAlternate} />
         </Helmet>
 
         <header className="App-header">

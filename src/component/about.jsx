@@ -28,15 +28,23 @@ class About extends Component {
     let title = 'About';
     let metaDescription =
       'A guide for hikers on the GR10 trail. The app will locate you relative to the trail and calculate the distances to the next landmarks. For example mountain passes, summits, towns, restaurants, hotels.';
+
+    let locale = '';
+    let localeAlternate = '';
+
     switch (LanguageHelper.getLanguage(this.props.language)) {
       case 'fr':
         pageTitle = 'GR10 trail tracker - À propos';
         title = 'À propos';
         metaDescription =
           "Un guide pour les randonneurs sur le sentier du GR10.L'application va vous localiser par rapport à la piste et calculer les distances aux points de repère suivants. Par exemple les cols de montagne, les sommets, les villes, les restaurants, les hôtels.";
+        locale = 'fr_FR';
+        localeAlternate = 'en_GB';
         break;
       case 'en':
       default:
+        locale = 'en_GB';
+        localeAlternate = 'fr_FR';
     }
 
     return (
@@ -60,6 +68,9 @@ class About extends Component {
             href="https://www.gr-trail-tracker.com"
             hreflang="x-default"
           />
+          <meta property="og:description" content={metaDescription} />
+          <meta property="og:locale" content={locale} />
+          <meta property="og:locale:alternate" content={localeAlternate} />
         </Helmet>
 
         <header className="App-header">
