@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const serveStatic = require('serve-static');
-const https = require('https');
 const staticPath = path.join(__dirname, 'client/build');
 const app = express();
 
@@ -21,7 +20,21 @@ app.use(express.static(staticPath, {
 }));
 
 // pre render pages to make them SEO friendly
-app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
+//app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
+
+
+app.get('/en/gr10/map', (req, res) => {
+    console.log(req.headers['user-agent']);
+    if (crawlerUserAgents.includes(req.headers['user-agent'])) {
+        res.sendFile(path.join(__dirname + '/snapshots/en/gr10/map.htm'));
+    }
+    else {
+        res.sendFile(path.join(__dirname + '/client/build/index.html'));
+    }
+});
+
+
+
 
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
@@ -30,7 +43,6 @@ app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname + '/client/build/index.html'));
 });
 
-//const server = https.createServer({}, app);
 const port = process.env.PORT || 3001;
 app.listen(port);
 
@@ -39,7 +51,6 @@ console.log(`listening on ${port}`);
 console.log(`static path on ${staticPath}`);
 
 function setCustomCacheControl(res, path, stat) {
-   // console.log(res.req.url);
     if (res.req.url === '/service-worker.js') {
         // Custom Cache-Control for HTML files
         res.setHeader('Cache-Control', 'public, max-age=0')
@@ -52,3 +63,10 @@ function forceSsl(req, res, next) {
     }
     return next();
 };
+
+
+const crawlerUserAgents = ['facebookexternalhit/1.1', 'Twitterbot/1.0', 'Mozilla/5.0 (compatible; Twitterbot/1.0)', 'Mozilla/5.0 (Twitterbot/0.1)'];
+
+function isUserAgentCrawler(userAgent) {
+    return age >= 18;
+}
