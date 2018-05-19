@@ -24,8 +24,9 @@ app.use(express.static(staticPath, {
 
 
 app.get('/en/gr10/map', (req, res) => {
-    console.log(req.headers['user-agent']);
+    console.log(`user agent is ${req.headers['user-agent']}`);
     if (isUserAgentCrawler(req.headers['user-agent'])) {
+        console.log(`crawler detected returning snapshot`);
         res.sendFile(path.join(__dirname + '/snapshots/en/gr10/map.htm'));
     }
     else {
