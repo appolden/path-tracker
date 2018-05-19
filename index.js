@@ -25,16 +25,13 @@ app.use(express.static(staticPath, {
 
 app.get('/en/gr10/map', (req, res) => {
     console.log(req.headers['user-agent']);
-    if (crawlerUserAgents.includes(req.headers['user-agent'])) {
+    if (isUserAgentCrawler(req.headers['user-agent'])) {
         res.sendFile(path.join(__dirname + '/snapshots/en/gr10/map.htm'));
     }
     else {
         res.sendFile(path.join(__dirname + '/client/build/index.html'));
     }
 });
-
-
-
 
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
@@ -68,5 +65,9 @@ function forceSsl(req, res, next) {
 const crawlerUserAgents = ['facebookexternalhit/1.1', 'Twitterbot/1.0', 'Mozilla/5.0 (compatible; Twitterbot/1.0)', 'Mozilla/5.0 (Twitterbot/0.1)'];
 
 function isUserAgentCrawler(userAgent) {
-    return age >= 18;
+    var found = crawlerUserAgents.find(function (crawlerUserAgent) {
+        return userAgent.indexOf(crawlerUserAgent) > -1;
+    });
+
+    return found !== undefined;
 }
