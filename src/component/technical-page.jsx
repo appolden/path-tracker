@@ -34,7 +34,20 @@ class TechnicalPage extends Component {
           />
           <h1 className="App-title">{title}</h1>
         </header>
-        <div className="App-content">
+            <div className="App-content">
+                <h2>Overview<h2>
+                    <p>This site has been built using a variety of technologies that are new to me. These are:
+                        </p>
+                    <ul>
+                        <li>ReactJs</li>
+                        <li>Heroku</li>
+                        <li>Browser service workers and browser caching</li>
+                        <li>Google maps API</li>
+                        <li>SEO</li>
+                        </ul>
+                    <p>
+                         I will describe some of the problems i have encountered thus far.
+                    </p>
           <h2>Progressive web apps (PWA)</h2>
           <p>
             <a href="https://developers.google.com/web/progressive-web-apps/">
@@ -45,7 +58,9 @@ class TechnicalPage extends Component {
           <p>I will write something about the Iphone limitations here.</p>
           <h2>ReactJs</h2>
           <p>Built using ReactJs.</p>
-
+                <h2>ReactJs and SEO</h2>
+                <p>Write something about the issues using Facebook sharing bot, BingBot. </p>
+           
           <h2>Cache viewer</h2>
           <p>
             {this.state.serviceWorkerEnabled}
