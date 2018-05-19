@@ -35,7 +35,7 @@ class TechnicalPage extends Component {
           <h1 className="App-title">{title}</h1>
         </header>
             <div className="App-content">
-                <h2>Overview<h2>
+                <h2>Overview</h2>
                     <p>This site has been built using a variety of technologies that are new to me. These are:
                         </p>
                     <ul>

@@ -2,12 +2,13 @@
 
 # dependencies
 /node_modules
+client/node_modules
 
 # testing
 /coverage
 
 # production
-/build
+/client/build
 
 # Visual Studio 2015/2017 cache/options directory
 .vs
