@@ -1,0 +1,165 @@
+[
+  {
+    "name": "Greenfield",
+    "point": {
+      "lat": 53.538720,
+      "lng": -2.013845
+    }
+  },
+  {
+    "name": "The Clarence",
+    "point": {
+      "lat": 53.532605,
+      "lng": -1.999235
+    },
+    "description": {
+      "en": "Pub",
+      "fr": "Pub"
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Dovestone Sailing Club",
+    "point": {
+      "lat": 53.526792,
+      "lng": -1.980294
+    }
+  },
+  {
+    "name": "Chew reservoir",
+    "point": {
+      "lat": 53.512628,
+      "lng": -1.947772
+    }
+  },
+  {
+    "name": "Trail junction",
+    "point": {
+      "lat": 53.508403,
+      "lng": -1.916194
+    },
+    "description": {
+      "en": "Trail junction with The Pennine Way",
+      "fr": "Trail junction with The Pennine Way"
+    }
+  },
+  {
+    "name": "Minor road",
+    "point": {
+      "lat": 53.488309,
+      "lng": -1.898194
+    },
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    }
+  },
+  {
+    "name": "Cross B6105",
+    "point": {
+      "lat": 53.479293,
+      "lng": -1.913906
+    },
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    }
+  },
+  {
+    "name": "Stream crossing",
+    "point": {
+      "lat": 53.464659,
+      "lng": -1.879472
+    }
+  },
+  {
+    "name": "Summit Cairn ?",
+    "point": {
+      "lat": 53.461308,
+      "lng": -1.859798
+    }
+  },
+  {
+    "name": "Doctor's Gate Trail Junction",
+    "point": {
+      "lat": 53.436627,
+      "lng": -1.866260
+    },
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    }
+  },
+  {
+    "name": "Bridge",
+    "point": {
+      "lat": 53.448780,
+      "lng": -1.910374
+    },
+    "description": {
+      "en": "Yellowslacks Brook Bridge",
+      "fr": "Yellowslacks Brook Bridge"
+    }
+  },
+  {
+    "name": "Old Glossop Clay Shooting Ground",
+    "point": {
+      "lat": 53.451458,
+      "lng": -1.923546
+    }
+  },
+  {
+    "name": "The Queen's Arms",
+    "point": {
+      "lat": 53.449590,
+      "lng": -1.938027
+    },
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Bulls Head",
+    "point": {
+      "lat": 53.450767,
+      "lng": -1.938966
+    },
+    "description": {
+      "en": "Turn left",
+      "fr": "Turn left"
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Hall Meadow Road",
+    "point": {
+      "lat": 53.449644,
+      "lng": -1.943231
+    },
+    "description": {
+      "en": "Turn left",
+      "fr": "Turn left"
+    }
+  },
+  {
+    "name": "B6105",
+    "point": {
+      "lat": 53.448903,
+      "lng": -1.945731
+    },
+    "description": {
+      "en": "Turn left",
+      "fr": "Turn left"
+    }
+  },
+  {
+    "name": "Glossop Train Station",
+    "point": {
+      "lat": 53.444225,
+      "lng": -1.948518
+    }
+  }
+]
+

@@ -15,7 +15,7 @@ class PathEncoder extends Component {
     this.pointsWithDistance = [];
     this.currentLocation = undefined;
 
-    this.routeUrl = '/data/gr10-route.json'; // this contains the encodeed polyline
+    this.routeUrl = '/data/greenfield-glossop/route.json'; // this contains the encodeed polyline
     //this.routeUrl = '/data/home-chorlton/route.json';
   }
 

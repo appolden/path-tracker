@@ -134,7 +134,21 @@ class App extends Component {
                   />
                 );
               }}
-            />
+                    />
+                    <Route
+                        exact
+                        path="/greenfield-glossop"
+                        component={() => {
+                            this.onRouterUpdate();
+                            return (
+                                <PathTracker
+                                    pointsUrl="/data/greenfield-glossop/points.json"
+                                    poisUrl="/data/greenfield-glossop/points-of-interest.json"
+                                />
+                            );
+                        }}
+                    />
+
             <Route exact path="/path-encoder" component={PathEncoder} />
             <Route
               exact

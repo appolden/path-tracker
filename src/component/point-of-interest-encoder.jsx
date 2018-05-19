@@ -8,11 +8,11 @@ class PointOfInterestEncoder extends Component {
     this.state = { locatedPois: '' };
     this.pathPoints = [];
     this.pois = [];
-    this.pathPointsUrl = '/data/gr10-points-elevation.json';
-    this.poisToLocateUrl = '/data/gr10-points-of-interest-to-locate.json';
+    //this.pathPointsUrl = '/data/gr10-points-elevation.json';
+    //this.poisToLocateUrl = '/data/gr10-points-of-interest-to-locate.json';
 
-    //this.pathPointsUrl = '/data/home-chorlton/points.json';
-    //this.poisToLocateUrl =      '/data/home-chorlton/points-of-interest-to-locate.json';
+    this.pathPointsUrl = '/data/greenfield-glossop/points.json';
+    this.poisToLocateUrl = '/data/greenfield-glossop/points-of-interest-to-locate.json';
   }
 
   componentDidMount() {

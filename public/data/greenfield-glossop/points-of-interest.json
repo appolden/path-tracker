@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Greenfield",
+    "nearestMetreOfPath": 0,
+    "elevation": 174,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 0
+  },
+  {
+    "name": "The Clarence",
+    "nearestMetreOfPath": 1305,
+    "elevation": 166,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 23,
+    "description": {
+      "en": "Pub",
+      "fr": "Pub"
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Dovestone Sailing Club",
+    "nearestMetreOfPath": 3004,
+    "elevation": 221,
+    "cumulativeAscent": 83,
+    "cumulativeDescent": 36
+  },
+  {
+    "name": "Chew reservoir",
+    "nearestMetreOfPath": 6210,
+    "elevation": 488,
+    "cumulativeAscent": 353,
+    "cumulativeDescent": 39
+  },
+  {
+    "name": "Trail junction",
+    "nearestMetreOfPath": 8669,
+    "elevation": 494,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 84,
+    "description": {
+      "en": "Trail junction with The Pennine Way",
+      "fr": "Trail junction with The Pennine Way"
+    }
+  },
+  {
+    "name": "Minor road",
+    "nearestMetreOfPath": 11296,
+    "elevation": 242,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 349,
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    }
+  },
+  {
+    "name": "Cross B6105",
+    "nearestMetreOfPath": 15870,
+    "elevation": 213,
+    "cumulativeAscent": 505,
+    "cumulativeDescent": 466,
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    }
+  },
+  {
+    "name": "Stream crossing",
+    "nearestMetreOfPath": 19253,
+    "elevation": 494,
+    "cumulativeAscent": 798,
+    "cumulativeDescent": 478
+  },
+  {
+    "name": "Summit Cairn ?",
+    "nearestMetreOfPath": 20941,
+    "elevation": 629,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 478
+  },
+  {
+    "name": "Doctor's Gate Trail Junction",
+    "nearestMetreOfPath": 24400,
+    "elevation": 513,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 607,
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    }
+  },
+  {
+    "name": "Bridge",
+    "nearestMetreOfPath": 28080,
+    "elevation": 216,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 919,
+    "description": {
+      "en": "Yellowslacks Brook Bridge",
+      "fr": "Yellowslacks Brook Bridge"
+    }
+  },
+  {
+    "name": "Old Glossop Clay Shooting Ground",
+    "nearestMetreOfPath": 29037,
+    "elevation": 194,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 945
+  },
+  {
+    "name": "The Queen's Arms",
+    "nearestMetreOfPath": 30043,
+    "elevation": 169,
+    "cumulativeAscent": 967,
+    "cumulativeDescent": 972,
+    "description": {
+      "en": "Turn right",
+      "fr": "Turn right"
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Bulls Head",
+    "nearestMetreOfPath": 30186,
+    "elevation": 178,
+    "cumulativeAscent": 976,
+    "cumulativeDescent": 972,
+    "description": {
+      "en": "Turn left",
+      "fr": "Turn left"
+    },
+    "restaurant": true
+  },
+  {
+    "name": "Hall Meadow Road",
+    "nearestMetreOfPath": 30504,
+    "elevation": 176,
+    "cumulativeAscent": 980,
+    "cumulativeDescent": 978,
+    "description": {
+      "en": "Turn left",
+      "fr": "Turn left"
+    }
+  },
+  {
+    "name": "B6105",
+    "nearestMetreOfPath": 30691,
+    "elevation": 178,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 981,
+    "description": {
+      "en": "Turn left",
+      "fr": "Turn left"
+    }
+  },
+  {
+    "name": "Glossop Train Station",
+    "nearestMetreOfPath": 31220,
+    "elevation": 161,
+    "cumulativeAscent": 986,
+    "cumulativeDescent": 999
+  }
+]

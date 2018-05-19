@@ -185,7 +185,8 @@ class PathTracker extends Component {
           nearestPointToCurrentLocation.cumulativeAscent;
         pointCurrent.cumulativeDescent =
           nearestPointToCurrentLocation.cumulativeDescent;
-        pointCurrent.scrollTo = !this.state.locationKnown;
+          pointCurrent.scrollTo = !this.state.locationKnown;
+          pointCurrent.distanceFromPath = distanceFromPath;
       } else {
         const pointCurrent = {
           name: 'Current Location',
@@ -194,7 +195,8 @@ class PathTracker extends Component {
           cumulativeAscent: nearestPointToCurrentLocation.cumulativeAscent,
           cumulativeDescent: nearestPointToCurrentLocation.cumulativeDescent,
           currentLocation: true,
-          scrollTo: !this.state.locationKnown
+            scrollTo: !this.state.locationKnown,
+          distanceFromPath: distanceFromPath
         };
         prevState.pointsOfInterest.push(pointCurrent);
       }
@@ -263,19 +265,20 @@ class PathTracker extends Component {
 
       return (
         <PointOfInterestRow
-          language={this.language}
-          key={key}
-          name={x.name}
-          elevationAtNearestMetreOfPath={x.elevation}
-          pathMetre={this.state.nearestMetreOfPath}
-          pathElevation={this.state.elevationAtNearestMetreOfPath}
-          pathCumulativeAscent={this.state.cumulativeAscentAtNearestMetreOfPath}
-          pathCumulativeDescent={
-            this.state.cumulativeDescentAtNearestMetreOfPath
-          }
-          onClick={this.onPointOfInterestClick}
-          pointOfInterest={x}
-          scrollTo={x.scrollTo}
+              language={this.language}
+              key={key}
+              name={x.name}
+              elevationAtNearestMetreOfPath={x.elevation}
+              pathMetre={this.state.nearestMetreOfPath}
+              pathElevation={this.state.elevationAtNearestMetreOfPath}
+              pathCumulativeAscent={this.state.cumulativeAscentAtNearestMetreOfPath}
+              pathCumulativeDescent={
+                  this.state.cumulativeDescentAtNearestMetreOfPath
+              }
+              onClick={this.onPointOfInterestClick}
+              pointOfInterest={x}
+              scrollTo={x.scrollTo}
+              distanceFromPath={x.distanceFromPath}
         />
       );
     });

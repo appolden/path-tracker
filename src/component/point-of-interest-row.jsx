@@ -4,7 +4,8 @@ import PointCurrent from '../component/point-current.jsx';
 
 class PointOfInterestRow extends Component {
   render() {
-    if (this.props.pointOfInterest.currentLocation) {
+      if (this.props.pointOfInterest.currentLocation) {
+          console.log(this.props);
       return (
         <PointCurrent
           language={this.props.language}

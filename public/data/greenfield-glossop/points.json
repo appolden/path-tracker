@@ -1,0 +1,7058 @@
+[
+  {
+    "lat": 53.53873,
+    "lng": -2.01386,
+    "metreOfPath": 0,
+    "elevation": 174,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 0
+  },
+  {
+    "lat": 53.53846,
+    "lng": -2.01428,
+    "metreOfPath": 40,
+    "elevation": 171,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 3
+  },
+  {
+    "lat": 53.53837,
+    "lng": -2.01439,
+    "metreOfPath": 53,
+    "elevation": 170,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 4
+  },
+  {
+    "lat": 53.53828,
+    "lng": -2.01441,
+    "metreOfPath": 63,
+    "elevation": 168,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 6
+  },
+  {
+    "lat": 53.53834,
+    "lng": -2.01413,
+    "metreOfPath": 83,
+    "elevation": 166,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 8
+  },
+  {
+    "lat": 53.53849,
+    "lng": -2.01345,
+    "metreOfPath": 131,
+    "elevation": 162,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 12
+  },
+  {
+    "lat": 53.53854,
+    "lng": -2.01318,
+    "metreOfPath": 149,
+    "elevation": 160,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 14
+  },
+  {
+    "lat": 53.53852,
+    "lng": -2.01298,
+    "metreOfPath": 163,
+    "elevation": 159,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 15
+  },
+  {
+    "lat": 53.53847,
+    "lng": -2.0128,
+    "metreOfPath": 176,
+    "elevation": 158,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 16
+  },
+  {
+    "lat": 53.53845,
+    "lng": -2.01271,
+    "metreOfPath": 182,
+    "elevation": 158,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 16
+  },
+  {
+    "lat": 53.53835,
+    "lng": -2.01238,
+    "metreOfPath": 207,
+    "elevation": 157,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 17
+  },
+  {
+    "lat": 53.53818,
+    "lng": -2.01191,
+    "metreOfPath": 243,
+    "elevation": 156,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 18
+  },
+  {
+    "lat": 53.53777,
+    "lng": -2.01109,
+    "metreOfPath": 314,
+    "elevation": 156,
+    "cumulativeAscent": 0,
+    "cumulativeDescent": 18
+  },
+  {
+    "lat": 53.53739,
+    "lng": -2.01029,
+    "metreOfPath": 382,
+    "elevation": 158,
+    "cumulativeAscent": 2,
+    "cumulativeDescent": 18
+  },
+  {
+    "lat": 53.53706,
+    "lng": -2.00945,
+    "metreOfPath": 448,
+    "elevation": 159,
+    "cumulativeAscent": 3,
+    "cumulativeDescent": 18
+  },
+  {
+    "lat": 53.53698,
+    "lng": -2.00927,
+    "metreOfPath": 463,
+    "elevation": 158,
+    "cumulativeAscent": 3,
+    "cumulativeDescent": 19
+  },
+  {
+    "lat": 53.53664,
+    "lng": -2.00833,
+    "metreOfPath": 536,
+    "elevation": 160,
+    "cumulativeAscent": 5,
+    "cumulativeDescent": 19
+  },
+  {
+    "lat": 53.53609,
+    "lng": -2.00664,
+    "metreOfPath": 664,
+    "elevation": 162,
+    "cumulativeAscent": 7,
+    "cumulativeDescent": 19
+  },
+  {
+    "lat": 53.53551,
+    "lng": -2.00488,
+    "metreOfPath": 797,
+    "elevation": 165,
+    "cumulativeAscent": 10,
+    "cumulativeDescent": 19
+  },
+  {
+    "lat": 53.53499,
+    "lng": -2.00394,
+    "metreOfPath": 882,
+    "elevation": 167,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 19
+  },
+  {
+    "lat": 53.53481,
+    "lng": -2.00358,
+    "metreOfPath": 913,
+    "elevation": 166,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 20
+  },
+  {
+    "lat": 53.53451,
+    "lng": -2.00309,
+    "metreOfPath": 959,
+    "elevation": 165,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 21
+  },
+  {
+    "lat": 53.53436,
+    "lng": -2.0029,
+    "metreOfPath": 980,
+    "elevation": 165,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 21
+  },
+  {
+    "lat": 53.53389,
+    "lng": -2.00232,
+    "metreOfPath": 1045,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53367,
+    "lng": -2.0021,
+    "metreOfPath": 1074,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53357,
+    "lng": -2.00198,
+    "metreOfPath": 1087,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53357,
+    "lng": -2.00195,
+    "metreOfPath": 1089,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53356,
+    "lng": -2.00193,
+    "metreOfPath": 1091,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53353,
+    "lng": -2.00189,
+    "metreOfPath": 1095,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.5335,
+    "lng": -2.0019,
+    "metreOfPath": 1099,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53349,
+    "lng": -2.00191,
+    "metreOfPath": 1100,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53339,
+    "lng": -2.00175,
+    "metreOfPath": 1115,
+    "elevation": 164,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 22
+  },
+  {
+    "lat": 53.53329,
+    "lng": -2.00144,
+    "metreOfPath": 1139,
+    "elevation": 163,
+    "cumulativeAscent": 12,
+    "cumulativeDescent": 23
+  },
+  {
+    "lat": 53.53288,
+    "lng": -2.00008,
+    "metreOfPath": 1240,
+    "elevation": 166,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 23
+  },
+  {
+    "lat": 53.5326,
+    "lng": -1.99915,
+    "metreOfPath": 1309,
+    "elevation": 166,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 23
+  },
+  {
+    "lat": 53.53256,
+    "lng": -1.99885,
+    "metreOfPath": 1329,
+    "elevation": 165,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 24
+  },
+  {
+    "lat": 53.53257,
+    "lng": -1.99884,
+    "metreOfPath": 1330,
+    "elevation": 165,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 24
+  },
+  {
+    "lat": 53.53257,
+    "lng": -1.99883,
+    "metreOfPath": 1331,
+    "elevation": 165,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 24
+  },
+  {
+    "lat": 53.53258,
+    "lng": -1.9988,
+    "metreOfPath": 1333,
+    "elevation": 165,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 24
+  },
+  {
+    "lat": 53.53258,
+    "lng": -1.99877,
+    "metreOfPath": 1335,
+    "elevation": 165,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 24
+  },
+  {
+    "lat": 53.53256,
+    "lng": -1.99872,
+    "metreOfPath": 1339,
+    "elevation": 165,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 24
+  },
+  {
+    "lat": 53.53254,
+    "lng": -1.9987,
+    "metreOfPath": 1342,
+    "elevation": 165,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 24
+  },
+  {
+    "lat": 53.53253,
+    "lng": -1.9987,
+    "metreOfPath": 1343,
+    "elevation": 164,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 25
+  },
+  {
+    "lat": 53.53252,
+    "lng": -1.9987,
+    "metreOfPath": 1344,
+    "elevation": 164,
+    "cumulativeAscent": 15,
+    "cumulativeDescent": 25
+  },
+  {
+    "lat": 53.53268,
+    "lng": -1.9981,
+    "metreOfPath": 1387,
+    "elevation": 169,
+    "cumulativeAscent": 20,
+    "cumulativeDescent": 25
+  },
+  {
+    "lat": 53.53265,
+    "lng": -1.99807,
+    "metreOfPath": 1391,
+    "elevation": 168,
+    "cumulativeAscent": 20,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53262,
+    "lng": -1.99798,
+    "metreOfPath": 1398,
+    "elevation": 168,
+    "cumulativeAscent": 20,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53266,
+    "lng": -1.99774,
+    "metreOfPath": 1415,
+    "elevation": 168,
+    "cumulativeAscent": 20,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53265,
+    "lng": -1.99731,
+    "metreOfPath": 1443,
+    "elevation": 172,
+    "cumulativeAscent": 24,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53263,
+    "lng": -1.99712,
+    "metreOfPath": 1456,
+    "elevation": 173,
+    "cumulativeAscent": 25,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53254,
+    "lng": -1.99677,
+    "metreOfPath": 1481,
+    "elevation": 173,
+    "cumulativeAscent": 25,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53236,
+    "lng": -1.99635,
+    "metreOfPath": 1515,
+    "elevation": 173,
+    "cumulativeAscent": 25,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53157,
+    "lng": -1.99399,
+    "metreOfPath": 1695,
+    "elevation": 173,
+    "cumulativeAscent": 25,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53149,
+    "lng": -1.99358,
+    "metreOfPath": 1723,
+    "elevation": 174,
+    "cumulativeAscent": 26,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53146,
+    "lng": -1.99299,
+    "metreOfPath": 1762,
+    "elevation": 176,
+    "cumulativeAscent": 28,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53142,
+    "lng": -1.99151,
+    "metreOfPath": 1860,
+    "elevation": 179,
+    "cumulativeAscent": 31,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.5313,
+    "lng": -1.99009,
+    "metreOfPath": 1955,
+    "elevation": 180,
+    "cumulativeAscent": 32,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53129,
+    "lng": -1.98896,
+    "metreOfPath": 2030,
+    "elevation": 183,
+    "cumulativeAscent": 35,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53123,
+    "lng": -1.98526,
+    "metreOfPath": 2275,
+    "elevation": 190,
+    "cumulativeAscent": 42,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.53125,
+    "lng": -1.98445,
+    "metreOfPath": 2329,
+    "elevation": 192,
+    "cumulativeAscent": 44,
+    "cumulativeDescent": 26
+  },
+  {
+    "lat": 53.5312,
+    "lng": -1.98411,
+    "metreOfPath": 2352,
+    "elevation": 190,
+    "cumulativeAscent": 44,
+    "cumulativeDescent": 28
+  },
+  {
+    "lat": 53.53108,
+    "lng": -1.98388,
+    "metreOfPath": 2372,
+    "elevation": 186,
+    "cumulativeAscent": 44,
+    "cumulativeDescent": 32
+  },
+  {
+    "lat": 53.53102,
+    "lng": -1.98366,
+    "metreOfPath": 2388,
+    "elevation": 184,
+    "cumulativeAscent": 44,
+    "cumulativeDescent": 34
+  },
+  {
+    "lat": 53.53099,
+    "lng": -1.98287,
+    "metreOfPath": 2440,
+    "elevation": 185,
+    "cumulativeAscent": 45,
+    "cumulativeDescent": 34
+  },
+  {
+    "lat": 53.53095,
+    "lng": -1.98251,
+    "metreOfPath": 2465,
+    "elevation": 187,
+    "cumulativeAscent": 47,
+    "cumulativeDescent": 34
+  },
+  {
+    "lat": 53.5309,
+    "lng": -1.98231,
+    "metreOfPath": 2479,
+    "elevation": 187,
+    "cumulativeAscent": 47,
+    "cumulativeDescent": 34
+  },
+  {
+    "lat": 53.53083,
+    "lng": -1.98222,
+    "metreOfPath": 2489,
+    "elevation": 186,
+    "cumulativeAscent": 47,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.53069,
+    "lng": -1.98213,
+    "metreOfPath": 2505,
+    "elevation": 186,
+    "cumulativeAscent": 47,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.53024,
+    "lng": -1.9819,
+    "metreOfPath": 2558,
+    "elevation": 188,
+    "cumulativeAscent": 49,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.53002,
+    "lng": -1.98174,
+    "metreOfPath": 2584,
+    "elevation": 189,
+    "cumulativeAscent": 50,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52984,
+    "lng": -1.98156,
+    "metreOfPath": 2608,
+    "elevation": 190,
+    "cumulativeAscent": 51,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.5297,
+    "lng": -1.98138,
+    "metreOfPath": 2627,
+    "elevation": 191,
+    "cumulativeAscent": 52,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52954,
+    "lng": -1.98102,
+    "metreOfPath": 2657,
+    "elevation": 194,
+    "cumulativeAscent": 55,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52881,
+    "lng": -1.98105,
+    "metreOfPath": 2738,
+    "elevation": 198,
+    "cumulativeAscent": 59,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52845,
+    "lng": -1.98112,
+    "metreOfPath": 2779,
+    "elevation": 203,
+    "cumulativeAscent": 64,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.5283,
+    "lng": -1.98118,
+    "metreOfPath": 2796,
+    "elevation": 204,
+    "cumulativeAscent": 65,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52825,
+    "lng": -1.98111,
+    "metreOfPath": 2803,
+    "elevation": 204,
+    "cumulativeAscent": 65,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52813,
+    "lng": -1.98111,
+    "metreOfPath": 2817,
+    "elevation": 206,
+    "cumulativeAscent": 67,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52779,
+    "lng": -1.98113,
+    "metreOfPath": 2854,
+    "elevation": 209,
+    "cumulativeAscent": 70,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52739,
+    "lng": -1.98115,
+    "metreOfPath": 2899,
+    "elevation": 213,
+    "cumulativeAscent": 74,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52728,
+    "lng": -1.98114,
+    "metreOfPath": 2911,
+    "elevation": 215,
+    "cumulativeAscent": 76,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52721,
+    "lng": -1.9812,
+    "metreOfPath": 2920,
+    "elevation": 216,
+    "cumulativeAscent": 77,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52712,
+    "lng": -1.98094,
+    "metreOfPath": 2940,
+    "elevation": 218,
+    "cumulativeAscent": 79,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52705,
+    "lng": -1.98096,
+    "metreOfPath": 2948,
+    "elevation": 219,
+    "cumulativeAscent": 80,
+    "cumulativeDescent": 35
+  },
+  {
+    "lat": 53.52707,
+    "lng": -1.98075,
+    "metreOfPath": 2962,
+    "elevation": 218,
+    "cumulativeAscent": 80,
+    "cumulativeDescent": 36
+  },
+  {
+    "lat": 53.52697,
+    "lng": -1.98064,
+    "metreOfPath": 2975,
+    "elevation": 219,
+    "cumulativeAscent": 81,
+    "cumulativeDescent": 36
+  },
+  {
+    "lat": 53.52686,
+    "lng": -1.98052,
+    "metreOfPath": 2990,
+    "elevation": 220,
+    "cumulativeAscent": 82,
+    "cumulativeDescent": 36
+  },
+  {
+    "lat": 53.52673,
+    "lng": -1.9801,
+    "metreOfPath": 3021,
+    "elevation": 221,
+    "cumulativeAscent": 83,
+    "cumulativeDescent": 36
+  },
+  {
+    "lat": 53.52656,
+    "lng": -1.97968,
+    "metreOfPath": 3055,
+    "elevation": 220,
+    "cumulativeAscent": 83,
+    "cumulativeDescent": 37
+  },
+  {
+    "lat": 53.52645,
+    "lng": -1.97954,
+    "metreOfPath": 3070,
+    "elevation": 220,
+    "cumulativeAscent": 83,
+    "cumulativeDescent": 37
+  },
+  {
+    "lat": 53.52631,
+    "lng": -1.97944,
+    "metreOfPath": 3087,
+    "elevation": 221,
+    "cumulativeAscent": 84,
+    "cumulativeDescent": 37
+  },
+  {
+    "lat": 53.52622,
+    "lng": -1.97941,
+    "metreOfPath": 3097,
+    "elevation": 220,
+    "cumulativeAscent": 84,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52615,
+    "lng": -1.97933,
+    "metreOfPath": 3107,
+    "elevation": 220,
+    "cumulativeAscent": 84,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52611,
+    "lng": -1.97917,
+    "metreOfPath": 3118,
+    "elevation": 220,
+    "cumulativeAscent": 84,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52609,
+    "lng": -1.97877,
+    "metreOfPath": 3145,
+    "elevation": 220,
+    "cumulativeAscent": 84,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52604,
+    "lng": -1.97815,
+    "metreOfPath": 3186,
+    "elevation": 220,
+    "cumulativeAscent": 84,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52591,
+    "lng": -1.97786,
+    "metreOfPath": 3210,
+    "elevation": 221,
+    "cumulativeAscent": 85,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52581,
+    "lng": -1.9767,
+    "metreOfPath": 3288,
+    "elevation": 224,
+    "cumulativeAscent": 88,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52513,
+    "lng": -1.97298,
+    "metreOfPath": 3545,
+    "elevation": 228,
+    "cumulativeAscent": 92,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52508,
+    "lng": -1.97272,
+    "metreOfPath": 3563,
+    "elevation": 228,
+    "cumulativeAscent": 92,
+    "cumulativeDescent": 38
+  },
+  {
+    "lat": 53.52508,
+    "lng": -1.97259,
+    "metreOfPath": 3572,
+    "elevation": 227,
+    "cumulativeAscent": 92,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52508,
+    "lng": -1.9723,
+    "metreOfPath": 3591,
+    "elevation": 227,
+    "cumulativeAscent": 92,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52507,
+    "lng": -1.97217,
+    "metreOfPath": 3600,
+    "elevation": 229,
+    "cumulativeAscent": 94,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52502,
+    "lng": -1.97202,
+    "metreOfPath": 3611,
+    "elevation": 232,
+    "cumulativeAscent": 97,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52493,
+    "lng": -1.97188,
+    "metreOfPath": 3625,
+    "elevation": 234,
+    "cumulativeAscent": 99,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52485,
+    "lng": -1.9718,
+    "metreOfPath": 3635,
+    "elevation": 236,
+    "cumulativeAscent": 101,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52476,
+    "lng": -1.97177,
+    "metreOfPath": 3645,
+    "elevation": 238,
+    "cumulativeAscent": 103,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52467,
+    "lng": -1.97178,
+    "metreOfPath": 3655,
+    "elevation": 239,
+    "cumulativeAscent": 104,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52423,
+    "lng": -1.97198,
+    "metreOfPath": 3706,
+    "elevation": 249,
+    "cumulativeAscent": 114,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52399,
+    "lng": -1.97209,
+    "metreOfPath": 3734,
+    "elevation": 253,
+    "cumulativeAscent": 118,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52389,
+    "lng": -1.97211,
+    "metreOfPath": 3745,
+    "elevation": 254,
+    "cumulativeAscent": 119,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52371,
+    "lng": -1.97206,
+    "metreOfPath": 3765,
+    "elevation": 256,
+    "cumulativeAscent": 121,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52361,
+    "lng": -1.97195,
+    "metreOfPath": 3779,
+    "elevation": 258,
+    "cumulativeAscent": 123,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52336,
+    "lng": -1.97149,
+    "metreOfPath": 3820,
+    "elevation": 264,
+    "cumulativeAscent": 129,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52326,
+    "lng": -1.97125,
+    "metreOfPath": 3839,
+    "elevation": 266,
+    "cumulativeAscent": 131,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52313,
+    "lng": -1.97105,
+    "metreOfPath": 3859,
+    "elevation": 269,
+    "cumulativeAscent": 134,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52289,
+    "lng": -1.97067,
+    "metreOfPath": 3896,
+    "elevation": 272,
+    "cumulativeAscent": 137,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52281,
+    "lng": -1.97048,
+    "metreOfPath": 3911,
+    "elevation": 273,
+    "cumulativeAscent": 138,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52275,
+    "lng": -1.97024,
+    "metreOfPath": 3928,
+    "elevation": 274,
+    "cumulativeAscent": 139,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52267,
+    "lng": -1.96997,
+    "metreOfPath": 3948,
+    "elevation": 276,
+    "cumulativeAscent": 141,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52263,
+    "lng": -1.96988,
+    "metreOfPath": 3956,
+    "elevation": 277,
+    "cumulativeAscent": 142,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52253,
+    "lng": -1.96979,
+    "metreOfPath": 3968,
+    "elevation": 277,
+    "cumulativeAscent": 142,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.5224,
+    "lng": -1.96959,
+    "metreOfPath": 3988,
+    "elevation": 279,
+    "cumulativeAscent": 144,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52234,
+    "lng": -1.96941,
+    "metreOfPath": 4002,
+    "elevation": 280,
+    "cumulativeAscent": 145,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52228,
+    "lng": -1.96913,
+    "metreOfPath": 4021,
+    "elevation": 281,
+    "cumulativeAscent": 146,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52226,
+    "lng": -1.96884,
+    "metreOfPath": 4041,
+    "elevation": 283,
+    "cumulativeAscent": 148,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52227,
+    "lng": -1.96842,
+    "metreOfPath": 4068,
+    "elevation": 285,
+    "cumulativeAscent": 150,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52223,
+    "lng": -1.96807,
+    "metreOfPath": 4092,
+    "elevation": 286,
+    "cumulativeAscent": 151,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52216,
+    "lng": -1.96775,
+    "metreOfPath": 4115,
+    "elevation": 287,
+    "cumulativeAscent": 152,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52196,
+    "lng": -1.96742,
+    "metreOfPath": 4146,
+    "elevation": 289,
+    "cumulativeAscent": 154,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52155,
+    "lng": -1.9667,
+    "metreOfPath": 4212,
+    "elevation": 293,
+    "cumulativeAscent": 158,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52139,
+    "lng": -1.96653,
+    "metreOfPath": 4233,
+    "elevation": 294,
+    "cumulativeAscent": 159,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52121,
+    "lng": -1.96642,
+    "metreOfPath": 4254,
+    "elevation": 295,
+    "cumulativeAscent": 160,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52101,
+    "lng": -1.96633,
+    "metreOfPath": 4277,
+    "elevation": 295,
+    "cumulativeAscent": 160,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.52085,
+    "lng": -1.96621,
+    "metreOfPath": 4297,
+    "elevation": 295,
+    "cumulativeAscent": 160,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.5203,
+    "lng": -1.96545,
+    "metreOfPath": 4376,
+    "elevation": 296,
+    "cumulativeAscent": 161,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51942,
+    "lng": -1.96441,
+    "metreOfPath": 4496,
+    "elevation": 305,
+    "cumulativeAscent": 170,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51888,
+    "lng": -1.96396,
+    "metreOfPath": 4563,
+    "elevation": 306,
+    "cumulativeAscent": 171,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51857,
+    "lng": -1.96358,
+    "metreOfPath": 4605,
+    "elevation": 308,
+    "cumulativeAscent": 173,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.5183,
+    "lng": -1.96318,
+    "metreOfPath": 4645,
+    "elevation": 314,
+    "cumulativeAscent": 179,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51812,
+    "lng": -1.9631,
+    "metreOfPath": 4666,
+    "elevation": 316,
+    "cumulativeAscent": 181,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51781,
+    "lng": -1.96307,
+    "metreOfPath": 4701,
+    "elevation": 319,
+    "cumulativeAscent": 184,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51662,
+    "lng": -1.96313,
+    "metreOfPath": 4833,
+    "elevation": 333,
+    "cumulativeAscent": 198,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51586,
+    "lng": -1.96303,
+    "metreOfPath": 4918,
+    "elevation": 343,
+    "cumulativeAscent": 208,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51557,
+    "lng": -1.96294,
+    "metreOfPath": 4951,
+    "elevation": 347,
+    "cumulativeAscent": 212,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51526,
+    "lng": -1.96273,
+    "metreOfPath": 4988,
+    "elevation": 352,
+    "cumulativeAscent": 217,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51497,
+    "lng": -1.96251,
+    "metreOfPath": 5024,
+    "elevation": 356,
+    "cumulativeAscent": 221,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51482,
+    "lng": -1.96234,
+    "metreOfPath": 5044,
+    "elevation": 358,
+    "cumulativeAscent": 223,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51468,
+    "lng": -1.9621,
+    "metreOfPath": 5066,
+    "elevation": 362,
+    "cumulativeAscent": 227,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.5145,
+    "lng": -1.96183,
+    "metreOfPath": 5093,
+    "elevation": 365,
+    "cumulativeAscent": 230,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51436,
+    "lng": -1.96146,
+    "metreOfPath": 5122,
+    "elevation": 369,
+    "cumulativeAscent": 234,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51386,
+    "lng": -1.96013,
+    "metreOfPath": 5226,
+    "elevation": 381,
+    "cumulativeAscent": 246,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51376,
+    "lng": -1.95965,
+    "metreOfPath": 5260,
+    "elevation": 386,
+    "cumulativeAscent": 251,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51372,
+    "lng": -1.95951,
+    "metreOfPath": 5270,
+    "elevation": 388,
+    "cumulativeAscent": 253,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51363,
+    "lng": -1.95939,
+    "metreOfPath": 5283,
+    "elevation": 390,
+    "cumulativeAscent": 255,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51348,
+    "lng": -1.95922,
+    "metreOfPath": 5303,
+    "elevation": 392,
+    "cumulativeAscent": 257,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51335,
+    "lng": -1.95904,
+    "metreOfPath": 5322,
+    "elevation": 393,
+    "cumulativeAscent": 258,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51324,
+    "lng": -1.95861,
+    "metreOfPath": 5353,
+    "elevation": 398,
+    "cumulativeAscent": 263,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51317,
+    "lng": -1.95841,
+    "metreOfPath": 5368,
+    "elevation": 400,
+    "cumulativeAscent": 265,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51307,
+    "lng": -1.95827,
+    "metreOfPath": 5382,
+    "elevation": 402,
+    "cumulativeAscent": 267,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51277,
+    "lng": -1.95783,
+    "metreOfPath": 5427,
+    "elevation": 409,
+    "cumulativeAscent": 274,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51254,
+    "lng": -1.95732,
+    "metreOfPath": 5469,
+    "elevation": 415,
+    "cumulativeAscent": 280,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51236,
+    "lng": -1.95656,
+    "metreOfPath": 5523,
+    "elevation": 422,
+    "cumulativeAscent": 287,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.5122,
+    "lng": -1.95606,
+    "metreOfPath": 5561,
+    "elevation": 426,
+    "cumulativeAscent": 291,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51205,
+    "lng": -1.95563,
+    "metreOfPath": 5594,
+    "elevation": 429,
+    "cumulativeAscent": 294,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51202,
+    "lng": -1.95549,
+    "metreOfPath": 5604,
+    "elevation": 430,
+    "cumulativeAscent": 295,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51202,
+    "lng": -1.95519,
+    "metreOfPath": 5624,
+    "elevation": 434,
+    "cumulativeAscent": 299,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51207,
+    "lng": -1.9541,
+    "metreOfPath": 5696,
+    "elevation": 445,
+    "cumulativeAscent": 310,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51235,
+    "lng": -1.95301,
+    "metreOfPath": 5775,
+    "elevation": 458,
+    "cumulativeAscent": 323,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51279,
+    "lng": -1.95161,
+    "metreOfPath": 5879,
+    "elevation": 466,
+    "cumulativeAscent": 331,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51309,
+    "lng": -1.95071,
+    "metreOfPath": 5948,
+    "elevation": 468,
+    "cumulativeAscent": 333,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51328,
+    "lng": -1.95028,
+    "metreOfPath": 5983,
+    "elevation": 468,
+    "cumulativeAscent": 333,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51338,
+    "lng": -1.94995,
+    "metreOfPath": 6008,
+    "elevation": 469,
+    "cumulativeAscent": 334,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51343,
+    "lng": -1.94956,
+    "metreOfPath": 6034,
+    "elevation": 469,
+    "cumulativeAscent": 334,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51356,
+    "lng": -1.94882,
+    "metreOfPath": 6085,
+    "elevation": 472,
+    "cumulativeAscent": 337,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51354,
+    "lng": -1.94874,
+    "metreOfPath": 6091,
+    "elevation": 473,
+    "cumulativeAscent": 338,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51278,
+    "lng": -1.94789,
+    "metreOfPath": 6192,
+    "elevation": 486,
+    "cumulativeAscent": 351,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51263,
+    "lng": -1.94779,
+    "metreOfPath": 6210,
+    "elevation": 488,
+    "cumulativeAscent": 353,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.5126,
+    "lng": -1.94766,
+    "metreOfPath": 6220,
+    "elevation": 490,
+    "cumulativeAscent": 355,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51278,
+    "lng": -1.94694,
+    "metreOfPath": 6271,
+    "elevation": 491,
+    "cumulativeAscent": 356,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51309,
+    "lng": -1.94504,
+    "metreOfPath": 6402,
+    "elevation": 491,
+    "cumulativeAscent": 356,
+    "cumulativeDescent": 39
+  },
+  {
+    "lat": 53.51299,
+    "lng": -1.94192,
+    "metreOfPath": 6609,
+    "elevation": 490,
+    "cumulativeAscent": 356,
+    "cumulativeDescent": 40
+  },
+  {
+    "lat": 53.51296,
+    "lng": -1.93973,
+    "metreOfPath": 6754,
+    "elevation": 490,
+    "cumulativeAscent": 356,
+    "cumulativeDescent": 40
+  },
+  {
+    "lat": 53.51298,
+    "lng": -1.93791,
+    "metreOfPath": 6874,
+    "elevation": 492,
+    "cumulativeAscent": 358,
+    "cumulativeDescent": 40
+  },
+  {
+    "lat": 53.51303,
+    "lng": -1.93764,
+    "metreOfPath": 6893,
+    "elevation": 493,
+    "cumulativeAscent": 359,
+    "cumulativeDescent": 40
+  },
+  {
+    "lat": 53.5132,
+    "lng": -1.93719,
+    "metreOfPath": 6928,
+    "elevation": 491,
+    "cumulativeAscent": 359,
+    "cumulativeDescent": 42
+  },
+  {
+    "lat": 53.51345,
+    "lng": -1.93646,
+    "metreOfPath": 6984,
+    "elevation": 492,
+    "cumulativeAscent": 360,
+    "cumulativeDescent": 42
+  },
+  {
+    "lat": 53.51363,
+    "lng": -1.9354,
+    "metreOfPath": 7057,
+    "elevation": 493,
+    "cumulativeAscent": 361,
+    "cumulativeDescent": 42
+  },
+  {
+    "lat": 53.51359,
+    "lng": -1.93404,
+    "metreOfPath": 7147,
+    "elevation": 494,
+    "cumulativeAscent": 362,
+    "cumulativeDescent": 42
+  },
+  {
+    "lat": 53.51373,
+    "lng": -1.93374,
+    "metreOfPath": 7172,
+    "elevation": 493,
+    "cumulativeAscent": 362,
+    "cumulativeDescent": 43
+  },
+  {
+    "lat": 53.51388,
+    "lng": -1.93336,
+    "metreOfPath": 7202,
+    "elevation": 492,
+    "cumulativeAscent": 362,
+    "cumulativeDescent": 44
+  },
+  {
+    "lat": 53.5139,
+    "lng": -1.9332,
+    "metreOfPath": 7213,
+    "elevation": 492,
+    "cumulativeAscent": 362,
+    "cumulativeDescent": 44
+  },
+  {
+    "lat": 53.51392,
+    "lng": -1.93319,
+    "metreOfPath": 7216,
+    "elevation": 492,
+    "cumulativeAscent": 362,
+    "cumulativeDescent": 44
+  },
+  {
+    "lat": 53.51399,
+    "lng": -1.93324,
+    "metreOfPath": 7224,
+    "elevation": 491,
+    "cumulativeAscent": 362,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51413,
+    "lng": -1.93286,
+    "metreOfPath": 7254,
+    "elevation": 492,
+    "cumulativeAscent": 363,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.5142,
+    "lng": -1.93249,
+    "metreOfPath": 7279,
+    "elevation": 493,
+    "cumulativeAscent": 364,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51428,
+    "lng": -1.9324,
+    "metreOfPath": 7290,
+    "elevation": 494,
+    "cumulativeAscent": 365,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51435,
+    "lng": -1.93196,
+    "metreOfPath": 7320,
+    "elevation": 494,
+    "cumulativeAscent": 365,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51437,
+    "lng": -1.93188,
+    "metreOfPath": 7326,
+    "elevation": 494,
+    "cumulativeAscent": 365,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51435,
+    "lng": -1.93179,
+    "metreOfPath": 7332,
+    "elevation": 494,
+    "cumulativeAscent": 365,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51441,
+    "lng": -1.93166,
+    "metreOfPath": 7343,
+    "elevation": 495,
+    "cumulativeAscent": 366,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51442,
+    "lng": -1.93154,
+    "metreOfPath": 7351,
+    "elevation": 495,
+    "cumulativeAscent": 366,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51443,
+    "lng": -1.93136,
+    "metreOfPath": 7363,
+    "elevation": 496,
+    "cumulativeAscent": 367,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51447,
+    "lng": -1.93122,
+    "metreOfPath": 7373,
+    "elevation": 496,
+    "cumulativeAscent": 367,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51446,
+    "lng": -1.93089,
+    "metreOfPath": 7395,
+    "elevation": 497,
+    "cumulativeAscent": 368,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51443,
+    "lng": -1.93074,
+    "metreOfPath": 7406,
+    "elevation": 498,
+    "cumulativeAscent": 369,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51445,
+    "lng": -1.93049,
+    "metreOfPath": 7422,
+    "elevation": 499,
+    "cumulativeAscent": 370,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51432,
+    "lng": -1.93005,
+    "metreOfPath": 7455,
+    "elevation": 500,
+    "cumulativeAscent": 371,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51427,
+    "lng": -1.92994,
+    "metreOfPath": 7464,
+    "elevation": 500,
+    "cumulativeAscent": 371,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51418,
+    "lng": -1.92989,
+    "metreOfPath": 7475,
+    "elevation": 501,
+    "cumulativeAscent": 372,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51406,
+    "lng": -1.92962,
+    "metreOfPath": 7497,
+    "elevation": 501,
+    "cumulativeAscent": 372,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51398,
+    "lng": -1.92938,
+    "metreOfPath": 7515,
+    "elevation": 502,
+    "cumulativeAscent": 373,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51388,
+    "lng": -1.92923,
+    "metreOfPath": 7530,
+    "elevation": 502,
+    "cumulativeAscent": 373,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51387,
+    "lng": -1.92911,
+    "metreOfPath": 7538,
+    "elevation": 503,
+    "cumulativeAscent": 374,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51378,
+    "lng": -1.92883,
+    "metreOfPath": 7559,
+    "elevation": 504,
+    "cumulativeAscent": 375,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51372,
+    "lng": -1.92872,
+    "metreOfPath": 7569,
+    "elevation": 504,
+    "cumulativeAscent": 375,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51366,
+    "lng": -1.92844,
+    "metreOfPath": 7589,
+    "elevation": 506,
+    "cumulativeAscent": 377,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51358,
+    "lng": -1.92827,
+    "metreOfPath": 7603,
+    "elevation": 506,
+    "cumulativeAscent": 377,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51343,
+    "lng": -1.92816,
+    "metreOfPath": 7621,
+    "elevation": 507,
+    "cumulativeAscent": 378,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51342,
+    "lng": -1.92805,
+    "metreOfPath": 7629,
+    "elevation": 507,
+    "cumulativeAscent": 378,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51325,
+    "lng": -1.92784,
+    "metreOfPath": 7652,
+    "elevation": 508,
+    "cumulativeAscent": 379,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51323,
+    "lng": -1.92776,
+    "metreOfPath": 7658,
+    "elevation": 508,
+    "cumulativeAscent": 379,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51308,
+    "lng": -1.92771,
+    "metreOfPath": 7675,
+    "elevation": 508,
+    "cumulativeAscent": 379,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51292,
+    "lng": -1.92751,
+    "metreOfPath": 7697,
+    "elevation": 509,
+    "cumulativeAscent": 380,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51284,
+    "lng": -1.9275,
+    "metreOfPath": 7706,
+    "elevation": 509,
+    "cumulativeAscent": 380,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51276,
+    "lng": -1.92752,
+    "metreOfPath": 7715,
+    "elevation": 510,
+    "cumulativeAscent": 381,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51269,
+    "lng": -1.92749,
+    "metreOfPath": 7723,
+    "elevation": 510,
+    "cumulativeAscent": 381,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51264,
+    "lng": -1.92739,
+    "metreOfPath": 7732,
+    "elevation": 511,
+    "cumulativeAscent": 382,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51263,
+    "lng": -1.92729,
+    "metreOfPath": 7739,
+    "elevation": 511,
+    "cumulativeAscent": 382,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51259,
+    "lng": -1.92724,
+    "metreOfPath": 7744,
+    "elevation": 511,
+    "cumulativeAscent": 382,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51246,
+    "lng": -1.92712,
+    "metreOfPath": 7761,
+    "elevation": 512,
+    "cumulativeAscent": 383,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.5123,
+    "lng": -1.92693,
+    "metreOfPath": 7782,
+    "elevation": 513,
+    "cumulativeAscent": 384,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51223,
+    "lng": -1.92672,
+    "metreOfPath": 7798,
+    "elevation": 513,
+    "cumulativeAscent": 384,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51217,
+    "lng": -1.92656,
+    "metreOfPath": 7811,
+    "elevation": 514,
+    "cumulativeAscent": 385,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51217,
+    "lng": -1.92642,
+    "metreOfPath": 7820,
+    "elevation": 514,
+    "cumulativeAscent": 385,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51212,
+    "lng": -1.92577,
+    "metreOfPath": 7864,
+    "elevation": 516,
+    "cumulativeAscent": 387,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51211,
+    "lng": -1.9255,
+    "metreOfPath": 7881,
+    "elevation": 517,
+    "cumulativeAscent": 388,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51206,
+    "lng": -1.9254,
+    "metreOfPath": 7890,
+    "elevation": 517,
+    "cumulativeAscent": 388,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51203,
+    "lng": -1.92525,
+    "metreOfPath": 7901,
+    "elevation": 518,
+    "cumulativeAscent": 389,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51199,
+    "lng": -1.92517,
+    "metreOfPath": 7907,
+    "elevation": 518,
+    "cumulativeAscent": 389,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51192,
+    "lng": -1.92495,
+    "metreOfPath": 7924,
+    "elevation": 520,
+    "cumulativeAscent": 391,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51183,
+    "lng": -1.92436,
+    "metreOfPath": 7964,
+    "elevation": 522,
+    "cumulativeAscent": 393,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51182,
+    "lng": -1.92399,
+    "metreOfPath": 7989,
+    "elevation": 524,
+    "cumulativeAscent": 395,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51172,
+    "lng": -1.9234,
+    "metreOfPath": 8029,
+    "elevation": 527,
+    "cumulativeAscent": 398,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51159,
+    "lng": -1.92242,
+    "metreOfPath": 8096,
+    "elevation": 530,
+    "cumulativeAscent": 401,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51161,
+    "lng": -1.92207,
+    "metreOfPath": 8119,
+    "elevation": 531,
+    "cumulativeAscent": 402,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51161,
+    "lng": -1.92192,
+    "metreOfPath": 8129,
+    "elevation": 532,
+    "cumulativeAscent": 403,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51152,
+    "lng": -1.92166,
+    "metreOfPath": 8149,
+    "elevation": 532,
+    "cumulativeAscent": 403,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51143,
+    "lng": -1.92126,
+    "metreOfPath": 8177,
+    "elevation": 532,
+    "cumulativeAscent": 403,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51143,
+    "lng": -1.92109,
+    "metreOfPath": 8189,
+    "elevation": 532,
+    "cumulativeAscent": 403,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51136,
+    "lng": -1.92079,
+    "metreOfPath": 8210,
+    "elevation": 533,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51123,
+    "lng": -1.92036,
+    "metreOfPath": 8242,
+    "elevation": 533,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 45
+  },
+  {
+    "lat": 53.51112,
+    "lng": -1.92016,
+    "metreOfPath": 8260,
+    "elevation": 532,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 46
+  },
+  {
+    "lat": 53.51098,
+    "lng": -1.91998,
+    "metreOfPath": 8280,
+    "elevation": 532,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 46
+  },
+  {
+    "lat": 53.51089,
+    "lng": -1.91986,
+    "metreOfPath": 8292,
+    "elevation": 532,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 46
+  },
+  {
+    "lat": 53.51084,
+    "lng": -1.91971,
+    "metreOfPath": 8304,
+    "elevation": 532,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 46
+  },
+  {
+    "lat": 53.51078,
+    "lng": -1.91947,
+    "metreOfPath": 8321,
+    "elevation": 531,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 47
+  },
+  {
+    "lat": 53.51072,
+    "lng": -1.91937,
+    "metreOfPath": 8330,
+    "elevation": 531,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 47
+  },
+  {
+    "lat": 53.51045,
+    "lng": -1.9192,
+    "metreOfPath": 8362,
+    "elevation": 529,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 49
+  },
+  {
+    "lat": 53.50993,
+    "lng": -1.9187,
+    "metreOfPath": 8429,
+    "elevation": 526,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 52
+  },
+  {
+    "lat": 53.50964,
+    "lng": -1.91836,
+    "metreOfPath": 8468,
+    "elevation": 522,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 56
+  },
+  {
+    "lat": 53.50954,
+    "lng": -1.91817,
+    "metreOfPath": 8485,
+    "elevation": 521,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 57
+  },
+  {
+    "lat": 53.50928,
+    "lng": -1.91773,
+    "metreOfPath": 8526,
+    "elevation": 516,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 62
+  },
+  {
+    "lat": 53.5092,
+    "lng": -1.91744,
+    "metreOfPath": 8547,
+    "elevation": 514,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 64
+  },
+  {
+    "lat": 53.50886,
+    "lng": -1.91688,
+    "metreOfPath": 8600,
+    "elevation": 505,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 73
+  },
+  {
+    "lat": 53.5084,
+    "lng": -1.91619,
+    "metreOfPath": 8669,
+    "elevation": 494,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 84
+  },
+  {
+    "lat": 53.50785,
+    "lng": -1.91587,
+    "metreOfPath": 8734,
+    "elevation": 483,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 95
+  },
+  {
+    "lat": 53.50712,
+    "lng": -1.91534,
+    "metreOfPath": 8822,
+    "elevation": 468,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 110
+  },
+  {
+    "lat": 53.50648,
+    "lng": -1.91483,
+    "metreOfPath": 8901,
+    "elevation": 457,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 121
+  },
+  {
+    "lat": 53.50578,
+    "lng": -1.91418,
+    "metreOfPath": 8990,
+    "elevation": 432,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 146
+  },
+  {
+    "lat": 53.5053,
+    "lng": -1.91354,
+    "metreOfPath": 9058,
+    "elevation": 411,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 167
+  },
+  {
+    "lat": 53.50487,
+    "lng": -1.91303,
+    "metreOfPath": 9117,
+    "elevation": 390,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 188
+  },
+  {
+    "lat": 53.50458,
+    "lng": -1.91218,
+    "metreOfPath": 9182,
+    "elevation": 374,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 204
+  },
+  {
+    "lat": 53.50419,
+    "lng": -1.91167,
+    "metreOfPath": 9237,
+    "elevation": 368,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 210
+  },
+  {
+    "lat": 53.50376,
+    "lng": -1.91153,
+    "metreOfPath": 9286,
+    "elevation": 360,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 218
+  },
+  {
+    "lat": 53.50331,
+    "lng": -1.9113,
+    "metreOfPath": 9338,
+    "elevation": 344,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 234
+  },
+  {
+    "lat": 53.50317,
+    "lng": -1.91083,
+    "metreOfPath": 9373,
+    "elevation": 335,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 243
+  },
+  {
+    "lat": 53.5029,
+    "lng": -1.91019,
+    "metreOfPath": 9425,
+    "elevation": 331,
+    "cumulativeAscent": 404,
+    "cumulativeDescent": 247
+  },
+  {
+    "lat": 53.50254,
+    "lng": -1.90966,
+    "metreOfPath": 9478,
+    "elevation": 332,
+    "cumulativeAscent": 405,
+    "cumulativeDescent": 247
+  },
+  {
+    "lat": 53.50214,
+    "lng": -1.90929,
+    "metreOfPath": 9529,
+    "elevation": 331,
+    "cumulativeAscent": 405,
+    "cumulativeDescent": 248
+  },
+  {
+    "lat": 53.50136,
+    "lng": -1.90877,
+    "metreOfPath": 9622,
+    "elevation": 325,
+    "cumulativeAscent": 405,
+    "cumulativeDescent": 254
+  },
+  {
+    "lat": 53.50108,
+    "lng": -1.90817,
+    "metreOfPath": 9673,
+    "elevation": 313,
+    "cumulativeAscent": 405,
+    "cumulativeDescent": 266
+  },
+  {
+    "lat": 53.50077,
+    "lng": -1.90759,
+    "metreOfPath": 9724,
+    "elevation": 294,
+    "cumulativeAscent": 405,
+    "cumulativeDescent": 285
+  },
+  {
+    "lat": 53.50036,
+    "lng": -1.90716,
+    "metreOfPath": 9778,
+    "elevation": 285,
+    "cumulativeAscent": 405,
+    "cumulativeDescent": 294
+  },
+  {
+    "lat": 53.50003,
+    "lng": -1.90687,
+    "metreOfPath": 9820,
+    "elevation": 283,
+    "cumulativeAscent": 405,
+    "cumulativeDescent": 296
+  },
+  {
+    "lat": 53.49923,
+    "lng": -1.90558,
+    "metreOfPath": 9943,
+    "elevation": 286,
+    "cumulativeAscent": 408,
+    "cumulativeDescent": 296
+  },
+  {
+    "lat": 53.4992,
+    "lng": -1.90519,
+    "metreOfPath": 9969,
+    "elevation": 286,
+    "cumulativeAscent": 408,
+    "cumulativeDescent": 296
+  },
+  {
+    "lat": 53.49868,
+    "lng": -1.90447,
+    "metreOfPath": 10044,
+    "elevation": 289,
+    "cumulativeAscent": 411,
+    "cumulativeDescent": 296
+  },
+  {
+    "lat": 53.49811,
+    "lng": -1.90408,
+    "metreOfPath": 10113,
+    "elevation": 289,
+    "cumulativeAscent": 411,
+    "cumulativeDescent": 296
+  },
+  {
+    "lat": 53.4978,
+    "lng": -1.9037,
+    "metreOfPath": 10155,
+    "elevation": 290,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 296
+  },
+  {
+    "lat": 53.49732,
+    "lng": -1.90319,
+    "metreOfPath": 10218,
+    "elevation": 289,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 297
+  },
+  {
+    "lat": 53.49682,
+    "lng": -1.90285,
+    "metreOfPath": 10279,
+    "elevation": 287,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 299
+  },
+  {
+    "lat": 53.49628,
+    "lng": -1.90247,
+    "metreOfPath": 10344,
+    "elevation": 286,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 300
+  },
+  {
+    "lat": 53.49593,
+    "lng": -1.90211,
+    "metreOfPath": 10389,
+    "elevation": 284,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 302
+  },
+  {
+    "lat": 53.49478,
+    "lng": -1.90165,
+    "metreOfPath": 10521,
+    "elevation": 279,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 307
+  },
+  {
+    "lat": 53.49427,
+    "lng": -1.90131,
+    "metreOfPath": 10582,
+    "elevation": 277,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 309
+  },
+  {
+    "lat": 53.49357,
+    "lng": -1.90075,
+    "metreOfPath": 10668,
+    "elevation": 272,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 314
+  },
+  {
+    "lat": 53.49284,
+    "lng": -1.90026,
+    "metreOfPath": 10756,
+    "elevation": 262,
+    "cumulativeAscent": 412,
+    "cumulativeDescent": 324
+  },
+  {
+    "lat": 53.49255,
+    "lng": -1.90014,
+    "metreOfPath": 10789,
+    "elevation": 266,
+    "cumulativeAscent": 416,
+    "cumulativeDescent": 324
+  },
+  {
+    "lat": 53.49213,
+    "lng": -1.9001,
+    "metreOfPath": 10836,
+    "elevation": 267,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 324
+  },
+  {
+    "lat": 53.49187,
+    "lng": -1.90019,
+    "metreOfPath": 10865,
+    "elevation": 267,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 324
+  },
+  {
+    "lat": 53.49156,
+    "lng": -1.90015,
+    "metreOfPath": 10900,
+    "elevation": 264,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 327
+  },
+  {
+    "lat": 53.49126,
+    "lng": -1.89997,
+    "metreOfPath": 10936,
+    "elevation": 260,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 331
+  },
+  {
+    "lat": 53.4909,
+    "lng": -1.89997,
+    "metreOfPath": 10976,
+    "elevation": 259,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 332
+  },
+  {
+    "lat": 53.49057,
+    "lng": -1.89992,
+    "metreOfPath": 11012,
+    "elevation": 257,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 334
+  },
+  {
+    "lat": 53.49042,
+    "lng": -1.89984,
+    "metreOfPath": 11030,
+    "elevation": 256,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 335
+  },
+  {
+    "lat": 53.49028,
+    "lng": -1.89957,
+    "metreOfPath": 11054,
+    "elevation": 253,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 338
+  },
+  {
+    "lat": 53.49016,
+    "lng": -1.89942,
+    "metreOfPath": 11070,
+    "elevation": 252,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 339
+  },
+  {
+    "lat": 53.4899,
+    "lng": -1.89932,
+    "metreOfPath": 11100,
+    "elevation": 251,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 340
+  },
+  {
+    "lat": 53.4899,
+    "lng": -1.89932,
+    "metreOfPath": 11100,
+    "elevation": 251,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 340
+  },
+  {
+    "lat": 53.48953,
+    "lng": -1.8992,
+    "metreOfPath": 11142,
+    "elevation": 250,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 341
+  },
+  {
+    "lat": 53.48931,
+    "lng": -1.89894,
+    "metreOfPath": 11172,
+    "elevation": 248,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 343
+  },
+  {
+    "lat": 53.48908,
+    "lng": -1.89872,
+    "metreOfPath": 11201,
+    "elevation": 247,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 344
+  },
+  {
+    "lat": 53.48829,
+    "lng": -1.89818,
+    "metreOfPath": 11296,
+    "elevation": 242,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 349
+  },
+  {
+    "lat": 53.4886,
+    "lng": -1.89723,
+    "metreOfPath": 11368,
+    "elevation": 238,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 353
+  },
+  {
+    "lat": 53.48869,
+    "lng": -1.89697,
+    "metreOfPath": 11388,
+    "elevation": 235,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 356
+  },
+  {
+    "lat": 53.48879,
+    "lng": -1.8968,
+    "metreOfPath": 11404,
+    "elevation": 232,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 359
+  },
+  {
+    "lat": 53.48904,
+    "lng": -1.89649,
+    "metreOfPath": 11438,
+    "elevation": 227,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 364
+  },
+  {
+    "lat": 53.48916,
+    "lng": -1.89636,
+    "metreOfPath": 11454,
+    "elevation": 226,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 365
+  },
+  {
+    "lat": 53.48927,
+    "lng": -1.89616,
+    "metreOfPath": 11472,
+    "elevation": 225,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 366
+  },
+  {
+    "lat": 53.48937,
+    "lng": -1.89598,
+    "metreOfPath": 11489,
+    "elevation": 223,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 368
+  },
+  {
+    "lat": 53.48947,
+    "lng": -1.89571,
+    "metreOfPath": 11510,
+    "elevation": 219,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 372
+  },
+  {
+    "lat": 53.48957,
+    "lng": -1.89554,
+    "metreOfPath": 11526,
+    "elevation": 218,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 373
+  },
+  {
+    "lat": 53.48966,
+    "lng": -1.89549,
+    "metreOfPath": 11536,
+    "elevation": 216,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 375
+  },
+  {
+    "lat": 53.49008,
+    "lng": -1.89539,
+    "metreOfPath": 11583,
+    "elevation": 211,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 380
+  },
+  {
+    "lat": 53.49026,
+    "lng": -1.89523,
+    "metreOfPath": 11606,
+    "elevation": 209,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49033,
+    "lng": -1.89518,
+    "metreOfPath": 11614,
+    "elevation": 209,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49045,
+    "lng": -1.89515,
+    "metreOfPath": 11628,
+    "elevation": 209,
+    "cumulativeAscent": 417,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49074,
+    "lng": -1.89513,
+    "metreOfPath": 11660,
+    "elevation": 210,
+    "cumulativeAscent": 418,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.4909,
+    "lng": -1.895,
+    "metreOfPath": 11680,
+    "elevation": 211,
+    "cumulativeAscent": 419,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49105,
+    "lng": -1.89475,
+    "metreOfPath": 11704,
+    "elevation": 212,
+    "cumulativeAscent": 420,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49126,
+    "lng": -1.89422,
+    "metreOfPath": 11746,
+    "elevation": 213,
+    "cumulativeAscent": 421,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49135,
+    "lng": -1.89387,
+    "metreOfPath": 11771,
+    "elevation": 213,
+    "cumulativeAscent": 421,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49138,
+    "lng": -1.89345,
+    "metreOfPath": 11799,
+    "elevation": 214,
+    "cumulativeAscent": 422,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49111,
+    "lng": -1.89217,
+    "metreOfPath": 11889,
+    "elevation": 220,
+    "cumulativeAscent": 428,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49095,
+    "lng": -1.89169,
+    "metreOfPath": 11925,
+    "elevation": 221,
+    "cumulativeAscent": 429,
+    "cumulativeDescent": 382
+  },
+  {
+    "lat": 53.49085,
+    "lng": -1.89151,
+    "metreOfPath": 11942,
+    "elevation": 220,
+    "cumulativeAscent": 429,
+    "cumulativeDescent": 383
+  },
+  {
+    "lat": 53.49077,
+    "lng": -1.89159,
+    "metreOfPath": 11952,
+    "elevation": 218,
+    "cumulativeAscent": 429,
+    "cumulativeDescent": 385
+  },
+  {
+    "lat": 53.49063,
+    "lng": -1.89164,
+    "metreOfPath": 11968,
+    "elevation": 217,
+    "cumulativeAscent": 429,
+    "cumulativeDescent": 386
+  },
+  {
+    "lat": 53.49053,
+    "lng": -1.89163,
+    "metreOfPath": 11979,
+    "elevation": 216,
+    "cumulativeAscent": 429,
+    "cumulativeDescent": 387
+  },
+  {
+    "lat": 53.49039,
+    "lng": -1.89153,
+    "metreOfPath": 11996,
+    "elevation": 214,
+    "cumulativeAscent": 429,
+    "cumulativeDescent": 389
+  },
+  {
+    "lat": 53.49019,
+    "lng": -1.89135,
+    "metreOfPath": 12021,
+    "elevation": 211,
+    "cumulativeAscent": 429,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49026,
+    "lng": -1.89116,
+    "metreOfPath": 12036,
+    "elevation": 213,
+    "cumulativeAscent": 431,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49033,
+    "lng": -1.89084,
+    "metreOfPath": 12059,
+    "elevation": 214,
+    "cumulativeAscent": 432,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49038,
+    "lng": -1.89043,
+    "metreOfPath": 12086,
+    "elevation": 216,
+    "cumulativeAscent": 434,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49039,
+    "lng": -1.88828,
+    "metreOfPath": 12229,
+    "elevation": 222,
+    "cumulativeAscent": 440,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49035,
+    "lng": -1.88677,
+    "metreOfPath": 12329,
+    "elevation": 226,
+    "cumulativeAscent": 444,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49037,
+    "lng": -1.88651,
+    "metreOfPath": 12346,
+    "elevation": 227,
+    "cumulativeAscent": 445,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49042,
+    "lng": -1.88628,
+    "metreOfPath": 12363,
+    "elevation": 227,
+    "cumulativeAscent": 445,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49049,
+    "lng": -1.88607,
+    "metreOfPath": 12379,
+    "elevation": 227,
+    "cumulativeAscent": 445,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49079,
+    "lng": -1.88545,
+    "metreOfPath": 12431,
+    "elevation": 231,
+    "cumulativeAscent": 449,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49104,
+    "lng": -1.88495,
+    "metreOfPath": 12475,
+    "elevation": 233,
+    "cumulativeAscent": 451,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49122,
+    "lng": -1.88454,
+    "metreOfPath": 12508,
+    "elevation": 234,
+    "cumulativeAscent": 452,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49141,
+    "lng": -1.88406,
+    "metreOfPath": 12547,
+    "elevation": 237,
+    "cumulativeAscent": 455,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49159,
+    "lng": -1.88347,
+    "metreOfPath": 12591,
+    "elevation": 237,
+    "cumulativeAscent": 455,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49167,
+    "lng": -1.88315,
+    "metreOfPath": 12614,
+    "elevation": 237,
+    "cumulativeAscent": 455,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49172,
+    "lng": -1.88282,
+    "metreOfPath": 12636,
+    "elevation": 239,
+    "cumulativeAscent": 457,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49176,
+    "lng": -1.88234,
+    "metreOfPath": 12668,
+    "elevation": 241,
+    "cumulativeAscent": 459,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49174,
+    "lng": -1.88187,
+    "metreOfPath": 12699,
+    "elevation": 243,
+    "cumulativeAscent": 461,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49164,
+    "lng": -1.88106,
+    "metreOfPath": 12754,
+    "elevation": 245,
+    "cumulativeAscent": 463,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49168,
+    "lng": -1.88072,
+    "metreOfPath": 12777,
+    "elevation": 247,
+    "cumulativeAscent": 465,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49181,
+    "lng": -1.8804,
+    "metreOfPath": 12803,
+    "elevation": 248,
+    "cumulativeAscent": 466,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49204,
+    "lng": -1.88003,
+    "metreOfPath": 12838,
+    "elevation": 248,
+    "cumulativeAscent": 466,
+    "cumulativeDescent": 392
+  },
+  {
+    "lat": 53.49205,
+    "lng": -1.87982,
+    "metreOfPath": 12852,
+    "elevation": 243,
+    "cumulativeAscent": 466,
+    "cumulativeDescent": 397
+  },
+  {
+    "lat": 53.49206,
+    "lng": -1.87978,
+    "metreOfPath": 12855,
+    "elevation": 243,
+    "cumulativeAscent": 466,
+    "cumulativeDescent": 397
+  },
+  {
+    "lat": 53.49214,
+    "lng": -1.87969,
+    "metreOfPath": 12866,
+    "elevation": 244,
+    "cumulativeAscent": 467,
+    "cumulativeDescent": 397
+  },
+  {
+    "lat": 53.4921,
+    "lng": -1.87969,
+    "metreOfPath": 12870,
+    "elevation": 243,
+    "cumulativeAscent": 467,
+    "cumulativeDescent": 398
+  },
+  {
+    "lat": 53.49206,
+    "lng": -1.87968,
+    "metreOfPath": 12875,
+    "elevation": 241,
+    "cumulativeAscent": 467,
+    "cumulativeDescent": 400
+  },
+  {
+    "lat": 53.49203,
+    "lng": -1.87966,
+    "metreOfPath": 12878,
+    "elevation": 240,
+    "cumulativeAscent": 467,
+    "cumulativeDescent": 401
+  },
+  {
+    "lat": 53.49187,
+    "lng": -1.87942,
+    "metreOfPath": 12902,
+    "elevation": 239,
+    "cumulativeAscent": 467,
+    "cumulativeDescent": 402
+  },
+  {
+    "lat": 53.49165,
+    "lng": -1.87919,
+    "metreOfPath": 12931,
+    "elevation": 240,
+    "cumulativeAscent": 468,
+    "cumulativeDescent": 402
+  },
+  {
+    "lat": 53.49128,
+    "lng": -1.8789,
+    "metreOfPath": 12976,
+    "elevation": 243,
+    "cumulativeAscent": 471,
+    "cumulativeDescent": 402
+  },
+  {
+    "lat": 53.49092,
+    "lng": -1.87862,
+    "metreOfPath": 13021,
+    "elevation": 246,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 402
+  },
+  {
+    "lat": 53.49077,
+    "lng": -1.87857,
+    "metreOfPath": 13038,
+    "elevation": 246,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 402
+  },
+  {
+    "lat": 53.49068,
+    "lng": -1.87857,
+    "metreOfPath": 13048,
+    "elevation": 246,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 402
+  },
+  {
+    "lat": 53.49051,
+    "lng": -1.87865,
+    "metreOfPath": 13067,
+    "elevation": 246,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 402
+  },
+  {
+    "lat": 53.49037,
+    "lng": -1.87882,
+    "metreOfPath": 13087,
+    "elevation": 244,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 404
+  },
+  {
+    "lat": 53.49028,
+    "lng": -1.879,
+    "metreOfPath": 13102,
+    "elevation": 243,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 405
+  },
+  {
+    "lat": 53.48978,
+    "lng": -1.88024,
+    "metreOfPath": 13201,
+    "elevation": 235,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 413
+  },
+  {
+    "lat": 53.48954,
+    "lng": -1.88077,
+    "metreOfPath": 13245,
+    "elevation": 233,
+    "cumulativeAscent": 474,
+    "cumulativeDescent": 415
+  },
+  {
+    "lat": 53.48905,
+    "lng": -1.88158,
+    "metreOfPath": 13322,
+    "elevation": 234,
+    "cumulativeAscent": 475,
+    "cumulativeDescent": 415
+  },
+  {
+    "lat": 53.48865,
+    "lng": -1.88227,
+    "metreOfPath": 13386,
+    "elevation": 234,
+    "cumulativeAscent": 475,
+    "cumulativeDescent": 415
+  },
+  {
+    "lat": 53.48834,
+    "lng": -1.88297,
+    "metreOfPath": 13444,
+    "elevation": 234,
+    "cumulativeAscent": 475,
+    "cumulativeDescent": 415
+  },
+  {
+    "lat": 53.48808,
+    "lng": -1.88364,
+    "metreOfPath": 13497,
+    "elevation": 232,
+    "cumulativeAscent": 475,
+    "cumulativeDescent": 417
+  },
+  {
+    "lat": 53.48787,
+    "lng": -1.88427,
+    "metreOfPath": 13544,
+    "elevation": 230,
+    "cumulativeAscent": 475,
+    "cumulativeDescent": 419
+  },
+  {
+    "lat": 53.48769,
+    "lng": -1.88496,
+    "metreOfPath": 13594,
+    "elevation": 229,
+    "cumulativeAscent": 475,
+    "cumulativeDescent": 420
+  },
+  {
+    "lat": 53.48748,
+    "lng": -1.88594,
+    "metreOfPath": 13663,
+    "elevation": 230,
+    "cumulativeAscent": 476,
+    "cumulativeDescent": 420
+  },
+  {
+    "lat": 53.48731,
+    "lng": -1.88663,
+    "metreOfPath": 13713,
+    "elevation": 232,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 420
+  },
+  {
+    "lat": 53.48726,
+    "lng": -1.88693,
+    "metreOfPath": 13733,
+    "elevation": 232,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 420
+  },
+  {
+    "lat": 53.48725,
+    "lng": -1.88731,
+    "metreOfPath": 13759,
+    "elevation": 230,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 422
+  },
+  {
+    "lat": 53.48726,
+    "lng": -1.88766,
+    "metreOfPath": 13782,
+    "elevation": 225,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 427
+  },
+  {
+    "lat": 53.48724,
+    "lng": -1.88785,
+    "metreOfPath": 13795,
+    "elevation": 224,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 428
+  },
+  {
+    "lat": 53.48717,
+    "lng": -1.88816,
+    "metreOfPath": 13817,
+    "elevation": 223,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 429
+  },
+  {
+    "lat": 53.48699,
+    "lng": -1.88879,
+    "metreOfPath": 13863,
+    "elevation": 223,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 429
+  },
+  {
+    "lat": 53.48663,
+    "lng": -1.88975,
+    "metreOfPath": 13938,
+    "elevation": 221,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 431
+  },
+  {
+    "lat": 53.48625,
+    "lng": -1.89047,
+    "metreOfPath": 14002,
+    "elevation": 218,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 434
+  },
+  {
+    "lat": 53.48599,
+    "lng": -1.89097,
+    "metreOfPath": 14046,
+    "elevation": 215,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 437
+  },
+  {
+    "lat": 53.4858,
+    "lng": -1.89141,
+    "metreOfPath": 14082,
+    "elevation": 213,
+    "cumulativeAscent": 478,
+    "cumulativeDescent": 439
+  },
+  {
+    "lat": 53.48541,
+    "lng": -1.89253,
+    "metreOfPath": 14168,
+    "elevation": 217,
+    "cumulativeAscent": 482,
+    "cumulativeDescent": 439
+  },
+  {
+    "lat": 53.48525,
+    "lng": -1.89308,
+    "metreOfPath": 14208,
+    "elevation": 213,
+    "cumulativeAscent": 482,
+    "cumulativeDescent": 443
+  },
+  {
+    "lat": 53.48514,
+    "lng": -1.89338,
+    "metreOfPath": 14232,
+    "elevation": 212,
+    "cumulativeAscent": 482,
+    "cumulativeDescent": 444
+  },
+  {
+    "lat": 53.48501,
+    "lng": -1.89356,
+    "metreOfPath": 14250,
+    "elevation": 213,
+    "cumulativeAscent": 483,
+    "cumulativeDescent": 444
+  },
+  {
+    "lat": 53.48478,
+    "lng": -1.8937,
+    "metreOfPath": 14278,
+    "elevation": 212,
+    "cumulativeAscent": 483,
+    "cumulativeDescent": 445
+  },
+  {
+    "lat": 53.48459,
+    "lng": -1.89387,
+    "metreOfPath": 14301,
+    "elevation": 212,
+    "cumulativeAscent": 483,
+    "cumulativeDescent": 445
+  },
+  {
+    "lat": 53.48447,
+    "lng": -1.894,
+    "metreOfPath": 14317,
+    "elevation": 212,
+    "cumulativeAscent": 483,
+    "cumulativeDescent": 445
+  },
+  {
+    "lat": 53.48432,
+    "lng": -1.89421,
+    "metreOfPath": 14339,
+    "elevation": 212,
+    "cumulativeAscent": 483,
+    "cumulativeDescent": 445
+  },
+  {
+    "lat": 53.48416,
+    "lng": -1.89452,
+    "metreOfPath": 14366,
+    "elevation": 213,
+    "cumulativeAscent": 484,
+    "cumulativeDescent": 445
+  },
+  {
+    "lat": 53.48389,
+    "lng": -1.89532,
+    "metreOfPath": 14427,
+    "elevation": 217,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 445
+  },
+  {
+    "lat": 53.4836,
+    "lng": -1.89616,
+    "metreOfPath": 14492,
+    "elevation": 217,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 445
+  },
+  {
+    "lat": 53.48336,
+    "lng": -1.89677,
+    "metreOfPath": 14540,
+    "elevation": 215,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 447
+  },
+  {
+    "lat": 53.48248,
+    "lng": -1.89857,
+    "metreOfPath": 14694,
+    "elevation": 207,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 455
+  },
+  {
+    "lat": 53.48184,
+    "lng": -1.89988,
+    "metreOfPath": 14807,
+    "elevation": 201,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 461
+  },
+  {
+    "lat": 53.48158,
+    "lng": -1.90043,
+    "metreOfPath": 14853,
+    "elevation": 201,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 461
+  },
+  {
+    "lat": 53.48144,
+    "lng": -1.90071,
+    "metreOfPath": 14877,
+    "elevation": 201,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 461
+  },
+  {
+    "lat": 53.48131,
+    "lng": -1.90089,
+    "metreOfPath": 14896,
+    "elevation": 201,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 461
+  },
+  {
+    "lat": 53.48102,
+    "lng": -1.90115,
+    "metreOfPath": 14933,
+    "elevation": 200,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.48085,
+    "lng": -1.90125,
+    "metreOfPath": 14953,
+    "elevation": 200,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.48056,
+    "lng": -1.90141,
+    "metreOfPath": 14987,
+    "elevation": 200,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.48032,
+    "lng": -1.90162,
+    "metreOfPath": 15017,
+    "elevation": 200,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.48014,
+    "lng": -1.90188,
+    "metreOfPath": 15043,
+    "elevation": 200,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.47999,
+    "lng": -1.90226,
+    "metreOfPath": 15073,
+    "elevation": 200,
+    "cumulativeAscent": 488,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.47988,
+    "lng": -1.9028,
+    "metreOfPath": 15111,
+    "elevation": 201,
+    "cumulativeAscent": 489,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.47981,
+    "lng": -1.90341,
+    "metreOfPath": 15152,
+    "elevation": 201,
+    "cumulativeAscent": 489,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.4798,
+    "lng": -1.90399,
+    "metreOfPath": 15191,
+    "elevation": 202,
+    "cumulativeAscent": 490,
+    "cumulativeDescent": 462
+  },
+  {
+    "lat": 53.47983,
+    "lng": -1.90439,
+    "metreOfPath": 15218,
+    "elevation": 201,
+    "cumulativeAscent": 490,
+    "cumulativeDescent": 463
+  },
+  {
+    "lat": 53.4799,
+    "lng": -1.90478,
+    "metreOfPath": 15245,
+    "elevation": 202,
+    "cumulativeAscent": 491,
+    "cumulativeDescent": 463
+  },
+  {
+    "lat": 53.48008,
+    "lng": -1.90542,
+    "metreOfPath": 15291,
+    "elevation": 203,
+    "cumulativeAscent": 492,
+    "cumulativeDescent": 463
+  },
+  {
+    "lat": 53.48017,
+    "lng": -1.90594,
+    "metreOfPath": 15327,
+    "elevation": 202,
+    "cumulativeAscent": 492,
+    "cumulativeDescent": 464
+  },
+  {
+    "lat": 53.48017,
+    "lng": -1.9063,
+    "metreOfPath": 15351,
+    "elevation": 202,
+    "cumulativeAscent": 492,
+    "cumulativeDescent": 464
+  },
+  {
+    "lat": 53.48015,
+    "lng": -1.90663,
+    "metreOfPath": 15373,
+    "elevation": 201,
+    "cumulativeAscent": 492,
+    "cumulativeDescent": 465
+  },
+  {
+    "lat": 53.4801,
+    "lng": -1.90697,
+    "metreOfPath": 15396,
+    "elevation": 201,
+    "cumulativeAscent": 492,
+    "cumulativeDescent": 465
+  },
+  {
+    "lat": 53.48001,
+    "lng": -1.90741,
+    "metreOfPath": 15427,
+    "elevation": 200,
+    "cumulativeAscent": 492,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47986,
+    "lng": -1.90789,
+    "metreOfPath": 15463,
+    "elevation": 200,
+    "cumulativeAscent": 492,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47968,
+    "lng": -1.90852,
+    "metreOfPath": 15509,
+    "elevation": 201,
+    "cumulativeAscent": 493,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47963,
+    "lng": -1.90878,
+    "metreOfPath": 15528,
+    "elevation": 201,
+    "cumulativeAscent": 493,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47961,
+    "lng": -1.90906,
+    "metreOfPath": 15546,
+    "elevation": 202,
+    "cumulativeAscent": 494,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47961,
+    "lng": -1.90946,
+    "metreOfPath": 15573,
+    "elevation": 204,
+    "cumulativeAscent": 496,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47953,
+    "lng": -1.91101,
+    "metreOfPath": 15676,
+    "elevation": 207,
+    "cumulativeAscent": 499,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47943,
+    "lng": -1.91277,
+    "metreOfPath": 15793,
+    "elevation": 210,
+    "cumulativeAscent": 502,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47938,
+    "lng": -1.91335,
+    "metreOfPath": 15832,
+    "elevation": 213,
+    "cumulativeAscent": 505,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47932,
+    "lng": -1.91376,
+    "metreOfPath": 15860,
+    "elevation": 213,
+    "cumulativeAscent": 505,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47926,
+    "lng": -1.91395,
+    "metreOfPath": 15874,
+    "elevation": 213,
+    "cumulativeAscent": 505,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47916,
+    "lng": -1.91418,
+    "metreOfPath": 15893,
+    "elevation": 214,
+    "cumulativeAscent": 506,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47906,
+    "lng": -1.91453,
+    "metreOfPath": 15919,
+    "elevation": 215,
+    "cumulativeAscent": 507,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47907,
+    "lng": -1.91493,
+    "metreOfPath": 15945,
+    "elevation": 215,
+    "cumulativeAscent": 507,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47912,
+    "lng": -1.91529,
+    "metreOfPath": 15970,
+    "elevation": 215,
+    "cumulativeAscent": 507,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47899,
+    "lng": -1.91511,
+    "metreOfPath": 15988,
+    "elevation": 217,
+    "cumulativeAscent": 509,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47895,
+    "lng": -1.91497,
+    "metreOfPath": 15999,
+    "elevation": 218,
+    "cumulativeAscent": 510,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47893,
+    "lng": -1.91473,
+    "metreOfPath": 16015,
+    "elevation": 218,
+    "cumulativeAscent": 510,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47883,
+    "lng": -1.91421,
+    "metreOfPath": 16051,
+    "elevation": 218,
+    "cumulativeAscent": 510,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47859,
+    "lng": -1.91313,
+    "metreOfPath": 16127,
+    "elevation": 225,
+    "cumulativeAscent": 517,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47851,
+    "lng": -1.91253,
+    "metreOfPath": 16168,
+    "elevation": 228,
+    "cumulativeAscent": 520,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47837,
+    "lng": -1.91186,
+    "metreOfPath": 16215,
+    "elevation": 230,
+    "cumulativeAscent": 522,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47822,
+    "lng": -1.91122,
+    "metreOfPath": 16261,
+    "elevation": 233,
+    "cumulativeAscent": 525,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47818,
+    "lng": -1.91096,
+    "metreOfPath": 16278,
+    "elevation": 233,
+    "cumulativeAscent": 525,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47819,
+    "lng": -1.9105,
+    "metreOfPath": 16309,
+    "elevation": 235,
+    "cumulativeAscent": 527,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47817,
+    "lng": -1.91012,
+    "metreOfPath": 16334,
+    "elevation": 235,
+    "cumulativeAscent": 527,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47809,
+    "lng": -1.90965,
+    "metreOfPath": 16366,
+    "elevation": 237,
+    "cumulativeAscent": 529,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47795,
+    "lng": -1.90913,
+    "metreOfPath": 16404,
+    "elevation": 238,
+    "cumulativeAscent": 530,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47782,
+    "lng": -1.90865,
+    "metreOfPath": 16439,
+    "elevation": 238,
+    "cumulativeAscent": 530,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47781,
+    "lng": -1.90849,
+    "metreOfPath": 16450,
+    "elevation": 238,
+    "cumulativeAscent": 530,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47784,
+    "lng": -1.90827,
+    "metreOfPath": 16465,
+    "elevation": 239,
+    "cumulativeAscent": 531,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47788,
+    "lng": -1.90809,
+    "metreOfPath": 16478,
+    "elevation": 239,
+    "cumulativeAscent": 531,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47746,
+    "lng": -1.90756,
+    "metreOfPath": 16536,
+    "elevation": 249,
+    "cumulativeAscent": 541,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.477,
+    "lng": -1.9069,
+    "metreOfPath": 16603,
+    "elevation": 263,
+    "cumulativeAscent": 555,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47674,
+    "lng": -1.90645,
+    "metreOfPath": 16645,
+    "elevation": 272,
+    "cumulativeAscent": 564,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47641,
+    "lng": -1.90612,
+    "metreOfPath": 16688,
+    "elevation": 284,
+    "cumulativeAscent": 576,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.4761,
+    "lng": -1.90597,
+    "metreOfPath": 16724,
+    "elevation": 291,
+    "cumulativeAscent": 583,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47561,
+    "lng": -1.90588,
+    "metreOfPath": 16778,
+    "elevation": 303,
+    "cumulativeAscent": 595,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47538,
+    "lng": -1.90591,
+    "metreOfPath": 16804,
+    "elevation": 309,
+    "cumulativeAscent": 601,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47522,
+    "lng": -1.90597,
+    "metreOfPath": 16822,
+    "elevation": 315,
+    "cumulativeAscent": 607,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47517,
+    "lng": -1.90615,
+    "metreOfPath": 16836,
+    "elevation": 321,
+    "cumulativeAscent": 613,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47509,
+    "lng": -1.9063,
+    "metreOfPath": 16849,
+    "elevation": 328,
+    "cumulativeAscent": 620,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47471,
+    "lng": -1.90671,
+    "metreOfPath": 16899,
+    "elevation": 350,
+    "cumulativeAscent": 642,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47453,
+    "lng": -1.90667,
+    "metreOfPath": 16919,
+    "elevation": 355,
+    "cumulativeAscent": 647,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47424,
+    "lng": -1.90653,
+    "metreOfPath": 16953,
+    "elevation": 362,
+    "cumulativeAscent": 654,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.4738,
+    "lng": -1.90639,
+    "metreOfPath": 17003,
+    "elevation": 374,
+    "cumulativeAscent": 666,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47339,
+    "lng": -1.90615,
+    "metreOfPath": 17051,
+    "elevation": 382,
+    "cumulativeAscent": 674,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47286,
+    "lng": -1.90589,
+    "metreOfPath": 17113,
+    "elevation": 392,
+    "cumulativeAscent": 684,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47232,
+    "lng": -1.90574,
+    "metreOfPath": 17174,
+    "elevation": 405,
+    "cumulativeAscent": 697,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47202,
+    "lng": -1.90566,
+    "metreOfPath": 17207,
+    "elevation": 409,
+    "cumulativeAscent": 701,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47169,
+    "lng": -1.90538,
+    "metreOfPath": 17249,
+    "elevation": 415,
+    "cumulativeAscent": 707,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47107,
+    "lng": -1.90433,
+    "metreOfPath": 17347,
+    "elevation": 418,
+    "cumulativeAscent": 710,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.4707,
+    "lng": -1.90373,
+    "metreOfPath": 17404,
+    "elevation": 424,
+    "cumulativeAscent": 716,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.4704,
+    "lng": -1.90307,
+    "metreOfPath": 17459,
+    "elevation": 431,
+    "cumulativeAscent": 723,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.47008,
+    "lng": -1.90181,
+    "metreOfPath": 17550,
+    "elevation": 435,
+    "cumulativeAscent": 727,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.46977,
+    "lng": -1.8995,
+    "metreOfPath": 17706,
+    "elevation": 439,
+    "cumulativeAscent": 731,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.46949,
+    "lng": -1.89731,
+    "metreOfPath": 17855,
+    "elevation": 444,
+    "cumulativeAscent": 736,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.46926,
+    "lng": -1.89578,
+    "metreOfPath": 17959,
+    "elevation": 446,
+    "cumulativeAscent": 738,
+    "cumulativeDescent": 466
+  },
+  {
+    "lat": 53.46908,
+    "lng": -1.8941,
+    "metreOfPath": 18073,
+    "elevation": 444,
+    "cumulativeAscent": 738,
+    "cumulativeDescent": 468
+  },
+  {
+    "lat": 53.46893,
+    "lng": -1.89311,
+    "metreOfPath": 18140,
+    "elevation": 443,
+    "cumulativeAscent": 738,
+    "cumulativeDescent": 469
+  },
+  {
+    "lat": 53.46899,
+    "lng": -1.89254,
+    "metreOfPath": 18179,
+    "elevation": 439,
+    "cumulativeAscent": 738,
+    "cumulativeDescent": 473
+  },
+  {
+    "lat": 53.46896,
+    "lng": -1.89172,
+    "metreOfPath": 18233,
+    "elevation": 438,
+    "cumulativeAscent": 738,
+    "cumulativeDescent": 474
+  },
+  {
+    "lat": 53.46901,
+    "lng": -1.89033,
+    "metreOfPath": 18325,
+    "elevation": 435,
+    "cumulativeAscent": 738,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46898,
+    "lng": -1.88914,
+    "metreOfPath": 18404,
+    "elevation": 435,
+    "cumulativeAscent": 738,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46884,
+    "lng": -1.88736,
+    "metreOfPath": 18523,
+    "elevation": 437,
+    "cumulativeAscent": 740,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46837,
+    "lng": -1.88604,
+    "metreOfPath": 18625,
+    "elevation": 442,
+    "cumulativeAscent": 745,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.4682,
+    "lng": -1.88543,
+    "metreOfPath": 18670,
+    "elevation": 447,
+    "cumulativeAscent": 750,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46797,
+    "lng": -1.88489,
+    "metreOfPath": 18714,
+    "elevation": 451,
+    "cumulativeAscent": 754,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46788,
+    "lng": -1.88442,
+    "metreOfPath": 18747,
+    "elevation": 456,
+    "cumulativeAscent": 759,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46783,
+    "lng": -1.8838,
+    "metreOfPath": 18788,
+    "elevation": 460,
+    "cumulativeAscent": 763,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46762,
+    "lng": -1.8832,
+    "metreOfPath": 18834,
+    "elevation": 466,
+    "cumulativeAscent": 769,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46731,
+    "lng": -1.8828,
+    "metreOfPath": 18878,
+    "elevation": 468,
+    "cumulativeAscent": 771,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46668,
+    "lng": -1.88225,
+    "metreOfPath": 18957,
+    "elevation": 473,
+    "cumulativeAscent": 776,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.4664,
+    "lng": -1.88192,
+    "metreOfPath": 18995,
+    "elevation": 476,
+    "cumulativeAscent": 779,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46624,
+    "lng": -1.8816,
+    "metreOfPath": 19022,
+    "elevation": 477,
+    "cumulativeAscent": 780,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46612,
+    "lng": -1.88115,
+    "metreOfPath": 19055,
+    "elevation": 478,
+    "cumulativeAscent": 781,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.4658,
+    "lng": -1.88069,
+    "metreOfPath": 19102,
+    "elevation": 484,
+    "cumulativeAscent": 787,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.4654,
+    "lng": -1.88021,
+    "metreOfPath": 19157,
+    "elevation": 492,
+    "cumulativeAscent": 795,
+    "cumulativeDescent": 477
+  },
+  {
+    "lat": 53.46498,
+    "lng": -1.87989,
+    "metreOfPath": 19208,
+    "elevation": 491,
+    "cumulativeAscent": 795,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46466,
+    "lng": -1.87948,
+    "metreOfPath": 19253,
+    "elevation": 494,
+    "cumulativeAscent": 798,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46471,
+    "lng": -1.87856,
+    "metreOfPath": 19314,
+    "elevation": 503,
+    "cumulativeAscent": 807,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46477,
+    "lng": -1.87756,
+    "metreOfPath": 19381,
+    "elevation": 509,
+    "cumulativeAscent": 813,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46493,
+    "lng": -1.87633,
+    "metreOfPath": 19464,
+    "elevation": 520,
+    "cumulativeAscent": 824,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46502,
+    "lng": -1.87511,
+    "metreOfPath": 19546,
+    "elevation": 529,
+    "cumulativeAscent": 833,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46525,
+    "lng": -1.8746,
+    "metreOfPath": 19588,
+    "elevation": 537,
+    "cumulativeAscent": 841,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46537,
+    "lng": -1.87352,
+    "metreOfPath": 19661,
+    "elevation": 546,
+    "cumulativeAscent": 850,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46534,
+    "lng": -1.87252,
+    "metreOfPath": 19727,
+    "elevation": 553,
+    "cumulativeAscent": 857,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46525,
+    "lng": -1.87162,
+    "metreOfPath": 19788,
+    "elevation": 560,
+    "cumulativeAscent": 864,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.4654,
+    "lng": -1.87078,
+    "metreOfPath": 19846,
+    "elevation": 567,
+    "cumulativeAscent": 871,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.4656,
+    "lng": -1.87019,
+    "metreOfPath": 19891,
+    "elevation": 571,
+    "cumulativeAscent": 875,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46579,
+    "lng": -1.86931,
+    "metreOfPath": 19953,
+    "elevation": 576,
+    "cumulativeAscent": 880,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46598,
+    "lng": -1.86845,
+    "metreOfPath": 20014,
+    "elevation": 579,
+    "cumulativeAscent": 883,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46614,
+    "lng": -1.86706,
+    "metreOfPath": 20107,
+    "elevation": 584,
+    "cumulativeAscent": 888,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46619,
+    "lng": -1.86586,
+    "metreOfPath": 20187,
+    "elevation": 588,
+    "cumulativeAscent": 892,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46619,
+    "lng": -1.86481,
+    "metreOfPath": 20257,
+    "elevation": 590,
+    "cumulativeAscent": 894,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46604,
+    "lng": -1.86386,
+    "metreOfPath": 20322,
+    "elevation": 593,
+    "cumulativeAscent": 897,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46591,
+    "lng": -1.86315,
+    "metreOfPath": 20371,
+    "elevation": 595,
+    "cumulativeAscent": 899,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.4655,
+    "lng": -1.86263,
+    "metreOfPath": 20428,
+    "elevation": 599,
+    "cumulativeAscent": 903,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46478,
+    "lng": -1.86239,
+    "metreOfPath": 20510,
+    "elevation": 603,
+    "cumulativeAscent": 907,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.4643,
+    "lng": -1.86192,
+    "metreOfPath": 20572,
+    "elevation": 607,
+    "cumulativeAscent": 911,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46362,
+    "lng": -1.86111,
+    "metreOfPath": 20665,
+    "elevation": 613,
+    "cumulativeAscent": 917,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46314,
+    "lng": -1.86118,
+    "metreOfPath": 20718,
+    "elevation": 617,
+    "cumulativeAscent": 921,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46264,
+    "lng": -1.86075,
+    "metreOfPath": 20781,
+    "elevation": 621,
+    "cumulativeAscent": 925,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.4617,
+    "lng": -1.85997,
+    "metreOfPath": 20897,
+    "elevation": 628,
+    "cumulativeAscent": 932,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46118,
+    "lng": -1.85973,
+    "metreOfPath": 20957,
+    "elevation": 629,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46078,
+    "lng": -1.8602,
+    "metreOfPath": 21012,
+    "elevation": 629,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46035,
+    "lng": -1.86061,
+    "metreOfPath": 21067,
+    "elevation": 629,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 478
+  },
+  {
+    "lat": 53.46006,
+    "lng": -1.86078,
+    "metreOfPath": 21101,
+    "elevation": 628,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 479
+  },
+  {
+    "lat": 53.4597,
+    "lng": -1.86035,
+    "metreOfPath": 21150,
+    "elevation": 626,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 481
+  },
+  {
+    "lat": 53.45902,
+    "lng": -1.8599,
+    "metreOfPath": 21232,
+    "elevation": 622,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 485
+  },
+  {
+    "lat": 53.45852,
+    "lng": -1.85989,
+    "metreOfPath": 21287,
+    "elevation": 619,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 488
+  },
+  {
+    "lat": 53.4583,
+    "lng": -1.86002,
+    "metreOfPath": 21313,
+    "elevation": 616,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 491
+  },
+  {
+    "lat": 53.4583,
+    "lng": -1.86002,
+    "metreOfPath": 21313,
+    "elevation": 616,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 491
+  },
+  {
+    "lat": 53.45793,
+    "lng": -1.86025,
+    "metreOfPath": 21357,
+    "elevation": 614,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 493
+  },
+  {
+    "lat": 53.45728,
+    "lng": -1.86076,
+    "metreOfPath": 21437,
+    "elevation": 610,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 497
+  },
+  {
+    "lat": 53.45699,
+    "lng": -1.86099,
+    "metreOfPath": 21473,
+    "elevation": 609,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 498
+  },
+  {
+    "lat": 53.45645,
+    "lng": -1.86105,
+    "metreOfPath": 21533,
+    "elevation": 605,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 502
+  },
+  {
+    "lat": 53.45605,
+    "lng": -1.86101,
+    "metreOfPath": 21578,
+    "elevation": 605,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 502
+  },
+  {
+    "lat": 53.4559,
+    "lng": -1.86082,
+    "metreOfPath": 21598,
+    "elevation": 604,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 503
+  },
+  {
+    "lat": 53.45572,
+    "lng": -1.86028,
+    "metreOfPath": 21639,
+    "elevation": 602,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 505
+  },
+  {
+    "lat": 53.45557,
+    "lng": -1.86005,
+    "metreOfPath": 21662,
+    "elevation": 601,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 506
+  },
+  {
+    "lat": 53.45547,
+    "lng": -1.85985,
+    "metreOfPath": 21679,
+    "elevation": 599,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 508
+  },
+  {
+    "lat": 53.45535,
+    "lng": -1.85981,
+    "metreOfPath": 21693,
+    "elevation": 598,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 509
+  },
+  {
+    "lat": 53.45523,
+    "lng": -1.85984,
+    "metreOfPath": 21707,
+    "elevation": 598,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 509
+  },
+  {
+    "lat": 53.45508,
+    "lng": -1.8598,
+    "metreOfPath": 21723,
+    "elevation": 596,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 511
+  },
+  {
+    "lat": 53.45477,
+    "lng": -1.85988,
+    "metreOfPath": 21758,
+    "elevation": 596,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 511
+  },
+  {
+    "lat": 53.45461,
+    "lng": -1.85987,
+    "metreOfPath": 21776,
+    "elevation": 596,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 511
+  },
+  {
+    "lat": 53.45453,
+    "lng": -1.85996,
+    "metreOfPath": 21787,
+    "elevation": 596,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 511
+  },
+  {
+    "lat": 53.45444,
+    "lng": -1.86,
+    "metreOfPath": 21797,
+    "elevation": 595,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 512
+  },
+  {
+    "lat": 53.45425,
+    "lng": -1.85979,
+    "metreOfPath": 21823,
+    "elevation": 595,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 512
+  },
+  {
+    "lat": 53.45376,
+    "lng": -1.8592,
+    "metreOfPath": 21890,
+    "elevation": 592,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 515
+  },
+  {
+    "lat": 53.45356,
+    "lng": -1.85883,
+    "metreOfPath": 21923,
+    "elevation": 591,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 516
+  },
+  {
+    "lat": 53.45341,
+    "lng": -1.85863,
+    "metreOfPath": 21944,
+    "elevation": 591,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 516
+  },
+  {
+    "lat": 53.45327,
+    "lng": -1.85843,
+    "metreOfPath": 21965,
+    "elevation": 590,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 517
+  },
+  {
+    "lat": 53.45312,
+    "lng": -1.85794,
+    "metreOfPath": 22001,
+    "elevation": 588,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 519
+  },
+  {
+    "lat": 53.45296,
+    "lng": -1.85747,
+    "metreOfPath": 22037,
+    "elevation": 585,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 522
+  },
+  {
+    "lat": 53.45277,
+    "lng": -1.85701,
+    "metreOfPath": 22074,
+    "elevation": 580,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 527
+  },
+  {
+    "lat": 53.45231,
+    "lng": -1.85648,
+    "metreOfPath": 22136,
+    "elevation": 576,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 531
+  },
+  {
+    "lat": 53.45213,
+    "lng": -1.85629,
+    "metreOfPath": 22160,
+    "elevation": 575,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 532
+  },
+  {
+    "lat": 53.45193,
+    "lng": -1.85621,
+    "metreOfPath": 22183,
+    "elevation": 574,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 533
+  },
+  {
+    "lat": 53.45177,
+    "lng": -1.85598,
+    "metreOfPath": 22206,
+    "elevation": 572,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 535
+  },
+  {
+    "lat": 53.45154,
+    "lng": -1.85597,
+    "metreOfPath": 22232,
+    "elevation": 572,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 535
+  },
+  {
+    "lat": 53.45128,
+    "lng": -1.85575,
+    "metreOfPath": 22264,
+    "elevation": 570,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 537
+  },
+  {
+    "lat": 53.45083,
+    "lng": -1.85558,
+    "metreOfPath": 22316,
+    "elevation": 567,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 540
+  },
+  {
+    "lat": 53.45057,
+    "lng": -1.85563,
+    "metreOfPath": 22345,
+    "elevation": 566,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 541
+  },
+  {
+    "lat": 53.45026,
+    "lng": -1.85562,
+    "metreOfPath": 22379,
+    "elevation": 565,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 542
+  },
+  {
+    "lat": 53.44997,
+    "lng": -1.8556,
+    "metreOfPath": 22412,
+    "elevation": 564,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 543
+  },
+  {
+    "lat": 53.44976,
+    "lng": -1.8554,
+    "metreOfPath": 22438,
+    "elevation": 563,
+    "cumulativeAscent": 933,
+    "cumulativeDescent": 544
+  },
+  {
+    "lat": 53.44955,
+    "lng": -1.85499,
+    "metreOfPath": 22474,
+    "elevation": 564,
+    "cumulativeAscent": 934,
+    "cumulativeDescent": 544
+  },
+  {
+    "lat": 53.44937,
+    "lng": -1.85444,
+    "metreOfPath": 22516,
+    "elevation": 564,
+    "cumulativeAscent": 934,
+    "cumulativeDescent": 544
+  },
+  {
+    "lat": 53.44922,
+    "lng": -1.85387,
+    "metreOfPath": 22557,
+    "elevation": 563,
+    "cumulativeAscent": 934,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44907,
+    "lng": -1.85353,
+    "metreOfPath": 22585,
+    "elevation": 566,
+    "cumulativeAscent": 937,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44892,
+    "lng": -1.85359,
+    "metreOfPath": 22602,
+    "elevation": 569,
+    "cumulativeAscent": 940,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44886,
+    "lng": -1.85373,
+    "metreOfPath": 22614,
+    "elevation": 570,
+    "cumulativeAscent": 941,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44878,
+    "lng": -1.85389,
+    "metreOfPath": 22628,
+    "elevation": 570,
+    "cumulativeAscent": 941,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44867,
+    "lng": -1.85388,
+    "metreOfPath": 22640,
+    "elevation": 570,
+    "cumulativeAscent": 941,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44824,
+    "lng": -1.8532,
+    "metreOfPath": 22706,
+    "elevation": 572,
+    "cumulativeAscent": 943,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44788,
+    "lng": -1.85263,
+    "metreOfPath": 22761,
+    "elevation": 573,
+    "cumulativeAscent": 944,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44773,
+    "lng": -1.85247,
+    "metreOfPath": 22781,
+    "elevation": 573,
+    "cumulativeAscent": 944,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44759,
+    "lng": -1.85246,
+    "metreOfPath": 22796,
+    "elevation": 574,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.4475,
+    "lng": -1.85245,
+    "metreOfPath": 22806,
+    "elevation": 574,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44738,
+    "lng": -1.85249,
+    "metreOfPath": 22820,
+    "elevation": 574,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44721,
+    "lng": -1.85261,
+    "metreOfPath": 22840,
+    "elevation": 574,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 545
+  },
+  {
+    "lat": 53.44706,
+    "lng": -1.85275,
+    "metreOfPath": 22859,
+    "elevation": 573,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 546
+  },
+  {
+    "lat": 53.44702,
+    "lng": -1.85281,
+    "metreOfPath": 22865,
+    "elevation": 573,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 546
+  },
+  {
+    "lat": 53.44697,
+    "lng": -1.85283,
+    "metreOfPath": 22871,
+    "elevation": 573,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 546
+  },
+  {
+    "lat": 53.44692,
+    "lng": -1.85279,
+    "metreOfPath": 22877,
+    "elevation": 573,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 546
+  },
+  {
+    "lat": 53.44687,
+    "lng": -1.85266,
+    "metreOfPath": 22888,
+    "elevation": 573,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 546
+  },
+  {
+    "lat": 53.44685,
+    "lng": -1.85259,
+    "metreOfPath": 22893,
+    "elevation": 572,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 547
+  },
+  {
+    "lat": 53.4468,
+    "lng": -1.85259,
+    "metreOfPath": 22898,
+    "elevation": 572,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 547
+  },
+  {
+    "lat": 53.4467,
+    "lng": -1.85268,
+    "metreOfPath": 22911,
+    "elevation": 572,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 547
+  },
+  {
+    "lat": 53.44648,
+    "lng": -1.85279,
+    "metreOfPath": 22936,
+    "elevation": 570,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 549
+  },
+  {
+    "lat": 53.4464,
+    "lng": -1.85276,
+    "metreOfPath": 22946,
+    "elevation": 570,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 549
+  },
+  {
+    "lat": 53.44631,
+    "lng": -1.8526,
+    "metreOfPath": 22960,
+    "elevation": 570,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 549
+  },
+  {
+    "lat": 53.44604,
+    "lng": -1.85263,
+    "metreOfPath": 22990,
+    "elevation": 569,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 550
+  },
+  {
+    "lat": 53.44566,
+    "lng": -1.85274,
+    "metreOfPath": 23033,
+    "elevation": 568,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 551
+  },
+  {
+    "lat": 53.44512,
+    "lng": -1.85296,
+    "metreOfPath": 23095,
+    "elevation": 564,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 555
+  },
+  {
+    "lat": 53.4447,
+    "lng": -1.85338,
+    "metreOfPath": 23150,
+    "elevation": 561,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 558
+  },
+  {
+    "lat": 53.44304,
+    "lng": -1.85573,
+    "metreOfPath": 23391,
+    "elevation": 543,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 576
+  },
+  {
+    "lat": 53.44227,
+    "lng": -1.85693,
+    "metreOfPath": 23508,
+    "elevation": 538,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 581
+  },
+  {
+    "lat": 53.44177,
+    "lng": -1.85796,
+    "metreOfPath": 23596,
+    "elevation": 536,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 583
+  },
+  {
+    "lat": 53.44096,
+    "lng": -1.85961,
+    "metreOfPath": 23738,
+    "elevation": 531,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 588
+  },
+  {
+    "lat": 53.44031,
+    "lng": -1.86084,
+    "metreOfPath": 23847,
+    "elevation": 525,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 594
+  },
+  {
+    "lat": 53.43973,
+    "lng": -1.86202,
+    "metreOfPath": 23949,
+    "elevation": 523,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 596
+  },
+  {
+    "lat": 53.43928,
+    "lng": -1.86276,
+    "metreOfPath": 24019,
+    "elevation": 521,
+    "cumulativeAscent": 945,
+    "cumulativeDescent": 598
+  },
+  {
+    "lat": 53.43869,
+    "lng": -1.86352,
+    "metreOfPath": 24101,
+    "elevation": 522,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 598
+  },
+  {
+    "lat": 53.43818,
+    "lng": -1.86444,
+    "metreOfPath": 24185,
+    "elevation": 521,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 599
+  },
+  {
+    "lat": 53.43769,
+    "lng": -1.86513,
+    "metreOfPath": 24256,
+    "elevation": 519,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 601
+  },
+  {
+    "lat": 53.43693,
+    "lng": -1.86606,
+    "metreOfPath": 24361,
+    "elevation": 516,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 604
+  },
+  {
+    "lat": 53.43678,
+    "lng": -1.86629,
+    "metreOfPath": 24383,
+    "elevation": 515,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 605
+  },
+  {
+    "lat": 53.43663,
+    "lng": -1.8663,
+    "metreOfPath": 24400,
+    "elevation": 513,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 607
+  },
+  {
+    "lat": 53.43667,
+    "lng": -1.86661,
+    "metreOfPath": 24421,
+    "elevation": 513,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 607
+  },
+  {
+    "lat": 53.43688,
+    "lng": -1.86725,
+    "metreOfPath": 24469,
+    "elevation": 512,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 608
+  },
+  {
+    "lat": 53.43728,
+    "lng": -1.86825,
+    "metreOfPath": 24549,
+    "elevation": 509,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 611
+  },
+  {
+    "lat": 53.43745,
+    "lng": -1.86864,
+    "metreOfPath": 24581,
+    "elevation": 506,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 614
+  },
+  {
+    "lat": 53.4376,
+    "lng": -1.8689,
+    "metreOfPath": 24605,
+    "elevation": 504,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 616
+  },
+  {
+    "lat": 53.43771,
+    "lng": -1.86902,
+    "metreOfPath": 24620,
+    "elevation": 502,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 618
+  },
+  {
+    "lat": 53.43791,
+    "lng": -1.86922,
+    "metreOfPath": 24646,
+    "elevation": 496,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 624
+  },
+  {
+    "lat": 53.43797,
+    "lng": -1.86946,
+    "metreOfPath": 24663,
+    "elevation": 492,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 628
+  },
+  {
+    "lat": 53.43798,
+    "lng": -1.86967,
+    "metreOfPath": 24677,
+    "elevation": 490,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 630
+  },
+  {
+    "lat": 53.43804,
+    "lng": -1.86989,
+    "metreOfPath": 24693,
+    "elevation": 488,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 632
+  },
+  {
+    "lat": 53.4381,
+    "lng": -1.87012,
+    "metreOfPath": 24710,
+    "elevation": 483,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 637
+  },
+  {
+    "lat": 53.4381,
+    "lng": -1.87041,
+    "metreOfPath": 24729,
+    "elevation": 480,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 640
+  },
+  {
+    "lat": 53.43806,
+    "lng": -1.87068,
+    "metreOfPath": 24748,
+    "elevation": 478,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 642
+  },
+  {
+    "lat": 53.43809,
+    "lng": -1.87071,
+    "metreOfPath": 24751,
+    "elevation": 476,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 644
+  },
+  {
+    "lat": 53.43818,
+    "lng": -1.87055,
+    "metreOfPath": 24766,
+    "elevation": 474,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 646
+  },
+  {
+    "lat": 53.43826,
+    "lng": -1.87036,
+    "metreOfPath": 24781,
+    "elevation": 471,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 649
+  },
+  {
+    "lat": 53.43829,
+    "lng": -1.87041,
+    "metreOfPath": 24786,
+    "elevation": 468,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 652
+  },
+  {
+    "lat": 53.43829,
+    "lng": -1.87058,
+    "metreOfPath": 24797,
+    "elevation": 467,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 653
+  },
+  {
+    "lat": 53.43825,
+    "lng": -1.87092,
+    "metreOfPath": 24820,
+    "elevation": 464,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 656
+  },
+  {
+    "lat": 53.43825,
+    "lng": -1.8713,
+    "metreOfPath": 24846,
+    "elevation": 459,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 661
+  },
+  {
+    "lat": 53.43823,
+    "lng": -1.87179,
+    "metreOfPath": 24878,
+    "elevation": 454,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 666
+  },
+  {
+    "lat": 53.43818,
+    "lng": -1.87186,
+    "metreOfPath": 24885,
+    "elevation": 454,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 666
+  },
+  {
+    "lat": 53.43813,
+    "lng": -1.87199,
+    "metreOfPath": 24896,
+    "elevation": 452,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 668
+  },
+  {
+    "lat": 53.43812,
+    "lng": -1.87215,
+    "metreOfPath": 24906,
+    "elevation": 449,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 671
+  },
+  {
+    "lat": 53.43809,
+    "lng": -1.87222,
+    "metreOfPath": 24912,
+    "elevation": 448,
+    "cumulativeAscent": 946,
+    "cumulativeDescent": 672
+  },
+  {
+    "lat": 53.4381,
+    "lng": -1.87233,
+    "metreOfPath": 24919,
+    "elevation": 450,
+    "cumulativeAscent": 948,
+    "cumulativeDescent": 672
+  },
+  {
+    "lat": 53.43815,
+    "lng": -1.8724,
+    "metreOfPath": 24927,
+    "elevation": 451,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 672
+  },
+  {
+    "lat": 53.43823,
+    "lng": -1.87245,
+    "metreOfPath": 24936,
+    "elevation": 450,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 673
+  },
+  {
+    "lat": 53.43831,
+    "lng": -1.87248,
+    "metreOfPath": 24945,
+    "elevation": 448,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 675
+  },
+  {
+    "lat": 53.43838,
+    "lng": -1.87253,
+    "metreOfPath": 24954,
+    "elevation": 447,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 676
+  },
+  {
+    "lat": 53.43846,
+    "lng": -1.87258,
+    "metreOfPath": 24963,
+    "elevation": 445,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 678
+  },
+  {
+    "lat": 53.43855,
+    "lng": -1.87266,
+    "metreOfPath": 24975,
+    "elevation": 444,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 679
+  },
+  {
+    "lat": 53.43873,
+    "lng": -1.87308,
+    "metreOfPath": 25009,
+    "elevation": 439,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 684
+  },
+  {
+    "lat": 53.4388,
+    "lng": -1.87323,
+    "metreOfPath": 25022,
+    "elevation": 436,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 687
+  },
+  {
+    "lat": 53.43886,
+    "lng": -1.87346,
+    "metreOfPath": 25038,
+    "elevation": 435,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 688
+  },
+  {
+    "lat": 53.43893,
+    "lng": -1.87391,
+    "metreOfPath": 25069,
+    "elevation": 434,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 689
+  },
+  {
+    "lat": 53.43894,
+    "lng": -1.87404,
+    "metreOfPath": 25078,
+    "elevation": 434,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 689
+  },
+  {
+    "lat": 53.439,
+    "lng": -1.87414,
+    "metreOfPath": 25087,
+    "elevation": 433,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 690
+  },
+  {
+    "lat": 53.43923,
+    "lng": -1.87458,
+    "metreOfPath": 25126,
+    "elevation": 427,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 696
+  },
+  {
+    "lat": 53.4395,
+    "lng": -1.87526,
+    "metreOfPath": 25180,
+    "elevation": 421,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 702
+  },
+  {
+    "lat": 53.43969,
+    "lng": -1.87551,
+    "metreOfPath": 25207,
+    "elevation": 416,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 707
+  },
+  {
+    "lat": 53.43981,
+    "lng": -1.87564,
+    "metreOfPath": 25223,
+    "elevation": 413,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 710
+  },
+  {
+    "lat": 53.43992,
+    "lng": -1.87572,
+    "metreOfPath": 25236,
+    "elevation": 410,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 713
+  },
+  {
+    "lat": 53.44004,
+    "lng": -1.8759,
+    "metreOfPath": 25254,
+    "elevation": 408,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 715
+  },
+  {
+    "lat": 53.4402,
+    "lng": -1.87619,
+    "metreOfPath": 25280,
+    "elevation": 406,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 717
+  },
+  {
+    "lat": 53.44032,
+    "lng": -1.87652,
+    "metreOfPath": 25306,
+    "elevation": 406,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 717
+  },
+  {
+    "lat": 53.44038,
+    "lng": -1.87674,
+    "metreOfPath": 25322,
+    "elevation": 405,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 718
+  },
+  {
+    "lat": 53.4404,
+    "lng": -1.87682,
+    "metreOfPath": 25328,
+    "elevation": 405,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 718
+  },
+  {
+    "lat": 53.44042,
+    "lng": -1.87683,
+    "metreOfPath": 25330,
+    "elevation": 404,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 719
+  },
+  {
+    "lat": 53.44047,
+    "lng": -1.87684,
+    "metreOfPath": 25336,
+    "elevation": 402,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 721
+  },
+  {
+    "lat": 53.44051,
+    "lng": -1.87688,
+    "metreOfPath": 25341,
+    "elevation": 401,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 722
+  },
+  {
+    "lat": 53.44057,
+    "lng": -1.87699,
+    "metreOfPath": 25351,
+    "elevation": 400,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 723
+  },
+  {
+    "lat": 53.44062,
+    "lng": -1.87702,
+    "metreOfPath": 25357,
+    "elevation": 399,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 724
+  },
+  {
+    "lat": 53.4408,
+    "lng": -1.87701,
+    "metreOfPath": 25377,
+    "elevation": 394,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 729
+  },
+  {
+    "lat": 53.44098,
+    "lng": -1.87702,
+    "metreOfPath": 25397,
+    "elevation": 390,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 733
+  },
+  {
+    "lat": 53.44108,
+    "lng": -1.87704,
+    "metreOfPath": 25408,
+    "elevation": 388,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 735
+  },
+  {
+    "lat": 53.44144,
+    "lng": -1.87719,
+    "metreOfPath": 25449,
+    "elevation": 382,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 741
+  },
+  {
+    "lat": 53.4419,
+    "lng": -1.87741,
+    "metreOfPath": 25503,
+    "elevation": 377,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 746
+  },
+  {
+    "lat": 53.44245,
+    "lng": -1.87769,
+    "metreOfPath": 25567,
+    "elevation": 371,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 752
+  },
+  {
+    "lat": 53.4428,
+    "lng": -1.87793,
+    "metreOfPath": 25609,
+    "elevation": 367,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 756
+  },
+  {
+    "lat": 53.44294,
+    "lng": -1.87813,
+    "metreOfPath": 25629,
+    "elevation": 365,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 758
+  },
+  {
+    "lat": 53.44299,
+    "lng": -1.87828,
+    "metreOfPath": 25641,
+    "elevation": 364,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 759
+  },
+  {
+    "lat": 53.44316,
+    "lng": -1.87891,
+    "metreOfPath": 25686,
+    "elevation": 359,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 764
+  },
+  {
+    "lat": 53.44323,
+    "lng": -1.87921,
+    "metreOfPath": 25708,
+    "elevation": 358,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 765
+  },
+  {
+    "lat": 53.44327,
+    "lng": -1.87945,
+    "metreOfPath": 25724,
+    "elevation": 357,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 766
+  },
+  {
+    "lat": 53.44332,
+    "lng": -1.87971,
+    "metreOfPath": 25742,
+    "elevation": 356,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 767
+  },
+  {
+    "lat": 53.44332,
+    "lng": -1.8799,
+    "metreOfPath": 25755,
+    "elevation": 355,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 768
+  },
+  {
+    "lat": 53.4433,
+    "lng": -1.88012,
+    "metreOfPath": 25770,
+    "elevation": 354,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 769
+  },
+  {
+    "lat": 53.44332,
+    "lng": -1.8803,
+    "metreOfPath": 25782,
+    "elevation": 353,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 770
+  },
+  {
+    "lat": 53.44337,
+    "lng": -1.88058,
+    "metreOfPath": 25801,
+    "elevation": 352,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 771
+  },
+  {
+    "lat": 53.44339,
+    "lng": -1.8807,
+    "metreOfPath": 25810,
+    "elevation": 352,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 771
+  },
+  {
+    "lat": 53.44338,
+    "lng": -1.88092,
+    "metreOfPath": 25824,
+    "elevation": 352,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 771
+  },
+  {
+    "lat": 53.44335,
+    "lng": -1.88109,
+    "metreOfPath": 25836,
+    "elevation": 351,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 772
+  },
+  {
+    "lat": 53.44334,
+    "lng": -1.88126,
+    "metreOfPath": 25847,
+    "elevation": 351,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 772
+  },
+  {
+    "lat": 53.44337,
+    "lng": -1.88135,
+    "metreOfPath": 25854,
+    "elevation": 350,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 773
+  },
+  {
+    "lat": 53.44335,
+    "lng": -1.88141,
+    "metreOfPath": 25859,
+    "elevation": 350,
+    "cumulativeAscent": 949,
+    "cumulativeDescent": 773
+  },
+  {
+    "lat": 53.44329,
+    "lng": -1.88149,
+    "metreOfPath": 25867,
+    "elevation": 351,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 773
+  },
+  {
+    "lat": 53.44322,
+    "lng": -1.88169,
+    "metreOfPath": 25883,
+    "elevation": 351,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 773
+  },
+  {
+    "lat": 53.44314,
+    "lng": -1.88202,
+    "metreOfPath": 25906,
+    "elevation": 351,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 773
+  },
+  {
+    "lat": 53.44311,
+    "lng": -1.88218,
+    "metreOfPath": 25917,
+    "elevation": 350,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 774
+  },
+  {
+    "lat": 53.44312,
+    "lng": -1.88246,
+    "metreOfPath": 25936,
+    "elevation": 348,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 776
+  },
+  {
+    "lat": 53.44308,
+    "lng": -1.88358,
+    "metreOfPath": 26010,
+    "elevation": 345,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 779
+  },
+  {
+    "lat": 53.44307,
+    "lng": -1.88419,
+    "metreOfPath": 26051,
+    "elevation": 342,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 782
+  },
+  {
+    "lat": 53.44312,
+    "lng": -1.88465,
+    "metreOfPath": 26082,
+    "elevation": 338,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 786
+  },
+  {
+    "lat": 53.44312,
+    "lng": -1.88487,
+    "metreOfPath": 26096,
+    "elevation": 334,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 790
+  },
+  {
+    "lat": 53.44306,
+    "lng": -1.88508,
+    "metreOfPath": 26112,
+    "elevation": 330,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 794
+  },
+  {
+    "lat": 53.44306,
+    "lng": -1.88524,
+    "metreOfPath": 26122,
+    "elevation": 327,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 797
+  },
+  {
+    "lat": 53.44312,
+    "lng": -1.88551,
+    "metreOfPath": 26141,
+    "elevation": 321,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 803
+  },
+  {
+    "lat": 53.44317,
+    "lng": -1.88583,
+    "metreOfPath": 26163,
+    "elevation": 315,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 809
+  },
+  {
+    "lat": 53.44315,
+    "lng": -1.88598,
+    "metreOfPath": 26174,
+    "elevation": 312,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 812
+  },
+  {
+    "lat": 53.44315,
+    "lng": -1.88605,
+    "metreOfPath": 26178,
+    "elevation": 311,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 813
+  },
+  {
+    "lat": 53.44315,
+    "lng": -1.88624,
+    "metreOfPath": 26191,
+    "elevation": 310,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 814
+  },
+  {
+    "lat": 53.44316,
+    "lng": -1.88642,
+    "metreOfPath": 26203,
+    "elevation": 309,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 815
+  },
+  {
+    "lat": 53.44317,
+    "lng": -1.88683,
+    "metreOfPath": 26230,
+    "elevation": 303,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 821
+  },
+  {
+    "lat": 53.44316,
+    "lng": -1.88694,
+    "metreOfPath": 26237,
+    "elevation": 302,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 822
+  },
+  {
+    "lat": 53.4432,
+    "lng": -1.88702,
+    "metreOfPath": 26244,
+    "elevation": 301,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 823
+  },
+  {
+    "lat": 53.44325,
+    "lng": -1.88712,
+    "metreOfPath": 26253,
+    "elevation": 299,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 825
+  },
+  {
+    "lat": 53.44325,
+    "lng": -1.88737,
+    "metreOfPath": 26270,
+    "elevation": 297,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 827
+  },
+  {
+    "lat": 53.44322,
+    "lng": -1.88753,
+    "metreOfPath": 26281,
+    "elevation": 297,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 827
+  },
+  {
+    "lat": 53.44323,
+    "lng": -1.8878,
+    "metreOfPath": 26299,
+    "elevation": 295,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 829
+  },
+  {
+    "lat": 53.44322,
+    "lng": -1.88804,
+    "metreOfPath": 26315,
+    "elevation": 294,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 830
+  },
+  {
+    "lat": 53.44329,
+    "lng": -1.88832,
+    "metreOfPath": 26335,
+    "elevation": 293,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 831
+  },
+  {
+    "lat": 53.44344,
+    "lng": -1.88881,
+    "metreOfPath": 26371,
+    "elevation": 291,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 833
+  },
+  {
+    "lat": 53.44347,
+    "lng": -1.88895,
+    "metreOfPath": 26381,
+    "elevation": 290,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 834
+  },
+  {
+    "lat": 53.44355,
+    "lng": -1.88903,
+    "metreOfPath": 26391,
+    "elevation": 290,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 834
+  },
+  {
+    "lat": 53.44349,
+    "lng": -1.88915,
+    "metreOfPath": 26402,
+    "elevation": 289,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 835
+  },
+  {
+    "lat": 53.44348,
+    "lng": -1.88925,
+    "metreOfPath": 26409,
+    "elevation": 288,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 836
+  },
+  {
+    "lat": 53.4435,
+    "lng": -1.88936,
+    "metreOfPath": 26416,
+    "elevation": 288,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 836
+  },
+  {
+    "lat": 53.44355,
+    "lng": -1.88948,
+    "metreOfPath": 26426,
+    "elevation": 288,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 836
+  },
+  {
+    "lat": 53.44365,
+    "lng": -1.8899,
+    "metreOfPath": 26456,
+    "elevation": 286,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 838
+  },
+  {
+    "lat": 53.4437,
+    "lng": -1.89021,
+    "metreOfPath": 26477,
+    "elevation": 285,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 839
+  },
+  {
+    "lat": 53.44378,
+    "lng": -1.89047,
+    "metreOfPath": 26497,
+    "elevation": 284,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 840
+  },
+  {
+    "lat": 53.44383,
+    "lng": -1.89073,
+    "metreOfPath": 26515,
+    "elevation": 283,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 841
+  },
+  {
+    "lat": 53.44389,
+    "lng": -1.89104,
+    "metreOfPath": 26536,
+    "elevation": 282,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 842
+  },
+  {
+    "lat": 53.44401,
+    "lng": -1.89142,
+    "metreOfPath": 26565,
+    "elevation": 281,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 843
+  },
+  {
+    "lat": 53.44402,
+    "lng": -1.89171,
+    "metreOfPath": 26584,
+    "elevation": 279,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 845
+  },
+  {
+    "lat": 53.44404,
+    "lng": -1.89186,
+    "metreOfPath": 26594,
+    "elevation": 279,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 845
+  },
+  {
+    "lat": 53.4441,
+    "lng": -1.89211,
+    "metreOfPath": 26612,
+    "elevation": 279,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 845
+  },
+  {
+    "lat": 53.44413,
+    "lng": -1.89252,
+    "metreOfPath": 26640,
+    "elevation": 277,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 847
+  },
+  {
+    "lat": 53.44417,
+    "lng": -1.89279,
+    "metreOfPath": 26658,
+    "elevation": 277,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 847
+  },
+  {
+    "lat": 53.44427,
+    "lng": -1.89324,
+    "metreOfPath": 26690,
+    "elevation": 275,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 849
+  },
+  {
+    "lat": 53.4443,
+    "lng": -1.89358,
+    "metreOfPath": 26713,
+    "elevation": 274,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 850
+  },
+  {
+    "lat": 53.44429,
+    "lng": -1.89384,
+    "metreOfPath": 26730,
+    "elevation": 273,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 851
+  },
+  {
+    "lat": 53.44435,
+    "lng": -1.89413,
+    "metreOfPath": 26750,
+    "elevation": 271,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 853
+  },
+  {
+    "lat": 53.44451,
+    "lng": -1.89452,
+    "metreOfPath": 26782,
+    "elevation": 271,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 853
+  },
+  {
+    "lat": 53.44454,
+    "lng": -1.89473,
+    "metreOfPath": 26796,
+    "elevation": 271,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 853
+  },
+  {
+    "lat": 53.4445,
+    "lng": -1.89508,
+    "metreOfPath": 26820,
+    "elevation": 269,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 855
+  },
+  {
+    "lat": 53.44448,
+    "lng": -1.89536,
+    "metreOfPath": 26838,
+    "elevation": 268,
+    "cumulativeAscent": 950,
+    "cumulativeDescent": 856
+  },
+  {
+    "lat": 53.44448,
+    "lng": -1.89558,
+    "metreOfPath": 26853,
+    "elevation": 269,
+    "cumulativeAscent": 951,
+    "cumulativeDescent": 856
+  },
+  {
+    "lat": 53.44437,
+    "lng": -1.89602,
+    "metreOfPath": 26885,
+    "elevation": 267,
+    "cumulativeAscent": 951,
+    "cumulativeDescent": 858
+  },
+  {
+    "lat": 53.44426,
+    "lng": -1.89634,
+    "metreOfPath": 26909,
+    "elevation": 265,
+    "cumulativeAscent": 951,
+    "cumulativeDescent": 860
+  },
+  {
+    "lat": 53.44415,
+    "lng": -1.89667,
+    "metreOfPath": 26934,
+    "elevation": 264,
+    "cumulativeAscent": 951,
+    "cumulativeDescent": 861
+  },
+  {
+    "lat": 53.44409,
+    "lng": -1.8973,
+    "metreOfPath": 26976,
+    "elevation": 263,
+    "cumulativeAscent": 951,
+    "cumulativeDescent": 862
+  },
+  {
+    "lat": 53.444,
+    "lng": -1.89767,
+    "metreOfPath": 27003,
+    "elevation": 262,
+    "cumulativeAscent": 951,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.444,
+    "lng": -1.89781,
+    "metreOfPath": 27012,
+    "elevation": 263,
+    "cumulativeAscent": 952,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.44397,
+    "lng": -1.89813,
+    "metreOfPath": 27034,
+    "elevation": 263,
+    "cumulativeAscent": 952,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.44398,
+    "lng": -1.89851,
+    "metreOfPath": 27059,
+    "elevation": 265,
+    "cumulativeAscent": 954,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.444,
+    "lng": -1.89895,
+    "metreOfPath": 27088,
+    "elevation": 266,
+    "cumulativeAscent": 955,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.44404,
+    "lng": -1.89933,
+    "metreOfPath": 27114,
+    "elevation": 267,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.44412,
+    "lng": -1.89959,
+    "metreOfPath": 27133,
+    "elevation": 267,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.44427,
+    "lng": -1.89994,
+    "metreOfPath": 27162,
+    "elevation": 267,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 863
+  },
+  {
+    "lat": 53.44441,
+    "lng": -1.90023,
+    "metreOfPath": 27186,
+    "elevation": 266,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 864
+  },
+  {
+    "lat": 53.44457,
+    "lng": -1.90045,
+    "metreOfPath": 27210,
+    "elevation": 265,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 865
+  },
+  {
+    "lat": 53.44501,
+    "lng": -1.90099,
+    "metreOfPath": 27270,
+    "elevation": 261,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 869
+  },
+  {
+    "lat": 53.4451,
+    "lng": -1.90113,
+    "metreOfPath": 27284,
+    "elevation": 261,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 869
+  },
+  {
+    "lat": 53.44524,
+    "lng": -1.90125,
+    "metreOfPath": 27301,
+    "elevation": 260,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 870
+  },
+  {
+    "lat": 53.44541,
+    "lng": -1.90146,
+    "metreOfPath": 27325,
+    "elevation": 260,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 870
+  },
+  {
+    "lat": 53.44561,
+    "lng": -1.90181,
+    "metreOfPath": 27357,
+    "elevation": 259,
+    "cumulativeAscent": 956,
+    "cumulativeDescent": 871
+  },
+  {
+    "lat": 53.44574,
+    "lng": -1.90211,
+    "metreOfPath": 27382,
+    "elevation": 260,
+    "cumulativeAscent": 957,
+    "cumulativeDescent": 871
+  },
+  {
+    "lat": 53.44593,
+    "lng": -1.90285,
+    "metreOfPath": 27435,
+    "elevation": 262,
+    "cumulativeAscent": 959,
+    "cumulativeDescent": 871
+  },
+  {
+    "lat": 53.44629,
+    "lng": -1.90393,
+    "metreOfPath": 27517,
+    "elevation": 264,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 871
+  },
+  {
+    "lat": 53.44648,
+    "lng": -1.90471,
+    "metreOfPath": 27573,
+    "elevation": 264,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 871
+  },
+  {
+    "lat": 53.44647,
+    "lng": -1.90496,
+    "metreOfPath": 27590,
+    "elevation": 262,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 873
+  },
+  {
+    "lat": 53.44635,
+    "lng": -1.90591,
+    "metreOfPath": 27654,
+    "elevation": 256,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 879
+  },
+  {
+    "lat": 53.44635,
+    "lng": -1.90615,
+    "metreOfPath": 27670,
+    "elevation": 255,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 880
+  },
+  {
+    "lat": 53.44638,
+    "lng": -1.90639,
+    "metreOfPath": 27686,
+    "elevation": 253,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 882
+  },
+  {
+    "lat": 53.44646,
+    "lng": -1.90666,
+    "metreOfPath": 27706,
+    "elevation": 251,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 884
+  },
+  {
+    "lat": 53.4466,
+    "lng": -1.90697,
+    "metreOfPath": 27732,
+    "elevation": 249,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 886
+  },
+  {
+    "lat": 53.44676,
+    "lng": -1.90728,
+    "metreOfPath": 27759,
+    "elevation": 247,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 888
+  },
+  {
+    "lat": 53.44707,
+    "lng": -1.90781,
+    "metreOfPath": 27808,
+    "elevation": 242,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 893
+  },
+  {
+    "lat": 53.44726,
+    "lng": -1.90806,
+    "metreOfPath": 27835,
+    "elevation": 239,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 896
+  },
+  {
+    "lat": 53.4474,
+    "lng": -1.90819,
+    "metreOfPath": 27853,
+    "elevation": 237,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 898
+  },
+  {
+    "lat": 53.44751,
+    "lng": -1.90828,
+    "metreOfPath": 27867,
+    "elevation": 236,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 899
+  },
+  {
+    "lat": 53.4481,
+    "lng": -1.90885,
+    "metreOfPath": 27942,
+    "elevation": 228,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 907
+  },
+  {
+    "lat": 53.44825,
+    "lng": -1.90906,
+    "metreOfPath": 27964,
+    "elevation": 226,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 909
+  },
+  {
+    "lat": 53.44845,
+    "lng": -1.90946,
+    "metreOfPath": 27999,
+    "elevation": 222,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 913
+  },
+  {
+    "lat": 53.44853,
+    "lng": -1.90966,
+    "metreOfPath": 28015,
+    "elevation": 219,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 916
+  },
+  {
+    "lat": 53.44857,
+    "lng": -1.90986,
+    "metreOfPath": 28029,
+    "elevation": 218,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 917
+  },
+  {
+    "lat": 53.44862,
+    "lng": -1.9102,
+    "metreOfPath": 28052,
+    "elevation": 216,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.44864,
+    "lng": -1.91037,
+    "metreOfPath": 28063,
+    "elevation": 216,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.44871,
+    "lng": -1.91036,
+    "metreOfPath": 28071,
+    "elevation": 216,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.44881,
+    "lng": -1.91042,
+    "metreOfPath": 28083,
+    "elevation": 216,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.44887,
+    "lng": -1.9105,
+    "metreOfPath": 28092,
+    "elevation": 216,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.4491,
+    "lng": -1.91124,
+    "metreOfPath": 28147,
+    "elevation": 216,
+    "cumulativeAscent": 961,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.44921,
+    "lng": -1.91161,
+    "metreOfPath": 28174,
+    "elevation": 217,
+    "cumulativeAscent": 962,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.44934,
+    "lng": -1.91187,
+    "metreOfPath": 28197,
+    "elevation": 218,
+    "cumulativeAscent": 963,
+    "cumulativeDescent": 919
+  },
+  {
+    "lat": 53.44965,
+    "lng": -1.91271,
+    "metreOfPath": 28262,
+    "elevation": 216,
+    "cumulativeAscent": 963,
+    "cumulativeDescent": 921
+  },
+  {
+    "lat": 53.45007,
+    "lng": -1.9137,
+    "metreOfPath": 28343,
+    "elevation": 216,
+    "cumulativeAscent": 963,
+    "cumulativeDescent": 921
+  },
+  {
+    "lat": 53.45055,
+    "lng": -1.91473,
+    "metreOfPath": 28430,
+    "elevation": 217,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 921
+  },
+  {
+    "lat": 53.45069,
+    "lng": -1.91513,
+    "metreOfPath": 28460,
+    "elevation": 217,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 921
+  },
+  {
+    "lat": 53.45083,
+    "lng": -1.91587,
+    "metreOfPath": 28512,
+    "elevation": 214,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 924
+  },
+  {
+    "lat": 53.45083,
+    "lng": -1.91587,
+    "metreOfPath": 28512,
+    "elevation": 214,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 924
+  },
+  {
+    "lat": 53.45106,
+    "lng": -1.91713,
+    "metreOfPath": 28599,
+    "elevation": 211,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 927
+  },
+  {
+    "lat": 53.45117,
+    "lng": -1.91776,
+    "metreOfPath": 28643,
+    "elevation": 210,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 928
+  },
+  {
+    "lat": 53.4514,
+    "lng": -1.91889,
+    "metreOfPath": 28722,
+    "elevation": 207,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 931
+  },
+  {
+    "lat": 53.45154,
+    "lng": -1.91984,
+    "metreOfPath": 28787,
+    "elevation": 202,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 936
+  },
+  {
+    "lat": 53.45159,
+    "lng": -1.92023,
+    "metreOfPath": 28813,
+    "elevation": 201,
+    "cumulativeAscent": 964,
+    "cumulativeDescent": 937
+  },
+  {
+    "lat": 53.45173,
+    "lng": -1.92086,
+    "metreOfPath": 28858,
+    "elevation": 202,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 937
+  },
+  {
+    "lat": 53.45174,
+    "lng": -1.92099,
+    "metreOfPath": 28867,
+    "elevation": 202,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 937
+  },
+  {
+    "lat": 53.45171,
+    "lng": -1.92128,
+    "metreOfPath": 28886,
+    "elevation": 200,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 939
+  },
+  {
+    "lat": 53.45151,
+    "lng": -1.9229,
+    "metreOfPath": 28996,
+    "elevation": 196,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 943
+  },
+  {
+    "lat": 53.45144,
+    "lng": -1.92351,
+    "metreOfPath": 29037,
+    "elevation": 194,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 945
+  },
+  {
+    "lat": 53.4512,
+    "lng": -1.92489,
+    "metreOfPath": 29132,
+    "elevation": 190,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 949
+  },
+  {
+    "lat": 53.45105,
+    "lng": -1.92573,
+    "metreOfPath": 29190,
+    "elevation": 186,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 953
+  },
+  {
+    "lat": 53.45083,
+    "lng": -1.92715,
+    "metreOfPath": 29288,
+    "elevation": 184,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 955
+  },
+  {
+    "lat": 53.45061,
+    "lng": -1.92819,
+    "metreOfPath": 29361,
+    "elevation": 183,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 956
+  },
+  {
+    "lat": 53.45047,
+    "lng": -1.92876,
+    "metreOfPath": 29402,
+    "elevation": 181,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 958
+  },
+  {
+    "lat": 53.45037,
+    "lng": -1.92911,
+    "metreOfPath": 29427,
+    "elevation": 181,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 958
+  },
+  {
+    "lat": 53.45028,
+    "lng": -1.92929,
+    "metreOfPath": 29443,
+    "elevation": 179,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 960
+  },
+  {
+    "lat": 53.45019,
+    "lng": -1.92953,
+    "metreOfPath": 29462,
+    "elevation": 178,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 961
+  },
+  {
+    "lat": 53.45013,
+    "lng": -1.92985,
+    "metreOfPath": 29484,
+    "elevation": 177,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 962
+  },
+  {
+    "lat": 53.4501,
+    "lng": -1.9303,
+    "metreOfPath": 29514,
+    "elevation": 177,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 962
+  },
+  {
+    "lat": 53.45013,
+    "lng": -1.93066,
+    "metreOfPath": 29538,
+    "elevation": 176,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 963
+  },
+  {
+    "lat": 53.4502,
+    "lng": -1.93111,
+    "metreOfPath": 29569,
+    "elevation": 175,
+    "cumulativeAscent": 965,
+    "cumulativeDescent": 964
+  },
+  {
+    "lat": 53.45027,
+    "lng": -1.93146,
+    "metreOfPath": 29593,
+    "elevation": 176,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 964
+  },
+  {
+    "lat": 53.4503,
+    "lng": -1.93178,
+    "metreOfPath": 29615,
+    "elevation": 175,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 965
+  },
+  {
+    "lat": 53.45028,
+    "lng": -1.93214,
+    "metreOfPath": 29639,
+    "elevation": 175,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 965
+  },
+  {
+    "lat": 53.45018,
+    "lng": -1.93267,
+    "metreOfPath": 29676,
+    "elevation": 174,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 966
+  },
+  {
+    "lat": 53.45013,
+    "lng": -1.93288,
+    "metreOfPath": 29691,
+    "elevation": 174,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 966
+  },
+  {
+    "lat": 53.45004,
+    "lng": -1.93312,
+    "metreOfPath": 29710,
+    "elevation": 174,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 966
+  },
+  {
+    "lat": 53.44998,
+    "lng": -1.93345,
+    "metreOfPath": 29732,
+    "elevation": 174,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 966
+  },
+  {
+    "lat": 53.44995,
+    "lng": -1.93399,
+    "metreOfPath": 29768,
+    "elevation": 173,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 967
+  },
+  {
+    "lat": 53.4499,
+    "lng": -1.93493,
+    "metreOfPath": 29831,
+    "elevation": 171,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 969
+  },
+  {
+    "lat": 53.44978,
+    "lng": -1.9356,
+    "metreOfPath": 29877,
+    "elevation": 171,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 969
+  },
+  {
+    "lat": 53.44959,
+    "lng": -1.93664,
+    "metreOfPath": 29949,
+    "elevation": 171,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 969
+  },
+  {
+    "lat": 53.44958,
+    "lng": -1.93698,
+    "metreOfPath": 29972,
+    "elevation": 170,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 970
+  },
+  {
+    "lat": 53.44958,
+    "lng": -1.93728,
+    "metreOfPath": 29992,
+    "elevation": 170,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 970
+  },
+  {
+    "lat": 53.4496,
+    "lng": -1.93754,
+    "metreOfPath": 30009,
+    "elevation": 169,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 971
+  },
+  {
+    "lat": 53.44962,
+    "lng": -1.93776,
+    "metreOfPath": 30024,
+    "elevation": 168,
+    "cumulativeAscent": 966,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.44956,
+    "lng": -1.93818,
+    "metreOfPath": 30053,
+    "elevation": 169,
+    "cumulativeAscent": 967,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.44969,
+    "lng": -1.93826,
+    "metreOfPath": 30068,
+    "elevation": 170,
+    "cumulativeAscent": 968,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.44992,
+    "lng": -1.9384,
+    "metreOfPath": 30095,
+    "elevation": 170,
+    "cumulativeAscent": 968,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45004,
+    "lng": -1.93845,
+    "metreOfPath": 30109,
+    "elevation": 170,
+    "cumulativeAscent": 968,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45025,
+    "lng": -1.93851,
+    "metreOfPath": 30133,
+    "elevation": 173,
+    "cumulativeAscent": 971,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45047,
+    "lng": -1.93862,
+    "metreOfPath": 30158,
+    "elevation": 176,
+    "cumulativeAscent": 974,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45058,
+    "lng": -1.93874,
+    "metreOfPath": 30173,
+    "elevation": 177,
+    "cumulativeAscent": 975,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45065,
+    "lng": -1.93889,
+    "metreOfPath": 30186,
+    "elevation": 178,
+    "cumulativeAscent": 976,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45063,
+    "lng": -1.93905,
+    "metreOfPath": 30196,
+    "elevation": 179,
+    "cumulativeAscent": 977,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.4506,
+    "lng": -1.93932,
+    "metreOfPath": 30215,
+    "elevation": 180,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45053,
+    "lng": -1.93963,
+    "metreOfPath": 30237,
+    "elevation": 180,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 972
+  },
+  {
+    "lat": 53.45046,
+    "lng": -1.93982,
+    "metreOfPath": 30251,
+    "elevation": 179,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 973
+  },
+  {
+    "lat": 53.45031,
+    "lng": -1.94014,
+    "metreOfPath": 30278,
+    "elevation": 179,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 973
+  },
+  {
+    "lat": 53.45012,
+    "lng": -1.94059,
+    "metreOfPath": 30315,
+    "elevation": 178,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 974
+  },
+  {
+    "lat": 53.44999,
+    "lng": -1.94105,
+    "metreOfPath": 30349,
+    "elevation": 177,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 975
+  },
+  {
+    "lat": 53.45001,
+    "lng": -1.94138,
+    "metreOfPath": 30371,
+    "elevation": 175,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 977
+  },
+  {
+    "lat": 53.45001,
+    "lng": -1.94158,
+    "metreOfPath": 30384,
+    "elevation": 175,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 977
+  },
+  {
+    "lat": 53.44995,
+    "lng": -1.94184,
+    "metreOfPath": 30402,
+    "elevation": 175,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 977
+  },
+  {
+    "lat": 53.44976,
+    "lng": -1.94226,
+    "metreOfPath": 30437,
+    "elevation": 174,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 978
+  },
+  {
+    "lat": 53.44969,
+    "lng": -1.94252,
+    "metreOfPath": 30456,
+    "elevation": 174,
+    "cumulativeAscent": 978,
+    "cumulativeDescent": 978
+  },
+  {
+    "lat": 53.44965,
+    "lng": -1.94286,
+    "metreOfPath": 30479,
+    "elevation": 175,
+    "cumulativeAscent": 979,
+    "cumulativeDescent": 978
+  },
+  {
+    "lat": 53.44968,
+    "lng": -1.9433,
+    "metreOfPath": 30509,
+    "elevation": 176,
+    "cumulativeAscent": 980,
+    "cumulativeDescent": 978
+  },
+  {
+    "lat": 53.44961,
+    "lng": -1.94344,
+    "metreOfPath": 30521,
+    "elevation": 177,
+    "cumulativeAscent": 981,
+    "cumulativeDescent": 978
+  },
+  {
+    "lat": 53.44945,
+    "lng": -1.94426,
+    "metreOfPath": 30578,
+    "elevation": 180,
+    "cumulativeAscent": 984,
+    "cumulativeDescent": 978
+  },
+  {
+    "lat": 53.44934,
+    "lng": -1.94463,
+    "metreOfPath": 30605,
+    "elevation": 179,
+    "cumulativeAscent": 984,
+    "cumulativeDescent": 979
+  },
+  {
+    "lat": 53.44913,
+    "lng": -1.94521,
+    "metreOfPath": 30650,
+    "elevation": 179,
+    "cumulativeAscent": 984,
+    "cumulativeDescent": 979
+  },
+  {
+    "lat": 53.44902,
+    "lng": -1.94548,
+    "metreOfPath": 30672,
+    "elevation": 180,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 979
+  },
+  {
+    "lat": 53.4489,
+    "lng": -1.94577,
+    "metreOfPath": 30696,
+    "elevation": 178,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 981
+  },
+  {
+    "lat": 53.44875,
+    "lng": -1.94585,
+    "metreOfPath": 30713,
+    "elevation": 178,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 981
+  },
+  {
+    "lat": 53.44847,
+    "lng": -1.94596,
+    "metreOfPath": 30745,
+    "elevation": 177,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 982
+  },
+  {
+    "lat": 53.44783,
+    "lng": -1.94625,
+    "metreOfPath": 30819,
+    "elevation": 176,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 983
+  },
+  {
+    "lat": 53.44737,
+    "lng": -1.94656,
+    "metreOfPath": 30874,
+    "elevation": 173,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 986
+  },
+  {
+    "lat": 53.44718,
+    "lng": -1.9467,
+    "metreOfPath": 30897,
+    "elevation": 173,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 986
+  },
+  {
+    "lat": 53.44694,
+    "lng": -1.94693,
+    "metreOfPath": 30928,
+    "elevation": 172,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 987
+  },
+  {
+    "lat": 53.44667,
+    "lng": -1.94721,
+    "metreOfPath": 30963,
+    "elevation": 171,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 988
+  },
+  {
+    "lat": 53.44642,
+    "lng": -1.94744,
+    "metreOfPath": 30995,
+    "elevation": 171,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 988
+  },
+  {
+    "lat": 53.44618,
+    "lng": -1.94761,
+    "metreOfPath": 31024,
+    "elevation": 170,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 989
+  },
+  {
+    "lat": 53.44565,
+    "lng": -1.94787,
+    "metreOfPath": 31085,
+    "elevation": 168,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 991
+  },
+  {
+    "lat": 53.44519,
+    "lng": -1.94809,
+    "metreOfPath": 31139,
+    "elevation": 165,
+    "cumulativeAscent": 985,
+    "cumulativeDescent": 994
+  },
+  {
+    "lat": 53.44508,
+    "lng": -1.94812,
+    "metreOfPath": 31151,
+    "elevation": 166,
+    "cumulativeAscent": 986,
+    "cumulativeDescent": 994
+  },
+  {
+    "lat": 53.44448,
+    "lng": -1.94838,
+    "metreOfPath": 31220,
+    "elevation": 161,
+    "cumulativeAscent": 986,
+    "cumulativeDescent": 999
+  }
+]

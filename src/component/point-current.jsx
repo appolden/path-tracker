@@ -37,7 +37,7 @@ class PointCurrent extends Component {
         </div>
         <div style={{ textAlign: 'center', fontSize: '1.5em' }}>
           Km: {(this.props.pathMetre * 0.001).toFixed(2)}, Alt:{' '}
-          {this.props.pathElevation} m{' '}
+                {this.props.pathElevation} m{' '}
         </div>
         {this.props.distanceFromPath > 50 && (
           <div style={{ textAlign: 'center' }}>
