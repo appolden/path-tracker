@@ -13,13 +13,14 @@
     "type": "git",
     "url": "git+https://github.com/appolden/path-tracker.git"
   },
-  "author": "Al Polden",
+  "author": "Alastair Polden",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/appolden/path-tracker/issues"
   },
   "homepage": "https://github.com/appolden/path-tracker#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "prerender-node": "^3.1.1"
   }
 }

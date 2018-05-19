@@ -20,6 +20,9 @@ app.use(express.static(staticPath, {
     setHeaders: setCustomCacheControl
 }));
 
+// pre render pages to make them SEO friendly
+app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
+
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
 app.get('*', (req, res) => {
@@ -28,7 +31,7 @@ app.get('*', (req, res) => {
 });
 
 //const server = https.createServer({}, app);
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.listen(port);
 
 
