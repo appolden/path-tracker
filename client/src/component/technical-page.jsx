@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet';
 import Menu from '../component/menu.jsx';
 import LanguageHelper from '../component/language-helper.js';
 import CacheViewer from '../component/cache-viewer.jsx';
-import { Link } from 'react-router-dom';
 
 class TechnicalPage extends Component {
   constructor(props) {
@@ -35,7 +34,20 @@ class TechnicalPage extends Component {
           />
           <h1 className="App-title">{title}</h1>
         </header>
-        <div className="App-content">
+            <div className="App-content">
+                <h2>Overview</h2>
+                    <p>This site has been built using a variety of technologies that are new to me. These are:
+                        </p>
+                    <ul>
+                        <li>ReactJs</li>
+                        <li>Heroku</li>
+                        <li>Browser service workers and browser caching</li>
+                        <li>Google maps API</li>
+                        <li>SEO</li>
+                        </ul>
+                    <p>
+                         I will describe some of the problems i have encountered thus far.
+                    </p>
           <h2>Progressive web apps (PWA)</h2>
           <p>
             <a href="https://developers.google.com/web/progressive-web-apps/">
@@ -46,9 +58,9 @@ class TechnicalPage extends Component {
           <p>I will write something about the Iphone limitations here.</p>
           <h2>ReactJs</h2>
           <p>Built using ReactJs.</p>
-                <Link
-                    to="/greenfield-glossop"
-                    title="greenfield-glossop trail tracker">greenfield-glossop trail tracker</Link>
+                <h2>ReactJs and SEO</h2>
+                <p>Write something about the issues using Facebook sharing bot, BingBot. </p>
+           
           <h2>Cache viewer</h2>
           <p>
             {this.state.serviceWorkerEnabled}
@@ -57,7 +69,6 @@ class TechnicalPage extends Component {
             and the option to remove the cached data so that a fresh copy is
             retrieved from the server.
           </p>
-                
           <CacheViewer />
         </div>
       </React.Fragment>

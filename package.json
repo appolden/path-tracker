@@ -1,25 +1,26 @@
 {
-  "name": "trail-tracker",
-  "version": "0.2.0",
-  "private": true,
-  "dependencies": {
-    "google-maps-react": "^1.1.4",
-    "html-react-parser": "^0.4.6",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
-    "prettier": "^1.11.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-ga": "^2.4.1",
-    "react-helmet": "^5.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1",
-    "react-virtualized": "^9.18.5"
+  "name": "trail-tracker-server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.9.4"
   },
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appolden/path-tracker.git"
+  },
+  "author": "Alastair Polden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appolden/path-tracker/issues"
+  },
+  "homepage": "https://github.com/appolden/path-tracker#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "prerender-node": "^3.1.1"
   }
 }
