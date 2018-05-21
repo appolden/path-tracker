@@ -19,15 +19,62 @@ app.use(express.static(staticPath, {
     setHeaders: setCustomCacheControl
 }));
 
-// pre render pages to make them SEO friendly
-//app.use(require('prerender-node').set('prerenderToken', process.env.PRERENDER_TOKEN));
+app.get('', (req, res) => {
+    console.log('the root request');
+    res.sendFile(path.join(__dirname + '/client/build/index.html'));
+})
 
+
+// TODO: Lots of repeating code. Work out how to do this more efficiently
+app.get('/en/about', (req, res) => {
+    if (isUserAgentCrawler(req.headers['user-agent'])) {
+        res.sendFile(path.join(__dirname + '/snapshots/en/about.htm'));
+    }
+    else {
+        res.sendFile(path.join(__dirname + '/client/build/index.html'));
+    }
+});
+
+app.get('/fr/about', (req, res) => {
+    if (isUserAgentCrawler(req.headers['user-agent'])) {
+        res.sendFile(path.join(__dirname + '/snapshots/fr/about.htm'));
+    }
+    else {
+        res.sendFile(path.join(__dirname + '/client/build/index.html'));
+    }
+});
+
+app.get('/en/gr10/town-guide', (req, res) => {
+    if (isUserAgentCrawler(req.headers['user-agent'])) {
+        res.sendFile(path.join(__dirname + '/snapshots/en/gr10/town-guide.htm'));
+    }
+    else {
+        res.sendFile(path.join(__dirname + '/client/build/index.html'));
+    }
+});
+
+app.get('/fr/gr10/town-guide', (req, res) => {
+    if (isUserAgentCrawler(req.headers['user-agent'])) {
+        res.sendFile(path.join(__dirname + '/snapshots/fr/gr10/town-guide.htm'));
+    }
+    else {
+        res.sendFile(path.join(__dirname + '/client/build/index.html'));
+    }
+});
 
 app.get('/en/gr10/map', (req, res) => {
     console.log(`user agent is ${req.headers['user-agent']}`);
     if (isUserAgentCrawler(req.headers['user-agent'])) {
-        console.log(`crawler detected returning snapshot`);
         res.sendFile(path.join(__dirname + '/snapshots/en/gr10/map.htm'));
+    }
+    else {
+        res.sendFile(path.join(__dirname + '/client/build/index.html'));
+    }
+});
+
+app.get('/fr/gr10/map', (req, res) => {
+    if (isUserAgentCrawler(req.headers['user-agent'])) {
+        res.sendFile(path.join(__dirname + '/snapshots/fr/gr10/map.htm'));
     }
     else {
         res.sendFile(path.join(__dirname + '/client/build/index.html'));
@@ -63,7 +110,7 @@ function forceSsl(req, res, next) {
 };
 
 
-const crawlerUserAgents = ['facebookexternalhit/1.1', 'Twitterbot/1.0', 'Mozilla/5.0 (compatible; Twitterbot/1.0)', 'Mozilla/5.0 (Twitterbot/0.1)'];
+const crawlerUserAgents = ['facebookexternalhit/1.1', 'Twitterbot/1.0', 'Mozilla/5.0 (compatible; Twitterbot/1.0)', 'Mozilla/5.0 (Twitterbot/0.1)', 'bingbot/2.0'];
 
 function isUserAgentCrawler(userAgent) {
     var found = crawlerUserAgents.find(function (crawlerUserAgent) {
